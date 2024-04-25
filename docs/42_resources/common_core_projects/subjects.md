@@ -6,9 +6,6 @@ parent: Common Core Projects
 grand_parent: 42 Resources
 ---
 
-{: .important-title }
-The subjects at 42 undergo regular updates, so the information provided below might not be current. Additionally, as some projects are optional, resources might not be available if I haven't completed them.
-
 # **SUBJECTS**
 Repositories with all 42 subjects and additional files in one place, some are outdated but still useful.
 
