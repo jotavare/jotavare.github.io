@@ -6,9 +6,9 @@ parent: Piscine and Common Core
 grand_parent: 42 Resources
 ---
 
-# APPS
+# **APPS**
 
-Avaialable apps for Android and iOS.
+Available apps for Android and iOS.
 
 | Website | Plataform  |
 | :------ | :--------- |

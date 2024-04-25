@@ -7,11 +7,12 @@ grand_parent: 42 Resources
 ---
 
 
-#### VS CODE
-> _Extensions for VS Code for enhancing your development experience._
+# **VS CODE**
 
-|   |   |   |
-| - | - | - |
+Extensions for VS Code for enhancing your development experience.
+
+| Website | Description | Source |
+| :------ | :---------- | :----- |
 | [42 C-Format](https://marketplace.visualstudio.com/items?itemName=keyhr.42-c-format)                                           | Automaticly formats .c files with norm v3. | `Website` |
 | [42 ft count line](https://marketplace.visualstudio.com/items?itemName=DoKca.42-ft-count-line)                                 | Displays how many lines each function as.  | `Website` |
 | [42 Header](https://marketplace.visualstudio.com/items?itemName=kube.42header)                                                 | 42 header integration in VS Code.          | `Website` |

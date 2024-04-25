@@ -6,11 +6,12 @@ parent: Piscine and Common Core
 grand_parent: 42 Resources
 ---
 
-#### EXAMS
-> _Websites that I found useful for studying 42 exams, some are outdated but still useful._
+# **EXAMS**
 
-|   |   |   |
-| - | - | - |
+Websites that I found useful for studying 42 exams, some are outdated but still useful.
+
+| Website | Description | Source |
+| :------ | :---------- | :----- |
 | [GradeMe](https://grademe.fr)                                     | Simulate piscine and common core exams. | `Website` |
 | [Piscine and Common Core Exams](https://github.com/pasqualerossi) | Questions and solutions.                | `GitHub`  |
 | [Piscine Exams (outdated)](http://nigal.freeshell.org/42)         | Questions and solutions.                | `Website` |

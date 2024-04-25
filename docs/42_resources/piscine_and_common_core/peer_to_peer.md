@@ -6,11 +6,12 @@ parent: Piscine and Common Core
 grand_parent: 42 Resources
 ---
 
-#### PEER-TO-PEER
-> _Information about peer-to-peer evaluation, and beginner videos about Shell and Git._
+# **PEER-TO-PEER**
 
-|   |   |   |
-| - | - | - |
+Information about peer-to-peer evaluation, and beginner videos about Shell and Git.
+
+| Website | Description | Source |
+| :------ | :---------- | :----- |
 | [P2P, Shell and Git Basics](https://youtube.com/playlist?list=PLVQYiy6xNUxxhvwi0PGmXb5isUdVwmsg8) | YouTube playlist covering P2P, Shell, and Git basics.      | `Youtube` |
 | [P2P - Evaluation - 01](https://youtu.be/CF0lx9o1RCE)                                             | What to do before the evaluation? *(as evaluated student)* | `Youtube` |
 | [P2P - Evaluation - 02](https://youtu.be/eTt5NQUO3LY)                                             | What to do before the evaluation? *(as evaluator)*         | `Youtube` |

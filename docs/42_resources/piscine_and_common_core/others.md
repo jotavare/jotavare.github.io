@@ -6,11 +6,12 @@ parent: Piscine and Common Core
 grand_parent: 42 Resources
 ---
 
-#### OTHERS
-> _Resources of no particular order but that I feel you should know. More available [here](#---7)._
+# **OTHERS**
 
-|   |   |   |
-| - | - | - |
+Resources of no particular order but that I feel you should know. More is available [here](#---7).
+
+| Website | Description | Source |
+| :------ | :---------- | :----- |
 | [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh/wiki)                     | Open source, community-driven framework.                                         | `GitHub`  |
 | [Oh My Zsh! Plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)     | List of plugins for Oh My Zsh!                                                   | `GitHub`  |
 | [PowerLevel10k](https://github.com/romkatv/powerlevel10k)                 | A customizable zsh theme focusing on speed, flexibility, and user experience.    | `GitHub`  |
