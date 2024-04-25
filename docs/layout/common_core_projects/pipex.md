@@ -1,3 +1,11 @@
+---
+title: pipex
+nav_order: 7
+layout: default
+parent: Common Core Projects
+grand_parent: Layout
+---
+
 Rank 02
 {: .label .label-yellow }
 

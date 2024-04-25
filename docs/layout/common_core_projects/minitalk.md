@@ -1,3 +1,11 @@
+---
+title: minitalk
+nav_order: 6
+layout: default
+parent: Common Core Projects
+grand_parent: Layout
+---
+
 Rank 02
 {: .label .label-yellow }
 
