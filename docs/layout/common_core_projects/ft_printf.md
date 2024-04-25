@@ -9,7 +9,7 @@ grand_parent: Layout
 # **FT_PRINTF**
 
 Rank 01
-{: .label }
+{: .label .label-green }
 
 <div class="code-example" markdown="1">
 This project involved recreating the well-known C library function, printf. This provided a valuable learning opportunity in variadic arguments and structures, particularly if we intend to incorporate additional flags into our implementation of print.
