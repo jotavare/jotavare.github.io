@@ -18,21 +18,26 @@ If you're a 42 student, it's highly recommended that you go through the process 
 </div>
 
 <div class="code-example" markdown="1">
+
 | Resource                                                                                 | Source    |
 | :--------------------------------------------------------------------------------------- | :-------- |
 | [Libft - C Standard Library Rewrite](https://www.asidesigned.com/project-libft.html)     | `Website` |
 | [Easy Makefile](https://pulgamecanica.herokuapp.com/posts/makefiles)                     | `Website` |
 | [Master Memory Management](https://medium.com/p/b86fedd39b96)                            | `Medium`  |
 | [Make-A-Make: Clear the fog around Makefiles](https://github.com/Nuno-Jesus/Make-A-Make) | `GitHub`  |
+
 </div>
 
 <div class="code-example" markdown="1">
+
 | Project                                                                                  | Source    | User |
 | :--------------------------------------------------------------------------------------- | :-------- | :--- |
 | [42's libft with comments](https://github.com/pbie42/libft42commented)                   | `GitHub`  | `pbie42` |
+
 </div>
 
 <div class="code-example" markdown="1">
+
 | Tester                                                                 | Source    | User |
 | :--------------------------------------------------------------------- | :-------- | :--- |
 | [francinette](https://github.com/xicodomingues/francinette)            | `GitHub`  | `xicodomingues` |
@@ -41,4 +46,5 @@ If you're a 42 student, it's highly recommended that you go through the process 
 | [libft-unit-test](https://github.com/alelievr/libft-unit-test)         | `GitHub`  | `alelievr` |
 | [Libftest](https://github.com/jtoty/Libftest)                          | `GitHub`  | `jtoty` |
 | [libft-war-machine](https://github.com/0x050f/libft-war-machine)       | `GitHub`  | `0x050f` |
+
 </div>

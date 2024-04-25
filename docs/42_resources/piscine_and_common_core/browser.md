@@ -8,7 +8,7 @@ grand_parent: 42 Resources
 
 # **BROWSER**
 
-I recommend installing 'Improved Intra 42', an all-in-one extension for Chrome and Firefox.
+I recommend installing `Improved Intra 42`, an all-in-one extension for Chrome and Firefox.
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
