@@ -1,6 +1,6 @@
 ---
 title: get_next_line
-nav_order: 4
+nav_order: 5
 layout: default
 parent: Common Core Projects
 grand_parent: Layout

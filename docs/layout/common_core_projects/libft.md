@@ -1,12 +1,12 @@
 ---
 title: libft
-nav_order: 1
+nav_order: 2
 layout: default
 parent: Common Core Projects
 grand_parent: Layout
 ---
 
-## **LIBFT**
+# **LIBFT**
 
 Rank 00
 {: .label }
