@@ -11,8 +11,8 @@ grand_parent: Layout
 Rank 02
 {: .label .label-yellow }
 
-{: .important-title }
-> The links in this section are the most useful for `so_long`, `fract-ol`, `fdf`, `cub3d` and `minirt`.
+{: .highlight }
+The links in this section are the most useful for `so_long`, `fract-ol`, `fdf`, `cub3d` and `minirt`.
 
 | Resource                                                                         | Source   | User |
 | :------------------------------------------------------------------------------- | :------- | :--- |
