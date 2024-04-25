@@ -1,11 +1,17 @@
 ---
-title: Born2beroot
+title: born2beroot
+nav_order: 2
 layout: default
 parent: Common Core Projects
 grand_parent: Layout
 ---
 
-# [01] BORN2BEROOT
+# **BORN2BEROOT**
+
+Rank 01
+{: .label }
+
+This system administration project focuses on setting up a secure virtual machine. It covers key topics such as virtualization, partitioning, LVM, command-line tools, SSH, and system security measures like sudo, firewalls, and password policies. The project repository includes a script for automated tasks and the virtual machine signature.
 
 | Video Resource                                                                            | Source     | User |
 | :---------------------------------------------------------------------------------------- | :-------- | :--- |
