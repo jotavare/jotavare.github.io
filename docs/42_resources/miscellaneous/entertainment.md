@@ -7,9 +7,11 @@ grand_parent: 42 Resources
 has_children: true
 ---
 
-# **ENTERTAINMENT**
-## **TESTE**
-### **TESTE 1**
+# Entertainment
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
 
 {: .important-title }
 Depending on your 42 school rules, you may or may not play games on school computers. Avoid getting -420 and community service.
