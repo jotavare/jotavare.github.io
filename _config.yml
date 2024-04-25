@@ -1,0 +1,28 @@
+title: Seg Fault
+description: Personal documentation, resources, guides, cheatsheets, ...
+theme: just-the-docs
+
+url: https://jotavare.github.io/
+
+aux_links:
+  GitHub: https://github.com/jotavare/jotavare.github.io
+  LinkedIn: https://www.linkedin.com/in/jotavare
+
+color_scheme: dark
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
