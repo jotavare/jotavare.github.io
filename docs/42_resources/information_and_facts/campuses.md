@@ -6,12 +6,12 @@ parent: Information and Facts
 grand_parent: 42 Resources
 ---
 
-# CAMPUSES
+# **CAMPUSES**
 
-{: .highlight }
+{: .important-title }
 You can check all available 42 schools [here](https://www.42network.org/42-schools).
 
-## EUROPE
+## Europe
 
 | School | Country |
 | :----- | :------ |
@@ -49,7 +49,7 @@ You can check all available 42 schools [here](https://www.42network.org/42-schoo
 | 🇷🇺 [School 21 – Kazan](https://21-school.ru) | Russia |
 | 🇷🇺 [School 21 - Moscow](https://21-school.ru) | Russia |
 
-## ASIA
+## Asia
 
 | School | Country |
 | :----- | :------ |
@@ -63,7 +63,7 @@ You can check all available 42 schools [here](https://www.42network.org/42-schoo
 | 🇹🇷 [42 Kocaeli](https://42kocaeli.com.tr) | Turkey |
 | 🇦🇪 [42 Abu Dhabi](https://42abudhabi.ae) | United Arab Emirates |
 
-## AMERICA
+## America
 
 | School | Country |
 | :----- | :------ |
@@ -72,7 +72,7 @@ You can check all available 42 schools [here](https://www.42network.org/42-schoo
 | 🇧🇷 [42 São Paulo](https://www.42sp.org.br) | Brazil |
 | 🇨🇦 [42 Québec](https://42quebec.com) | Canada |
 
-## AFRICA
+## Africa
 
 | School | Country |
 | :----- | :------ |
@@ -81,13 +81,13 @@ You can check all available 42 schools [here](https://www.42network.org/42-schoo
 | 🇲🇦 [1337 Khouribga](https://1337.ma/en/campuses) | Morocco |
 | 🇲🇦 [1337 Med](https://1337.ma/en/campuses) | Morocco |
 
-## OCEANIA
+## Oceania
 
 | School | Country |
 | :----- | :------ |
 | 🇦🇺 [42 Adelaide](https://www.42adel.org.au) | Australia |
 
-## SOON
+## Soon
 
 | School | Country |
 | :----- | :------ |
