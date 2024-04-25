@@ -12,6 +12,7 @@ grand_parent: 42 Resources
 You can check all available 42 schools [here](https://www.42network.org/42-schools).
 
 ## EUROPE
+
 | School | Country |
 | :----- | :------ |
 | 🇦🇲 [42 Yerevan](https://42yerevan.am) | Armenia |
@@ -49,6 +50,7 @@ You can check all available 42 schools [here](https://www.42network.org/42-schoo
 | 🇷🇺 [School 21 - Moscow](https://21-school.ru) | Russia |
 
 ## ASIA
+
 | School | Country |
 | :----- | :------ |
 | 🇯🇵 [42 Tokyo](https://42tokyo.jp) | Japan |
@@ -62,6 +64,7 @@ You can check all available 42 schools [here](https://www.42network.org/42-schoo
 | 🇦🇪 [42 Abu Dhabi](https://42abudhabi.ae) | United Arab Emirates |
 
 ## AMERICA
+
 | School | Country |
 | :----- | :------ |
 | 🇧🇷 [42 Belo Horizonte](https://www.42bh.org.br) | Brazil |
@@ -70,6 +73,7 @@ You can check all available 42 schools [here](https://www.42network.org/42-schoo
 | 🇨🇦 [42 Québec](https://42quebec.com) | Canada |
 
 ## AFRICA
+
 | School | Country |
 | :----- | :------ |
 | 🇦🇴 [42 Luanda](www.42luanda.com) | Angola |
@@ -78,11 +82,13 @@ You can check all available 42 schools [here](https://www.42network.org/42-schoo
 | 🇲🇦 [1337 Med](https://1337.ma/en/campuses) | Morocco |
 
 ## OCEANIA
+
 | School | Country |
 | :----- | :------ |
 | 🇦🇺 [42 Adelaide](https://www.42adel.org.au) | Australia |
 
 ## SOON
+
 | School | Country |
 | :----- | :------ |
 | 🇲🇬 [42 Antananarivo](https://www.42network.org/campuses/42-antananarivo) | Madagascar |
