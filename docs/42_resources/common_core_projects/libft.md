@@ -24,11 +24,15 @@ If you're a 42 student, it's highly recommended that you go through the process 
 | [Easy Makefile](https://pulgamecanica.herokuapp.com/posts/makefiles)                     | `Website` |
 | [Master Memory Management](https://medium.com/p/b86fedd39b96)                            | `Medium`  |
 | [Make-A-Make: Clear the fog around Makefiles](https://github.com/Nuno-Jesus/Make-A-Make) | `GitHub`  |
+</div>
 
+<div class="code-example" markdown="1">
 | Project                                                                                  | Source    | User |
 | :--------------------------------------------------------------------------------------- | :-------- | :--- |
 | [42's libft with comments](https://github.com/pbie42/libft42commented)                   | `GitHub`  | `pbie42` |
+</div>
 
+<div class="code-example" markdown="1">
 | Tester                                                                 | Source    | User |
 | :--------------------------------------------------------------------- | :-------- | :--- |
 | [francinette](https://github.com/xicodomingues/francinette)            | `GitHub`  | `xicodomingues` |
