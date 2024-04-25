@@ -4,14 +4,9 @@ nav_order: 4
 layout: default
 parent: Miscellaneous
 grand_parent: 42 Resources
-has_children: true
 ---
 
 # Entertainment
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
 
 {: .important-title }
 Depending on your 42 school rules, you may or may not play games on school computers. Avoid getting -420 and community service.
