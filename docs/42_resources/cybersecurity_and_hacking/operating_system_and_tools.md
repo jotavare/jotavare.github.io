@@ -10,8 +10,8 @@ grand_parent: 42 Resources
 
 Operating systems for every occasion and tools to enhance them.
 
-| Link | Description | Source |
-| :--- | :---------- | :----- |
+| Website | Description | Source |
+| :------ | :---------- | :----- |
 | [Tails](https://tails.boum.org) | Privacy-focused Linux distro connecting exclusively through Tor for anonymity. | `Website` |
 | [Kali](https://www.kali.org) | Linux distro for penetration testing, security research, forensics, and reverse engineering. | `Website` |
 | [Tiny11](https://github.com/ntdevlabs/tiny11builder) | Trimmed-down Windows 11 image available on GitHub. | `GitHub` |

@@ -10,8 +10,8 @@ grand_parent: 42 Resources
 
 Secure your internet connection with a Virtual Private Network.
 
-| Link | Description | Source |
-| :--- | :---------- | :----- |
+| Website | Description | Source |
+| :------ | :---------- | :----- |
 | [Proton](https://proton.me) | Offers end-to-end encrypted VPN, mail, drive, and calendar services. | `Website` |
 | [OpenVPN](https://openvpn.net) | Enables secure point-to-point, site-to-site connections, and remote access facilities. | `Website` |
 | [Tailscale](https://tailscale.com) | Offers a zero-config VPN for constructing secure networks. | `Website` |

@@ -10,8 +10,8 @@ grand_parent: 42 Resources
 
 Guides and resources about important topics that may help with cyber security or ethical hacking.
 
-| Link | Description | Source |
-| :--- | :---------- | :----- |
+| Website | Description | Source |
+| :------ | :---------- | :----- |
 | [CVE](https://www.cve.org) | Reference for known information-security vulnerabilities and exposures. | `Website` |
 | [OWASP Top Ten](https://owasp.org/www-project-top-ten) | Developer's guide for web application security. | `Website` |
 | [Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) | Catalog of exploited vulnerabilities in the wild. | `Website` |

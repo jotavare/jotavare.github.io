@@ -10,8 +10,8 @@ grand_parent: 42 Resources
 
 Discover the imprint left by your online activities.
 
-| Link | Description | Source |
-| :--- | :---------- | :----- |
+| Website | Description | Source |
+| :------ | :---------- | :----- |
 | [Firefox Monitor](https://monitor.firefox.com) | Checks if your data has been involved in an online breach. | `Website` |
 | [Have I Been Pwned](https://haveibeenpwned.com) | Scans multiple breaches for your compromised email or phone. | `Website` |
 | [DeHashed](https://www.dehashed.com) | Offers free deep-web scans and guards against credential leaks. | `Website` |

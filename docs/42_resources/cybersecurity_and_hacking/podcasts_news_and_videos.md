@@ -10,8 +10,8 @@ grand_parent: 42 Resources
 
 Information intended to capture, preserve, and explain the culture around cyber security and ethical hacking.
 
-| Link | Description | Source |
-| :--- | :---------- | :----- |
+| Website | Description | Source |
+| :------ | :---------- | :----- |
 | [Jack Rhysider](https://www.youtube.com/@JackRhysider) | Podcast sharing true stories from the internet's darker side. | `Youtube` |
 | [SecurityWeek](https://www.securityweek.com) | Premier hub for cybersecurity news, insights, and expert analysis. | `News` |
 | [The Hacker News](https://thehackernews.com) | Trusted publication for breaking cybersecurity news and insights. | `News` |
