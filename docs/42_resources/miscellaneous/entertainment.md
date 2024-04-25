@@ -4,14 +4,17 @@ nav_order: 4
 layout: default
 parent: Miscellaneous
 grand_parent: 42 Resources
+has_children: true
 ---
 
 # **ENTERTAINMENT**
 
 {: .important-title }
-Attention, depending on your 42 school rules you may or may not play games on school computers. Avoid getting -420 and community service.
+Depending on your 42 school rules, you may or may not play games on school computers. Avoid getting -420 and community service.
 
-| Media | Description |
+## **Media**
+
+| Website | Description |
 | :---- | :---------- |
 | [Sudoku](https://sudoku.com) | Fill a 9×9 grid with numbers so that each row, column and 3×3 section contain all of the digits between 1 and 9. |
 | [2048](https://play2048.co) | Slide numbered tiles on a grid to combine them to create a tile with the number 2048. |
@@ -21,12 +24,16 @@ Attention, depending on your 42 school rules you may or may not play games on sc
 | [Quick, Draw!](https://quickdraw.withgoogle.com) | Can a neural network learn to recognize squiggles? |
 | [Random Country Generator](https://random.country) | Ever wanted to learn about all the countries in the world? |
 
-| Rubiks Cube | Description |
+## **Rubiks Cube**
+
+| Website | Description |
 | :---------- | :---------- |
 | [SpeedSolving](https://www.speedsolving.com/wiki/index.php/Main_Page) | Community focused on speed-solving puzzles, particularly the Rubik's cube and alike. |
 | [Ruwix](https://ruwix.com) | Website to learn about Rubik's Cube and other twisty puzzles. |
 
-| Chess | Description |
+## **Chess**
+
+| Website | Description |
 | :---- | :---------- |
 | [Chess](https://www.chess.com) | Chess online. |
 | [Lichess](https://lichess.org) | Free and open-source chess server. Clean interface, no registration, no ads, and no plugin required. |
@@ -40,7 +47,9 @@ Attention, depending on your 42 school rules you may or may not play games on sc
 | [Britannica](https://www.britannica.com/topic/chess) | What is chess? |
 | [Chess Wikipedia](https://en.wikipedia.org/wiki/Chess) | |
 
-| Memes | Description |
+## **Memes**
+
+| Website | Description |
 | :---- | :---------- |
 | [GANDALF SAX - 42 Paris](https://www.youtube.com/watch?v=9CE3c0Hp7WM) | `Youtube` |
 | [[FR] Gargamel est salé](https://www.youtube.com/watch?v=uAgFf0sC8hM) | `Youtube` |
