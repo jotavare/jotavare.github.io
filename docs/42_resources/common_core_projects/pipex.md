@@ -3,7 +3,7 @@ title: pipex
 nav_order: 7
 layout: default
 parent: Common Core Projects
-grand_parent: Layout
+grand_parent: 42 Resources
 ---
 
 # **PIPEX**

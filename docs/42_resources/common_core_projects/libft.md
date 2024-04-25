@@ -3,7 +3,7 @@ title: libft
 nav_order: 2
 layout: default
 parent: Common Core Projects
-grand_parent: Layout
+grand_parent: 42 Resources
 ---
 
 # **LIBFT**

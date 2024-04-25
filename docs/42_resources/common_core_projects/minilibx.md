@@ -3,7 +3,7 @@ title: minilibx
 nav_order: 8
 layout: default
 parent: Common Core Projects
-grand_parent: Layout
+grand_parent: 42 Resources
 ---
 
 # **MINILIBX**

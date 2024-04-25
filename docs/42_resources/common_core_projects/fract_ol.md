@@ -3,7 +3,7 @@ title: fract-ol
 nav_order: 10
 layout: default
 parent: Common Core Projects
-grand_parent: Layout
+grand_parent: 42 Resources
 ---
 
 # **FRACT-OL**

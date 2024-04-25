@@ -3,7 +3,7 @@ title: get_next_line
 nav_order: 5
 layout: default
 parent: Common Core Projects
-grand_parent: Layout
+grand_parent: 42 Resources
 ---
 
 # **GET_NEXT_LINE**

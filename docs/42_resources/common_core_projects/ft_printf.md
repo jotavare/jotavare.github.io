@@ -3,7 +3,7 @@ title: ft_printf
 nav_order: 4
 layout: default
 parent: Common Core Projects
-grand_parent: Layout
+grand_parent: 42 Resources
 ---
 
 # **FT_PRINTF**
