@@ -6,7 +6,7 @@ parent: Common Core Projects
 grand_parent: Layout
 ---
 
-# MINILIBX
+# **MINILIBX**
 
 Rank 02
 {: .label .label-yellow }
