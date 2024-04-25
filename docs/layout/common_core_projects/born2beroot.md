@@ -1,7 +1,7 @@
 ---
 title: Born2beroot
 layout: default
-parent: A minimal layout page
+parent: Common Core Projects
 grand_parent: Layout
 ---
 

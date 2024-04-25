@@ -1,6 +1,6 @@
 ---
-title: A minimal layout page
-layout: minimal
+title: Common Core Projects
+layout: default
 parent: Layout
 has_children: true
 ---
