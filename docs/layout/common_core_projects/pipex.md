@@ -6,10 +6,10 @@ parent: Common Core Projects
 grand_parent: Layout
 ---
 
+# PIPEX
+
 Rank 02
 {: .label .label-yellow }
-
-# PIPEX
 
 | Resource                                                                                                                                     | Source    |
 | :------------------------------------------------------------------------------------------------------------------------------------------- | :-------- |

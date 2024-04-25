@@ -1,15 +1,15 @@
 ---
 title: so_long
-nav_order: 8
+nav_order: 9
 layout: default
 parent: Common Core Projects
 grand_parent: Layout
 ---
 
+# SO_LONG
+
 Rank 02
 {: .label .label-yellow }
-
-# SO_LONG
 
 | Resource                                                                                             | Source     |
 | :--------------------------------------------------------------------------------------------------- | :-------- |
