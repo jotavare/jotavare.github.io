@@ -11,7 +11,9 @@ grand_parent: Layout
 Rank 01
 {: .label }
 
+<div class="code-example" markdown="1">
 This system administration project focuses on setting up a secure virtual machine. It covers key topics such as virtualization, partitioning, LVM, command-line tools, SSH, and system security measures like sudo, firewalls, and password policies. The project repository includes a script for automated tasks and the virtual machine signature.
+</div>
 
 | Video Resource                                                                            | Source     | User |
 | :---------------------------------------------------------------------------------------- | :-------- | :--- |

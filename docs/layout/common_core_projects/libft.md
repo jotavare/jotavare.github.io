@@ -11,9 +11,11 @@ grand_parent: Layout
 Rank 00
 {: .label }
 
+<div class="code-example" markdown="1">
 The first project at 42, libft, involves learning how the standard functions of C programming work by writing them from scratch and creating a personal library. This project is vital as the library will be used in future assignments at 42.
 
 If you're a 42 student, it's highly recommended that you go through the process of writing your code and testing it yourself rather than copying and pasting code that you only partially understand. If you've completed your piscine, there's no reason why you couldn't tackle this project on your own! Be patient and thorough.
+</div>
 
 | Resource                                                                                 | Source    |
 | :--------------------------------------------------------------------------------------- | :-------- |
