@@ -1,7 +1,8 @@
 ---
 title: GDB Cheatsheet
 layout: default
-nav_order: 3
+nav_order: 1
+parent: Cheatsheets
 has_children: true
 ---
 
