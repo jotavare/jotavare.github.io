@@ -5,7 +5,7 @@ nav_order: 3
 has_children: true
 ---
 
-# GDB CHEATSHEET
+# **GDB CHEATSHEET**
 
 Here, you will find a comprehensive list of optimized GDB commands and their descriptions. This repository serves as a concise quick reference guide. I hope you find this optimized cheat sheet helpful for your GDB debugging needs. Happy debugging!
 
