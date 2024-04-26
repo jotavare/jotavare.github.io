@@ -19,12 +19,16 @@ aux_links_new_tab: true
 nav_external_links:
   - title: Piscine Repository
     url: https://github.com/jotavare/42-piscine
+    hide_icon: true
+    opens_in_new_tab: true
   - title: Common Core Repository
     url: https://github.com/jotavare/42-common-core
+    hide_icon: true
+    opens_in_new_tab: true
   - title: Seg Fault Repository
     url: https://github.com/jotavare/jotavare.github.io
-
-hide_icon: true
+    hide_icon: true
+    opens_in_new_tab: true
 
 color_scheme: dark
 
