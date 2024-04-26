@@ -82,7 +82,7 @@ enable_copy_code_button: true
 
 # External navigation links
 nav_external_links:
-  - title: jotavare.github.io GitHub
+  - title: GitHub Repository
     url: https://github.com/jotavare/jotavare.github.io
 
 # Back to top link
