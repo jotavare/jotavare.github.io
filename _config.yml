@@ -8,7 +8,7 @@ url: https://jotavare.github.io/
 aux_links:
   GitHub: https://github.com/jotavare/jotavare.github.io
   LinkedIn: https://www.linkedin.com/in/jotavare
-  Contact: jpoliveira.mm@gmail.com
+  #Contact: "mailto:jpoliveira.mm@gmail.com"
   \?: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 # Makes Aux links open in a new tab. Default is false
@@ -17,7 +17,7 @@ aux_links_new_tab: true
 color_scheme: dark
 
 favicon_ico: "/assets/images/favicon.ico"
-logo: "/assets/images/favicon.png"
+#logo: "/assets/images/favicon.png"
 
 callouts_level: quiet # or loud
 callouts:
