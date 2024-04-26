@@ -20,7 +20,7 @@ const toggleLightMode = document.querySelector('.js-toggle-light-mode');
 jtd.addEvent(toggleLightMode, 'click', function(){
   if (jtd.getTheme() === 'light') {
     jtd.setTheme('dark');
-    toggleLightMode.textContent = 'Preview light color scheme';
+    toggleLightMode.textContent = 'Don\'t click here!';
   } else {
     jtd.setTheme('light');
     toggleLightMode.textContent = 'Return to the dark side';
