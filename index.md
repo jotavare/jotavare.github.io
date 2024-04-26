@@ -4,33 +4,67 @@ layout: home
 nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+<!---
+DESCRIPTION
+--->
+## The Good, the Bad and the Ugly
+<p float="left" align="center">
+  <a href="https://github.com/jotavare/42-resources">
+    <img src="https://github.com/jotavare/jotavare/blob/main/42/banners/profile/github_profile_banner_round_resources.png" width="265"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/jotavare/42-piscine">
+    <img src="https://github.com/jotavare/jotavare/blob/main/42/banners/profile/github_profile_banner_round_piscine.png" width="265"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/jotavare/42-common-core">
+    <img src="https://github.com/jotavare/jotavare/blob/main/42/banners/profile/github_profile_banner_round_common_core.png" width="265"/>
+  </a>
+</p>
+<p float="left" align="center">  
+  <a href="https://github.com/jotavare/42-ctf">
+    <img src="https://github.com/jotavare/jotavare/blob/main/42/banners/profile/github_profile_banner_round_ctf.png" width="265"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/jotavare/guides-and-manuals">
+    <img src="https://github.com/jotavare/jotavare/blob/main/42/banners/profile/github_profile_banner_round_guides_and_manuals.png" width="265"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/jotavare/100-days-of-code-in-python">
+    <img src="https://github.com/jotavare/jotavare/blob/main/42/banners/profile/github_profile_banner_round_python.png" width="265"/>
+  </a>
+</p>
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+<!---
+SMALL ICONS
+--->
+<p align="center">
+  <a href='https://www.linkedin.com/in/jotavare' target="_blank"><img alt='Linkedin' src='https://img.shields.io/badge/LinkedIn-100000?style=flat&logo=Linkedin&logoColor=white&labelColor=0A66C2&color=0A66C2'/></a>
+  </a>
+  <a href='https://profile.intra.42.fr/users/jotavare' target="_blank"><img alt='42' src='https://img.shields.io/badge/Porto-100000?style=flat&logo=42&logoColor=white&labelColor=000000&color=000000'/></a>
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=jotavare&style=flat&color=blue"></a>
+  </a>
+</p>
 
-More specifically, the created site:
+## About me
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+- 🌱 I’m currently studying Common Core at [**42 Porto**](https://www.42porto.com) after successfully completing the Piscine.
+- 👀 I’m interested in `Games`, `Anime/Manga`, `Snowboarding` and `3D Printing`.
+- 🚀 Additionally, I have an interest in `Cybersecurity`, `Python`, `Data Analysis` and `Project Management`.
+- 🛠️ I have six years of work experience in `Graphic Design` and `Offset Printing`.
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+<!---
+BIG ICONS
+--->
+## Skills
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=c,cpp,html,css,python,git,github,bash,linux,vim,vscode,ai,ps,markdown,wordpress" />
+  </a>
+</p>
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-To get started with creating a site, simply:
-
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
-
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+<!---
+jotavare/jotavare is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
