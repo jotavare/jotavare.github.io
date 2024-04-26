@@ -17,7 +17,7 @@ aux_links_new_tab: true
 color_scheme: dark
 
 favicon_ico: "/assets/images/favicon.ico"
-#logo: "/assets/images/favicon.png"
+logo: "/assets/images/favicon.png"
 
 callouts_level: quiet # or loud
 callouts:
@@ -51,7 +51,7 @@ search_enabled: true
 search:
   # Split pages into sections that can be searched individually
   # Supports 1 - 6, default: 2
-  heading_level: 1
+  heading_level: 2
   # Maximum amount of previews per search result
   # Default: 3
   previews: 3
@@ -70,6 +70,6 @@ search:
   rel_url: true
   # Enable or disable the search button that appears in the bottom right corner of every page
   # Supports true or false (default)
-  button: true
+  button: false
   # Focus the search input by pressing `ctrl + focus_shortcut_key` (or `cmd + focus_shortcut_key` on macOS)
   focus_shortcut_key: 'k'
