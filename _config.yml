@@ -8,11 +8,21 @@ url: https://jotavare.github.io/
 aux_links:
   GitHub: https://github.com/jotavare/jotavare.github.io
   LinkedIn: https://www.linkedin.com/in/jotavare
+  Intra: https://profile.intra.42.fr/users/jotavare
   Contact: "mailto:jpoliveira.mm@gmail.com"
   /?: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
+
+# External navigation links
+nav_external_links:
+  - title: Seg Fault Repository
+    url: https://github.com/jotavare/jotavare.github.io
+  - title: Piscine Repository
+    url: https://github.com/jotavare/42-piscine
+  - title: Common Core Repository
+    url: https://github.com/jotavare/42-common-core
 
 color_scheme: dark
 
@@ -79,11 +89,6 @@ search:
 
 # For copy button on code
 enable_copy_code_button: true
-
-# External navigation links
-nav_external_links:
-  - title: Seg Fault Repository
-    url: https://github.com/jotavare/jotavare.github.io
 
 # Back to top link
 back_to_top: true
