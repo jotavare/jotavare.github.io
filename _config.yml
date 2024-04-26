@@ -6,11 +6,11 @@ url: https://jotavare.github.io/
 
 # Aux links for the upper right navigation
 aux_links:
-  CV: "https://jotavare.github.io/jotavare.github.io/cv/cv-joao-oliveira.pdf"
   GitHub: https://github.com/jotavare/jotavare.github.io
-  LinkedIn: https://www.linkedin.com/in/jotavare
   Intra: https://profile.intra.42.fr/users/jotavare
+  LinkedIn: https://www.linkedin.com/in/jotavare
   Contact: "mailto:jpoliveira.mm@gmail.com"
+  CV: "https://jotavare.github.io/cv/cv-joao-oliveira.pdf"
   /?: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 # Makes Aux links open in a new tab. Default is false

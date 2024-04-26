@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-# **THE GOOD, THE BAD AND THE UGLY**
+# **WELCOME**
 
 Hey there! This project initially served as a testing ground for GitHub Pages and Jekyll. However, it evolved into something more significant. I realized the potential to transform the documentation I already had scattered across various GitHub repositories into a unified, easily searchable website format. Thus, this platform serves as a comprehensive documentation hub, packed with resources, guides, cheat sheets, and more, all tailored for personal use.
 
