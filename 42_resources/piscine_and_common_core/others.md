@@ -8,7 +8,7 @@ grand_parent: 42 Resources
 
 # **OTHERS**
 
-Resources of no particular order but that I feel you should know. More is available [here](#---7).
+Resources of no particular order but that I feel you should know. More is available [here](https://jotavare.github.io/42_resources/miscellaneous/miscellaneous.html).
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |

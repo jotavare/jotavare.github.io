@@ -8,7 +8,7 @@ grand_parent: 42 Resources
 
 # **SOCIAL**
 
-For a specific 42 School social media, check the section **[CAMPUSES](#---6)** and choose a school.
+For a specific 42 School social media, check the section [Campuses](https://jotavare.github.io/42_resources/information_and_facts/campuses.html) and choose a school.
 
 | Website                                               | Description                                      | Source      |
 | :---------------------------------------------------- | :----------------------------------------------- | :---------- |
