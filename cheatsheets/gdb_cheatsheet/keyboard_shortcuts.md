@@ -3,6 +3,7 @@ title: Keyboard Shortcuts
 nav_order: 18
 layout: default
 parent: GDB Cheatsheet
+grand_parent: Cheatsheets
 ---
 
 # **KEYBOARD SHORTCUTS**

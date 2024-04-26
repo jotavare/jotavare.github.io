@@ -3,6 +3,7 @@ title: Shortcuts
 nav_order: 17
 layout: default
 parent: GDB Cheatsheet
+grand_parent: Cheatsheets
 ---
 
 # **SHORTCUTS**

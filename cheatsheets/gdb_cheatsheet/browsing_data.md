@@ -3,6 +3,7 @@ title: Browsing Data
 nav_order: 8
 layout: default
 parent: GDB Cheatsheet
+grand_parent: Cheatsheets
 ---
 
 # **BROWSING DATA**

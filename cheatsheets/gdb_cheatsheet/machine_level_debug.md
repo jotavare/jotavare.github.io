@@ -3,6 +3,7 @@ title: Machine-Level Debug
 nav_order: 11
 layout: default
 parent: GDB Cheatsheet
+grand_parent: Cheatsheets
 ---
 
 # **MACHINE-LEVEL DEBUG**

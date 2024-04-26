@@ -3,6 +3,7 @@ title: Running The Program
 nav_order: 2
 layout: default
 parent: GDB Cheatsheet
+grand_parent: Cheatsheets
 ---
 
 # **RUNNING THE PROGRAM**

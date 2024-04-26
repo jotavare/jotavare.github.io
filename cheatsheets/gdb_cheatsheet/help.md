@@ -3,6 +3,7 @@ title: Help
 nav_order: 3
 layout: default
 parent: GDB Cheatsheet
+grand_parent: Cheatsheets
 ---
 
 # **HELP**

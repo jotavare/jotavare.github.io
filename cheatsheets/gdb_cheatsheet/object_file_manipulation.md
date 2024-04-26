@@ -3,6 +3,7 @@ title: Object File Manipulation
 nav_order: 9
 layout: default
 parent: GDB Cheatsheet
+grand_parent: Cheatsheets
 ---
 
 # **OBJECT FILE MANIPULATION**

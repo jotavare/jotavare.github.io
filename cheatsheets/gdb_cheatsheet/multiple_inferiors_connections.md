@@ -3,6 +3,7 @@ title: Multiple Inferiors Connections
 nav_order: 14
 layout: default
 parent: GDB Cheatsheet
+grand_parent: Cheatsheets
 ---
 
 # **MULTIPLE INFERIORS CONNECTIONS**

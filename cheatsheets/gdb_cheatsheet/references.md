@@ -3,6 +3,7 @@ title: References
 nav_order: 2
 layout: default
 parent: GDB Cheatsheet
+grand_parent: Cheatsheets
 ---
 
 # **REFERENCES**
