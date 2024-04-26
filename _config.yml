@@ -1,4 +1,4 @@
-title: Seg Fault
+title: Registry
 description: Personal documentation, resources, guides, cheatsheets, ...
 theme: just-the-docs
 
@@ -26,16 +26,16 @@ nav_external_links:
     url: https://github.com/jotavare/42-common-core
     hide_icon: false
     opens_in_new_tab: true
-  - title: Seg Fault Repository
-    url: https://github.com/jotavare/jotavare.github.io
-    hide_icon: false
-    opens_in_new_tab: true
   - title: One Year of 42
     url: https://www.linkedin.com/pulse/one-year-42-jo%C3%A3o-oliveira/
     hide_icon: false
     opens_in_new_tab: true
   - title: Terminal Style CV
     url: https://jotavare.github.io/terminal-style-cv/
+    hide_icon: false
+    opens_in_new_tab: true
+  - title: Registry Repository
+    url: https://github.com/jotavare/jotavare.github.io
     hide_icon: false
     opens_in_new_tab: true
 
