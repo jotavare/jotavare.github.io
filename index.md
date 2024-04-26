@@ -12,7 +12,7 @@ My aim is to document everything essential to my journey - from my experiences a
 
 I hope this platform can help you on your journey, sparing you the struggles I faced in scouring for information. Happy coding!
 
-<button class="btn js-toggle-light-mode">Don't click here!</button>
+<button class="btn js-toggle-light-mode">Dont click here!</button>
 
 <script>
 const toggleLightMode = document.querySelector('.js-toggle-light-mode');
