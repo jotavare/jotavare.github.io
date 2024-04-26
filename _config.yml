@@ -21,8 +21,8 @@ nav_external_links:
     url: https://github.com/jotavare/42-piscine
   - title: Common Core Repository
     url: https://github.com/jotavare/42-common-core
-    - title: Seg Fault Repository
-  url: https://github.com/jotavare/jotavare.github.io
+  - title: Seg Fault Repository
+    url: https://github.com/jotavare/jotavare.github.io
 
 hide_icon: true
 
