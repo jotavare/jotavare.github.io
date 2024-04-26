@@ -12,18 +12,18 @@ My aim is to document everything essential to my journey - from my experiences a
 
 I hope this platform can help you on your journey, sparing you the struggles I faced in scouring for information. Happy coding!
 
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+<button class="btn js-toggle-light-mode">Preview light color scheme</button>
 
 <script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+const toggleLightMode = document.querySelector('.js-toggle-light-mode');
 
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
+jtd.addEvent(toggleLightMode, 'click', function(){
+  if (jtd.getTheme() === 'light') {
     jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
+    toggleLightMode.textContent = 'Preview light color scheme';
+  } else {
+    jtd.setTheme('light');
+    toggleLightMode.textContent = 'Return to the dark side';
   }
 });
 </script>
