@@ -5,21 +5,23 @@ layout: default
 parent: Valgrind Cheatsheet
 ---
 
-# **MEMCHECK**
+## **MEMCHECK**
 
-<div class="code-example" markdown="1">
+Default body text is rendered like this:
+
+<div class="code-example" bash="1">
 Use Valgrind Memcheck to detect common memory errors in myprog.
 </div>
-```markdown
+```bash
 valgrind path/to/myprog myargs
 ```
 
-<div class="code-example" bash="1">
-Use Valgrind Memcheck to detect memory errors and memory leaks.
-</div>
 ```bash
 valgrind --leak-check=yes path/to/myprog
 ```
+<div class="code-example" bash="1">
+Use Valgrind Memcheck to detect memory errors and memory leaks.
+</div>
 
 <div class="code-example" bash="1">
 Take longer and trace the origin of uninitialized values.
