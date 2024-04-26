@@ -1,6 +1,6 @@
 ---
 title: Memcheck
-nav_order: 2
+nav_order: 3
 layout: default
 parent: Valgrind Cheatsheet
 ---
@@ -16,12 +16,12 @@ Use Valgrind Memcheck to detect common memory errors in myprog.
 valgrind path/to/myprog myargs
 ```
 
-```bash
-valgrind --leak-check=yes path/to/myprog
-```
 <div class="code-example" bash="1">
 Use Valgrind Memcheck to detect memory errors and memory leaks.
 </div>
+```bash
+valgrind --leak-check=yes path/to/myprog
+```
 
 <div class="code-example" bash="1">
 Take longer and trace the origin of uninitialized values.
