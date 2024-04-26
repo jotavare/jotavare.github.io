@@ -18,6 +18,10 @@ aux_links_new_tab: true
 
 # External navigation links
 nav_external_links:
+  - title: Quick Reference
+    url: https://quickref.me/
+    hide_icon: false
+    opens_in_new_tab: true
   - title: Piscine Repository
     url: https://github.com/jotavare/42-piscine
     hide_icon: false
