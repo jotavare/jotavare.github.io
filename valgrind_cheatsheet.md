@@ -11,7 +11,7 @@ Just like with GDB, I couldn't find a Valgrind reference that suited my needs. S
 
 This cheatsheet is meant to be a quick reference guide for Valgrind memory debugging, whether you're a beginner or an experienced user. I hope it helps streamline your debugging process. Happy debugging!
 
-Check the original Valgrind manual for more detailed information: [Valgrind Manual](https://valgrind.org/docs/manual/manual.html).
+Check the original [Valgrind Manual](https://valgrind.org/docs/manual/manual.html) for more detailed information.
 
 {: .important-title }
 If you have a link or a correction to suggest, please don't hesitate to do a [pull request](https://github.com/jotavare/jotavare.github.io/pulls) or contact me. I highly value any contributions and will evaluate them for possible inclusion in the repository.

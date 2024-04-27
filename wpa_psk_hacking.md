@@ -4,54 +4,66 @@ layout: default
 nav_order: 5
 ---
 
-# Wi-Fi Network Hacking Guide (Educational)
+{: .warning-title }
+Although these networks are susceptible to hacking, it is crucial to emphasize that this guide is strictly for educational purposes. Engaging in these activities on networks without proper authorization is illegal. This is for educational purposes only. Having addressed this disclaimer, let's explore the underlying mechanisms, the practical execution, and measures to safeguard yourself against such vulnerabilities.
 
-When you enable Wi-Fi in public places, you'll encounter numerous networks that likely utilize WPA-PSK encryption. Although these networks are susceptible to hacking, it is crucial to emphasize that this guide is strictly for educational purposes. Engaging in these activities on networks without proper authorization is illegal. Having addressed this disclaimer, let's explore the underlying mechanisms, the practical execution, and measures to safeguard yourself against such vulnerabilities.
+# **WPA-PSK HACKING GUIDE**
 
-## Introduction
+When you enable Wi-Fi in public places, you'll encounter numerous networks that likely utilize `WPA-PSK` (Wi-Fi Protected Access Pre-Shared Key) encryption, which is commonly used in wireless networks to secure data transmission. While it offers a level of security, there are vulnerabilities to consider. This guide will explore one of the most common methods of hacking WPA-PSK networks for educational purposes only.
+ 
+
+## **Introduction**
 
 When you connect to a network from a wireless device, a `handshake` is sent from the device to the router. This handshake contains the encrypted password.
 
 While it's not possible to reverse the encrypted password, you can use a technique called a word list attack. A word list is a huge text file containing thousands of passwords. By comparing the encrypted handshake password with the passwords in the word list, you can determine the real password.
 
-## Requirements
-For this guide, to perform Wi-Fi network hacking, you'll need:
+## **Requirements**
+
 - Computer running `Linux` distribution;
 - Computer with a network card that supports `monitor mode`;
 - Install the package `Aircrack-ng` with the command `sudo apt install aircrack-ng`;
 
-## Procedure
-### 1 - Determine the Network Interface
-Identify the wireless network interfaces, which usually start with w (e.g., wlp3s0).
-<br>This information will be needed later.
-<br>Open a terminal and type:
+## **Procedure**
 
-```
+### 1 - Determine the Network Interface
+
+<div class="code-example" markdown="1">
+Identify the wireless network interfaces, which usually start with w (e.g., `wlp3s0`).
+<br>This information will be needed later.
+</div>
+```bash
 ip a
 ```
 
-> _The "ip a" command in Linux displays network interface information, including IP addresses, MAC addresses, and related configurations. It is used for troubleshooting and network configuration purposes._
+{: .important-title }
+The "ip a" command in Linux displays network interface information, including IP addresses, MAC addresses, and related configurations. It is used for troubleshooting and network configuration purposes.
 
 ### 2 - Enable Monitor Mode
-Use the airmon-ng tool to switch your network card to monitor mode.
-<br>It will break your internet connection temporarily.
-<br>Enter the command:
 
-```
+<div class="code-example" markdown="1">
+Use the `airmon-ng` tool to switch your network card to monitor mode.
+<br>It will break your internet connection temporarily.
+</div>
+```bash
 airmon-ng start <wireless interface>
 ```
 
 ### 3 - Verify Monitor Mode
-Now, the wireless interface should be displayed as `<interface>mon` (e.g., wlp3s0mon).
-<br>If not, it means your network card doesn't support monitor mode, and you'll need the external network card mentioned earlier.
-<br>Run the command in a terminal to check if the network card's mode has changed to monitor.
 
-```
+<div class="code-example" markdown="1">
+Now, the wireless interface should be displayed as `<interface>mon` (e.g., `wlp3s0mon`).
+<br>Run the command and It should appear `Mode: Monitor`.
+</div>
+```bash
 iwconfig
 ```
-It should appear `Mode: Monitor`.
+
+{: .important-title }
+If the wireless interface doesn't appear, it means your network card doesn't support monitor mode, and you'll need the external network card mentioned earlier.
 
 ### 4 - Scan for Networks
+
 Use airodump-ng to view the networks around you.
 <br>This command will display a list of nearby networks along with their BSSIDs (network MAC addresses) and channels.
 <br>Enter the command:
