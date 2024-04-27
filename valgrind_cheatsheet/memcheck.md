@@ -15,42 +15,42 @@ parent: Valgrind Cheatsheet
 ## **MEMCHECK**
 
 <div class="code-example" markdown="1">
-Use `Valgrind` Memcheck to detect common memory errors in myprog.
+Use Valgrind Memcheck to detect common memory errors in myprog.
 </div>
 ```shell
 valgrind path/to/myprog myargs
 ```
 
-<div class="code-example" shell="1">
+<div class="code-example" markdown="2">
 Use Valgrind Memcheck to detect memory errors and memory leaks.
 </div>
 ```shell
 valgrind --leak-check=yes path/to/myprog
 ```
 
-<div class="code-example" shell="1">
+<div class="code-example" markdown="3">
 Take longer and trace the origin of uninitialized values.
 </div>
 ```shell
 valgrind --leak-check=yes --track-origins=yes myprog
 ```
 
-<div class="code-example" shell="1">
+<div class="code-example" markdown="4">
 Detect unclosed file descriptors.
 </div>
 ```shell
 valgrind --track-fds=yes myprog
 ```
 
-<div class="code-example" shell="1">
+<div class="code-example" markdown="0">
 Produce a `xtmemory.kcg` file. Install KCachegrind to examine it. It shows a visual backtrace of places in the code that leaked memory.
 </div>
 ```shell
 valgrind --xtree-memory=full --leak-check=yes myprog
 ```
 
-<div class="code-example" shell="1">
-Run silently. Return a failure exit code if errors found, rather than myprog’s exit code. Useful in automated tests.
+<div class="code-example" markdown="1">
+Run silently. Return a failure exit code if errors are found, rather than myprog’s exit code. Useful in automated tests.
 </div>
 ```shell
 valgrind --error-exitcode=1 myprog
@@ -58,8 +58,8 @@ valgrind --error-exitcode=1 myprog
 
 ## **ERRORS**
 
-<div class="code-example" shell="1">
-Use of an uninitialized variable. Memcheck prints the backtrace where the value was used. `<--track-origins=yes>` can find where it came from.
+<div class="code-example" markdown="1">
+Use of an uninitialized variable. Memcheck prints the backtrace where the value was used. `--track-origins=yes` can find where it came from.
 </div>
 ```shell
 Conditional jump or move depends on uninitialized value(s)
@@ -68,8 +68,8 @@ Conditional jump or move depends on uninitialized value(s)
     by 0x8048472: main (tests/manuel1.c:8)
 ```
 
-<div class="code-example" shell="1">
-Read from memory that is not allocated. In this case in unused stack memory below the stack. Often Memcheck can say “in freed memory” etc.
+<div class="code-example" markdown="1">
+Read from memory that is not allocated. In this case in unused stack memory below the stack. Often `Memcheck` can say “in freed memory” etc.
 </div>
 ```shell
 Invalid read of size 4
