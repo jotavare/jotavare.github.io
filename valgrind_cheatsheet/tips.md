@@ -7,7 +7,11 @@ parent: Valgrind Cheatsheet
 
 ## **TIPS**
 
-- Output has no line numbers? Have build system compile with `-g`.
-- Programs run 10-50x slower. Test with small workloads.
-- Too many errors? Fix the first errors, that may remove further errors.
-- Check out the `--vgdb-error` and `--vgdb-stop-at` options for using GDB to step through the program.
+- Output Line Numbers:
+    - Refactor: Compile with `-g` flag for debug information.
+- Slow Programs:
+    - Refactor: Test with small workloads to isolate issues. Profile code for bottlenecks.
+- Error Overload:
+    - Refactor: Fix initial errors to potentially resolve subsequent ones.
+- Valgrind Integration:
+    - Refactor: Use Valgrind's `--vgdb-error` and `--vgdb-stop-at` options for GDB debugging integration.
