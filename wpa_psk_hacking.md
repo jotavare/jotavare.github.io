@@ -64,16 +64,17 @@ If the wireless interface doesn't appear, it means your network card doesn't sup
 
 ### 4 - Scan for Networks
 
-Use airodump-ng to view the networks around you.
-<br>This command will display a list of nearby networks along with their BSSIDs (network MAC addresses) and channels.
-<br>Enter the command:
-
-```
+<div class="code-example" markdown="1">
+Use `airodump-ng` to view the networks around you.
+<br>This command will display a list of nearby networks along with their `BSSIDs` (network MAC addresses) and `channels`.
+</div>
+```bash
 airodump-ng <wireless interface>mon
 ```
 
 ### 5 - Target Network
-Identify the BSSID and channel of the network you wish to attack.
+
+Identify the `BSSID` and `channel` of the network you wish to attack.
 
 ### 6 - Capture the Handshake
 This command will show all the devices currently connected to that network.
