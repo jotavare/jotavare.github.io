@@ -7,7 +7,7 @@ parent: Valgrind Cheatsheet
 
 ## **MEMCHECK TIPS**
 
-- Continue executing until program termination. Memcheck identifies numerous leaks upon conclusion.
+- Execute until the program terminates. Memcheck identifies numerous leaks upon conclusion.
 - Prioritize testing an optimized version initially. An unoptimized version exhibits distinct errors.
 - Employ personalized memory handling? Import `valgrind/valgrind.h` and resort to standard `malloc` and `free` if `RUNNING_ON_VALGRIND` macro evaluates to true.
 - Opt for customized `alloc` functions? Notify valgrind of their usage via `VALGRIND_MALLOCLIKE_BLOCK` + `VALGRIND_FREELIKE_BLOCK`.
@@ -25,6 +25,7 @@ Compile with debugging symbols.
 g++ -Wall -std=c++11 -g program.cpp -o program
 ```
 
+{: .important-title }
 The MemCheck tool in Valgrind runs by default, so you don’t have to specify `--tool=memcheck` when running Valgrind. However, you can use the option to be explicit.
 
 <div class="code-example" markdown="1">
@@ -65,8 +66,8 @@ valgrind --track-fds=yes ./program
 
 <div class="code-example" markdown="1">
 Produce a `xtmemory.kcg` file.
-</br>Install `KCachegrind` to examine it.
-</br>It shows a visual backtrace of places in the code that leaked memory.
+<br>Install `KCachegrind` to examine it.
+<br>It shows a visual backtrace of places in the code that leaked memory.
 </div>
 ```shell
 valgrind --xtree-memory=full --leak-check=yes ./program
@@ -74,8 +75,8 @@ valgrind --xtree-memory=full --leak-check=yes ./program
 
 <div class="code-example" markdown="1">
 Run silently.
-</br>Return a failure exit code if errors are found, rather than `./program` exit code.
-</br>Useful in automated tests.
+<br>Return a failure exit code if errors are found, rather than `./program` exit code.
+<br>Useful in automated tests.
 </div>
 ```shell
 valgrind --error-exitcode=1 ./program
@@ -85,8 +86,8 @@ valgrind --error-exitcode=1 ./program
 
 <div class="code-example" markdown="1">
 Use of an uninitialized variable.
-</br>Memcheck prints the backtrace where the value was used.
-</br>`--track-origins=yes` can find where it came from.
+<br>Memcheck prints the backtrace where the value was used.
+<br>`--track-origins=yes` can find where it came from.
 </div>
 ```shell
 Conditional jump or move depends on the uninitialized value(s)
@@ -97,8 +98,8 @@ Conditional jump or move depends on the uninitialized value(s)
 
 <div class="code-example" markdown="1">
 Read from memory that is not allocated.
-</br>In this case in unused stack memory below the stack.
-</br>Often `Memcheck` can say `“in freed memory”` etc.
+<br>In this case in unused stack memory below the stack.
+<br>Often `Memcheck` can say `“in freed memory”` etc.
 </div>
 ```shell
 Invalid read of size 4
