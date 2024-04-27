@@ -7,7 +7,9 @@ parent: Valgrind Cheatsheet
 
 ## **TYPES OF MEMORY LEAK**
 
-You will see two summaries at the end of Valgrind’s output: the heap summary and the leak summary. The heap summary tells you how many memory allocations occurred (how many times new was called directory or indirectly in your program) and how many bytes of memory were lost. Here’s some example output:
+You will see two summaries at the end of Valgrind’s output: the `heap summary` and the `leak summary`.
+
+The `heap summary` tells you how many memory allocations occurred (how many times new was called directory or indirectly in your program) and how many bytes of memory were lost. Here’s some example output:
 
 ```bash
 ==29== HEAP SUMMARY:
@@ -23,13 +25,13 @@ You will see two summaries at the end of Valgrind’s output: the heap summary a
 ```
 
 For an example of this, read through the errors above. Here is what the two most important parts of the summary mean:
-- `definitely lost`: your program is leaking memory and you need to fix it!
-- `indirectly lost`: your program may have crashed and couldn’t clean up memory.
-- `suppressed`: you can safely ignore this area since this memory was not managed by your program.
-- `possibly lost`: your program is leaking memory unless you’re doing odd things with pointers.
+- `definitely lost` - your program is leaking memory and you need to fix it.
+- `indirectly lost` - your program may have crashed and couldn’t clean up memory.
+- `suppressed` - you can safely ignore this area since this memory was not managed by your program.
+- `possibly lost` - your program is leaking memory unless you’re doing odd things with pointers.
 
 {: .important-title }
-Suppressed memory is a memory still allocated when Valgrind exits that we tell Valgrind to ignore via a configuration file in your virtual machine. This memory is usually used by either the system’s dynamic library loader or parts of the standard library that use custom allocators and deallocators.
+Suppressed memory is a memory still allocated when Valgrind exits that we tell Valgrind to ignore via a configuration file in your virtual machine. This memory is usually used by either the system’s dynamic library loader or parts of the standard library that use custom allocators and deallocators. Check more about [suppression files](https://jotavare.github.io/valgrind_cheatsheet/suppression_files.html).
 
 ## **VALGRIND MANUAL DETAILED DESCRIPTION**
 

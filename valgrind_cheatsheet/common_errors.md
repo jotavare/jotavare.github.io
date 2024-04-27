@@ -11,7 +11,9 @@ Valgrind will tell you about possible errors in your program that may cause it t
 
 ### **X bytes in Y blocks are definitely lost**
 
-This error is a memory leak that will show up in your Heap and Leak Summary. You have leaked memory and this error points you to where that memory was allocated. Error example:
+This error is a memory leak that will show up in your Heap and Leak Summary. You have leaked memory and this error points you to where that memory was allocated.
+
+Error example:
 
 ```bash
 8 bytes in 1 blocks are definitely lost in loss record 1 of 7
@@ -72,7 +74,9 @@ while (i < 104) { // error
 
 ### **Invalid read/write of size X**
 
-This error happens if you deleted memory and tried to access it in some way. Valgrind will tell you where the read or write occurred as well as where the memory was originally allocated. Unfortunately, Valgrind doesn’t tell you where the delete occurred. Error example:
+This error happens if you delete memory and try to access it in some way. Valgrind will tell you where the read or write occurred as well as where the memory was originally allocated. Unfortunately, Valgrind doesn’t tell you where the delete occurred.
+
+Error example:
 
 ```bash
 Invalid read of size 8
@@ -107,7 +111,7 @@ matrix[1] = 2;
 
 This is caused by incorrectly deleting a pointer to an array. If you’re deleting a single object (i.e. `int *`), you can deallocate memory with `delete`.
 
-However, if you’re deleting an array object (i.e. `int **`), you need to use `delete []`. This also applies for higher level pointers (i.e. `int ***`, `int ****`).
+However, if you’re deleting an array object (i.e. `int **`), you need to use `delete []`. This also applies to higher-level pointers (i.e. `int ***`, `int ****`).
 
 Here’s an example:
 

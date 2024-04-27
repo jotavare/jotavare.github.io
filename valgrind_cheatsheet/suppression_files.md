@@ -25,16 +25,37 @@ valgrind --gen-suppressions=yes [--tool=... ]
 myerrors.supp
 {
 __gconv_transform_ascii_internal/__mbrtowc/mbtowc
-    Name identifying this entry.
+    # Name identifying this entry.
 Memcheck:Value4
-    Error given by Memcheck tool. Uninitialized value of width 4 bytes.
+    # Error given by Memcheck tool. Uninitialized value of width 4 bytes.
 fun:__gconv_transform_ascii_internal
 fun:__mbr*toc
 fun:mbtowc
-    Call stack matches these three functions in order. Note the wildcard.
+    # Call stack matches these three functions in order. Note the wildcard.
 }
-Example entry in a suppression file. It applies if all the conditions are met.
+# Example entry in a suppression file. It applies if all the conditions are met.
 ```
 
 {: .important-title }
 Valgrind also ignores known errors in system libraries on many systems. On others, you may need a lot of suppression wildcards for library errors.
+
+## **SUPPRESSION EXAMPLE**
+To ignore leaks related to the `readline` and `add_history` functions, create a file called `readline.supp` with the following content:
+
+<div class="code-example" markdown="1">
+`valgrind --suppressions=readline.supp --leak-check=full --show-leak-kinds=all ./minishell`
+</div>
+```text
+{
+    leak readline
+    Memcheck:Leak
+    ...
+    fun:readline
+}
+{
+    leak add_history
+    Memcheck:Leak
+    ...
+    fun:add_history
+}
+```
