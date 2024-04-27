@@ -1,27 +1,27 @@
 ---
 title: Suppression Files
-nav_order: 1
+nav_order: 6
 layout: default
 parent: Valgrind Cheatsheet
 ---
 
 # **SUPPRESSION FILES**
 
-<div class="code-example" bash="1">
+<div class="code-example" markdown="1">
 Ignore errors of given types and locations in file mysuppressions.supp.
 </div>
 ```bash
 valgrind --suppressions=myerrors.supp [--tool=... ]
 ```
  
-<div class="code-example" bash="1">
+<div class="code-example" markdown="1">
 Print a suppression for each error, for copying to a suppression file.
 </div>
 ```bash
 valgrind --gen-suppressions=yes [--tool=... ]
 ```
 
-```bash
+```shell
 myerrors.supp
 {
 __gconv_transform_ascii_internal/__mbrtowc/mbtowc

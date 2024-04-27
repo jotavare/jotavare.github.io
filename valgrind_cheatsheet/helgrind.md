@@ -12,14 +12,14 @@ parent: Valgrind Cheatsheet
 
 ## **HELGRIND**
 
-<div class="code-example" bash="1">
+<div class="code-example" markdown="1">
 Use Valgrind Helgrind to detect common threading errors in myprog.
 </div>
 ```bash
 valgrind --tool=helgrind --free-is-write=yes myprog
 ```
 
-<div class="code-example" bash="1">
+<div class="code-example" markdown="1">
 Also detect potential deadlocks. Can be verbose for many programs.
 </div>
 ```bash
@@ -28,10 +28,10 @@ valgrind --tool=helgrind --track-lockorders=yes prog
 
 ## **HELGRIND ERRORS**
 
-<div class="code-example" bash="1">
+<div class="code-example" markdown="1">
 Lock was unlocked without first being locked. Helgrind shows where it originated.
 </div>
-```bash
+```shell
 Thread #1 unlocked a not-locked lock at 0x7FEFFFA90
     at 0x4C2408D: pthread_mutex_unlock
     by 0x40073A: nearly_main (tc09_bad_unlock.c:27)
@@ -42,10 +42,10 @@ Thread #1 unlocked a not-locked lock at 0x7FEFFFA90
     by 0x40079B: main (tc09_bad_unlock.c:50)
 ```
 
-<div class="code-example" bash="1">
+<div class="code-example" markdown="1">
 Possible race. Helgrind shows the backtrace for both threads’ accesses
 </div>
-```bash
+```shell
 Thread #1 is the program's root thread
 
 Thread #2 was created

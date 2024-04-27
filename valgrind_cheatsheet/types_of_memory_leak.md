@@ -1,6 +1,6 @@
 ---
 title: Types of Memory Leak
-nav_order: 2
+nav_order: 5
 layout: default
 parent: Valgrind Cheatsheet
 ---
@@ -9,6 +9,6 @@ parent: Valgrind Cheatsheet
 
 | Type | Description |
 | :--- | :---------- |
-| Reachable     | Not leaked, but not deallocated before exit.              |
-| Lost          | Pointer deallocated without deallocating memory.          |
-| Possibly Lost | Some part can be reached but not the start of the memory. |
+| `Reachable`     | Not leaked, but not deallocated before exit.              |
+| `Lost`          | Pointer deallocated without deallocating memory.          |
+| `Possibly Lost` | Some part can be reached but not the start of the memory. |
