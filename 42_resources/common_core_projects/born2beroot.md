@@ -6,7 +6,7 @@ parent: Common Core Projects
 grand_parent: 42 Resources
 ---
 
-# **BORN2BEROOT**
+## **BORN2BEROOT**
 
 Rank 01
 {: .label .label-green }

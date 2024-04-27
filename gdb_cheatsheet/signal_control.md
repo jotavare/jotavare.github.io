@@ -5,7 +5,7 @@ layout: default
 parent: GDB Cheatsheet
 ---
 
-# **SIGNAL CONTROL**
+## **SIGNAL CONTROL**
 
 | Command                | Result                                      |
 | :--------------------- | :------------------------------------------ |

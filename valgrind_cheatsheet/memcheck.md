@@ -5,7 +5,7 @@ layout: default
 parent: Valgrind Cheatsheet
 ---
 
-## **TIPS**
+## **MEMCHECK TIPS**
 
 - Run until the program exits. Memcheck detects many leaks at the end.
 - Test an optimised build first. An unoptimized build has different errors.
@@ -58,7 +58,7 @@ Useful in automated tests.
 valgrind --error-exitcode=1 myprog
 ```
 
-## **ERRORS**
+## **MEMCHECK ERRORS**
 
 <div class="code-example" markdown="1">
 Use of an uninitialized variable.

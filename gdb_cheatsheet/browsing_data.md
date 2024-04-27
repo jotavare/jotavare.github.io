@@ -5,7 +5,7 @@ layout: default
 parent: GDB Cheatsheet
 ---
 
-# **BROWSING DATA**
+## **BROWSING DATA**
 
 | Command                               | Result                                        |
 | :------------------------------------ | :-------------------------------------------- |

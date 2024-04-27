@@ -5,7 +5,7 @@ layout: default
 parent: GDB Cheatsheet
 ---
 
-# **RUNNING THE PROGRAM**
+## **RUNNING THE PROGRAM**
 
 | Command                          | Result                                             |
 | :------------------------------- | :------------------------------------------------- |

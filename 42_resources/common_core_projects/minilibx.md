@@ -6,7 +6,7 @@ parent: Common Core Projects
 grand_parent: 42 Resources
 ---
 
-# **MINILIBX**
+## **MINILIBX**
 
 Rank 02
 {: .label .label-yellow }

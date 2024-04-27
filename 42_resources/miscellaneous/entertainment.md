@@ -6,7 +6,7 @@ parent: Miscellaneous
 grand_parent: 42 Resources
 ---
 
-# Entertainment
+## Entertainment
 
 {: .important-title }
 Depending on your 42 school rules, you may or may not play games on school computers. Avoid getting -420 and community service.

@@ -6,7 +6,7 @@ parent: Common Core Projects
 grand_parent: 42 Resources
 ---
 
-# **FT_PRINTF**
+## **FT_PRINTF**
 
 Rank 01
 {: .label .label-green }

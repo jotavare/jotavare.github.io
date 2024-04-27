@@ -6,7 +6,7 @@ parent: Common Core Projects
 grand_parent: 42 Resources
 ---
 
-# **FT_IRC**
+## **FT_IRC**
 
 Rank 05
 {: .label .label-red }

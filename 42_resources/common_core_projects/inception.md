@@ -6,7 +6,7 @@ parent: Common Core Projects
 grand_parent: 42 Resources
 ---
 
-# **INCEPTION**
+## **INCEPTION**
 
 Rank 05
 {: .label .label-red }

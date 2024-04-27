@@ -6,7 +6,7 @@ parent: Piscine and Common Core
 grand_parent: 42 Resources
 ---
 
-# **GUIDES**
+## **GUIDES**
 
 Guides and walkthroughs to navigate 42 Piscine and Common Core.
 

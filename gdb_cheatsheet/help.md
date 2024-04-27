@@ -5,7 +5,7 @@ layout: default
 parent: GDB Cheatsheet
 ---
 
-# **HELP**
+## **HELP**
 
 | Command              | Result                                          |
 | :------------------- | :---------------------------------------------- |

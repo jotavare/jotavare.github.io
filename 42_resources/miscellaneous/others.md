@@ -6,7 +6,7 @@ parent: Miscellaneous
 grand_parent: 42 Resources
 ---
 
-# **OTHERS**
+## **OTHERS**
 
 | Website | Description |
 | :------ | :---------- |

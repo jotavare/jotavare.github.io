@@ -5,7 +5,7 @@ layout: default
 parent: GDB Cheatsheet
 ---
 
-# **MACHINE-LEVEL DEBUG**
+## **MACHINE-LEVEL DEBUG**
 
 | Command                 | Result                                             |
 | :---------------------- | :------------------------------------------------- |

@@ -6,7 +6,7 @@ parent: Piscine and Common Core
 grand_parent: 42 Resources
 ---
 
-# **WEBSITES**
+## **WEBSITES**
 
 Websites that I found useful in my 42 journey.
 

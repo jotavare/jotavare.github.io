@@ -6,7 +6,7 @@ parent: Common Core Projects
 grand_parent: 42 Resources
 ---
 
-# **MINISHELL**
+## **MINISHELL**
 
 Rank 03
 {: .label .label-purple }

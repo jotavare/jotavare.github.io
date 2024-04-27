@@ -6,7 +6,7 @@ parent: Common Core Projects
 grand_parent: 42 Resources
 ---
 
-# **CUB3D**
+## **CUB3D**
 
 Rank 04
 {: .label .label-red }

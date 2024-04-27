@@ -5,7 +5,7 @@ layout: default
 parent: GDB Cheatsheet
 ---
 
-# **OBJECT FILE MANIPULATION**
+## **OBJECT FILE MANIPULATION**
 
 | Command                | Result                                |
 | :--------------------- | :------------------------------------ |

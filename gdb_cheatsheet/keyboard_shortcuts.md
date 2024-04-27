@@ -5,7 +5,7 @@ layout: default
 parent: GDB Cheatsheet
 ---
 
-# **KEYBOARD SHORTCUTS**
+## **KEYBOARD SHORTCUTS**
   
 | Shortcut             | Result                                                   |
 | :------------------- | :------------------------------------------------------- |

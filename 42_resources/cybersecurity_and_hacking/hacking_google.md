@@ -6,7 +6,7 @@ parent: Cybersecurity and Hacking
 grand_parent: 42 Resources
 ---
 
-# **HACKING GOOGLE**
+## **HACKING GOOGLE**
 
 Five elite security teams. Six never-before-told stories.
 

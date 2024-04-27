@@ -5,7 +5,7 @@ layout: default
 parent: GDB Cheatsheet
 ---
 
-# **SINGLE KEY MODE**
+## **SINGLE KEY MODE**
 
 | Shortcut           | Result                     |
 | :----------------- | :------------------------- |

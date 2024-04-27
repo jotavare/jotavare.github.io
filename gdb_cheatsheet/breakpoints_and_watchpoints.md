@@ -5,7 +5,7 @@ layout: default
 parent: GDB Cheatsheet
 ---
 
-# **BREAKPOINTS AND WATCHPOINTS**
+## **BREAKPOINTS AND WATCHPOINTS**
 
 | Command                                                  | Result                                                       |
 | :------------------------------------------------------- | :----------------------------------------------------------- |

@@ -6,7 +6,7 @@ parent: Cybersecurity and Hacking
 grand_parent: 42 Resources
 ---
 
-# **DIGITAL FOOTPRINT**
+## **DIGITAL FOOTPRINT**
 
 Discover the imprint left by your online activities.
 

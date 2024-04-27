@@ -6,7 +6,7 @@ parent: Common Core Projects
 grand_parent: 42 Resources
 ---
 
-# **FT_TRANSCENDENCE**
+## **FT_TRANSCENDENCE**
 
 Rank 06
 {: .label .label }

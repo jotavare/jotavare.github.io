@@ -5,7 +5,7 @@ layout: default
 parent: GDB Cheatsheet
 ---
 
-# **MULTIPLE INFERIORS CONNECTIONS**
+## **MULTIPLE INFERIORS CONNECTIONS**
 
 | Command                              | Result                                                               |
 | :----------------------------------- | :------------------------------------------------------------------- |

@@ -5,7 +5,7 @@ layout: default
 parent: GDB Cheatsheet
 ---
 
-# **HISTORY DISPLAY**
+## **HISTORY DISPLAY**
 
 | Command                                   | Result                                                                      |
 | :---------------------------------------- | :-------------------------------------------------------------------------- |

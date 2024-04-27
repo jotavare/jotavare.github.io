@@ -5,7 +5,7 @@ layout: default
 parent: GDB Cheatsheet
 ---
 
-# **STACK BACKTRACE**
+## **STACK BACKTRACE**
   
 | Command         | Result                                  |
 | :-------------- | :-------------------------------------- |

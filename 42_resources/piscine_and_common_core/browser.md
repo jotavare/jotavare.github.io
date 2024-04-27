@@ -6,7 +6,7 @@ parent: Piscine and Common Core
 grand_parent: 42 Resources
 ---
 
-# **BROWSER**
+## **BROWSER**
 
 I recommend installing `Improved Intra 42`, an all-in-one extension for Chrome and Firefox.
 

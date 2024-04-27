@@ -6,7 +6,7 @@ parent: Miscellaneous
 grand_parent: 42 Resources
 ---
 
-# **IDE, COMPILERS AND DEBUGGERS**
+## **IDE, COMPILERS AND DEBUGGERS**
 
 | Website | Description |
 | :------ | :---------- |

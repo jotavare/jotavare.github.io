@@ -6,7 +6,7 @@ parent: Information and Facts
 grand_parent: 42 Resources
 ---
 
-# **SOCIAL**
+## **SOCIAL**
 
 For a specific 42 School social media, check the section [Campuses](https://jotavare.github.io/42_resources/information_and_facts/campuses.html) and choose a school.
 

@@ -5,7 +5,7 @@ layout: default
 parent: GDB Cheatsheet
 ---
 
-# **INPUT AND OUTPUT**
+## **INPUT AND OUTPUT**
 
 | Command                         | Result                                                                     |
 | :------------------------------ | :------------------------------------------------------------------------- |

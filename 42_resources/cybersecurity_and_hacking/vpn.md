@@ -6,7 +6,7 @@ parent: Cybersecurity and Hacking
 grand_parent: 42 Resources
 ---
 
-# **VPN**
+## **VPN**
 
 Secure your internet connection with a Virtual Private Network.
 

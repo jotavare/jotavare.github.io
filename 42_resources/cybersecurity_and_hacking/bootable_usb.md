@@ -6,7 +6,7 @@ parent: Cybersecurity and Hacking
 grand_parent: 42 Resources
 ---
 
-# **BOOTABLE USB**
+## **BOOTABLE USB**
 
 Create portable storage to install or repair operating systems.
 

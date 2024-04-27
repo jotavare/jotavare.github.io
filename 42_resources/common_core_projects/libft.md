@@ -6,7 +6,7 @@ parent: Common Core Projects
 grand_parent: 42 Resources
 ---
 
-# **LIBFT**
+## **LIBFT**
 
 Rank 00
 {: .label }

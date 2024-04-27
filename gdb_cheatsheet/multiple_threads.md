@@ -5,7 +5,7 @@ layout: default
 parent: GDB Cheatsheet
 ---
 
-# **MULTIPLE THREADS**
+## **MULTIPLE THREADS**
 
 | Command                                 | Result                                                                          |
 | :-------------------------------------- | :------------------------------------------------------------------------------ |

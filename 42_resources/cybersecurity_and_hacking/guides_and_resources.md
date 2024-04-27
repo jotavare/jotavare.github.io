@@ -6,7 +6,7 @@ parent: Cybersecurity and Hacking
 grand_parent: 42 Resources
 ---
 
-# **GUIDES AND RESOURCES**
+## **GUIDES AND RESOURCES**
 
 Guides and resources about important topics that may help with cyber security or ethical hacking.
 

@@ -5,7 +5,7 @@ layout: default
 parent: Valgrind Cheatsheet
 ---
 
-## **TIPS**
+## **HELGRIND TIPS**
 
 - Use `pthread` best practices or get many errors reported.
 - If you write your thread functions, or `alloc` functions that reuse a pool of buffers, identify them with `helgrind.h` macros.

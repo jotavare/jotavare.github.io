@@ -6,7 +6,7 @@ parent: Piscine and Common Core
 grand_parent: 42 Resources
 ---
 
-# **PEER-TO-PEER**
+## **PEER-TO-PEER**
 
 Information about peer-to-peer evaluation, and beginner videos about Shell and Git.
 

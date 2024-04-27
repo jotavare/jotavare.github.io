@@ -6,7 +6,7 @@ parent: Piscine and Common Core
 grand_parent: 42 Resources
 ---
 
-# **LANGUAGE**
+## **LANGUAGE**
 
 Tools to have correct communication and documentation.
 

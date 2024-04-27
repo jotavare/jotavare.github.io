@@ -6,7 +6,7 @@ parent: Cybersecurity and Hacking
 grand_parent: 42 Resources
 ---
 
-# **PACKAGE MANAGER**
+## **PACKAGE MANAGER**
 
 Software tools that automate the process of installing, upgrading, configuring, and removing programs.
 

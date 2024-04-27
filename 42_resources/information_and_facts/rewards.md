@@ -6,7 +6,7 @@ parent: Information and Facts
 grand_parent: 42 Resources
 ---
 
-# **REWARDS**
+## **REWARDS**
 
 Rewards that you have access to as a 42 student.
 

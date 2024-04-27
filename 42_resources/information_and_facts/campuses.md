@@ -6,7 +6,7 @@ parent: Information and Facts
 grand_parent: 42 Resources
 ---
 
-# **CAMPUSES**
+## **CAMPUSES**
 
 {: .important-title }
 You can check all available 42 schools [here](https://www.42network.org/42-schools).
