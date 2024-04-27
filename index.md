@@ -1,35 +1,31 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+Greetings!
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+This project initially served as a testing ground for **GitHub Pages** and **Jekyll**. However, it evolved into something more significant. I realized the potential to transform the documentation I already had scattered across various GitHub repositories into a unified, **easily searchable website format**. Thus, this platform serves as a comprehensive **documentation hub**, packed with **resources**, **guides**, **cheatsheets**, and **more**, all tailored for **my personal use**.
 
-More specifically, the created site:
+I aim to document everything essential to my journey - from my experiences at **42 school**, to my **hobbies** and **work-related** insights. Your suggestions are always welcome, and any contributions you make are highly valued.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+I hope this platform can help you on your journey, sparing you the struggles I faced in scouring for information.
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+**Happy coding!**
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+<button class="btn js-toggle-light-mode">Don\'t click here!</button>
 
-To get started with creating a site, simply:
+<script>
+const toggleLightMode = document.querySelector('.js-toggle-light-mode');
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
-
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+jtd.addEvent(toggleLightMode, 'click', function(){
+  if (jtd.getTheme() === 'light') {
+    jtd.setTheme('dark');
+    toggleLightMode.textContent = 'Don\'t click here!';
+  } else {
+    jtd.setTheme('light');
+    toggleLightMode.textContent = 'Return to the dark side :)';
+  }
+});
+</script>
