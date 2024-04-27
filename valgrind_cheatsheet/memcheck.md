@@ -21,36 +21,38 @@ Use Valgrind Memcheck to detect common memory errors in myprog.
 valgrind path/to/myprog myargs
 ```
 
-<div class="code-example" markdown="2">
+<div class="code-example" markdown="1">
 Use Valgrind Memcheck to detect memory errors and memory leaks.
 </div>
 ```shell
 valgrind --leak-check=yes path/to/myprog
 ```
 
-<div class="code-example" markdown="3">
+<div class="code-example" markdown="1">
 Take longer and trace the origin of uninitialized values.
 </div>
 ```shell
 valgrind --leak-check=yes --track-origins=yes myprog
 ```
 
-<div class="code-example" markdown="4">
+<div class="code-example" markdown="1">
 Detect unclosed file descriptors.
 </div>
 ```shell
 valgrind --track-fds=yes myprog
 ```
 
-<div class="code-example" markdown="0">
-Produce a `xtmemory.kcg` file. Install KCachegrind to examine it. It shows a visual backtrace of places in the code that leaked memory.
+<div class="code-example" markdown="1">
+Produce a `xtmemory.kcg` file. Install KCachegrind to examine it.
+It shows a visual backtrace of places in the code that leaked memory.
 </div>
 ```shell
 valgrind --xtree-memory=full --leak-check=yes myprog
 ```
 
 <div class="code-example" markdown="1">
-Run silently. Return a failure exit code if errors are found, rather than myprog’s exit code. Useful in automated tests.
+Run silently. Return a failure exit code if errors are found, rather than myprog’s exit code.
+Useful in automated tests.
 </div>
 ```shell
 valgrind --error-exitcode=1 myprog
@@ -59,7 +61,9 @@ valgrind --error-exitcode=1 myprog
 ## **ERRORS**
 
 <div class="code-example" markdown="1">
-Use of an uninitialized variable. Memcheck prints the backtrace where the value was used. `--track-origins=yes` can find where it came from.
+Use of an uninitialized variable.
+Memcheck prints the backtrace where the value was used.
+`--track-origins=yes` can find where it came from.
 </div>
 ```shell
 Conditional jump or move depends on uninitialized value(s)
@@ -69,7 +73,9 @@ Conditional jump or move depends on uninitialized value(s)
 ```
 
 <div class="code-example" markdown="1">
-Read from memory that is not allocated. In this case in unused stack memory below the stack. Often `Memcheck` can say “in freed memory” etc.
+Read from memory that is not allocated.
+In this case in unused stack memory below the stack.
+Often `Memcheck` can say `“in freed memory”` etc.
 </div>
 ```shell
 Invalid read of size 4
