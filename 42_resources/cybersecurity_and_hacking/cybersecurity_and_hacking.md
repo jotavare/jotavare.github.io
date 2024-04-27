@@ -7,5 +7,3 @@ nav_order: 4
 ---
 
 ## **CYBERSECURITY AND HACKING**
-
-[insert description here]

@@ -7,5 +7,3 @@ nav_order: 1
 ---
 
 ## **INFORMATION AND FACTS**
-
-[insert description here]

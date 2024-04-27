@@ -7,5 +7,3 @@ nav_order: 2
 ---
 
 ## **PISCINE AND COMMON CORE**
-
-[insert description here]

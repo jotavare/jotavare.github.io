@@ -33,3 +33,4 @@ Resources of no particular order but that I feel you should know. More is availa
 | [Fake Update](https://fakeupdate.net)                                     | Fake update screens! `F11 - Fullscreen` `ESC - Exit` `ENTER - BSOD`              | `Website` |
 | [Don't Write Comments](https://www.youtube.com/watch?v=Bf7vDBBOBUA)       | Why you shouldn't write comments in your code (write documentation).             | `Youtube` |
 | [No Hello](https://nohello.net/en)                                        | Please, don't say just hello in chat.                                            | `Website` |
+| [Nerd Fonts](https://www.nerdfonts.com/font-downloads)                    | Iconic font aggregator, collection, and patcher.                                 | `Website` |
