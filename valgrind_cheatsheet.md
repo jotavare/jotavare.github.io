@@ -1,5 +1,6 @@
 ---
 title: Valgrind Cheatsheet
+permalink: /valgrind_cheatsheet/
 layout: default
 nav_order: 4
 has_children: true

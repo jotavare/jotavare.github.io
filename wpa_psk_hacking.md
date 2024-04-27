@@ -1,10 +1,11 @@
 ---
-title: WPA-PSK Hacking Guide
+title: WPA-PSK Hacking
+permalink: /wpa_psk_hacking/
 layout: default
 nav_order: 5
 ---
 
-# **WPA-PSK HACKING GUIDE**
+# **WPA-PSK HACKING**
 
 When you enable Wi-Fi in public places, you'll encounter numerous networks that likely utilize **WPA-PSK (Wi-Fi Protected Access Pre-Shared Key) encryption**, which is commonly used in wireless networks to secure data transmission.
 
