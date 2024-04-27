@@ -145,7 +145,7 @@ systemctl restart network*
 ```
 
 ## **Protecting Yourself**
-While you cannot prevent the authentication process, you can protect against word list attacks by choosing a long and random password that is unlikely to be found in any word list, like passphrases. Additionally, you can enable `MAC address filtering` and `WPS` **(Wi-Fi Protected Setup)** to enhance security.
+While you cannot prevent the authentication process, you can protect against word list attacks by choosing a long and random password that is unlikely to be found in any word list, like **passphrases**. Additionally, you can enable **MAC address filtering** and **WPS (Wi-Fi Protected Setup)** to enhance security.
 
 ## **Conclusion**
-We explored the process of WPA-PSK hacking. It is essential to respect **privacy** and **legality** when using these techniques. We learned about capturing `handshakes`, performing `de-authentication attacks`, and cracking passwords using `word lists`. Remember to always use this knowledge responsibly and protect yourself.
+We explored the process of WPA-PSK hacking. It is essential to respect **privacy** and **legality** when using these techniques. We learned about capturing **handshakes**, performing **de-authentication attacks**, and cracking passwords using **word lists**. Remember to always use this knowledge responsibly and protect yourself.
