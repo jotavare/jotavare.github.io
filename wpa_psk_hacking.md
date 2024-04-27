@@ -4,21 +4,20 @@ layout: default
 nav_order: 5
 ---
 
-{: .warning-title }
-Although these networks are susceptible to hacking, it is crucial to emphasize that this guide is **strictly for educational purposes**. Engaging in these activities on networks without proper authorization is **illegal**. This is for educational purposes only. Having addressed this disclaimer, let's explore the underlying mechanisms, the practical execution, and measures to safeguard yourself against such vulnerabilities.
-
 # **WPA-PSK HACKING GUIDE**
 
-When you enable Wi-Fi in public places, you'll encounter numerous networks that likely utilize `WPA-PSK` **(Wi-Fi Protected Access Pre-Shared Key)** encryption, which is commonly used in wireless networks to secure data transmission.
+When you enable Wi-Fi in public places, you'll encounter numerous networks that likely utilize **WPA-PSK (Wi-Fi Protected Access Pre-Shared Key) encryption**, which is commonly used in wireless networks to secure data transmission.
 
-While it offers a level of security, there are **vulnerabilities** to consider. This guide will explore one of the most common methods of hacking `WPA-PSK` networks.
- 
+While it offers a level of security, there are **vulnerabilities** to consider. This guide will explore one of the most common methods of hacking **WPA-PSK** networks.
+
+{: .warning-title }
+Although these networks are susceptible to hacking, it is crucial to emphasize that this guide is **strictly for educational purposes**. Engaging in these activities on networks without proper authorization is **illegal**. This is for **educational purposes only**. Having addressed this disclaimer, let's explore the underlying mechanisms, the practical execution, and measures to safeguard yourself against such vulnerabilities.
 
 ## **Introduction**
 
-When you connect to a network from a wireless device, a `handshake` is sent from the device to the `router`. This `handshake` contains the `encrypted password`.
+When you connect to a network from a wireless device, a **handshake** is sent from the device to the **router**. This **handshake** contains the **encrypted password**.
 
-While it's not possible to reverse the `encrypted password`, you can use a technique called a `word list attack`. A word list is a huge text file containing **thousands of passwords**. By comparing the encrypted `handshake` password with the passwords in the word list, you can determine the real password.
+While it's not possible to reverse the **encrypted password**, you can use a technique called a **word list attack**. A word list is a huge text file containing **thousands of passwords**. By comparing the encrypted **handshake** password with the passwords in the word list, you can determine the real password.
 
 ## **Requirements**
 
