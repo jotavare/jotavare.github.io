@@ -14,8 +14,8 @@ parent: Valgrind Cheatsheet
 
 ## **MEMCHECK**
 
-<div class="code-example" shell="1">
-Use Valgrind Memcheck to detect common memory errors in myprog.
+<div class="code-example" markdown="1">
+Use `Valgrind` Memcheck to detect common memory errors in myprog.
 </div>
 ```shell
 valgrind path/to/myprog myargs
@@ -43,7 +43,7 @@ valgrind --track-fds=yes myprog
 ```
 
 <div class="code-example" shell="1">
-Produce a xtmemory.kcg file. Install KCachegrind to examine it. It shows a visual backtrace of places in the code that leaked memory.
+Produce a `xtmemory.kcg` file. Install KCachegrind to examine it. It shows a visual backtrace of places in the code that leaked memory.
 </div>
 ```shell
 valgrind --xtree-memory=full --leak-check=yes myprog
@@ -59,17 +59,17 @@ valgrind --error-exitcode=1 myprog
 ## **ERRORS**
 
 <div class="code-example" shell="1">
-Use of an uninitialized variable. Memcheck prints the backtrace where the value was used. `--track-origins=yes` can find where it came from.
+Use of an uninitialized variable. Memcheck prints the backtrace where the value was used. `<--track-origins=yes>` can find where it came from.
 </div>
 ```shell
-Conditional jump or move depends on uninitialised value(s)
+Conditional jump or move depends on uninitialized value(s)
     at 0x402DFA94: _IO_vfprintf (_itoa.h:49)
     by 0x402E8476: _IO_printf (printf.c:36)
     by 0x8048472: main (tests/manuel1.c:8)
 ```
 
 <div class="code-example" shell="1">
-Read from memory which is not allocated. In this case in unused stack memory below the stack. Often Memcheck can say “in freed memory” etc.
+Read from memory that is not allocated. In this case in unused stack memory below the stack. Often Memcheck can say “in freed memory” etc.
 </div>
 ```shell
 Invalid read of size 4
@@ -79,4 +79,4 @@ Address 0xBFFFF0E0 is not stack'd, malloc'd or free'd
 ```
 
 {: .important-title }
-Other common errors detected are: Invalid pointers in system calls. Double frees. Mixing new/free. Overlapping memcpy. realloc(0).
+Other common errors detected are `invalid pointers` in system calls, `double frees`, mixing `new/free`, overlapping `memcpy` and `realloc(0)`.
