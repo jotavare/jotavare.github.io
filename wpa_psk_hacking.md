@@ -9,24 +9,26 @@ Although these networks are susceptible to hacking, it is crucial to emphasize t
 
 # **WPA-PSK HACKING GUIDE**
 
-When you enable Wi-Fi in public places, you'll encounter numerous networks that likely utilize `WPA-PSK` (Wi-Fi Protected Access Pre-Shared Key) encryption, which is commonly used in wireless networks to secure data transmission. While it offers a level of security, there are vulnerabilities to consider. This guide will explore one of the most common methods of hacking WPA-PSK networks for educational purposes only.
+When you enable Wi-Fi in public places, you'll encounter numerous networks that likely utilize `WPA-PSK` (Wi-Fi Protected Access Pre-Shared Key) encryption, which is commonly used in wireless networks to secure data transmission.
+
+While it offers a level of security, there are vulnerabilities to consider. This guide will explore one of the most common methods of hacking WPA-PSK networks for educational purposes only.
  
 
 ## **Introduction**
 
-When you connect to a network from a wireless device, a `handshake` is sent from the device to the router. This handshake contains the encrypted password.
+When you connect to a network from a wireless device, a `handshake` is sent from the device to the `router`. This `handshake` contains the `encrypted password`.
 
-While it's not possible to reverse the encrypted password, you can use a technique called a word list attack. A word list is a huge text file containing thousands of passwords. By comparing the encrypted handshake password with the passwords in the word list, you can determine the real password.
+While it's not possible to reverse the `encrypted password`, you can use a technique called a `word list attack`. A word list is a huge text file containing thousands of passwords. By comparing the encrypted `handshake` password with the passwords in the word list, you can determine the real password.
 
 ## **Requirements**
 
-- Computer running `Linux` distribution;
-- Computer with a network card that supports `monitor mode`;
+- `Linux` distro distribution;
+- PC with a network card that supports `monitor mode`;
 - Install the package `Aircrack-ng` with the command `sudo apt install aircrack-ng`;
 
 ## **Procedure**
 
-### 1 - Determine the Network Interface
+### **Determine the Network Interface**
 
 <div class="code-example" markdown="1">
 Identify the wireless network interfaces, which usually start with w (e.g., `wlp3s0`).
@@ -39,7 +41,7 @@ ip a
 {: .important-title }
 The "ip a" command in Linux displays network interface information, including IP addresses, MAC addresses, and related configurations. It is used for troubleshooting and network configuration purposes.
 
-### 2 - Enable Monitor Mode
+### **Enable Monitor Mode**
 
 <div class="code-example" markdown="1">
 Use the `airmon-ng` tool to switch your network card to monitor mode.
@@ -49,7 +51,7 @@ Use the `airmon-ng` tool to switch your network card to monitor mode.
 airmon-ng start <wireless interface>
 ```
 
-### 3 - Verify Monitor Mode
+### **Verify Monitor Mode**
 
 <div class="code-example" markdown="1">
 Now, the wireless interface should be displayed as `<interface>mon` (e.g., `wlp3s0mon`).
@@ -62,7 +64,7 @@ iwconfig
 {: .important-title }
 If the wireless interface doesn't appear, it means your network card doesn't support monitor mode, and you'll need the external network card mentioned earlier.
 
-### 4 - Scan for Networks
+### **Scan for Networks**
 
 <div class="code-example" markdown="1">
 Use `airodump-ng` to view the networks around you.
@@ -72,57 +74,74 @@ Use `airodump-ng` to view the networks around you.
 airodump-ng <wireless interface>mon
 ```
 
-### 5 - Target Network
+### **Target Network**
 
 Identify the `BSSID` and `channel` of the network you wish to attack.
 
-### 6 - Capture the Handshake
-This command will show all the devices currently connected to that network.
-<br>If you watch a video in one of this devices, the amount of packets (frames) being set to a device increses a lot. 
-<br>In a new terminal window, enter the command:
+### **Capture the Handshake**
 
-```
+<div class="code-example" markdown="1">
+This command will show all the devices currently connected to that network.
+<br>If you watch a video on one of these devices, the amount of `packets` (frames) being set to a device increases a lot. 
+<br>Type this command in a new terminal window:
+</div>
+```bash
 airodump-ng -d(--bssid) <BSSID> -w(--write) <filename> -c(--channel) <channel>  <wireless interface>mon
 ```
+
 - `<BSSID>` - target network's BSSID;
 - `<channel>` - target network's channel;
-- `<filename>` - desired name for the captured handshake file;
-- `<wireless interface>mon` - name of your wireless interface in monitor mode;
+- `<filename>` - the desired name for the captured handshake file;
+- `<wireless interface>mon` - the name of your wireless interface in monitor mode;
 
-### 7 - Deauthentication Attack
-Now we need to to send deauthentication packets to the victim's device, forcing it to disconnect and reconnect to the network so we can capture the handshake.
+### **Deauthentication Attack**
+
+<div class="code-example" markdown="1">
+Now we need to to send `de-authentication packets` to the victim's device, forcing it to disconnect and reconnect to the network so we can capture the `handshake`.
 <br>Leave the previous terminal open and running.
 <br>Use this command in another terminal:
-
-```
+</div>
+```bash
 aireplay-ng -0 10 -a <BSSID> -c <client ESSID> <wireless interface>mon
 ```
-- `-0 10` - deauthentication and we gonna send 10 packets;
-- `-a <BSSID>` - target network's BSSID;
-- `-c <client ESSID>` - ESSID (name) of the device you want to deauthenticate (e.g., the victim's device);
-- `<wireless interface>mon` - name of your wireless interface in monitor mode;
 
-### 8 - Capture the Handshake
-Observe the terminal running `airodump-ng` (step 6) and wait for a device to reconnect.
+- `-0 10` - de-authentication and we gonna send 10 packets;
+- `-a <BSSID>` - target network's BSSID;
+- `-c <client ESSID>` - ESSID (name) of the device you want to de-authenticate (e.g., the victim's device);
+- `<wireless interface>mon` - the name of your wireless interface in monitor mode;
+
+### **Capture the Handshake**
+
+<div class="code-example" markdown="1">
+Observe the terminal running `airodump-ng` (Capture the Handshake) and wait for a device to reconnect.
 <br>Once the handshake is captured, you can see a message saying `WPA handshake: <BSSID>`.
 <br>You can stop `airodump-ng` by pressing `Ctrl+C`.
 <br>The captured handshake will be saved in the specified filename.
+</div>
 
-### 9 - Word List Attack
+### **Word List Attack**
+<div class="code-example" markdown="1">
 Kali Linux comes with pre-installed word lists located in the directory `/usr/share/wordlists`.
 <br>If you are not on Kali, you can download a word list from here.
 <br>Now let's attempt to match the captured handshake with passwords from the word list.
 <br>Use the command:
-
-```
+</div>
+```bash
 aircrack-ng -w <wordlist> <filename>
 ```
 
 - `<wordlist>` - path to the desired word list file (e.g., /usr/share/wordlists/rockyou.txt);
 - `<filename>` - name of the captured handshake file;
 
-### 10 - Cracked!
-Note: After performing these steps, your internet connection may still be interrupted. To fix this, you can either restart your computer or execute the command airmon-ng stop <monitor interface> followed by systemctl restart network* to restart the network services.
+### **Cracked!**
+<div class="code-example" markdown="1">
+After performing these steps, your internet connection may still be interrupted.
+<br>To fix this, you can either restart your computer or execute the command:
+</div>
+```bash
+airmon-ng stop <monitor interface>
+systemctl restart network*
+```
 
 ## Protecting Yourself
 While you cannot prevent the authentication process, you can protect against word list attacks by choosing a long and random password that is unlikely to be found in any word list.
