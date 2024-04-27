@@ -5,30 +5,30 @@ layout: default
 parent: Valgrind Cheatsheet
 ---
 
-## **HELGRIND TIPS**
+## **TIPS**
 
-- Use pthreads best practices or get many errors reported.
-- If you write your own thread functions, or alloc functions that reuse a pool of buffers, identify them with helgrind.h macros.
+- Use `pthreads` best practices or get many errors reported.
+- If you write your own thread functions, or `alloc` functions that reuse a pool of buffers, identify them with `helgrind.h` macros.
 
 ## **HELGRIND**
 
-<div class="code-example" markdown="1">
+<div class="code-example" shell="1">
 Use Valgrind Helgrind to detect common threading errors in myprog.
 </div>
-```bash
+```shell
 valgrind --tool=helgrind --free-is-write=yes myprog
 ```
 
-<div class="code-example" markdown="1">
+<div class="code-example" shell="1">
 Also detect potential deadlocks. Can be verbose for many programs.
 </div>
-```bash
+```shell
 valgrind --tool=helgrind --track-lockorders=yes prog
 ```
 
 ## **HELGRIND ERRORS**
 
-<div class="code-example" markdown="1">
+<div class="code-example" shell="1">
 Lock was unlocked without first being locked. Helgrind shows where it originated.
 </div>
 ```shell
@@ -42,7 +42,7 @@ Thread #1 unlocked a not-locked lock at 0x7FEFFFA90
     by 0x40079B: main (tc09_bad_unlock.c:50)
 ```
 
-<div class="code-example" markdown="1">
+<div class="code-example" shell="1">
 Possible race. Helgrind shows the backtrace for both threads’ accesses
 </div>
 ```shell

@@ -7,17 +7,17 @@ parent: Valgrind Cheatsheet
 
 # **SUPPRESSION FILES**
 
-<div class="code-example" markdown="1">
+<div class="code-example" shell="1">
 Ignore errors of given types and locations in file mysuppressions.supp.
 </div>
-```bash
+```shell
 valgrind --suppressions=myerrors.supp [--tool=... ]
 ```
  
-<div class="code-example" markdown="1">
+<div class="code-example" shell="1">
 Print a suppression for each error, for copying to a suppression file.
 </div>
-```bash
+```shell
 valgrind --gen-suppressions=yes [--tool=... ]
 ```
 

@@ -5,6 +5,8 @@ layout: default
 parent: Valgrind Cheatsheet
 ---
 
+## **TIPS**
+
 - Output has no line numbers? Have build system compile with `-g`.
 - Programs run 10-50x slower. Test with small workloads.
 - Too many errors? Fix the first errors, that may remove further errors.
