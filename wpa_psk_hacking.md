@@ -11,7 +11,7 @@ Although these networks are susceptible to hacking, it is crucial to emphasize t
 
 When you enable Wi-Fi in public places, you'll encounter numerous networks that likely utilize `WPA-PSK` **(Wi-Fi Protected Access Pre-Shared Key)** encryption, which is commonly used in wireless networks to secure data transmission.
 
-While it offers a level of security, there are **vulnerabilities** to consider. This guide will explore one of the most common methods of hacking WPA-PSK networks for educational purposes only.
+While it offers a level of security, there are **vulnerabilities** to consider. This guide will explore one of the most common methods of hacking `WPA-PSK` networks.
  
 
 ## **Introduction**
@@ -31,7 +31,7 @@ While it's not possible to reverse the `encrypted password`, you can use a techn
 ### **Determine the Network Interface**
 
 <div class="code-example" markdown="1">
-Identify the wireless network interfaces, which usually start with w (e.g., `wlp3s0`).
+Identify the wireless network interfaces, which usually start with (e.g. `wlp3s0`).
 <br>This information will be needed later.
 </div>
 ```bash
@@ -76,7 +76,9 @@ airodump-ng <wireless interface>mon
 
 ### **Target Network**
 
+<div class="code-example" markdown="1">
 Identify and copy/save the `BSSID` and `channel` of the network you wish to attack.
+</div>
 
 ### **Capture the Handshake**
 
@@ -106,7 +108,7 @@ aireplay-ng -0 10 -a <BSSID> -c <client ESSID> <wireless interface>mon
 
 - `-0 10` - number of de-authentication packets to send;
 - `-a <BSSID>` - target network's BSSID;
-- `-c <client ESSID>` - ESSID (name) of the device you want to de-authenticate (e.g., the victim's device);
+- `-c <client ESSID>` - ESSID (name) of the device you want to de-authenticate;
 - `<wireless interface>mon` - the name of your wireless interface in monitor mode;
 
 ### **Capture the Handshake**
@@ -142,10 +144,8 @@ airmon-ng stop <monitor interface>
 systemctl restart network*
 ```
 
-## Protecting Yourself
+## **Protecting Yourself**
 While you cannot prevent the authentication process, you can protect against word list attacks by choosing a long and random password that is unlikely to be found in any word list, like passphrases. Additionally, you can enable `MAC address filtering` and `WPS` **(Wi-Fi Protected Setup)** to enhance security.
 
-## Conclusion
-We explored the process of WPA-PSK hacking. It is essential to respect **privacy** and **legality** when using these techniques. We learned about capturing `handshakes`, performing `de-authentication attacks`, and cracking passwords using `word lists`. Remember to always use this knowledge responsibly and protect yourself by setting strong passwords for your Wi-Fi networks.
-
-If you found this guide helpful and thank you for reading!
+## **Conclusion**
+We explored the process of WPA-PSK hacking. It is essential to respect **privacy** and **legality** when using these techniques. We learned about capturing `handshakes`, performing `de-authentication attacks`, and cracking passwords using `word lists`. Remember to always use this knowledge responsibly and protect yourself.
