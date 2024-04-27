@@ -5,7 +5,7 @@ layout: default
 parent: Valgrind Cheatsheet
 ---
 
-# **SUPPRESSION FILES**
+## **SUPPRESSION FILES**
 
 <div class="code-example" markdown="1">
 Ignore errors of given types and locations in file `mysuppressions.supp`.
