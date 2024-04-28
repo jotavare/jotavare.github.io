@@ -45,12 +45,3 @@ Depending on your 42 school rules, you may or may not play games on school compu
 | [Chessboard.js](https://chessboardjs.com/examples#5002) | Who will win in this chess game of Math.random() vs Math.random()? |
 | [Britannica](https://www.britannica.com/topic/chess) | What is chess? |
 | [Chess Wikipedia](https://en.wikipedia.org/wiki/Chess) | |
-
-## **Memes**
-
-| Website | Description |
-| :---- | :---------- |
-| [GANDALF SAX - 42 Paris](https://www.youtube.com/watch?v=9CE3c0Hp7WM) | `Youtube` |
-| [[FR] Gargamel est salé](https://www.youtube.com/watch?v=uAgFf0sC8hM) | `Youtube` |
-| [[FR] Memes](https://www.instagram.com/duoquadra_meme) | `Instagram` |
-| [Know Your Meme](https://knowyourmeme.com) | Documenting Internet phenomena: viral videos, image macros, catchphrases, web celebs and more. |

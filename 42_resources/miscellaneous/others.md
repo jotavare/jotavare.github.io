@@ -10,6 +10,7 @@ grand_parent: 42 Resources
 
 | Website | Description |
 | :------ | :---------- |
+| [Know Your Meme](https://knowyourmeme.com) | Documenting Internet phenomena: viral videos, image macros, catchphrases, web celebs and more. |
 | [Character Counter](https://wordcounter.net/character-count) | Free online character count calculator that's simple to use. |
 | [PlayPhrase.me](https://www.playphrase.me) | Lets you search for very specific phrases and soundbites that have been uttered on-screen. |
 | [Similarsites](https://www.similarsites.com) | Explore competitors and related sites. |

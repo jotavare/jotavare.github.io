@@ -23,12 +23,6 @@ grand_parent: 42 Resources
 | [Google Developers Certification](https://developers.google.com/certification) |
 | [Envato Tuts+](https://tutsplus.com) |
 
-| Courses |
-| :------ |
-| [30 Days of Python](https://github.com/Asabeneh/30-Days-Of-Python) |
-| [100 Days of Code in Python](https://www.udemy.com/course/100-days-of-code) |
-| [Google IT Support Professional Certificate](https://www.coursera.org/professional-certificates/google-it-support) |
-
 | Books |
 | :---- |
 | [Programming Notes for Professionals](https://books.goalkicker.com) |
