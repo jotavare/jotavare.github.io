@@ -17,4 +17,4 @@ Insights on crafting effective README files and integrating badges for your proj
 | [42 Project Badges](https://github.com/vinicius-f-pereira/42-project-badges)                   | Badges designed for 42 curriculum projects.               | `GitHub`  |
 | [1337 Readme](https://github.com/mohouyizme/1337-readme)                                       | Share your progress via GitHub README.md.                 | `GitHub`  |
 | [42 Unlicense](https://github.com/gcamerli/42unlicense)                                        | Flavoured version, based on the Unlicense public license. | `GitHub`  |
-| [GitHub Social Preview](https://www.bannerbear.com/demos/github-social-preview-generator-tool) | Auto generate a social preview image for your repository. | `GitHub`  |
+| [GitHub Social Preview](https://www.bannerbear.com/demos/github-social-preview-generator-tool) | Auto generate a social preview image for your repository. | `Website`  |
