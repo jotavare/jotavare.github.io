@@ -3,7 +3,7 @@ title: Design Tools
 nav_order: 3
 layout: default
 parent: Miscellaneous
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **DESIGN TOOLS**

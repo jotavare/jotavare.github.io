@@ -3,7 +3,7 @@ title: Network
 nav_order: 3
 layout: default
 parent: Information and Facts
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **NETWORK**

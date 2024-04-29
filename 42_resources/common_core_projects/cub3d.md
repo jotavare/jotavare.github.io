@@ -3,7 +3,7 @@ title: cub3d
 nav_order: 16
 layout: default
 parent: Common Core Projects
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **CUB3D**

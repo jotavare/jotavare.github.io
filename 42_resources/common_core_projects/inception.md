@@ -3,7 +3,7 @@ title: inception
 nav_order: 20
 layout: default
 parent: Common Core Projects
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **INCEPTION**

@@ -3,7 +3,7 @@ title: so_long
 nav_order: 9
 layout: default
 parent: Common Core Projects
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **SO_LONG**

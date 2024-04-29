@@ -3,7 +3,7 @@ title: Trivia
 nav_order: 1
 layout: default
 parent: Information and Facts
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **TRIVIA**

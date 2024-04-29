@@ -3,7 +3,7 @@ title: Crack The Code
 nav_order: 1
 layout: default
 parent: Cybersecurity and Hacking
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **CRACK THE CODE**

@@ -3,7 +3,7 @@ title: Social
 nav_order: 4
 layout: default
 parent: Information and Facts
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **SOCIAL**

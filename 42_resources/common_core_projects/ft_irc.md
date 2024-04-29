@@ -3,7 +3,7 @@ title: ft_irc
 nav_order: 19
 layout: default
 parent: Common Core Projects
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **FT_IRC**

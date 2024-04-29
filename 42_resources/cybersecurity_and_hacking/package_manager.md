@@ -3,7 +3,7 @@ title: Package Manager
 nav_order: 6
 layout: default
 parent: Cybersecurity and Hacking
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **PACKAGE MANAGER**

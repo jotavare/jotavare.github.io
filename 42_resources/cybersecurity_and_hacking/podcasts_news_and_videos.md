@@ -3,7 +3,7 @@ title: Podcasts, News and Videos
 nav_order: 9
 layout: default
 parent: Cybersecurity and Hacking
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **PODCASTS, NEWS AND VIDEOS**

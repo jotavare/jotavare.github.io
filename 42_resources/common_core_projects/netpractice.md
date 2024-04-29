@@ -3,7 +3,7 @@ title: netpractice
 nav_order: 15
 layout: default
 parent: Common Core Projects
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **NETPRACTICE**

@@ -3,7 +3,7 @@ title: push_swap
 nav_order: 12
 layout: default
 parent: Common Core Projects
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **PUSH_SWAP**

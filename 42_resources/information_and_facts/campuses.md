@@ -3,7 +3,7 @@ title: Campuses
 nav_order: 5
 layout: default
 parent: Information and Facts
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **CAMPUSES**

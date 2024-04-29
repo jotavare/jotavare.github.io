@@ -3,7 +3,7 @@ title: Hacking Google
 nav_order: 10
 layout: default
 parent: Cybersecurity and Hacking
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **HACKING GOOGLE**

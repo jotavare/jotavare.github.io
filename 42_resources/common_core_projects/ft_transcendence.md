@@ -3,7 +3,7 @@ title: ft_transcendence
 nav_order: 21
 layout: default
 parent: Common Core Projects
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **FT_TRANSCENDENCE**

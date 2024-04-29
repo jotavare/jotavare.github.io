@@ -3,7 +3,7 @@ title: Operating Sytem and Tools
 nav_order: 7
 layout: default
 parent: Cybersecurity and Hacking
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **OPERATING SYSTEM AND TOOLS**

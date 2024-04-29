@@ -3,7 +3,7 @@ title: Rewards
 nav_order: 2
 layout: default
 parent: Information and Facts
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **REWARDS**

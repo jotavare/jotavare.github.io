@@ -3,7 +3,7 @@ title: Bootable USB
 nav_order: 5
 layout: default
 parent: Cybersecurity and Hacking
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **BOOTABLE USB**

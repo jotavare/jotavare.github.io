@@ -3,7 +3,7 @@ title: Apps
 nav_order: 8
 layout: default
 parent: Piscine and Common Core
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **APPS**

@@ -3,7 +3,7 @@ title: Digital Footprint
 nav_order: 3
 layout: default
 parent: Cybersecurity and Hacking
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **DIGITAL FOOTPRINT**

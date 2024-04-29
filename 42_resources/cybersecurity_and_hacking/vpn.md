@@ -3,7 +3,7 @@ title: VPN
 nav_order: 4
 layout: default
 parent: Cybersecurity and Hacking
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **VPN**

@@ -1,7 +1,7 @@
 ---
 title: Wikimedia Foundation
 layout: default
-parent: 42 Resources
+parent: 🗂️ 42 Resources
 has_children: false
 nav_order: 5
 ---

@@ -3,7 +3,7 @@ title: IDE, Compilers and Debuggers
 nav_order: 5
 layout: default
 parent: Miscellaneous
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **IDE, COMPILERS AND DEBUGGERS**

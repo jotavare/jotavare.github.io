@@ -3,7 +3,7 @@ title: born2beroot
 nav_order: 3
 layout: default
 parent: Common Core Projects
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **BORN2BEROOT**

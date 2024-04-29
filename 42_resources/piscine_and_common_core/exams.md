@@ -3,7 +3,7 @@ title: Exams
 nav_order: 1
 layout: default
 parent: Piscine and Common Core
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **EXAMS**

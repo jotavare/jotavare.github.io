@@ -3,7 +3,7 @@ title: Others
 nav_order: 6
 layout: default
 parent: Miscellaneous
-grand_parent: 42 Resources
+grand_parent: 🗂️ 42 Resources
 ---
 
 ## **OTHERS**

@@ -1,5 +1,5 @@
 ---
-title: 42 Resources
+title: 🗂️ 42 Resources
 permalink: /42_resources/
 layout: default
 nav_order: 2
