@@ -11,10 +11,6 @@ grand_parent: 42 Resources
 Rank 01
 {: .label .label-green }
 
-<div class="code-example" markdown="1">
-This project involved recreating the well-known C library function, printf. This provided a valuable learning opportunity in variadic arguments and structures, particularly if we intend to incorporate additional flags into our implementation of print.
-</div>
-
 | Resource                                                                                                                                      | Source    |
 | :-------------------------------------------------------------------------------------------------------------------------------------------- | :-------- |
 | [C Tutorial – printf](https://www.codingunit.com/printf-format-specifiers-format-conversions-and-formatted-output)                            | `Website` |

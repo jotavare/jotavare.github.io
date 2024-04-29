@@ -11,10 +11,6 @@ grand_parent: 42 Resources
 Rank 01
 {: .label .label-green }
 
-<div class="code-example" markdown="1">
-This project taught me how to read from a file descriptor and use static variables. This function retrieves a single line from a specified file descriptor. When called in a loop, get_next_line returns all the contents of the file, one line at a time until the end of the file is reached. Additionally, this function can be compiled with any buffer size specified.
-</div>
-
 | Resource                                                                              | Source    |
 | :-------------------------------------------------------------------------------------| :-------- |
 | [get_next_line: My first complex program](https://yannick.eu/gnl)                     | `Website` |
