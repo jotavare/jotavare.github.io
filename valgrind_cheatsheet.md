@@ -1,5 +1,5 @@
 ---
-title: 📄 Valgrind Cheatsheet
+title: Valgrind Cheatsheet
 permalink: /valgrind_cheatsheet/
 layout: default
 nav_order: 4
