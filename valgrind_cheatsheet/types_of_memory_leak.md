@@ -2,7 +2,7 @@
 title: Types of Memory Leak
 nav_order: 5
 layout: default
-parent: Valgrind Cheatsheet
+parent: 📑 Valgrind Cheatsheet
 ---
 
 ## **TYPES OF MEMORY LEAK**

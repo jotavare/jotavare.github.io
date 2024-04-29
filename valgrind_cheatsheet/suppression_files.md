@@ -2,7 +2,7 @@
 title: Suppression Files
 nav_order: 6
 layout: default
-parent: Valgrind Cheatsheet
+parent: 📑 Valgrind Cheatsheet
 ---
 
 ## **SUPPRESSION FILES**

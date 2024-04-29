@@ -2,7 +2,7 @@
 title: Input and Output
 nav_order: 13
 layout: default
-parent: GDB Cheatsheet
+parent: 📑 GDB Cheatsheet
 ---
 
 ## **INPUT AND OUTPUT**

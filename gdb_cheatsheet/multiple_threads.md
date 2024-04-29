@@ -2,7 +2,7 @@
 title: Multiple Threads
 nav_order: 15
 layout: default
-parent: GDB Cheatsheet
+parent: 📑 GDB Cheatsheet
 ---
 
 ## **MULTIPLE THREADS**

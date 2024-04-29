@@ -2,7 +2,7 @@
 title: Single Key Mode
 nav_order: 19
 layout: default
-parent: GDB Cheatsheet
+parent: 📑 GDB Cheatsheet
 ---
 
 ## **SINGLE KEY MODE**

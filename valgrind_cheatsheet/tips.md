@@ -2,7 +2,7 @@
 title: Tips
 nav_order: 2
 layout: default
-parent: Valgrind Cheatsheet
+parent: 📑 Valgrind Cheatsheet
 ---
 
 ## **TIPS**

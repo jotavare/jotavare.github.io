@@ -2,7 +2,7 @@
 title: History Display
 nav_order: 12
 layout: default
-parent: GDB Cheatsheet
+parent: 📑 GDB Cheatsheet
 ---
 
 ## **HISTORY DISPLAY**

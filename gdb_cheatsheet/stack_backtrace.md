@@ -2,7 +2,7 @@
 title: Stack Backtrace
 nav_order: 6
 layout: default
-parent: GDB Cheatsheet
+parent: 📑 GDB Cheatsheet
 ---
 
 ## **STACK BACKTRACE**

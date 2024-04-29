@@ -2,7 +2,7 @@
 title: References
 nav_order: 1
 layout: default
-parent: Valgrind Cheatsheet
+parent: 📑 Valgrind Cheatsheet
 ---
 
 ## **REFERENCES**

@@ -2,7 +2,7 @@
 title: Common Errors
 nav_order: 7
 layout: default
-parent: Valgrind Cheatsheet
+parent: 📑 Valgrind Cheatsheet
 ---
 
 ## **COMMON ERRORS**

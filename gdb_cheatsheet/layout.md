@@ -2,7 +2,7 @@
 title: Layout
 nav_order: 4
 layout: default
-parent: GDB Cheatsheet
+parent: 📑 GDB Cheatsheet
 ---
 
 ## **LAYOUT**

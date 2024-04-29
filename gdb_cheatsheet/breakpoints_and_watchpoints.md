@@ -2,7 +2,7 @@
 title: Breakpoints and Watchpoints
 nav_order: 5
 layout: default
-parent: GDB Cheatsheet
+parent: 📑 GDB Cheatsheet
 ---
 
 ## **BREAKPOINTS AND WATCHPOINTS**

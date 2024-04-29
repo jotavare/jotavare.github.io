@@ -2,7 +2,7 @@
 title: Helgrind
 nav_order: 4
 layout: default
-parent: Valgrind Cheatsheet
+parent: 📑 Valgrind Cheatsheet
 ---
 
 ## **HELGRIND TIPS**

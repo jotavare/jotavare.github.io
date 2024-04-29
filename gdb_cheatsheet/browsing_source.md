@@ -2,7 +2,7 @@
 title: Browsing Source
 nav_order: 7
 layout: default
-parent: GDB Cheatsheet
+parent: 📑 GDB Cheatsheet
 ---
 
 ## **BROWSING SOURCE**

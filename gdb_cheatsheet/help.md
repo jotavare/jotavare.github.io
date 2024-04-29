@@ -2,7 +2,7 @@
 title: Help
 nav_order: 3
 layout: default
-parent: GDB Cheatsheet
+parent: 📑 GDB Cheatsheet
 ---
 
 ## **HELP**

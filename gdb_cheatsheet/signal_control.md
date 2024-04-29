@@ -2,7 +2,7 @@
 title: Signal Control
 nav_order: 10
 layout: default
-parent: GDB Cheatsheet
+parent: 📑 GDB Cheatsheet
 ---
 
 ## **SIGNAL CONTROL**

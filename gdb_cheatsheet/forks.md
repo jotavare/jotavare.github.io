@@ -2,7 +2,7 @@
 title: Forks
 nav_order: 16
 layout: default
-parent: GDB Cheatsheet
+parent: 📑 GDB Cheatsheet
 ---
 
 ## **FORKS**

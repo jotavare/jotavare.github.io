@@ -2,7 +2,7 @@
 title: Memcheck
 nav_order: 3
 layout: default
-parent: Valgrind Cheatsheet
+parent: 📑 Valgrind Cheatsheet
 ---
 
 ## **MEMCHECK TIPS**
