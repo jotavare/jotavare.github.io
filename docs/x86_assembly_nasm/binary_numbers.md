@@ -9,12 +9,12 @@ parent: 🔲 x86 Assembly NASM
 
 ### **Base 10 Number System**
 
-In the base 10 system, each digit's position in a number represents an integer value ranging from 0 to 9.
+Each digit's position in a number represents an integer value ranging from 0 to 9.
 
 So, let's break down the base 10 number `13`:
 
 | 10^1 | 10^0 |
-|------|------|
+|:-----|:-----|
 |  1   |  3   |
 
 - The leftmost digit represents 10^1, which equals 10.
@@ -38,7 +38,7 @@ When we sum up these values:
 So, let's break down the binary number `1010`:
 
 | 2^3 | 2^2 | 2^1 | 2^0 |
-|-----|-----|-----|-----|
+|:----|:----|:----|:----|
 |  1  |  0  |  1  |  0  |
 
 - The leftmost digit represents **2^3**, which equals **8**.
@@ -58,23 +58,22 @@ When we sum up these values:
 
 ## Decimal to Binary Conversion
 
-For example, convert 37 to Binary:
+Let's convert 37 to Binary:
 
 Division     | Result | Remainder
--------------|--------|----------
-37/2         | 18     | 1 (18*2 = 36 + 1 = 37)
+:------------|:-------|:---------
+37/2         | 18     | 1 `(18*2 = 36 + 1 = 37)`
 18/2         | 9      | 0
 9/2          | 4      | 1
 4/2          | 2      | 0
 2/2          | 1      | 0
 1/2          | 0      | 1
 
-Reading from bottom to top and then left to right:
-100101
+- Reading from bottom to top and then left to right `100101`;
 
 Binary Value:
-- (1 * 2^0) + (1 * 2^2) + (1 * 2^5)
-- 1 + 4 + 32 = 37
+- (1x2^0) + (0x2^1) + (1x2^2) + (0x2^3) + (0x2^4) + (1x2^5)
+- 1 + 0 + 4 + 0 + 0 + 32 = 37
 
 ## Additional Information
 
