@@ -9,10 +9,10 @@ parent: 🔲 x86 Assembly NASM
 
 ### **Base 10 Number System**
 
-In base 10 system, each digit's position in a number represents an integer value ranging from 0 to 9.
+In base 10 system, each digit's position in a number represents an integer value ranging from **0 to 9**.
 
 <div class="code-example" markdown="1">
-Let's do an example with the number `13`:
+So, let's break down the binary number `13`:
 </div>
 ```shell
 | 10^1 | 10^0 |
@@ -20,28 +20,28 @@ Let's do an example with the number `13`:
 |  1   |  3   |
 ```
 
+- The leftmost digit represents **10^1**, which equals **10**.
+- The rightmost digit represents **10^0**, which equals **1**.
+
 <div class="code-example" markdown="1">
-Calculation:
+When we sum up these values:
 </div>
 ```shell
 - (1 * 10^1) + (3 * 10^0)
 - (1 * 10) + (3 * 1)
 - 10 + 3 = 13
+- 13 = 13
 ```
 
 ### **Binary Number System**
 
-- Binary numbers are represented using only two symbols: 0 (off) and 1 (on);
+- Binary numbers are represented using only two symbols: **0 (off)** and **1 (on)**;
 - Expressing values in the base-2 numeral system;
-- Each digit's position represents a power of 2;
-- The rightmost digit represents 2^0, the next one 2^1, then 2^2, and so on;
+- Each digit's position represents a **power of 2**;
+- The rightmost digit represents **2^0**, the next one **2^1**, then **2^2**, and so on;
 
 <div class="code-example" markdown="1">
-So, let's break down the binary number 1010:
-- The leftmost digit represents 2323, which equals 8.
-- The next digit to the right represents 2222, which equals 4.
-- The next digit represents 2121, which equals 2.
-- The rightmost digit represents 2020, which equals 1.
+So, let's break down the binary number `1010`:
 </div>
 ```shell
 | 2^3 | 2^2 | 2^1 | 2^0 |
@@ -49,14 +49,19 @@ So, let's break down the binary number 1010:
 |  1  |  0  |  1  |  0  |
 ```
 
+- The leftmost digit represents **2^3**, which equals **8**.
+- The next digit to the right represents 2^2, which equals **4**.
+- The next digit represents **2^1**, which equals **2**.
+- The rightmost digit represents **2^0**, which equals **1**.
+
 <div class="code-example" markdown="1">
 When we sum up these values:
 </div>
 ```shell
-- 2^3 + 2^2 + 2^1 + 2^0
-- (1 * 2^3) + (0 * 2^2) + (1 * 2^1) + (0 * 2^0)
-- 8 + 0 + 2 + 0 = 10
-- 1010 = 10
+> 2^3 + 2^2 + 2^1 + 2^0
+> (1 * 2^3) + (0 * 2^2) + (1 * 2^1) + (0 * 2^0)
+> 8 + 0 + 2 + 0 = 10
+> 1010 = 10
 ```
 
 ## Decimal to Binary Conversion
