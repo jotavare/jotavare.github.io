@@ -9,7 +9,7 @@ parent: 🔲 x86 Assembly NASM
 
 ### **Why NASM?**
 
-NASM offers a simplified syntax compared to the more complex AT&T syntax commonly used on Linux systems. It's designed to be more approachable for beginners while still providing all the necessary skills for x86 programming. Plus, NASM is an assembler widely used in the industry, making it a valuable tool to learn.
+NASM offers a simplified syntax compared to the more complex AT&T syntax commonly used on Linux systems. It's designed to be **more approachable for beginners** while still providing all the necessary skills for x86 programming. Plus, **NASM is an assembler widely used in the industry**, making it a valuable tool to learn.
 
 ----
 
@@ -23,18 +23,18 @@ sudo apt -y install nasm
 ```
 
 {:.important-title}
-`-y` flag automatically confirms installation prompts.
+`-y` flag **automatically** confirms installation prompts.
 
-Create a new file with a `.s`, `.as`, or `.asm` extension, such as `first.s`, using your preferred text editor.
+Create a new file with a `.s`, `.as`, or `.asm` extension, such as `first.s`.
 
 ----
 
 ### **Program Structure**
 - Divide your program into sections:
-  - **Data Section**: Stores variables used in the program.
-  - **Text Section**: Contains the actual code of the program.
+  - `.section_data` stores variables used in the program.
+  - `.section_text` contains the actual code of the program.
 
-```assembly
+```x86asm
 .section_data
 
 .section_text
@@ -46,7 +46,7 @@ Create a new file with a `.s`, `.as`, or `.asm` extension, such as `first.s`, us
 - Use the `global _start` directive to declare the entry point of your program.
 - Define a label `_start:` to mark the beginning of the program execution.
 
-```assembly
+```x86asm
 global _start
 
 _start:
@@ -58,22 +58,22 @@ _start:
 - Use the `mov` instruction to move data between locations, such as registers.
 - Example: `mov eax, 1` moves the value `1` into the `eax` register.
 - You can move static values into registers for manipulation.
-- `move destination, source` - Moves 1 to `eax`.
+- `move destination, source`
 
-```assembly
+```x86asm
 mov eax, 1
 ```
 
 ----
 
 ### **Ending the Program**
-- To terminate the program, use an interrupt instruction (`int`).
+- To terminate the program, use an interrupt instruction `int`.
 - Specify the desired action in the `eax` register.
 - For example, `mov eax, 1` indicates the exit system call.
 - Set the exit status code in the `ebx` register.
 - Execute the interrupt with `int 0x80` (hexadecimal value `80`).
 
-```assembly
+```x86asm
 mov eax, 1
 mov ebx, 0
 int 0x80
@@ -83,7 +83,7 @@ int 0x80
 
 ### **End Result**
 
-```assembly
+```x86asm
 section .data
 
 section .text
@@ -97,10 +97,10 @@ _start:
 
 ----
 
-### **Compiling with NASM
+### **Compiling with NASM**
 **
 <div class="code-example" markdown="1">
-Use NASM to compile the assembly code into an object file (`.o`).
+Use NASM to compile the assembly code into an object file `.o`.
 </div>
 ```bash
 nasm -f elf -o first.o first.s
@@ -117,7 +117,7 @@ ld -m elf_i386 -o first first.o
 ```
 
 {:.important-title}
-`-m elf_i386` flag specifies the target architecture. 32 bits for x86. Intel 386.
+`-m elf_i386` flag specifies the target architecture. **32 bits** for **x86**.
 
 ----
 
@@ -134,7 +134,7 @@ echo $?
 
 ### **Debugging with GDB**
 
-- Use GDB (GNU Debugger) for debugging assembly programs.
+- Use **GDB (GNU Debugger)** for debugging assembly programs. Also works with C and C++.
 - Set breakpoints and step through the program to observe execution.
 
 <div class="code-example" markdown="1">
@@ -157,4 +157,4 @@ gdb first
 | `info registers` | View register values. |
 
 {:.important-title}
-You can my GDB cheatsheet [here](https://jotavare.github.io/gdb_cheatsheet).
+You can check my GDB cheatsheet [here](https://jotavare.github.io/gdb_cheatsheet).
