@@ -23,7 +23,7 @@ Let's break down the **base 10** number `13`:
 <div class="code-example" markdown="1">
 When we sum up these values:
 </div>
-```shell
+```
 > (1x10^1) + (3x10^0)
 > (1x10) + (3x1)
 > 10 + 3 = 13
@@ -51,7 +51,7 @@ So, let's break down the binary number `1010`:
 <div class="code-example" markdown="1">
 When we sum up these values:
 </div>
-```shell
+```
 > 2^3 + 2^2 + 2^1 + 2^0
 > (1x2^3) + (0x2^2) + (1x2^1) + (0x2^0)
 > 8 + 0 + 2 + 0 = 10
@@ -78,7 +78,7 @@ Division     | Result | Remainder
 <div class="code-example" markdown="1">
 When we sum up these values:
 </div>
-```shell
+```
 > (1x2^0) + (0x2^1) + (1x2^2) + (0x2^3) + (0x2^4) + (1x2^5)
 > 1 + 0 + 4 + 0 + 0 + 32 = 37
 ```
@@ -124,7 +124,7 @@ When we sum up these values:
 <div class="code-example" markdown="1">
 Let's illustrate binary addition with an example:
 </div>
-```shell
+```
     0110
 +   0100
 ---------
@@ -154,14 +154,14 @@ The relationship between a number and its negative counterpart is represented by
 <div class="code-example" markdown="1">
 Let's do an example for **negative numbers**:
 </div>
-```shell
+```
 > 0 000 0000 = 0
 > 1 000 0010 = -2
 > 0 000 0010 = 2
 
   1 000 0010 (Represents -2)
 + 0 000 0010 (Represents 2)
------------------
+------------
   1 000 0100 (Represents -4)
 ```
 
@@ -174,13 +174,13 @@ The two's complement is a method used in computing to **represent both positive 
 
 To find the **two's complement** of a number:
 
-1. Invert (flip) all the bits, changing **1s** to **0s** and **0s** to **1s**.
-2. After inverting the bits, add **1** to the result.
+1. **Invert (flip) all the bits**, changing **1s** to **0s** and **0s** to **1s**.
+2. After inverting the bits, **add 1** to the result.
 
 <div class="code-example" markdown="1">
 Let's find the **two's complement** of the binary number `0000 0010`:
 </div>
-```shell
+```
 > 0000 0010 (Represents 2)
 > 1111 1101 (Inverted all bits) (One's Complement)
 > 1111 1110 (Added 1) (Two's Complement)
@@ -189,10 +189,10 @@ Let's find the **two's complement** of the binary number `0000 0010`:
 <div class="code-example" markdown="1">
 The two's complement ensures that the **sum of a number and its negative counterpart equals zero**:
 </div>
-```shell
-   1111 1110 (Two's Complement)
-+  0000 0010 (represents 2)
-------------
+```
+    1111 1110 (Two's Complement)
++   0000 0010 (represents 2)
+-------------
 (1) 0000 0000 (result is 0)
 ```
 
@@ -241,7 +241,7 @@ Hexadecimal is a **convenient way to represent binary numbers**, especially in c
 <div class="code-example" markdown="1">
 Let's convert **binary** to **hexadecimal** with the number `0100 1101`:
 </div>
-```shell
+```
 > 0100 = 0 + 0 + 4 + 0 = 4
 > 1101 = 1 + 0 + 4 + 8 = 13 (D)
 
