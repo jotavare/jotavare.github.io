@@ -1,8 +1,8 @@
 ---
 title: Binary Numbers
-nav_order: 1
+nav_order: 2
 layout: default
-parent: "<img src='../../assets/icons/cpu.png' alt='CPU Icon' height='16' width='16' style='vertical-align:middle'> x86 Assembly NASM"
+parent: 🔲 x86 Assembly NASM
 ---
 
 ## **BINARY NUMBERS**
