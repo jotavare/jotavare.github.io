@@ -7,7 +7,9 @@ parent: 🔲 x86 Assembly NASM
 
 ## **X86 PROCESSOR ARCHITECTURE**
 
-![](../../assets/images/x86_processor_diagram.png)
+<div style="text-align:center;">
+    <img src="../../assets/images/x86_processor_diagram.png" alt="x86 Processor Diagram">
+</div>
 
 ### **Processor Architecture Overview**
 
@@ -38,7 +40,9 @@ The CPU comprises several crucial components:
 - **Clock**: Generates regular pulses to synchronize operations within the CPU and across the system.
 - **Memory Registers**: Fastest storage locations within the CPU used for temporary data storage and manipulation.
 
-![](../../assets/images/cpu_clock_speed.jpg)
+<div style="text-align:center;">
+    <img src="../../assets/images/cpu_clock_speed.jpg" alt="CPU Clock Speed">
+</div>
 
 - Measured in Hertz, the clock speed determines the number of instructions a CPU can execute per second.
 - One to zero and back to one is one clock cycle.
