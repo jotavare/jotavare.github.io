@@ -2,7 +2,7 @@
 title: References
 nav_order: 1
 layout: default
-parent: CPU Icon x86 Assembly NASM
+parent: "<img src='../../assets/icons/cpu.png' alt='CPU Icon' height='16' width='16' style='vertical-align:middle'> x86 Assembly NASM"
 ---
 
 ## **REFERENCES**
