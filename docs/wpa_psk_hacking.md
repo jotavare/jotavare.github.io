@@ -1,5 +1,5 @@
 ---
-title: 👾 WPA-PSK Hacking
+title: "<img src='../assets/icons/wifi_hacking.png' alt='CPU Icon' height='16' width='16' style='vertical-align:middle'> WPA-PSK Hacking"
 permalink: /wpa_psk_hacking/
 layout: default
 nav_order: 7
