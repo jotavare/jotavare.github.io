@@ -149,6 +149,8 @@ In signed binary numbers, the **most significant bit (MSB)** serves as the **sig
 - `0` - Represents a **positive number**.
 - `1` - Represents a **negative number**.
 
+The relationship between a number and its negative counterpart is represented by the equation, which is a **law in arithmetic**, `A + (−A) = 0`.
+
 <div class="code-example" markdown="1">
 Let's do an example for **negative numbers**:
 </div>
@@ -156,11 +158,16 @@ Let's do an example for **negative numbers**:
 > 0 000 0000 = 0
 > 1 000 0010 = -2
 > 0 000 0010 = 2
-> 1 000 0100 = -4
+
+  1 000 0010 (Represents -2)
++ 0 000 0010 (Represents 2)
+-----------------
+  1 000 0100 (Represents -4)
 ```
 
-The relationship between a number and its negative counterpart is represented by the equation:
-`A+(−A)=0`
+{: .important-title }
+The result `-4` is unexpected based on the law of arithmetic `A + (−A) = 0`. To properly represent negative numbers in binary, we utilize **two's complement**. In addition to the MSB sign bit for assigning a negative value, we apply the two's complement to negative numbers to obtain the correct result. This ensures accurate representation of negative values in binary arithmetic.
+
 
 ### **Two's Complement**
 The two's complement is a method used in computing to **represent both positive and negative integers** using binary numbers. It's particularly efficient for arithmetic operations because it simplifies addition and subtraction by treating positive and negative numbers uniformly.
@@ -175,20 +182,22 @@ Let's find the **two's complement** of the binary number `0000 0010`:
 </div>
 ```shell
 > 0000 0010 (Represents 2)
-> 1111 1101 (Inverted all bits) (One's Complement).
-> 1111 1110 (Added 1)  (Two's Complement) (Represents -2)
+> 1111 1101 (Inverted all bits) (One's Complement)
+> 1111 1110 (Added 1) (Two's Complement)
+```
 
 <div class="code-example" markdown="1">
 The two's complement ensures that the **sum of a number and its negative counterpart equals zero**:
 </div>
 ```shell
-   1111 1110 (represents -2)
+   1111 1110 (Two's Complement)
 +  0000 0010 (represents 2)
------------
-   1 0000 0000
+------------
+(1) 0000 0000 (result is 0)
 ```
 
-This result represents **0** in **signed** binary numbers.
+- The overflow, represented by (1), is handled by a **special register** called the `carry register`, which is not directly visible in the result.
+- With this method, we satisfy the law of arithmetic `A + (−A) = 0`.
 
 The **two's complement** representation has **several advantages**:
 - It allows for the **representation of both positive and negative numbers** using the same binary system.
