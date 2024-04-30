@@ -31,13 +31,13 @@ Create a new file with a `.s`, `.as`, or `.asm` extension, such as `first.s`.
 
 ### **Program Structure**
 - Divide your program into sections:
-  - `.section data` stores variables used in the program.
-  - `.section text` contains the actual code of the program.
+  - `section .data` stores variables used in the program.
+  - `section .text` contains the actual code of the program.
 
 ```c
-.section data
+section .data
 
-.section text
+section .text
 ```
 
 ----
