@@ -197,42 +197,44 @@ The **two's complement** representation has **several advantages**:
 
 ### **Hexadecimal Numbers**
 
-Hexadecimal is a convenient way to represent binary numbers, especially in computing.
+Hexadecimal is a **convenient way to represent binary numbers**, especially in computing, due to its efficiency in both readability and compactness.
 
 - It's a **base 16** numbering system.
 - It uses the digits **0-9** and the letters **A-F** to represent values from **10 to 15**.
 
 | Decimal | Hexadecimal |
 |:--------|:------------|
-| 0       | 0x0         |
-| 1       | 0x1         |
-| 2       | 0x2         |
-| 3       | 0x3         |
-| 4       | 0x4         |
-| 5       | 0x5         |
-| 6       | 0x6         |
-| 7       | 0x7         |
-| 8       | 0x8         |
-| 9       | 0x9         |
-| 10      | 0xA         |
-| 11      | 0xB         |
-| 12      | 0xC         |
-| 13      | 0xD         |
-| 14      | 0xE         |
-| 15      | 0xF         |
+| 0       | 0           |
+| 1       | 1           |
+| 2       | 2           |
+| 3       | 3           |
+| 4       | 4           |
+| 5       | 5           |
+| 6       | 6           |
+| 7       | 7           |
+| 8       | 8           |
+| 9       | 9           |
+| 10      | A           |
+| 11      | B           |
+| 12      | C           |
+| 13      | D           |
+| 14      | E           |
+| 15      | F           |
 
-- **0x10** in hexadecimal equals **16** in decimal.
+- To understand better, we can divide the **binary number** into groups of **4 bits**.
+- The reason for this is that every 4 bits represents a hexadecimal value.
+
+| 8 | 4 | 2 | 1 | Total  |
+|:-:|:-:|:-:|:-:| :----- |
+| 0 | 0 | 0 | 0 | 0      |
+| 1 | 1 | 1 | 1 | 15 (F) |
 
 <div class="code-example" markdown="1">
-Converting binary to hexadecimal:
+Let's convert **binary** to **hexadecimal** with the number `0100 1101`:
 </div>
 ```shell
-0000 0000 -> 0x00
-1111 1111 -> 0xFF
+> 0100 = 0 + 0 + 4 + 0 = 4
+> 1101 = 1 + 0 + 4 + 8 = 13 (D)
 
-1111 -> F (15) = 1+2+4+8
-
-0100 1101 -> 4D
+> 0100 1101 = 4D
 ```
-
-So, **0100 1101** in binary equals **4D** in hexadecimal.
