@@ -24,8 +24,8 @@ So, let's break down the base 10 number `13`:
 When we sum up these values:
 </div>
 ```shell
-- (1 * 10^1) + (3 * 10^0)
-- (1 * 10) + (3 * 1)
+- (1x10^1) + (3x10^0)
+- (1x10) + (3x1)
 - 10 + 3 = 13
 ```
 
@@ -51,12 +51,12 @@ When we sum up these values:
 </div>
 ```shell
 > 2^3 + 2^2 + 2^1 + 2^0
-> (1 * 2^3) + (0 * 2^2) + (1 * 2^1) + (0 * 2^0)
+> (1x2^3) + (0x2^2) + (1x2^1) + (0x2^0)
 > 8 + 0 + 2 + 0 = 10
 > 1010 = 10
 ```
 
-## Decimal to Binary Conversion
+## **Decimal to Binary Conversion**
 
 Let's convert 37 to Binary:
 
@@ -71,21 +71,37 @@ Division     | Result | Remainder
 
 - Reading from bottom to top and then left to right `100101`;
 
-Binary Value:
+<div class="code-example" markdown="1">
+When we sum up these values:
+</div>
+```shell
 - (1x2^0) + (0x2^1) + (1x2^2) + (0x2^3) + (0x2^4) + (1x2^5)
 - 1 + 0 + 4 + 0 + 0 + 32 = 37
+```
 
-## Additional Information
+## **Binary Representation in Computers**
 
-- 1 byte = 8 bits
-- Binary representation:
-  - 256 128 64 32 16 8 4 2
-  - 0   0   0  0  0  0 0 0
-- Computers start counting from 0 to 255
+### **Byte and Bit Relationship**
+| Byte | 1 |
+|:-----|:--|
+| Bits | 8 |
 
-# Binary Basics
+- **1 byte** consists of **8 bits**.
 
-## Binary Addition
+### **Binary Positional Notation**
+| 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+|:----|:---|:---|:---|:-:|:-:|:-:|:-:| 
+|  0  |  0 |  0 |  0 | 0 | 0 | 0 | 0 |
+
+- Binary numbers are represented using **8 bits**.
+- Each bit represents a specific value, ranging from **1** to **128**.
+
+### **Binary Counting**
+
+- Computers count in binary, starting from **0** to **255**.
+- The value **255** is represented by setting all bits to **1** in a byte.
+
+## **Binary Addition**
 0 + 0 = 0
 0 + 1 = 1
 1 + 0 = 1
