@@ -56,7 +56,7 @@ When we sum up these values:
 > 1010 = 10
 ```
 
-## **Decimal to Binary Conversion**
+### **Decimal to Binary Conversion**
 
 Let's convert 37 to Binary:
 
@@ -69,7 +69,7 @@ Division     | Result | Remainder
 2/2          | 1      | 0
 1/2          | 0      | 1
 
-- Reading from bottom to top and then left to right `100101`;
+- Reading from bottom to top and then left to right = `100101`;
 
 <div class="code-example" markdown="1">
 When we sum up these values:
@@ -79,9 +79,10 @@ When we sum up these values:
 - 1 + 0 + 4 + 0 + 0 + 32 = 37
 ```
 
-## **Binary Representation in Computers**
+### **Binary Representation in Computers**
 
 ### **Byte and Bit Relationship**
+
 | Byte | 1 |
 |:-----|:--|
 | Bits | 8 |
@@ -89,6 +90,7 @@ When we sum up these values:
 - **1 byte** consists of **8 bits**.
 
 ### **Binary Positional Notation**
+
 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
 |:----|:---|:---|:---|:-:|:-:|:-:|:-:| 
 |  0  |  0 |  0 |  0 | 0 | 0 | 0 | 0 |
@@ -101,70 +103,101 @@ When we sum up these values:
 - Computers count in binary, starting from **0** to **255**.
 - The value **255** is represented by setting all bits to **1** in a byte.
 
-## **Binary Addition**
-0 + 0 = 0
-0 + 1 = 1
-1 + 0 = 1
-1 + 1 = 10
+### **Binary Addition**
 
-0110
-0100
----- +
-1010
+- 0 + 0 = 0: When both bits are 0, the result is 0.
+- 0 + 1 = 1: When one bit is 0 and the other is 1, the result is 1.
+- 1 + 0 = 1: Similar to the previous case, the result is 1.
+- 1 + 1 = 10: When both bits are 1, the result is 10 in binary, which equals 2 in decimal.
+
+<div class="code-example" markdown="1">
+Let's illustrate binary addition with an example:
+</div>
+```shell
+    0110
++   0100
+---------
+    1010
+```
+
+Starting from the rightmost bits:
+
+- Adding the bits in the 1's place: 0 + 0 = 0.
+- Moving to the next bit: 1 + 0 = 1.
+- Then: 1 + 1 = 10 (write down 0 and carry over 1).
+- Finally: 0 + 0 (plus the carried over 1) = 1.
+
+So, the result is `1010` in binary.
 
 ## Signed Binary Numbers
 
-- Most significant bit (MSB) is the sign bit
-- 0 positive
-- 1 negative
+In signed binary numbers, the most significant bit (MSB) serves as the sign bit:
 
-0000 0000 = 0
+- 0: Represents a positive number.
+- 1: Represents a negative number.
 
-if number is negative
+For example:
 
-1 000 0010 = -2
-0 000 0010 = 2
-----------
-1000 0100 = -4
+- 0000 0000: Represents the number 0.
+- If the number is negative:
+    - 1 000 0010: Represents -2.
+    - 0 000 0010: Represents 2.
+    - 1000 0100: Represents -4.
 
-0 positive
-1 negative
+The relationship between a number and its negative counterpart is represented by the equation: `A+(−A)=0A+(−A)=0.`
 
+### **Two's Complement**
+The two's complement is a method used in computing to represent both positive and negative integers using binary numbers. It's particularly efficient for arithmetic operations because it simplifies addition and subtraction by treating positive and negative numbers uniformly.
 
-A + (-A) = 0
+To find the two's complement of a number:
 
-## Two's Complement
+1. Invert all bits: Start with the binary representation of the number you want to represent. To find its two's complement, invert (flip) all the bits, changing 1s to 0s and 0s to 1s.
+2. Add 1: After inverting the bits, add 1 to the result.
 
-- Invert all bits
-- Add 1
+For example, let's find the two's complement of the binary number 0000 0010:
+- 0000 0010: Represents 2.
+- Inverting all bits, we get 1111 1101 (one's complement).
+- Adding 1, we get 1111 1110 (two's complement), which represents -2.
 
-0000 0010 = 2
-1111 1101 = -2 (invert all bits) one's complement
----------
-        1 (add 1)
+<div class="code-example" markdown="1">
+The two's complement ensures that the sum of a number and its negative counterpart equals zero:
+</div>
+```yaml
+   1111 1110 (represents -2)
++  0000 0010 (represents 2)
+-----------
+   1 0000 0000
+```
 
-   1111 1110 = -2 (two's complement)
-   0000 0010
-   ---------
-1  0000 0000
+This result represents 0 in signed binary numbers.
+
+The two's complement representation has several advantages:
+- It allows for the representation of both positive and negative numbers using the same binary system.
+- It simplifies arithmetic operations like addition and subtraction because negative numbers are represented in a way that aligns well with addition.
+- It eliminates the need for a separate sign bit, making the representation more compact and efficient for computation in computer hardware.
 
 # Hexadecimal Numbers
 
-Just a better way to represent binary numbers
+Hexadecimal is a convenient way to represent binary numbers, especially in computing.
 
-- Base 16
-- 0-9 and A-F
+- It's a base 16 numbering system.
+- It uses the digits 0-9 and the letters A-F to represent values from 10 to 15.
 
 Example:
 - 0 1 2 3 4 5 6 7 8 9 A B C D E F
 - 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
-- 0x10 = 16
+- 0x10 in hexadecimal equals 16 in decimal.
 
-0000 0000
-1111 1111
+<div class="code-example" markdown="1">
+Converting binary to hexadecimal:
+</div>
+```yaml
+0000 0000 -> 0x00
+1111 1111 -> 0xFF
 
 1111 -> F (15) = 1+2+4+8
 
-0100 1101 = 4D
----------
-4    D(13)
+0100 1101 -> 4D
+```
+
+So, 0100 1101 in binary equals 4D in hexadecimal.
