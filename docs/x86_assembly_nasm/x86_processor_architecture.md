@@ -8,6 +8,7 @@ parent: 🔲 x86 Assembly NASM
 ## **X86 PROCESSOR ARCHITECTURE**
 
 <div style="text-align:center;">
+    <br>
     <img src="../../assets/images/x86_processor_diagram.png" alt="x86 Processor Diagram">
 </div>
 
