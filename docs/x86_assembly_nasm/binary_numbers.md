@@ -231,12 +231,12 @@ Hexadecimal is a **convenient way to represent binary numbers**, especially in c
 | 15      | F           |
 
 - To understand better, we can divide the **binary number** into groups of **4 bits**.
-- The reason for this is that every 4 bits represents a hexadecimal value.
+- The reason for this is that every **4 bits represents a hexadecimal value**.
 
-| 8 | 4 | 2 | 1 | Total  |
-|:-:|:-:|:-:|:-:| :----- |
-| 0 | 0 | 0 | 0 | 0      |
-| 1 | 1 | 1 | 1 | 15 (F) |
+| Binary | 8 (2^3) | 4 (2^2) | 2 (2^1) | 1 (2^0) | Total   |
+|:-------|:--------|:--------|:--------|:--------|:--------|
+| 0000   |    0    |    0    |    0    |    0    |   0     |
+| 1111   |    1    |    1    |    1    |    1    |  15 (F) |
 
 <div class="code-example" markdown="1">
 Let's convert **binary** to **hexadecimal** with the number `0100 1101`:
