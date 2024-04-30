@@ -149,15 +149,15 @@ The relationship between a number and its negative counterpart is represented by
 ### **Two's Complement**
 The two's complement is a method used in computing to represent both positive and negative integers using binary numbers. It's particularly efficient for arithmetic operations because it simplifies addition and subtraction by treating positive and negative numbers uniformly.
 
-To find the two's complement of a number:
+To find the **two's complement** of a number:
 
-1. Invert all bits: Start with the binary representation of the number you want to represent. To find its two's complement, invert (flip) all the bits, changing 1s to 0s and 0s to 1s.
-2. Add 1: After inverting the bits, add 1 to the result.
+1. Invert (flip) all the bits, changing **1s** to **0s** and **0s** to **1s**.
+2. After inverting the bits, add **1** to the result.
 
-For example, let's find the two's complement of the binary number 0000 0010:
-- 0000 0010: Represents 2.
-- Inverting all bits, we get 1111 1101 (one's complement).
-- Adding 1, we get 1111 1110 (two's complement), which represents -2.
+For example, let's find the two's complement of the binary number **0000 0010**:
+- **0000 0010**: Represents **2**.
+- Inverting all bits, we get **1111 1101** (one's complement).
+- Adding **1**, we get **1111 1110** (two's complement), which represents **-2**.
 
 <div class="code-example" markdown="1">
 The two's complement ensures that the sum of a number and its negative counterpart equals zero:
@@ -169,7 +169,7 @@ The two's complement ensures that the sum of a number and its negative counterpa
    1 0000 0000
 ```
 
-This result represents 0 in signed binary numbers.
+This result represents **0** in **signed** binary numbers.
 
 The two's complement representation has several advantages:
 - It allows for the representation of both positive and negative numbers using the same binary system.
@@ -180,13 +180,14 @@ The two's complement representation has several advantages:
 
 Hexadecimal is a convenient way to represent binary numbers, especially in computing.
 
-- It's a base 16 numbering system.
-- It uses the digits 0-9 and the letters A-F to represent values from 10 to 15.
+- It's a **base 16** numbering system.
+- It uses the digits **0-9** and the letters **A-F** to represent values from **10 to 15**.
 
-Example:
-- 0 1 2 3 4 5 6 7 8 9 A B C D E F
-- 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
-- 0x10 in hexadecimal equals 16 in decimal.
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
+|:--|:--|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |10 |11 |12 |13 |14 |15 |
+
+- **0x10** in hexadecimal equals **16** in decimal.
 
 <div class="code-example" markdown="1">
 Converting binary to hexadecimal:
@@ -200,4 +201,4 @@ Converting binary to hexadecimal:
 0100 1101 -> 4D
 ```
 
-So, 0100 1101 in binary equals 4D in hexadecimal.
+So, **0100 1101** in binary equals **4D** in hexadecimal.
