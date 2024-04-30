@@ -34,7 +34,7 @@ Create a new file with a `.s`, `.as`, or `.asm` extension, such as `first.s`.
   - `.section_data` stores variables used in the program.
   - `.section_text` contains the actual code of the program.
 
-```x86asm
+```c
 .section_data
 
 .section_text
@@ -46,7 +46,7 @@ Create a new file with a `.s`, `.as`, or `.asm` extension, such as `first.s`.
 - Use the `global _start` directive to declare the entry point of your program.
 - Define a label `_start:` to mark the beginning of the program execution.
 
-```x86asm
+```c
 global _start
 
 _start:
@@ -60,7 +60,7 @@ _start:
 - You can move static values into registers for manipulation.
 - `move destination, source`
 
-```x86asm
+```c
 mov eax, 1
 ```
 
@@ -73,7 +73,7 @@ mov eax, 1
 - Set the exit status code in the `ebx` register.
 - Execute the interrupt with `int 0x80` (hexadecimal value `80`).
 
-```x86asm
+```c
 mov eax, 1
 mov ebx, 0
 int 0x80
@@ -83,7 +83,7 @@ int 0x80
 
 ### **End Result**
 
-```x86asm
+```c
 section .data
 
 section .text
@@ -98,7 +98,7 @@ _start:
 ----
 
 ### **Compiling with NASM**
-**
+
 <div class="code-example" markdown="1">
 Use NASM to compile the assembly code into an object file `.o`.
 </div>
@@ -109,6 +109,7 @@ nasm -f elf -o first.o first.s
 ----
 
 ### **Linking and Generating Executable**
+
 <div class="code-example" markdown="1">
 Link the object file to create an executable.
 </div>
@@ -122,9 +123,10 @@ ld -m elf_i386 -o first first.o
 ----
 
 ### **Running the Program**
+
 <div class="code-example" markdown="1">
-- Execute the program using and verify the exit status code.
-- </div>
+Execute the program using and verify the exit status code.
+</div>
 ```bash
 ./first
 echo $?
