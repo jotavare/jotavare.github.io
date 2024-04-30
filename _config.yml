@@ -16,29 +16,29 @@ aux_links_new_tab: true
 
 # External navigation links
 nav_external_links:
-  - title: Quick Reference
+  - title: 🔗 Quick Reference
     url: https://quickref.me/
-    hide_icon: false
+    hide_icon: true
     opens_in_new_tab: true
-  - title: Piscine Repository
+  - title: 🔗 Piscine Repository
     url: https://github.com/jotavare/42-piscine
-    hide_icon: false
+    hide_icon: true
     opens_in_new_tab: true
-  - title: Common Core Repository
+  - title: 🔗 Common Core Repository
     url: https://github.com/jotavare/42-common-core
-    hide_icon: false
+    hide_icon: true
     opens_in_new_tab: true
-  - title: One Year of 42
+  - title: 🔗 One Year of 42
     url: https://www.linkedin.com/pulse/one-year-42-jo%C3%A3o-oliveira/
-    hide_icon: false
+    hide_icon: true
     opens_in_new_tab: true
-  - title: Terminal Style CV
+  - title: 🔗 Terminal Style CV
     url: https://jotavare.github.io/terminal-style-cv/
-    hide_icon: false
+    hide_icon: true
     opens_in_new_tab: true
-  - title: Registry Repository
+  - title: 🔗 Registry Repository
     url: https://github.com/jotavare/jotavare.github.io
-    hide_icon: false
+    hide_icon: true
     opens_in_new_tab: true
 
 color_scheme: dark
