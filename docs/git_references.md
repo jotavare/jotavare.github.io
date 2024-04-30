@@ -2,7 +2,7 @@
 title: 📑 Git References
 permalink: /git_references/
 layout: default
-nav_order: 4.5
+nav_order: 5
 ---
 
 ## **GIT REFERENCES**

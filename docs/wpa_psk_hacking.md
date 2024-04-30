@@ -2,7 +2,7 @@
 title: 👾 WPA-PSK Hacking
 permalink: /wpa_psk_hacking/
 layout: default
-nav_order: 5
+nav_order: 7
 ---
 
 # **WPA-PSK HACKING**
