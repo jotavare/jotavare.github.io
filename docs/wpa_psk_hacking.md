@@ -1,5 +1,5 @@
 ---
-title: 🛜 WPA-PSK Hacking
+title: 🏴‍☠️ WPA-PSK Hacking
 permalink: /wpa_psk_hacking/
 layout: default
 nav_order: 7
