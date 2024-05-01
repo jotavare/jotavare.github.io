@@ -7,6 +7,9 @@ parent: 🔲 x86 Assembly NASM
 
 ## **UNINITIALIZED DATA**
 
+{: .important-title }
+If you're into exploring binary, decimal, and hexadecimal numbers, there's a handy [online converter](https://www.mathsisfun.com/binary-decimal-hexadecimal-converter.html) you can use. It's perfect for tinkering with different number systems and understanding how they work.
+
 ### **BSS Section**
 
 In x86 assembly, sometimes we need to reserve memory for potential data storage without initializing it to specific values. This is where the BSS section comes into play.

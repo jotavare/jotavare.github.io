@@ -23,11 +23,11 @@ _start:
 ```
 
 {: .important-title }
-If we run the code and print the exit code with `echo $?` in bash, we'll see the **ASCII** value of `'A' (65)`. This is because everything is in binary, and the ASCII value of `'A'` is `65`. You can search for the **ASCII table** to verify this or use the `man ascii` command in the terminal.
+If we run the code and print the exit code with `echo $?` in bash, we'll see the **ASCII** value of `'A' (65)`. You can search for the **ASCII table** to verify this or use the `man ascii` command in the terminal.
 
 ----
 
-### **Lists Data**
+### **List Data**
 
 ```
 section .data
@@ -44,7 +44,7 @@ _start:
 ```
 
 {: .important-title }
-One thing I **omitted** in this code is the **null terminator**, something that I learned in `C`. In this case, we have a list of values, so we need to add the **null terminator** manually so we know when the list ends. We can use whatever value we want as long as it's not part of the list. For example, in this case using `0` or `-1` would be a good choice like `list db 1, 2, 3, 4, -1`.
+One thing I **omitted** in this code is the **null terminator**, something that I learned in `C`. In this case, we have a list of values, so we need to add the **null terminator** manually so we know when the list ends. We can use whatever value we want as long as it's not part of the list. For example, in this case using `0` or `-1` would be a good choice `list db 1, 2, 3, 4, -1`.
 
 ----
 
