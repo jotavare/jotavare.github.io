@@ -27,7 +27,7 @@ If we run the code and print the exit code with `echo $?` in bash, we'll see the
 
 ----
 
-### **Lists of Values**
+### **Lists Data**
 
 ```
 section .data
@@ -48,7 +48,7 @@ One thing I **omitted** in this code is the **null terminator**, something that 
 
 ----
 
-### **Strings**
+### **String Data**
 
 ```
 section .data
@@ -82,5 +82,3 @@ echo "set disassembly-flavor intel" > ~/.gdbinit
 
 {: .important-title }
 Also, in **GDB** we can use `x/x` to see the **memory address** in **hex** and `x/x2` to see the **next 2 memory addresses** and so on.
-
-----

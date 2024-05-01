@@ -168,6 +168,7 @@ Let's do an example for **negative numbers**:
 {: .important-title }
 The result `-4` is unexpected based on the law of arithmetic `A + (−A) = 0`. To properly represent negative numbers in binary, we utilize **two's complement**. In addition to the MSB sign bit for assigning a negative value, we apply the two's complement to negative numbers to obtain the correct result. This ensures accurate representation of negative values in binary arithmetic.
 
+----
 
 ### **Two's Complement**
 The two's complement is a method used in computing to **represent both positive and negative integers** using binary numbers. It's particularly efficient for arithmetic operations because it simplifies addition and subtraction by treating positive and negative numbers uniformly.
@@ -203,6 +204,8 @@ The **two's complement** representation has **several advantages**:
 - It allows for the **representation of both positive and negative numbers** using the same binary system.
 - It **simplifies arithmetic operations** like addition and subtraction because negative numbers are represented in a way that aligns well with addition.
 - It **eliminates the need for a separate sign bit**, making the representation more compact and efficient for computation in computer hardware.
+
+----
 
 ### **Hexadecimal Numbers**
 

@@ -48,7 +48,7 @@ parent: 🔲 x86 Assembly NASM
 {: .important-title }
 You can check more information about register types [here](https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture).
 
-### **Special Purpose Registers**
+### **Special Registers and Flags**
 
 | Register | Description |
 |:---------|:------------|
