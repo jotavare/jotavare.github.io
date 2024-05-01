@@ -8,11 +8,11 @@ parent: 🔲 x86 Assembly NASM
 ## **UNINITIALIZED DATA**
 
 {: .important-title }
-If you're into exploring binary, decimal, and hexadecimal numbers, there's a handy [online converter](https://www.mathsisfun.com/binary-decimal-hexadecimal-converter.html) you can use. It's perfect for tinkering with different number systems and understanding how they work.
+If you're into exploring **binary, decimal, and hexadecimal numbers**, there's a handy [online converter](https://www.mathsisfun.com/binary-decimal-hexadecimal-converter.html) you can use. It's perfect for tinkering with different number systems and understanding how they work.
 
 ### **BSS Section**
 
-In x86 assembly, sometimes we need to reserve memory for potential data storage without initializing it to specific values. This is where the BSS section comes into play.
+In **x86 assembly**, sometimes we need to **reserve memory** for potential data storage without initializing it to specific values. This is where the **BSS section** comes into play.
 
 ```
 section .bss
@@ -33,7 +33,7 @@ _start:
 ```
 
 {: .important-title }
-In x86 assembly, **sizes are not inherently understood**, so we need to provide context for data manipulation. That's why we first move the value `1` into the `bl` register and then transfer it into the memory space reserved for `num`. To access a specific byte of num, we can utilize expressions like [num+1] or [num+2] to reference the subsequent bytes in memory.
+In x86 assembly, **sizes are not inherently understood**, so we need to provide context for data manipulation. That's why we first move the value `1` into the `bl` register and then transfer it into the memory space reserved for `num`. To access a **specific byte** of `num`, we can utilize expressions like `[num+1]` or `[num+2]` to reference the subsequent bytes in memory.
 
 ----
 
