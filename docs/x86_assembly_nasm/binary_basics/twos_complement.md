@@ -34,8 +34,8 @@ The two's complement ensures that the **sum of a number and its negative counter
 (1) 0000 0000 (result is 0)
 ```
 
-- The overflow, represented by (1), is handled by a **special register** called the `carry register`, which is not directly visible in the result.
-- With this method, we satisfy the law of arithmetic `A + (−A) = 0`.
+- The overflow, represented by `(1)`, is handled by a **special register** called the `carry register`, which is not directly visible in the result.
+- With this method, I satisfy the **law of arithmetic** `A + (−A) = 0`.
 
 The **two's complement** representation has **several advantages**:
 - It allows for the **representation of both positive and negative numbers** using the same binary system.

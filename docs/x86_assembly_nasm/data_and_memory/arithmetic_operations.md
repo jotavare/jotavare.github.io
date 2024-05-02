@@ -25,7 +25,7 @@ _start:
 ```
 
 {: .important-title }
-This instruction adds the value in `ebx` to `eax` and stores the result in `eax`. So, after this operation, `eax` should contain the **sum of the two numbers** `5`. Also, we can use a number like `2` in **binary** as `0b00000010` and in **hexadecimal** as `0x02`.
+This instruction adds the value in `ebx` to `eax` and stores the result in `eax`. So, after this operation, `eax` should contain the **sum of the two numbers** `5`. Also, I can use a number like `2` in **binary** as `0b00000010` and in **hexadecimal** as `0x02`.
 
 ----
 
@@ -46,7 +46,7 @@ _start:
 ```
 
 {: .important-title }
-In this case, the result of the addition operation is `256`, which is **too large** to fit into the `al` register. In such cases, the **extra bits are carried over** and stored in the `CF` of the **EFLAGS register**. We can utilize the `adc` instruction to incorporate this carry into subsequent operations.
+In this case, the result of the addition operation is `256`, which is **too large** to fit into the `al` register. In such cases, the **extra bits are carried over** and stored in the `CF` of the **EFLAGS register**. I can utilize the `adc` instruction to incorporate this carry into subsequent operations.
 
 ----
 
@@ -108,7 +108,7 @@ _start:
 {: .important-title }
 In this case, the result of the subtraction operation is `-2`, which is a **negative number**. The `SF` **(Sign Flag)** in the **EFLAGS register** will be set to `1` to indicate that the result is **negative**.
 
-Another example, what if we subtract a **negative number** with a **positive number** `-2 + 2`:
+Another example, what if I subtract a **negative number** with a **positive number** `-2 + 2`:
 
 ```
 section .data
@@ -150,7 +150,7 @@ In this case, the `mul` instruction multiplies the value in `bl` by `al` and sto
 
 In multiplication it's interesting, because it only **requires one operand**, the other operand is implicitly the `al` register. The result of the multiplication operation is stored in the **pair of registers** `ax` and `dx`. The `ax` register contains the **lower 16 bits** of the result, while the `dx` register contains the **higher 16 bits**.
 
-Let's see another example with `mul`, where we **multiply two unsigned numbers** but the result is **too large** to fit in the `ax` register:
+Let's see another example with `mul`, where I **multiply two unsigned numbers** but the result is **too large** to fit in the `ax` register:
 
 ```
 section .data
@@ -171,7 +171,7 @@ In this case, the result of the multiplication operation is `510`, which is **to
 
 The `imul` instruction is used to perform multiplication operations, primarily for **signed integers**.
 
-Now, let's see an example with `imul` where we **multiply two unsigned numbers**:
+Now, let's see an example with `imul` where I **multiply two unsigned numbers**:
 
 ```
 section .data

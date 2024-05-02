@@ -10,7 +10,7 @@ grand_parent: 🔲 x86 Assembly NASM
 
 ### **BSS Section**
 
-In **x86 assembly**, sometimes we need to **reserve memory** for potential data storage without initializing it to specific values. This is where the **BSS section** comes into play.
+In **x86 assembly**, sometimes I need to **reserve memory** for potential data storage without initializing it to specific values. This is where the **BSS section** comes into play.
 
 ```
 section .bss
@@ -31,13 +31,13 @@ _start:
 ```
 
 {: .important-title }
-In x86 assembly, **sizes are not inherently understood**, so we need to provide context for data manipulation. That's why we first move the value `1` into the `bl` register and then transfer it into the memory space reserved for `num`. To access a **specific byte** of `num`, we can utilize expressions like `[num+1]` or `[num+2]` to reference the subsequent bytes in memory.
+In x86 assembly, **sizes are not inherently understood**, so I need to provide context for data manipulation. That's why I first move the value `1` into the `bl` register and then transfer it into the memory space reserved for `num`. To access a **specific byte** of `num`, I can utilize expressions like `[num+1]` or `[num+2]` to reference the subsequent bytes in memory.
 
 ----
 
 ### **Initializing Data (alternative)**
 
-Alternatively, we can initialize data with default values using the `section .data`. Instead of manually reserving and setting values, we can use the `dup` instruction to initialize memory with the specified value.
+Alternatively, I can initialize data with default values using the `section .data`. Instead of manually reserving and setting values, I can use the `dup` instruction to initialize memory with the specified value.
 
 ```
 section .data

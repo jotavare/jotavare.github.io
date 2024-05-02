@@ -20,7 +20,7 @@ Basic components of the x86 processor in relation to other hardware elements wit
 - **Memory**: Stores data and instructions for the CPU to access.
 - **I/O Devices**: Input/output devices such as monitors, keyboards, and mice.
 
-Also we have **3 processor modes** in **x86 architecture**:
+In in **x86 architecture** exists **three primary modes** of operation:
 
 - **Protected Mode**:
   - Protected mode is the native processor state for x86 devices.
@@ -97,7 +97,7 @@ Reading from memory involves specific steps:
 4. **Data Retrieval**: Copy data from the data bus to the destination.
 
 {: .important-title }
-**Memory access (RAM)** typically takes longer than register access due to the **additional steps involved**. Instead of executing only one instruction, we need to **execute multiple instructions** to access memory.
+**Memory access (RAM)** typically takes longer than register access due to the **additional steps involved**. Instead of executing only one instruction, I need to **execute multiple instructions** to access memory.
 
 ----
 

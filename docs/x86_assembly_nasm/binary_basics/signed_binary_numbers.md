@@ -30,4 +30,4 @@ Let's do an example for **negative numbers**:
 ```
 
 {: .important-title }
-The result `-4` is unexpected based on the law of arithmetic `A + (−A) = 0`. To properly represent negative numbers in binary, we utilize **two's complement**. In addition to the MSB sign bit for assigning a negative value, we apply the two's complement to negative numbers to obtain the correct result. This ensures accurate representation of negative values in binary arithmetic.
+The unexpected result of `-4` contradicts the **arithmetic law** `A + (−A) = 0`. Alongside utilizing the **MSB sign bit** to denote negative values, I employ **two's complement** to accurately represent negative numbers in binary arithmetic.

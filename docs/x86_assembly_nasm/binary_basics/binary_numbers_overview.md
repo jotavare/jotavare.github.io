@@ -22,7 +22,7 @@ Let's break down the **base 10** number `13`:
 - The rightmost digit represents **10^0**, which equals **1**.
 
 <div class="code-example" markdown="1">
-When we sum up these values:
+When I sum up these values:
 </div>
 ```
 > (1x10^1) + (3x10^0)
@@ -50,7 +50,7 @@ So, let's break down the binary number `1010`:
 - The rightmost digit represents **2^0**, which equals **1**.
 
 <div class="code-example" markdown="1">
-When we sum up these values:
+When I sum up these values:
 </div>
 ```
 > 2^3 + 2^2 + 2^1 + 2^0

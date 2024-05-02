@@ -28,7 +28,7 @@ _start:
 
 ### **Efficient Memory Usage**
 - x86 maximizes memory usage by storing **bytes next to each other**.
-- Accessing a single byte from a memory slot, we retrieve the **entire 32-bit** chunk it belongs to.
+- Accessing a single byte from a memory slot, I will retrieve the **entire 32-bit** chunk it belongs to.
 - Accessing these values directly can lead to **unexpected results** due to x86's memory efficiency.
 
 ----
@@ -40,6 +40,6 @@ _start:
 ----
 
 ### **High vs. Low Bits**
-- By referencing the **lower 8 bits** of the registers, we ensure we're working with the **correct byte-sized data**.
+- By referencing the **lower 8 bits** of the registers, I ensure we're working with the **correct byte-sized data**.
 - Setting high bits (`bh` or `ch`) affects the interpretation of the entire register.
 - High bits are **interpreted differently** due to their **position in the binary representation**.

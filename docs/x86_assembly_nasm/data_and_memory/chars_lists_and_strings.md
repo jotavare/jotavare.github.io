@@ -24,7 +24,7 @@ _start:
 ```
 
 {: .important-title }
-If we run the code and print the exit code with `echo $?` in bash, we'll see the **ASCII** value of `'A' (65)`. You can search for the **ASCII table** to verify this or use the `man ascii` command in the terminal.
+If I run the code and print the exit code with `echo $?` in bash, I will see the **ASCII** value of `'A' (65)`. You can search for the **ASCII table** to verify this or use the `man ascii` command in the terminal.
 
 ----
 
@@ -45,7 +45,7 @@ _start:
 ```
 
 {: .important-title }
-One thing I **omitted** in this code is the **null terminator**, something that I learned in `C`. In this case, we have a list of values, so we need to add the **null terminator** manually so we know when the list ends. We can use whatever value we want as long as it's not part of the list. For example, in this case using `0` or `-1` would be a good choice `list db 1, 2, 3, 4, -1`.
+One thing I **omitted** in this code is the **null terminator**, something that I learned in `C`. In this case, I have a list of values, so I need to add the **null terminator** manually so I know when the list ends. I can use whatever value I want as long as it's not part of the list. For example, in this case using `0` or `-1` would be a good choice `list db 1, 2, 3, 4, -1`.
 
 ----
 
@@ -66,13 +66,13 @@ _start:
 ```
 
 {: .important-title }
-In strings, it's a little bit easier to add the **null terminator** because we can just add it at the end of the string. The importance of adding a null terminator is to know when the string ends; otherwise, **we don't know where a slot of memory ends and another begins**.
+In strings, it's a little bit easier to add the **null terminator** because I can just add it at the end of the string. The importance of adding a null terminator is to know when the string ends; otherwise, **I don't know where a slot of memory ends and another begins**.
 
 ----
 
 ### **GDB Tips**
 
-By default **GDB** uses **AT&T syntax** but to ensure consistency with **NASM** we can set **GDB** to use **Intel syntax**. This will make it easier to understand the code during debugging sessions.
+By default **GDB** uses **AT&T syntax** but to ensure consistency with **NASM** I can set **GDB** to use **Intel syntax**. This will make it easier to understand the code during debugging sessions.
 
 <div class="code-example" markdown="1">
 Command to set **Intel syntax** in **GDB**:
@@ -82,4 +82,4 @@ echo "set disassembly-flavor intel" > ~/.gdbinit
 ```
 
 {: .important-title }
-Also, in **GDB** we can use `x/x` to see the **memory address** in **hex** and `x/x2` to see the **next 2 memory addresses** and so on.
+Also, in **GDB** I can use `x/x` to see the **memory address** in **hex** and `x/x2` to see the **next 2 memory addresses** and so on.

@@ -52,7 +52,7 @@ section .text
 
 _start:
     MOV eax,1
-    MOV ebx,[num] ; if we used num directly, it would be the address and not the value
+    MOV ebx,[num] ; if i used num directly, it would be the address and not the value
     INT 80h
 ```
 

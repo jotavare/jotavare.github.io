@@ -32,7 +32,7 @@ Hexadecimal is a **convenient way to represent binary numbers**, especially in c
 | 14      | E           |
 | 15      | F           |
 
-- To understand better, we can divide the **binary number** into groups of **4 bits**.
+- To understand better, I can divide the **binary number** into groups of **4 bits**.
 - The reason for this is that every **4 bits represents a hexadecimal value**.
 
 | Binary | 8 (2^3) | 4 (2^2) | 2 (2^1) | 1 (2^0) | Total   |

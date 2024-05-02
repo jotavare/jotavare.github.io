@@ -49,10 +49,10 @@ Division     | Result | Remainder
 2/2          | 1      | 0
 1/2          | 0      | 1
 
-- We have the binary number `100101` when read from **bottom** to **top**, and then from **left** to **right**.
+- I have the binary number `100101` when read from **bottom** to **top**, and then from **left** to **right**.
 
 <div class="code-example" markdown="1">
-When we sum up these values:
+When I sum up these values:
 </div>
 ```
 > (1x2^0) + (0x2^1) + (1x2^2) + (0x2^3) + (0x2^4) + (1x2^5)
