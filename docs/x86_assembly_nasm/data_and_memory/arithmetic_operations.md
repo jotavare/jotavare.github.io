@@ -10,7 +10,7 @@ grand_parent: 🔲 x86 Assembly NASM
 
 ### **ADD Operation**
 
-The `add` instruction is used to perform addition operations in x86 assembly. Here's an example:
+The `add` instruction is used to perform addition operations in x86 assembly.
 
 ```
 section .data
@@ -25,13 +25,13 @@ _start:
 ```
 
 {: .important-title }
-This instruction adds the value in `ebx` to `eax` and stores the result in `eax`. So, after this operation, `eax` should contain the **sum of the two numbers** `5`. Also, we can represent a number like `2` in binary as `0b00000010` and in hexadecimal as `0x02`.
+This instruction adds the value in `ebx` to `eax` and stores the result in `eax`. So, after this operation, `eax` should contain the **sum of the two numbers** `5`. Also, we can use a number like `2` in binary as `0b00000010` and in hexadecimal as `0x02`.
 
 ----
 
-### **Handling Carry Flag (CF)**
+### **Handling Carry Flag**
 
-The Carry Flag `CF` is another crucial aspect, especially when dealing with arithmetic operations involving limited register sizes. Consider a scenario where the result exceeds the capacity of the destination register.
+The Carry Flag `CF` is another crucial aspect, especially when dealing with arithmetic operations involving **limited register sizes**. Consider a scenario where the result **exceeds the capacity** of the destination **register**.
 
 ```
 section .data
@@ -42,17 +42,17 @@ section .text
 _start:
     mov al, 0xFF    ; Load value 255 into al
     mov bl, 1       ; Load value 1 into bl
-    add al, bl       ; Add 1 to al
+    add al, bl      ; Add 1 to al
 ```
 
 {: .important-title }
-In this case, the result of the addition operation is `256`, which is too large to fit into the `al` register. In such cases, the extra bits are carried over and stored in the `CF` of the E-Flags register. We can utilize the `ADC` (Add with Carry) instruction to incorporate this carry into subsequent operations.
+In this case, the result of the addition operation is `256`, which is **too large** to fit into the `al` register. In such cases, the **extra bits are carried over** and stored in the `CF` of the **E-Flags register**. We can utilize the `ADC` instruction to incorporate this carry into subsequent operations.
 
 ----
 
 ### **ADC Operation**
 
-The `adc` instruction is used to perform addition operations with a carry in x86 assembly.
+The `adc` (add with carry) instruction is used to perform addition operations with a **carry** in x86 assembly.
 
 ```
 section .data
@@ -68,7 +68,7 @@ _start:
 ```
 
 {: .important-title }
-In this case, the `adc` instruction adds the value in the carry flag to the result of the previous addition operation. This allows us to handle scenarios where the result exceeds the capacity of the destination register and carry over the extra bits.
+In this case, the `adc` instruction adds the value in the `CF` to the result of the previous addition operation. This allows us to handle scenarios where the result **exceeds the capacity** of the destination **register** and **carry over the extra bits**.
 
 ----
 
@@ -91,7 +91,7 @@ _start:
 {: .important-title }
 This instruction subtracts the value in `bl` from `al` and stores the result in `al`. So, after this operation, `al` should contain the **difference of the two numbers** `2`.
 
-Now lets flip the numbers and see what happens:
+Now, as an example, let's flip the numbers and see what happens:
 
 ```
 section .data
@@ -106,9 +106,9 @@ _start:
 ```
 
 {: .important-title }
-In this case, the result of the subtraction operation is `-2`, which is a negative number. The `SF` (Sign Flag) in the E-Flags register will be set to `1` to indicate that the result is negative.
+In this case, the result of the subtraction operation is `-2`, which is a negative number. The `SF` (Sign Flag) in the **E-Flags register** will be set to `1` to indicate that the result is **negative**.
 
-Another example, what if we move to ebx the number 2 and add to eax:
+Another example, what if we subtract a negative number from a positive number `-2 + 2`:
 
 ```
 section .data
@@ -125,3 +125,4 @@ _start:
 ```
 
 {: .important-title }
+In this case, the result of the subtraction operation is `0`, which is the **sum of the two numbers** `2`. The `ZF` (Zero Flag) in the **E-Flags register** will be set to `1` to indicate that the result is **zero**.

@@ -1,11 +1,11 @@
 ---
-title: Registers and Flags
+title: Registers and EFLAGS
 nav_order: 4
 layout: default
 parent: 🔲 x86 Assembly NASM
 ---
 
-## **REGISTERS AND FLAGS**
+## **REGISTERS AND EFLAGS**
 
 ### **Register Types**
 
@@ -21,6 +21,7 @@ parent: 🔲 x86 Assembly NASM
 ----
 
 ### **Special Registers**
+
 | Register | Description |
 |:---------|:------------|
 | `EIP`    | Instruction pointer, points to the address of the next instruction to execute. |
@@ -32,10 +33,6 @@ You can check more information about register types [here](https://en.wikibooks.
 ----
 
 ### **Register Size**
-- **x86 Registers**, each register is **32 bits** in size.
-- Registers like `EAX`, `EBX`, `ECX`, and `EDX` are standard, with the `E` denoting **extended access to all 32 bits**.
-- Dropping the `E` to access only **16 bits** (e.g., `AX`, `BX`, `CX`, `DX`).
-- Can also access **8-bit high** and **8-bit low** bytes (e.g., `AH`, `BH`, `CH`, `DH` and `AL`, `BL`, `CL`, `DL`).
 
 | Register   | Size    |
 |:-----------|:--------|
@@ -43,9 +40,14 @@ You can check more information about register types [here](https://en.wikibooks.
 | `AX`       | 16 bits |  
 | `AH`, `AL` | 8 bits  |
 
+- **x86 Registers**, each register is **32 bits** in size.
+- Registers like `EAX`, `EBX`, `ECX`, and `EDX` are standard, with the `E` denoting **extended access to all 32 bits**.
+- Dropping the `E` to access only **16 bits** (e.g., `AX`, `BX`, `CX`, `DX`).
+- Can also access **8-bit high** and **8-bit low** bytes (e.g., `AH`, `BH`, `CH`, `DH` and `AL`, `BL`, `CL`, `DL`).
+
 ----
 
-### **EFlags**
+### **EFLAGS**
 
 This is a **32-bit register** in **x86 assembly** language that contains various flags providing information about the result of an operation. These flags are crucial for understanding the outcome of **arithmetic operations** and determining the **next steps in the program flow**.
 

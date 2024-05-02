@@ -20,6 +20,25 @@ Basic components of the x86 processor in relation to other hardware elements wit
 - **Memory**: Stores data and instructions for the CPU to access.
 - **I/O Devices**: Input/output devices such as monitors, keyboards, and mice.
 
+Also we have **3 processor modes** in **x86 architecture**:
+
+### **Protected Mode**
+- Protected mode is the native processor state for x86 devices.
+- It's the primary mode for most programming tasks on x86 devices.
+- Allows multiple processes to run concurrently.
+- Each process has its own memory section and cannot directly access the memory of other processes.
+- Prevents illegal operations that could lead to process failure or system instability.
+
+### **Real Address Mode**
+- Implemented in early Intel programming environments.
+- Facilitates direct hardware access, useful for low-level hardware interactions.
+- Typically, programmers remain in protected mode unless direct hardware access is required, then switch to real address mode temporarily.
+
+### **System Management Mode**
+- Provides an operating system environment for specific chip designs.
+- Utilized for tasks like power management and security.
+- Tailored for particular chip architectures, enabling chip-specific operating system functionalities.
+
 ----
 
 ### **Communication Channels**
@@ -78,7 +97,7 @@ Reading from memory involves specific steps:
 4. **Data Retrieval**: Copy data from the data bus to the destination.
 
 {: .important-title }
-Memory access (RAM) typically takes longer than register access due to the additional steps involved. Instead of executing only one instruction, we need to execute multiple instructions to access memory.
+**Memory access (RAM)** typically takes longer than register access due to the **additional steps involved**. Instead of executing only one instruction, we need to **execute multiple instructions** to access memory.
 
 ----
 
@@ -92,25 +111,4 @@ To mitigate memory access latency, caching is employed:
   - **Level 2 Cache**: External to the CPU but accessed via a high-speed bus, offering faster access than RAM.
 
 {: .important-title }
-Static RAM is often used in caches due to its efficiency, though it's costlier than dynamic RAM. Dynamic RAM is used in main memory due to its lower cost and higher storage capacity.
-
-----
-
-### **PROCESSOR MODES**
-
-#### **Protected Mode**
-- Protected mode is the native processor state for x86 devices.
-- It's the primary mode for most programming tasks on x86 devices.
-- Allows multiple processes to run concurrently.
-- Each process has its own memory section and cannot directly access the memory of other processes.
-- Prevents illegal operations that could lead to process failure or system instability.
-
-#### **Real Address Mode**
-- Implemented in early Intel programming environments.
-- Facilitates direct hardware access, useful for low-level hardware interactions.
-- Typically, programmers remain in protected mode unless direct hardware access is required, then switch to real address mode temporarily.
-
-#### **System Management Mode**
-- Provides an operating system environment for specific chip designs.
-- Utilized for tasks like power management and security.
-- Tailored for particular chip architectures, enabling chip-specific operating system functionalities.
+**Static RAM** is often used in caches due to its **efficiency**, though it's **costlier** than dynamic RAM. **Dynamic RAM** is used in main memory due to its **lower cost** and **higher storage** capacity.
