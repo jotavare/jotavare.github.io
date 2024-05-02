@@ -167,6 +167,8 @@ _start:
 {: .important-title }
 In this case, the result of the multiplication operation is `510`, which is **too large** to fit into the `al` register. The **extra bits** are stored in the `ax` register.
 
+----
+
 ## **IMUL Operation**
 
 The `imul` instruction is used to perform multiplication operations, primarily for **signed integers**.
@@ -232,5 +234,3 @@ _start:
 
 {: .important-title }
 In this case, the `idiv` instruction divides the value in `eax` by `ecx` and stores the **quotient** in `eax` and the **remainder** in `edx`. So, after this operation, `eax` should contain the **quotient** `-1` and `edx` should contain the **remainder** `1`.
-
-

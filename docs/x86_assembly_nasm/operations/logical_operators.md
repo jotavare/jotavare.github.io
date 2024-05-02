@@ -9,11 +9,13 @@ grand_parent: 🔲 x86 Assembly NASM
 ## **LOGICAL OPERATORS**
 
 | Operator | Description | Result |
-|:--------:|:-----------:|:------:|
+|:---------|:------------|:-------|
 | `and`    | Logical AND  | `1` if both bits are `1`, otherwise `0` |
 | `or`     | Logical OR   | `1` if either bit is `1`, otherwise `0` |
 | `not`    | Logical NOT  | Inverts the bits of the operand |
 | `xor`    | Logical XOR  | `1` if the bits are different, otherwise `0` |
+
+----
 
 ### **AND Operation**
 

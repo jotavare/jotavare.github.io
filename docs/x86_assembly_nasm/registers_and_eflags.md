@@ -9,14 +9,15 @@ parent: 🔲 x86 Assembly NASM
 
 ### **Register Types**
 
-| Register     | Description |
-|:-------------|:------------|
-| `EAX`        | Accumulator, used for multiplication and division. |
-| `EBX`, `EDX` | General-purpose registers. |
-| `ESI`, `EDI` | High-speed memory transfer registers. |
-| `ECX`        | Loop counter register. |
-| `ESP`        | Stack pointer, points to the next available location in stack memory. |
-| `EBP`        | Base pointer, used to reference function parameters and local variables on the stack. |
+| Register      | Description |
+|:--------------|:------------|
+| `EAX`         | Accumulator, used for multiplication and division. |
+| `EBX`, `EDX`  | General-purpose registers. |
+| `ESI`, `EDI`  | High-speed memory transfer registers. |
+| `ECX`         | Loop counter register. |
+| `ESP`         | Stack pointer, points to the next available location in stack memory. |
+| `EBP`         | Base pointer, used to reference function parameters and local variables on the stack. |
+| `XMM0` [0-15] | Floating-point registers. |
 
 ----
 

@@ -9,7 +9,7 @@ grand_parent: 🔲 x86 Assembly NASM
 ## **SHIFT OPERATIONS**
 
 {: .important-title }
-I already knew this in `C`, which is called **bitwise shifting**. It's a **fast way** to multiply or divide by **powers of 2**. For example, shifting a number to the left by `1` is equivalent to multiplying it by `2`. Similarly, shifting a number to the right by `1` is equivalent to dividing it by `2`.
+I already knew this in `C`, which is called **bitwise operators**. It's a **fast way** to multiply or divide by **powers of 2**. For example, shifting a number to the left by `1` is equivalent to **multiplying** it by `2`. Similarly, shifting a number to the right by `1` is equivalent to **dividing** it by `2`.
 
 | Operator | Description | Result |
 |:--------:|:-----------:|:------:|
@@ -17,6 +17,8 @@ I already knew this in `C`, which is called **bitwise shifting**. It's a **fast 
 | `shl`    | Logical Left Shift  | Shifts the bits to the left |
 | `sar`    | Arithmetic Right Shift | Shifts the bits to the right, preserving the sign bit |
 | `sal`    | Arithmetic Left Shift  | Shifts the bits to the left, preserving the sign bit |
+
+----
 
 ### **SHR Operation**
 

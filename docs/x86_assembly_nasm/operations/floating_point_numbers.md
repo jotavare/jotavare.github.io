@@ -1,6 +1,6 @@
 ---
 title: Floating Point Numbers
-nav_order: 6
+nav_order: 7
 layout: default
 parent: Operations
 grand_parent: 🔲 x86 Assembly NASM
@@ -10,27 +10,27 @@ grand_parent: 🔲 x86 Assembly NASM
 
 ### **Defining Floating Point Numbers**
 
-To define floating-point numbers, we can use the `dd` directive in the data section to represent 32-bit floating-point values.
+To define floating-point numbers, we can use the `dd` directive in the data section to represent **32-bit floating-point values**.
 
 ```
 x dd 3.14
 y dd 2.1
 ```
 
-These lines define two floating-point numbers, `x` and `y`, with the respective values of 3.14 and 2.1.
+These lines define two floating-point numbers, `x` and `y`, with the respective values of `3.14` and `2.1`.
 
 ----
 
 ### **Loading Values into Registers**
 
-To load these values into registers, we utilize the `movss` instruction (`ss` **Scalar Single Precision Floating-Point Value**).
+To load these values into registers, we utilize the `movss` instruction (**Scalar Single Precision Floating-Point Value**).
 
 ```
 movss xmm0, [x]
 movss xmm1, [y]
 ```
 
-`xmm0` and `xmm1` are **special registers** designed for storing floating-point numbers (can use up to `xmm15`). The square brackets indicate fetching the value stored at the memory address of `x` and `y`, respectively.
+`xmm0` and `xmm1` are **special registers** designed for storing floating-point numbers **(can use up to `xmm15`)**. The square brackets indicate fetching the value stored at the memory address of `x` and `y`, respectively.
 
 ----
 
@@ -50,7 +50,11 @@ This instruction adds the values stored in `xmm0` and `xmm1`, storing the result
 
 One crucial consideration when working with **floating-point numbers is precision**. Floating-point values are stored using **IEEE floating-point notation**, which can lead to slight **inaccuracies** in representation. For example, `3.14` might be stored as `3.1400001` due to these limitations.
 
-**IEEE** - In the `32 bit` **IEEE format**, `1 bit` is allocated as the **sign bit**, the next **8 bits** are allocated as the **exponent field**, and the **last 23 bits** are the **fractional parts** of the normalized number. A **sign bit** of `0` indicates a **positive number**, and a `1` is **negative**.
+In the `32 bit` **IEEE format**:
+- `1 bit` is allocated as the **sign bit**;
+- The next **8 bits** are allocated as the **exponent field**;
+- The **last 23 bits** are the **fractional parts** of the normalized number;
+-  A **sign bit** of `0` indicates a **positive number**, and a `1` is **negative**.
 
 ```
 section .data
@@ -77,13 +81,13 @@ _start:
 ```
 
 {: .important-title }
-To print the value of `xmm0` in GDB, use the command `p $xmm0.v4_float[0]`.
+To print the value of `xmm0` in **GDB**, use the command `p $xmm0.v4_float[0]`.
 
 ----
 
 ## **Compare Floating Point Numbers**
 
-Comparing floating-point numbers is a bit more complex than comparing integers. The `cmp` instruction doesn't work with floating-point numbers, so we use the `ucomiss` instruction instead.
+Comparing **floating-point numbers** is a bit more complex than comparing **integers**. The `cmp` instruction doesn't work with floating-point numbers, so we use the `ucomiss` instruction instead.
 
 ```
 section .data
@@ -111,4 +115,4 @@ end:
 ```
 
 {: .important-title }
-Also, `ja` (jump above) instead of `jg` (jump greater) because we are comparing floating point numbers. The only jump condition equal to integers is `je` (jump equal). The rest is as follows: `jb` (jump below), `jae` (jump above or equal), `jbe` (jump below or equal), `jne` (jump not equal).
+Also, `ja` **(jump above)** instead of `jg` **(jump greater)** because we are comparing floating point numbers. The only jump condition equal to integers is `je` **(jump equal)**. The rest is as follows: **`jb` (jump below)**, **`jae` (jump above or equal)**, **`jbe` (jump below or equal)**, **`jne` (jump not equal)**.
