@@ -1,12 +1,12 @@
 ---
-title: Chars, Strings, and Lists
+title: Chars, Lists, and Strings
 nav_order: 3
 layout: default
 parent: Data and Memory
 grand_parent: 🔲 x86 Assembly NASM
 ---
 
-## **CHARS, STRINGS, AND LISTS**
+## **CHARS, LISTS, AND STRINGS**
 
 ### **Character Data**
 
