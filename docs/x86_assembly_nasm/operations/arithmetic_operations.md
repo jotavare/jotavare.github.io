@@ -1,8 +1,8 @@
 ---
 title: Arithmetic Operations
-nav_order: 5
+nav_order: 1
 layout: default
-parent: Data and Memory
+parent: Operations
 grand_parent: 🔲 x86 Assembly NASM
 ---
 
