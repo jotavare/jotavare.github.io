@@ -10,7 +10,7 @@ grand_parent: 🔲 x86 Assembly NASM
 
 ### **ADD Operation**
 
-The `add` instruction is used to perform **addition** operations in x86 assembly.
+The `add` instruction is used to perform **addition** operations.
 
 ```
 section .data
@@ -25,7 +25,7 @@ _start:
 ```
 
 {: .important-title }
-This instruction adds the value in `ebx` to `eax` and stores the result in `eax`. So, after this operation, `eax` should contain the **sum of the two numbers** `5`. Also, we can use a number like `2` in binary as `0b00000010` and in hexadecimal as `0x02`.
+This instruction adds the value in `ebx` to `eax` and stores the result in `eax`. So, after this operation, `eax` should contain the **sum of the two numbers** `5`. Also, we can use a number like `2` in **binary** as `0b00000010` and in **hexadecimal** as `0x02`.
 
 ----
 
@@ -46,13 +46,13 @@ _start:
 ```
 
 {: .important-title }
-In this case, the result of the addition operation is `256`, which is **too large** to fit into the `al` register. In such cases, the **extra bits are carried over** and stored in the `CF` of the **E-Flags register**. We can utilize the `ADC` instruction to incorporate this carry into subsequent operations.
+In this case, the result of the addition operation is `256`, which is **too large** to fit into the `al` register. In such cases, the **extra bits are carried over** and stored in the `CF` of the **EFLAGS register**. We can utilize the `adc` instruction to incorporate this carry into subsequent operations.
 
 ----
 
 ### **ADC Operation**
 
-The `adc` (add with carry) instruction is used to perform **addition** operations **with a carry** in x86 assembly.
+The `adc` **(add with carry)** instruction is used to perform **addition** operations **with a carry**.
 
 ```
 section .data
@@ -74,7 +74,7 @@ In this case, the `adc` instruction adds the value in the `CF` to the result of 
 
 ### **SUB Operation**
 
-The `sub` instruction is used to perform **subtraction** operations in x86 assembly.
+The `sub` instruction is used to perform **subtraction** operations.
 
 ```
 section .data
@@ -91,7 +91,7 @@ _start:
 {: .important-title }
 This instruction subtracts the value in `bl` from `al` and stores the result in `al`. So, after this operation, `al` should contain the **difference of the two numbers** `2`.
 
-Now, as an example, let's flip the numbers and see what happens:
+Now, as an example, let's **flip the numbers** and see what happens:
 
 ```
 section .data
@@ -106,9 +106,9 @@ _start:
 ```
 
 {: .important-title }
-In this case, the result of the subtraction operation is `-2`, which is a negative number. The `SF` (Sign Flag) in the **E-Flags register** will be set to `1` to indicate that the result is **negative**.
+In this case, the result of the subtraction operation is `-2`, which is a **negative number**. The `SF` **(Sign Flag)** in the **EFLAGS register** will be set to `1` to indicate that the result is **negative**.
 
-Another example, what if we subtract a negative number from a positive number `-2 + 2`:
+Another example, what if we subtract a **negative number** with a **positive number** `-2 + 2`:
 
 ```
 section .data
@@ -125,13 +125,13 @@ _start:
 ```
 
 {: .important-title }
-In this case, the result of the subtraction operation is `0`, which is the **sum of the two numbers** `2`. The `ZF` (Zero Flag) in the **E-Flags register** will be set to `1` to indicate that the result is **zero**.
+In this case, the result of the subtraction operation is `0`, which is the **sum of the two numbers**. The `ZF` **(Zero Flag)** in the **EFLAGS register** will be set to `1` to indicate that the result is **zero**.
 
 ----
 
 ### **MUL Operation**
 
-The `mul` instruction is used to perform **multiplication** operations in x86 assembly, primarily for **unsigned integers**.
+The `mul` instruction is used to perform **multiplication** operations, primarily for **unsigned integers**.
 
 ```
 section .data
@@ -148,9 +148,9 @@ _start:
 {: .important-title }
 In this case, the `mul` instruction multiplies the value in `bl` by `al` and stores the result in `al`. So, after this operation, `al` should contain the **product of the two numbers** `6`. The `a` register is a special register called the **accumulator**, its used for multiplication as the default destination for the operation.
 
-In multiplication its interesting, because it only requires one operand, the other operand is implicitly the `al` register. The result of the multiplication operation is stored in the **pair of registers** `ax` and `dx`. The `ax` register contains the **lower 16 bits** of the result, while the `dx` register contains the **higher 16 bits**.
+In multiplication it's interesting, because it only **requires one operand**, the other operand is implicitly the `al` register. The result of the multiplication operation is stored in the **pair of registers** `ax` and `dx`. The `ax` register contains the **lower 16 bits** of the result, while the `dx` register contains the **higher 16 bits**.
 
-Let's see another example with `mul`, where we multiply two numbers but the result is **too large** to fit in the `ax` register:
+Let's see another example with `mul`, where we **multiply two unsigned numbers** but the result is **too large** to fit in the `ax` register:
 
 ```
 section .data
@@ -169,9 +169,9 @@ In this case, the result of the multiplication operation is `510`, which is **to
 
 ## **IMUL Operation**
 
-The `imul` instruction is used to perform multiplication operations in x86 assembly, primarily for **signed integers**.
+The `imul` instruction is used to perform multiplication operations, primarily for **signed integers**.
 
-Now, let's see an example with `imul` where we multiply two signed numbers:
+Now, let's see an example with `imul` where we **multiply two unsigned numbers**:
 
 ```
 section .data
@@ -187,6 +187,6 @@ _start:
 ```
 
 {: .important-title }
-`al` in this case will be equal to `-2` because we use `imul`. The program assumes the values are signed, so the result of the multiplication operation is `-2`, which is **correct**: `-2 * 1 = -2`. 
+`al` in this case will be equal to `-2` because we use `imul`. Even tho I used unsigned numbers, the program assumes the values are signed, so the result of the multiplication operation is `-2`, which is **correct**: `-2 * 1 = -2`. 
 
 
