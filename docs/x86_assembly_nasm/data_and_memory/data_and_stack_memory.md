@@ -2,7 +2,8 @@
 title: Data and Stack Memory
 nav_order: 6
 layout: default
-parent: 🔲 x86 Assembly NASM
+parent: Data and Memory
+grand_parent: 🔲 x86 Assembly NASM
 ---
 
 ## **DATA AND STACK MEMORY**

@@ -6,7 +6,7 @@ parent: Binary Basics
 grand_parent: 🔲 x86 Assembly NASM
 ---
 
-### **Hexadecimal Numbers**
+## **HEXADECIMAL NUMBERS**
 
 Hexadecimal is a **convenient way to represent binary numbers**, especially in computing, due to its efficiency in both readability and compactness.
 

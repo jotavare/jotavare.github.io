@@ -2,7 +2,8 @@
 title: Byte and Word Data
 nav_order: 7
 layout: default
-parent: 🔲 x86 Assembly NASM
+parent: Data and Memory
+grand_parent: 🔲 x86 Assembly NASM
 ---
     
 ## **BYTE AND WORD DATA**

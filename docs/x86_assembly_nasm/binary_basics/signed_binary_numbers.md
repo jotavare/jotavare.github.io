@@ -6,7 +6,7 @@ parent: Binary Basics
 grand_parent: 🔲 x86 Assembly NASM
 ---
 
-### **Signed Binary Numbers**
+## **SIGNED BINARY NUMBERS**
 
 In signed binary numbers, the **most significant bit (MSB)** serves as the **sign bit**:
 

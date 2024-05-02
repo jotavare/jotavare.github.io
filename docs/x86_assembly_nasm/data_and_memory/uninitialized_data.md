@@ -2,7 +2,8 @@
 title: Uninitialized Data
 nav_order: 9
 layout: default
-parent: 🔲 x86 Assembly NASM
+parent: Data and Memory
+grand_parent: 🔲 x86 Assembly NASM
 ---
 
 ## **UNINITIALIZED DATA**

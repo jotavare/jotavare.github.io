@@ -6,7 +6,8 @@ parent: Binary Basics
 grand_parent: 🔲 x86 Assembly NASM
 ---
 
-### **Two's Complement**
+## **TWO'S COMPLEMENT**
+
 The two's complement is a method used in computing to **represent both positive and negative integers** using binary numbers. It's particularly efficient for arithmetic operations because it simplifies addition and subtraction by treating positive and negative numbers uniformly.
 
 To find the **two's complement** of a number:

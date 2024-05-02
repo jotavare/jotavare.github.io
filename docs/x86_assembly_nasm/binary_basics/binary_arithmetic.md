@@ -6,6 +6,8 @@ parent: Binary Basics
 grand_parent: 🔲 x86 Assembly NASM
 ---
 
+## **BINARY ARITHMETIC**
+
 ### **Binary Addition**
 
 - `0 + 0 = 0` - When **both bits are 0**, the result is **0**.
@@ -56,6 +58,3 @@ When we sum up these values:
 > (1x2^0) + (0x2^1) + (1x2^2) + (0x2^3) + (0x2^4) + (1x2^5)
 > 1 + 0 + 4 + 0 + 0 + 32 = 37
 ```
-
-----
-
