@@ -15,4 +15,4 @@ This cheatsheet is meant to be a quick reference guide for Valgrind memory debug
 Check the original [Valgrind Manual](https://valgrind.org/docs/manual/manual.html) for more detailed information.
 
 {: .important-title }
-If you have a link or a correction to suggest, please don't hesitate to do a [pull request](https://github.com/jotavare/jotavare.github.io/pulls) or contact me. I highly value any contributions and will evaluate them for possible inclusion in the repository.
+If you have any corrections or suggestions to enhance this README file, feel free to submit a [pull request](https://github.com/jotavare/jotavare.github.io/pulls) or reach out to me directly. I appreciate all contributions and will carefully consider them for potential inclusion in the repository.

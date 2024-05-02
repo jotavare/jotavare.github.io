@@ -1,11 +1,11 @@
 ---
-title: First Program with NASM
+title: First Program
 nav_order: 5
 layout: default
 parent: 🔲 x86 Assembly NASM
 ---
 
-## **FIRST PROGRAM WITH NASM**
+## **FIRST PROGRAM**
 
 ### **Why NASM?**
 
