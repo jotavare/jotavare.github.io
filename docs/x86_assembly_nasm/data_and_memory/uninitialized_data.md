@@ -1,13 +1,13 @@
 ---
 title: Uninitialized Data
-nav_order: 9
+nav_order: 4
 layout: default
 parent: Data and Memory
 grand_parent: 🔲 x86 Assembly NASM
 ---
 
 ## **UNINITIALIZED DATA**
-
+<br>
 {: .important-title }
 If you're into exploring **binary, decimal, and hexadecimal numbers**, there's a handy [online converter](https://www.mathsisfun.com/binary-decimal-hexadecimal-converter.html) you can use. It's perfect for tinkering with different number systems and understanding how they work.
 

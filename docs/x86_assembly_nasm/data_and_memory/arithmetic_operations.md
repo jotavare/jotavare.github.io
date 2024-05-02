@@ -1,6 +1,6 @@
 ---
-title: ARITHMETIC OPERATIONS
-nav_order: 10
+title: Arithmetic Operations
+nav_order: 5
 layout: default
 parent: Data and Memory
 grand_parent: 🔲 x86 Assembly NASM
@@ -27,7 +27,9 @@ _start:
 {: .important-title }
 This instruction adds the value in `ebx` to `eax` and stores the result in `eax`. So, after this operation, `eax` should contain the **sum of the two numbers** `5`. Also, we can represent a number like `2` in binary as `0b00000010` and in hexadecimal as `0x02`.
 
-### Handling Carry Flag (CF)
+----
+
+### **Handling Carry Flag (CF)**
 
 The Carry Flag `CF` is another crucial aspect, especially when dealing with arithmetic operations involving limited register sizes. Consider a scenario where the result exceeds the capacity of the destination register.
 
@@ -45,6 +47,8 @@ _start:
 
 {: .important-title }
 In this case, the result of the addition operation is `256`, which is too large to fit into the `al` register. In such cases, the extra bits are carried over and stored in the `CF` of the E-Flags register. We can utilize the `ADC` (Add with Carry) instruction to incorporate this carry into subsequent operations.
+
+----
 
 ### **ADC Operation**
 
@@ -65,6 +69,8 @@ _start:
 
 {: .important-title }
 In this case, the `adc` instruction adds the value in the carry flag to the result of the previous addition operation. This allows us to handle scenarios where the result exceeds the capacity of the destination register and carry over the extra bits.
+
+----
 
 ### **SUB Operation**
 

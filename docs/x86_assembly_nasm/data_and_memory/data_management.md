@@ -1,12 +1,12 @@
 ---
-title: Data and Stack Memory
-nav_order: 6
+title: Data Management
+nav_order: 1
 layout: default
 parent: Data and Memory
 grand_parent: 🔲 x86 Assembly NASM
 ---
 
-## **DATA AND STACK MEMORY**
+## **DATA MANAGEMENT**
 
 ### **Data Section Declaration**
 Declare variables and allocate memory in the data section. The **data section** is used to define **variables** and **constants**, specifying their **data type** and **initial values**.

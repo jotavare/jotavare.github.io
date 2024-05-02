@@ -1,12 +1,12 @@
 ---
-title: Byte and Word Data
-nav_order: 7
+title: Variables
+nav_order: 2
 layout: default
 parent: Data and Memory
 grand_parent: 🔲 x86 Assembly NASM
 ---
     
-## **BYTE AND WORD DATA**
+## **VARIABLES**
 
 ### **Declaration of Variables**
 ```
