@@ -1,11 +1,12 @@
 ---
-title: Data and Stack Memory
-nav_order: 6
+title: Data Management
+nav_order: 1
 layout: default
-parent: 🔲 x86 Assembly NASM
+parent: Data and Memory
+grand_parent: 🔲 x86 Assembly NASM
 ---
 
-## **DATA AND STACK MEMORY**
+## **DATA MANAGEMENT**
 
 ### **Data Section Declaration**
 Declare variables and allocate memory in the data section. The **data section** is used to define **variables** and **constants**, specifying their **data type** and **initial values**.
@@ -51,7 +52,7 @@ section .text
 
 _start:
     MOV eax,1
-    MOV ebx,[num] ; if we used num directly, it would be the address and not the value
+    MOV ebx,[num] ; if i used num directly, it would be the address and not the value
     INT 80h
 ```
 
