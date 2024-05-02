@@ -189,4 +189,48 @@ _start:
 {: .important-title }
 `al` in this case will be equal to `-2`. Even tho I used **unsigned numbers**, the program **assumes the values are signed** because of `imul`, so the result of the multiplication operation is `-2`, which is **correct**: `2 * -1 = -2`. 
 
+----
+
+## **DIV Operation**
+
+The `div` instruction is used to perform **division** operations.
+
+```
+section .data
+
+section .text
+    global _start
+
+_start:
+    mov eax, 11      ; Load value 11 into eax
+    mov ecx, 2       ; Load value 2 into ecx
+    div ecx          ; Divide eax by ecx = 5 remainder 1
+    int 80h          ; Interrupt
+```
+
+{: .important-title }
+In this case, the `div` instruction divides the value in `eax` by `ecx` and stores the **quotient** in `eax` and the **remainder** in `edx`. So, after this operation, `eax` should contain the **quotient** `5` and `edx` should contain the **remainder** `1`. `edx` and not `ecx` because `div` uses `edx:eax` as the dividend.
+
+----
+
+## **IDIV Operation**
+
+The `idiv` instruction is used to perform **division** operations, primarily for **signed integers**.
+
+```
+section .data
+
+section .text
+    global _start
+
+_start:
+    mov eax, 0xff    ; Load value 255 (unsigned) into eax = -1 (signed)
+    mov ecx, 2       ; Load value 2 into ecx
+    idiv ecx         ; Divide eax by ecx = -1 remainder 1
+    int 80h          ; Interrupt
+```
+
+{: .important-title }
+In this case, the `idiv` instruction divides the value in `eax` by `ecx` and stores the **quotient** in `eax` and the **remainder** in `edx`. So, after this operation, `eax` should contain the **quotient** `-1` and `edx` should contain the **remainder** `1`.
+
 
