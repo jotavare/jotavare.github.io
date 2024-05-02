@@ -22,22 +22,22 @@ Basic components of the x86 processor in relation to other hardware elements wit
 
 Also we have **3 processor modes** in **x86 architecture**:
 
-### **Protected Mode**
-- Protected mode is the native processor state for x86 devices.
-- It's the primary mode for most programming tasks on x86 devices.
-- Allows multiple processes to run concurrently.
-- Each process has its own memory section and cannot directly access the memory of other processes.
-- Prevents illegal operations that could lead to process failure or system instability.
+- **Protected Mode**:
+  - Protected mode is the native processor state for x86 devices.
+  - It's the primary mode for most programming tasks on x86 devices.
+  - Allows multiple processes to run concurrently.
+  - Each process has its own memory section and cannot directly access the memory of other processes.
+  - Prevents illegal operations that could lead to process failure or system instability.
 
-### **Real Address Mode**
-- Implemented in early Intel programming environments.
-- Facilitates direct hardware access, useful for low-level hardware interactions.
-- Typically, programmers remain in protected mode unless direct hardware access is required, then switch to real address mode temporarily.
+- **Real Address Mode**:
+  - Implemented in early Intel programming environments.
+  - Facilitates direct hardware access, useful for low-level hardware interactions.
+  - Typically, programmers remain in protected mode unless direct hardware access is required, then switch to real address mode temporarily.
 
-### **System Management Mode**
-- Provides an operating system environment for specific chip designs.
-- Utilized for tasks like power management and security.
-- Tailored for particular chip architectures, enabling chip-specific operating system functionalities.
+- **System Management Mode**:
+  - Provides an operating system environment for specific chip designs.
+  - Utilized for tasks like power management and security.
+  - Tailored for particular chip architectures, enabling chip-specific operating system functionalities.
 
 ----
 
