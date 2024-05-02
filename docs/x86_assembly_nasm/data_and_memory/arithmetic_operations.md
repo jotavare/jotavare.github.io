@@ -180,13 +180,13 @@ section .text
     global _start
 
 _start:
-    mov al, 0xFF    ; Load value 255 into al
-    mov bl, 2       ; Load value 2 into bl
+    mov al, 0xFF    ; Load value 255 (unsigned) into al = -1 (signed)
+    mov bl, 2       ; Load value 2 (unsigned) into bl = 2 (signed)
     imul bl         ; Multiply al by bl
     int 80h         ; Interrupt
 ```
 
 {: .important-title }
-`al` in this case will be equal to `-2` because we use `imul`. Even tho I used unsigned numbers, the program assumes the values are signed, so the result of the multiplication operation is `-2`, which is **correct**: `-2 * 1 = -2`. 
+`al` in this case will be equal to `-2`. Even tho I used **unsigned numbers**, the program **assumes the values are signed** because of `imul`, so the result of the multiplication operation is `-2`, which is **correct**: `2 * -1 = -2`. 
 
 
