@@ -6,8 +6,6 @@ parent: Projects
 grand_parent: 🔲 x86 Assembly NASM
 ---
 
-## **FIRST PROGRAM**
-
 ### **Why NASM?**
 
 NASM offers a simplified syntax compared to the more complex AT&T syntax commonly used on Linux systems. It's designed to be **more approachable for beginners** while still providing all the necessary skills for x86 programming. Plus, **NASM is an assembler widely used in the industry**, making it a valuable tool to learn.
