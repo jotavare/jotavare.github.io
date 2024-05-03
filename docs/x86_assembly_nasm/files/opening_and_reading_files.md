@@ -77,11 +77,10 @@ ssize_t read(int fd, void *buf, size_t count);
 ```
 
 {: .important-title}
-Since I now know the file descriptor from the previous example `3`, I can now read from the file using the `read` system call.
+Since I now know the file descriptor from the previous example `eax = 3`, I can now read from the file using the `read` system call.
 
 So, I need the following information to `read` from a file:
-- `read` system call requires `eax` to be set to `3`;
-- It takes the **file descriptor** on `ebx`;
+- It copies `eax` to `ebx` to use the **file descriptor**;
 - I will need a **buffer** to store the data read from the file;
 - The **size** of the buffer should be provided to `edx` as a `size_t`;
 
