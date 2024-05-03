@@ -1,12 +1,12 @@
 ---
-title: Print Message to Bootloader
+title: Print Text to Bootloader
 nav_order: 3
 layout: default
 parent: Projects
 grand_parent: 🔲 x86 Assembly NASM
 ---
 
-### **Setting Up the Program**
+### **First Steps**
 
 To print a message to the screen using the bootloader, the program is set up as follows:
 
@@ -25,12 +25,12 @@ main:
 ```
 
 - `ax` is set to `0` to establish a consistent starting point for the program;
-- `ds` (data segment), `es` (extra segment), and `ss` (stack segment) are initialized to `0` to clear them;
+- `ds` (**data segment**), `es` (**extra segment**), and `ss` (**stack segment**) are initialized to `0` to clear them;
 - `sp` is set to `0x7c00`, pointing to the bootloader address;
 
 ### **Print Function**
 
-The print function facilitates printing characters into the screen. Before execution, registers `si`, `ax`, and `bx` are pushed onto the stack to preserve their values during the function's execution.
+Before execution, registers `si`, `ax`, and `bx` are pushed onto the stack to preserve their values during the function's execution.
 
 ```
 print:
@@ -39,10 +39,10 @@ print:
     push bx
 ```
 
-- `si` (source index) used to store the address of the message string (starting point);
-- `ax` utilized for passing parameters to BIOS interrupts; 
-- These parameters include the function number (`ah`) and sometimes data to be printed (`al`);
-- `bx` preserves by pushing it onto the stack but remains unused throughout the function;
+- `si` (**source index**) used to store the address of the message string (**starting point**);
+- `ax` utilized for passing parameters to **BIOS** interrupts; 
+- These parameters include the function number `ah` and sometimes data to be printed `al`;
+- `bx` is preserved by pushing it onto the stack but remains unused throughout the function;
 
 ### **Printing Loop**
 
