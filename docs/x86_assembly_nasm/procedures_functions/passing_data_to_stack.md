@@ -37,11 +37,11 @@ The stack layout will look like this:
 `sp = stack pointer`
 
 {: .important-title }
-If we call addTwo, how does it know that the first parameter is 4 and the second parameter is 1? Theres are various ways to pass parameters to a function. One of the most common ways is to push the parameters onto the stack in reverse order and create a base pointer to reference the parameters.
+If I call `addTwo`, how does it know that the first parameter is 4 and the second parameter is 1? Theres are various ways to pass parameters to a function. One of the most common ways is to push the parameters onto the stack in reverse order and create a base pointer to reference the parameters.
 
 ### Setting up a base pointer (EBP)
 
-Before accessing the parameters, we need to set up a base pointer (EBP) to reference the stack frame.
+Before accessing the parameters, I need to set up a base pointer (EBP) to reference the stack frame.
 
 ```
 addTwo:
@@ -106,4 +106,4 @@ main:
 `sp = stack pointer`
 
 {: .important-title }
-We can use x/x or x/4x to inspect the stack in GDB. This will help us understand how the stack is laid out and how we can access the parameters.
+I can use `x/x` or `x/4x` to inspect the stack in **GDB**. This will help us understand how the stack is laid out and how I can access the parameters.

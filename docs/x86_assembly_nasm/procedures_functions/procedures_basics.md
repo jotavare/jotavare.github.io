@@ -12,7 +12,7 @@ grand_parent: 🔲 x86 Assembly NASM
 
 A **procedure** in x86 assembly serves the same purpose as a **function** in higher-level languages. It encapsulates a **sequence of instructions** to perform a specific task.
 
-In this example I define a procedure named `add_two`. The procedure adds the values stored in the `eax` and `ebx` registers and returns the result.
+In this example I define a procedure named `add_two`. The procedure adds the values stored in the `eax` and `ebx` registers and returns the result with `ret`.
 
 ```
 add_two:
@@ -24,7 +24,7 @@ add_two:
 
 ### **Calling Procedures**
 
-To call a procedure, we use the `call` instruction followed by the **name of the procedure**. After the procedure execution, control returns to the instruction immediately following the `call`.
+To call a procedure, I use the `call` instruction followed by the **name of the procedure**.
 
 ```
     MOV eax, 2      ; Set eax to 2
@@ -33,27 +33,23 @@ To call a procedure, we use the `call` instruction followed by the **name of the
 ```
 
 {: .important-title }
-When a procedure is called, the **return address is pushed onto the stack**. The `RET` instruction retrieves this return address from the stack, effectively returning control to the caller.
+When a procedure is called, the **return address is pushed onto the stack**. The `RET` instruction retrieves this **return address from the stack**, effectively returning control to the caller.
 
 ----
 
-### **Debugging and Stack Inspection**
+### **Debugging the Stack**
 
-If I use GDB, I can inspect the stack to understand how return addresses are managed. 
+If I use **GDB**, I can inspect the stack to understand how return addresses are managed. 
 
-```bash
-info register ESP   ; Get the current value of ESP
-x/x [esp]           ; Inspect the value at ESP
-```
-
-- The stack pointer `esp` points to the top of the stack, where the return address is stored.
+- `info register esp` - Displays the current value of the stack pointer `esp`.
+- `x/x $esp` - Displays the value at the top of the stack.
 
 {: .important-title }
 Understanding how return addresses are stored on the stack is crucial for computer security. Exploits such as buffer overflows can manipulate return addresses to execute malicious code.
 
 ----
 
-### **End Code**
+### **Example Code**
 
 ```
 section .data

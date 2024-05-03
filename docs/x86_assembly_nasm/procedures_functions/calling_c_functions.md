@@ -114,7 +114,7 @@ main:
 
 ### **Compilation Process**
 
-To compile and link our **assembly code** with our file `sum.c`, follow these steps:
+Now I can compile and link my **assembly code** with my file `sum.c`.
 
 <div class="code-example" markdown="1">
 First, generate the **object file** using `nasm`. Second, compile the `sum.c` file and **link it with the object file**.
