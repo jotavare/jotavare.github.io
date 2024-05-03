@@ -39,10 +39,10 @@ int open(const char *pathname, int flags);
 So, I need the following information to open a file:
 - `open` system call requires `eax` to be set to `5`;
 - It takes a **file path** on `ebx` as a `const char *`;
-- I need to provide a **flag** as argument to `ecx` as an `int`;
+- I need to provide a **flag** as argument to `ecx`;
 
 {: .important-title }
-Flags are used to specify the mode in which the file should be opened. For example, `O_RDONLY` for read-only mode, `O_WRONLY` for write-only mode, and `O_RDWR` for read-write mode. I can check that in the terminal, using `man 2 open` and scrolling down to the `flags` section.
+Flags are used to **specify the mode** in which the file should be opened. For example, `O_RDONLY` for read-only mode, `O_WRONLY` for write-only mode, and `O_RDWR` for read-write mode. I can check that in the terminal using `man 2 open` and scrolling down to the `flags` section.
 
 One small thing is that in `man`, the flags are defined as `C macros`, but in assembly, I need to use the **actual values**. I can go to the [fcntl.h](https://sites.uclouvain.be/SystInfo/usr/include/asm-generic/fcntl.h.html) file and find the actual value of `O_RDONLY` which is `00000000 = 0`.
 
@@ -60,7 +60,7 @@ main:
     int 80h
 ```
 
-- The result of the system call will be my **file descriptor** (as an `int`), which will be stored in `eax`;
+- The result of the system call will be my **file descriptor**, which will be stored in `eax`;
 - I can use `x/10x [pointer]` to see the memory content in hexadecimal format;
 - Also, can use `x/10s [pointer]` to see the string content;
 
@@ -82,7 +82,7 @@ Since I now know the file descriptor from the previous example (`3`), I can now 
 
 So, I need the following information to `read` from a file:
 - `read` system call requires `eax` to be set to `3`;
-- It takes the **file descriptor** on `ebx` as an `int`;
+- It takes the **file descriptor** on `ebx`;
 - I will need a **buffer** to store the data read from the file;
 - The **size** of the buffer should be provided to `edx` as a `size_t`;
 
