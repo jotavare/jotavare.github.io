@@ -50,15 +50,15 @@ Within the print function, a loop is established to iterate over the characters 
 
 ```
 print_loop:
-    lodsb            ; Load the byte at the address in SI into AL and increment SI
-    or al, al        ; Check if AL is zero (end of string)
-    jz print_done    ; If AL is zero, end of string, jump to print_done
+    lodsb
+    or al, al
+    jz print_done
 
-    mov ah, 0x0e     ; Set the BIOS teletype function to print the character in AL
-    mov bh, 0        ; Set the page number to 0
-    int 0x10         ; Call BIOS interrupt 0x10 to print the character in AL
+    mov ah, 0x0e
+    mov bh, 0
+    int 0x10
 
-    jmp print_loop   ; Jump back to print_loop to continue printing characters
+    jmp print_loop
 ```
 
 - `lodsb` loads a byte from the memory location specified by the `si` into the `al`;
@@ -66,7 +66,7 @@ print_loop:
 - `or al, al` checks if `al` is zero, indicating the end of the string;
 - `jz print_done` if the zero flag is set, the program jumps to the `print_done` label;
 - The character stored in `al` is printed to the screen using BIOS interrupt `0x10` with function `0x0e`;
-- `jmp print_loop` the program jumps back to the `print_loop` label to continue iterating over the characters;
+- `jmp print_loop` jumps back to the `print_loop` label to continue iterating over the characters;
 
 ----
 
