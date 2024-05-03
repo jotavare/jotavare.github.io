@@ -10,7 +10,7 @@ grand_parent: 🔲 x86 Assembly NASM
 
 ### **x86 System Call Table**
 
-Before diving into code implementation, let's understand the system calls required.
+Before diving into code implementation, let's understand the **system calls** required.
 
 | %eax | Name      | Source                     | %ebx             | %ecx              | %edx    | %esx | %edi |
 |:-----|:----------|:---------------------------|:-----------------|:------------------|:--------|:-----|:-----|
@@ -21,7 +21,7 @@ Before diving into code implementation, let's understand the system calls requir
 | 5    | sys_open  | fs/open.c                  | const char *     | int               | int     | -    | -    |
 | ...  | ...       | ...                        | ...              | ...               | ...     | ...  | ...  |
 
-We'll focus on the `open` and `read` system calls for file manipulation.
+I'll focus on the `open` and `read` system calls for file manipulation.
 
 {: .important-title }
 You can find the complete x86 system call table [here](https://faculty.nps.edu/cseagle/assembly/sys_call.html), [here](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md), or [here](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/). Additionally, you can use the terminal command `man syscalls` to access the system call manual.
@@ -39,12 +39,12 @@ int open(const char *pathname, int flags);
 So, I need the following information to open a file:
 - `open` system call requires `eax` to be set to `5`;
 - It takes a **file path** on `ebx` as a `const char *`;
-- We need to provide a **flag** as argument to `ecx` as an `int`;
+- I need to provide a **flag** as argument to `ecx` as an `int`;
 
 {: .important-title }
 Flags are used to specify the mode in which the file should be opened. For example, `O_RDONLY` for read-only mode, `O_WRONLY` for write-only mode, and `O_RDWR` for read-write mode. I can check that in the terminal, using `man 2 open` and scrolling down to the `flags` section.
 
-One small thing is that in `man`, the flags are defined as `C macros`, but in assembly, we need to use the **actual values**. I can go to the [fcntl.h](https://sites.uclouvain.be/SystInfo/usr/include/asm-generic/fcntl.h.html) file and find the actual value of `O_RDONLY` which is `00000000 = 0`.
+One small thing is that in `man`, the flags are defined as `C macros`, but in assembly, I need to use the **actual values**. I can go to the [fcntl.h](https://sites.uclouvain.be/SystInfo/usr/include/asm-generic/fcntl.h.html) file and find the actual value of `O_RDONLY` which is `00000000 = 0`.
 
 ```
 section .data
@@ -71,7 +71,7 @@ A **file descriptor** is a unique identifier assigned by the operating system to
 
 ### **Reading from the File**
 
-If we use the terminal command `man 2 read` (also [here](https://man7.org/linux/man-pages/man2/read.2.html)), we'll find the following function:
+If I use the terminal command `man 2 read` (also [here](https://man7.org/linux/man-pages/man2/read.2.html)), I'll find the following function:
 
 ```c
 ssize_t read(int fd, void *buf, size_t count);
@@ -91,7 +91,7 @@ section .data
     pathname db "path/to/file.txt"
 
 section .bss
-    buffer resb 1024    ; Reserve 1024 bytes for the buffer because we don't know the file size
+    buffer resb 1024    ; Reserve 1024 bytes for the buffer because I don't know the file size
 
 section .text
     global main
