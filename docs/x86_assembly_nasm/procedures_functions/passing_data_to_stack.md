@@ -107,4 +107,3 @@ main:
 
 {: .important-title }
 We can use x/x or x/4x to inspect the stack in GDB. This will help us understand how the stack is laid out and how we can access the parameters.
-
