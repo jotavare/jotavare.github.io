@@ -36,15 +36,15 @@ off_t lseek(int fd, off_t offset, int whence);
 ```
 
 So, I need the following information to open a file:
-- `lseek` system call requires `eax` to be set to `19`, check the [here](https://faculty.nps.edu/cseagle/assembly/sys_call.html);
+- `lseek` system call requires `eax` to be set to `19`, check [here](https://faculty.nps.edu/cseagle/assembly/sys_call.html);
 - It takes the **file descriptor** on `ebx` which is `3`;
 - The **offset** in bytes to move the file pointer is provided to `ecx`;
-- The **whence** parameter specifies the **starting point** for the offset.
+- The **whence** parameter specifies the **starting point** for the offset in `edx`;
 
 Just like `0_RDONLY`, the `SEEK_SET`, `SEEK_CUR`, and `SEEK_END` are **C macros** defined in the `unistd.h` file. I can find the actual values in the [unistd.h](https://sites.uclouvain.be/SystInfo/usr/include/asm-generic/unistd.h.html) which are `0`, `1`, and `2` respectively.
 
 {: .important-title }
-The **whence** can be `SEEK_SET`, `SEEK_CUR`, or `SEEK_END`. In this example, I'm using `SEEK_SET` which means the offset is relative to the **beginning of the file**.
+In this example, I'm using `SEEK_SET` which means the offset is relative to the **beginning of the file**, `SEEK_CUR` is relative to the **current file position**, and `SEEK_END` is relative to the **end of the file**.
 
 ```
 section .data
@@ -81,5 +81,5 @@ main:
 - The **result** of the `lseek` system call will be the **new file offset**;
 - **GDB** `x/10x [pointer]` to see the memory content **(hexadecimal format)**;
 - **GDB**  `x/10s [pointer]` to see the memory content **(string format)**;
-- The **buffer** will contain the **first record** from the file.
-- The **file offset** will be at the **beginning** of the file.
+- The **buffer** will contain the **first record** from the file;
+- The **file offset** will be at the **beginning** of the file;
