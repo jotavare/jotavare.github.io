@@ -10,30 +10,27 @@ grand_parent: 🔲 x86 Assembly NASM
 
 ### **C Function Definition**
 
-When writing assembly code, I can **call standard C functions** like `printf` and `exit` using the `gcc` compiler but first I need a **few changes** in the assembly code:
+When writing assembly code, I can **call standard C functions** like `printf` and `exit` using the `gcc` compiler but first I need a **few changes** in the code:
 
 ```
-extern printf  ; printf(format, message)
-extern exit    ; exit(1)
-               ; this tells nasm that this function are gonna be linked later
+extern printf
+extern exit
 
 section .data
-	msg DD "Hello World!", 0        ; DD = Define Double Word = 32 bits = 4 bytes
-	msg DD "Hello World!", 0        ; 0 = null character
-	fmt DB "Output is: %s %s",10,0  ; DB = Define Byte = 8 bits = 1 byte
-                                    ; 10 = new line
-                                    ; 0 = null character
+	msg DD "Hello World!", 0
+	msg DD "Hello World!", 0
+	fmt DB "Output is: %s %s",10,0
 
 section .text
 
-global main     ; this is because we need a main function in order to work with gcc
+global main
 
 main:
-	PUSH msg    ; take the data and push to the end of the stack
-	PUSH fmt    ; the order is important
-	CALL printf ; call the function
-	PUSH 1      ; push to the stack
-	CALL exit   ; call the exit function with the exit code (1)
+	PUSH msg
+	PUSH fmt
+	CALL printf
+	PUSH 1
+	CALL exit
 ```
 
 - `extern` is used to tell the assembler that the **function is defined elsewhere**.
@@ -48,7 +45,7 @@ main:
 
 The stack is a **Last-In-First-Out (LIFO)** data structure, meaning the **last item pushed** onto the stack is the **first one to be popped off**. Picture it like stacking plates in a cafeteria tray: the last plate you put on top is the first one you'll take off when you need it.
 
-Let's take a look at the previous example, `printf` parameters are `printf(format, message)`. In my code, I first `PUSH msg` and then `PUSH fmt` onto the stack. This order **might seem counterintuitive** at first because we usually think of passing arguments in the order they are listed. However, the arguments are **pushed in reverse order**, ensuring that the function receives them in the correct sequence.
+Let's take a look at the previous example, `printf` parameters are `printf(format, message)`. In my code, I first `PUSH msg` and then `PUSH fmt` onto the stack. This order **might seem counterintuitive** at first because I usually think of passing arguments in the order they are listed. However, the arguments are **pushed in reverse order**, ensuring that the function receives them in the correct sequence.
 
 ----
 
@@ -74,7 +71,7 @@ gcc -no-pie -m32 -o program_name program_name.o
 
 ### **Custom C Function Definition**
 
-In this example, I have a `C` file named `sum.c` with a function named `sum`:
+In this example, I have a `C` file named `sum.c` with a function named `sum` and as assembly file:
 
 ```c
 #include <stdio.h>
@@ -87,12 +84,6 @@ int sum(int a, int b) {
 }
 ```
 
-- We declare this function as `extern` to make it accessible to our assembly program.
-
-----
-
-### **Calling Custom C Functions**
-
 ```
 extern sum
 extern exit
@@ -103,14 +94,15 @@ section .text
 global main
 
 main:
-    PUSH 1      ; second argument
-    PUSH 2      ; first argument
-    CALL sum    ; call the function
-    PUSH eax    ; push the result from sum to the stack
-    CALL exit   ; exit the program
+    PUSH 1
+    PUSH 2
+    CALL sum
+    PUSH eax
+    CALL exit
 ```
 
 {:.important-title}
+- I declare this function as `extern` to make it accessible to our assembly program.
 - I use the `call` instruction to call my custum `C` function `sum`.
 - The `eax` register contains the return value of the function.
 
