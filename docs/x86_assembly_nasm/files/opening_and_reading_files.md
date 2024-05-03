@@ -10,7 +10,7 @@ grand_parent: 🔲 x86 Assembly NASM
 
 ### **x86 System Call Table**
 
-Before diving into code implementation, let's understand the system calls required. We'll refer to the x86 system call table to identify the appropriate values for our operations.
+Before diving into code implementation, let's understand the system calls required.
 
 | %eax | Name      | Source                     | %ebx             | %ecx              | %edx    | %esx | %edi |
 |:-----|:----------|:---------------------------|:-----------------|:------------------|:--------|:-----|:-----|
@@ -30,19 +30,21 @@ You can find the complete x86 system call table [here](https://faculty.nps.edu/c
 
 ### **Opening a File**
 
-If we use the terminal command `man 2 open` (also [here](https://man7.org/linux/man-pages/man2/open.2.html)), we'll find the following function:
+If I use the terminal command `man 2 open` (also [here](https://man7.org/linux/man-pages/man2/open.2.html)), I'll find the following function:
 
 ```c
 int open(const char *pathname, int flags);
 ```
 
-So, we need the following information to open a file:
+So, I need the following information to open a file:
 - `open` system call requires `eax` to be set to `5`;
 - It takes a **file path** on `ebx` as a `const char *`;
 - We need to provide a **flag** as argument to `ecx` as an `int`;
 
 {: .important-title }
-Flags are used to specify the mode in which the file should be opened. For example, `O_RDONLY` for read-only mode, `O_WRONLY` for write-only mode, and `O_RDWR` for read-write mode. I can check that in the terminal, using `man 2 open` and scrolling down to the `flags` section. One small thing is that in man pages, the flags are defined as `C macros`, but in assembly, we need to use the actual values. No worries, I can go to the `fcntl.h` file and find the actual value of `O_RDONLY` [here](https://sites.uclouvain.be/SystInfo/usr/include/asm-generic/fcntl.h.html) `00000000`.
+Flags are used to specify the mode in which the file should be opened. For example, `O_RDONLY` for read-only mode, `O_WRONLY` for write-only mode, and `O_RDWR` for read-write mode. I can check that in the terminal, using `man 2 open` and scrolling down to the `flags` section.
+
+One small thing is that in `man`, the flags are defined as `C macros`, but in assembly, we need to use the **actual values**. I can go to the [fcntl.h](https://sites.uclouvain.be/SystInfo/usr/include/asm-generic/fcntl.h.html) file and find the actual value of `O_RDONLY` which is `00000000 = 0`.
 
 ```
 section .data
@@ -58,11 +60,12 @@ main:
     int 80h
 ```
 
-- The result of the system call will be the file descriptor as an `int`, which will be stored in `eax`.
-- I can check with GDB using `x/10x [pointer]` to see the memory content in hexadecimal format or `x/10s [pointer]` to see the string content.
+- The result of the system call will be my **file descriptor** (as an `int`), which will be stored in `eax`;
+- I can use `x/10x [pointer]` to see the memory content in hexadecimal format;
+- Also, can use `x/10s [pointer]` to see the string content;
 
 {: .important-title }
-A file descriptor is a unique identifier assigned by the operating system to a file when it is opened. It is used to reference the file in subsequent operations. The first three file descriptors are reserved for standard input, output, and error streams (0, 1, and 2, respectively). The file descriptor returned by the `open` system call will be a positive integer greater than 2.
+A **file descriptor** is a unique identifier assigned by the operating system to a file when it is opened. It is used to reference the file in subsequent operations. The first three file descriptors are reserved for **standard input**, **output**, and **error streams** (`0`, `1`, and `2`, respectively). The file descriptor returned by the `open` system call will be a **positive integer greater** than `2`.
 
 ----
 
@@ -75,9 +78,9 @@ ssize_t read(int fd, void *buf, size_t count);
 ```
 
 {: .important-title}
-Since we now know the file descriptor (in this case `3`), we can read from the file using the `read` system call.
+Since I now know the file descriptor from the previous example (`3`), I can now read from the file using the `read` system call.
 
-So, we need the following information to `read` from a file:
+So, I need the following information to `read` from a file:
 - `read` system call requires `eax` to be set to `3`;
 - It takes the **file descriptor** on `ebx` as an `int`;
 - I will need a **buffer** to store the data read from the file;
@@ -111,4 +114,4 @@ main:
 ```
 
 {: .important-title}
-The result of the system call will be the number of bytes read, which will be stored in `eax`. If `eax` is `0`, it means that the end of the file has been reached. If `eax` is `-1`, it means that an error occurred. If `eax` is `-2`, it means that the file descriptor is invalid. So on...
+The result of the system call will be the **number of bytes read**, which will be stored in `eax`. If `eax` is `0`, it means that the **end of the file** has been reached. If `eax` is `-1`, it means that an **error occurred**. If `eax` is `-2`, it means that the file descriptor is **invalid**.
