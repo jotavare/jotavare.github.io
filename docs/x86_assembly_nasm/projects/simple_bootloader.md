@@ -8,12 +8,12 @@ grand_parent: 🔲 x86 Assembly NASM
 
 ### **Bootloader Process**
 
-Bootloaders are programs responsible for **initializing hardware** and **starting the operating system**. They are loaded into memory by the BIOS during the boot process.
+Bootloaders are programs responsible for **initializing hardware** and **starting the operating system**.
 
 When a PC boots in **legacy mode**, the following sequence occurs:
 
 1. It enters the **BIOS** (Basic Input Output System);
-2. The **BIOS** initiates the boot process by accessing the **boot sequence**, which determines the order in which devices are checked for bootable code;
+2. The **BIOS** initiates the boot process by accessing the **boot sequence**, which determines the order in which devices are checked for **bootable code**;
 3. Each device in the boot sequence is accessed, and its first sector, known as the **MBR** (Master Boot Record), is loaded into memory at address `0x7c00`.
 4. The BIOS checks for a signature `0xaa55` at the end of the `512 byte` sector loaded into memory at `0x7c00`;
 5. If the signature is found, the BIOS transfers control to the bootloader code at memory address `0x7c00`, initiating the execution of the bootloader;
@@ -27,7 +27,7 @@ In the context of traditional **x86 BIOS bootloaders**, the bootloader is typica
 
 - **Build Folder**: Files generated during the build process, like `img` and `bin`;
 - **Source Folder**: Source code for the bootloader, example `simple_bootloader.asm`;
-- **Makefile**: This file automates the build process, aka `Makefile`.
+- **Makefile**: This file automates the build process, it's called `Makefile`;
 
 ----
 
@@ -65,7 +65,7 @@ halt:
 ----
 
 ### **Writing the Makefile**
-To build the bootloader and automate the process, I need to create `Makefile`:
+To build the bootloader and automate the process, I need to create a `Makefile`:
 
 ```makefile
 # Assembler
@@ -92,7 +92,7 @@ To test the bootloader, I use an emulator like `qemu`:
 qemu-system-i386 -fda build/main.img
 ```
 
-- `qemu-system-i386` is the emulator to run the bootloader;
+- `qemu-system-i386` is the emulator to run the bootloader in **x86 mode**;
 - `-fda` specifies the floppy disk image to boot from;
 - `build/main.img` is the path to the floppy disk image;
 
