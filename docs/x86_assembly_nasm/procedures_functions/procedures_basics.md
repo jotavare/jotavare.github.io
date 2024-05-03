@@ -12,10 +12,10 @@ grand_parent: 🔲 x86 Assembly NASM
 
 A **procedure** in x86 assembly serves the same purpose as a **function** in higher-level languages. It encapsulates a **sequence of instructions** to perform a specific task.
 
-In this example I define a procedure named `add_two`. The procedure adds the values stored in the `eax` and `ebx` registers and returns the result with `ret`.
+In this example I define a procedure named `addTwo`. The procedure adds the values stored in the `eax` and `ebx` registers and returns the result with `ret`.
 
 ```
-add_two:
+addTwo:
     ADD eax, ebx  ; Add the contents of eax and ebx
     RET           ; Return from the procedure
 ```
@@ -27,9 +27,9 @@ add_two:
 To call a procedure, I use the `call` instruction followed by the **name of the procedure**.
 
 ```
-    MOV eax, 2      ; Set eax to 2
-    MOV ebx, 3      ; Set ebx to 3
-    CALL add_two    ; Call the add_two procedure
+    MOV eax, 2  ; Set eax to 2
+    MOV ebx, 3  ; Set ebx to 3
+    CALL addTwo ; Call the addTwo procedure
 ```
 
 {: .important-title }
@@ -39,13 +39,13 @@ When a procedure is called, the **return address is pushed onto the stack**. The
 
 ### **Debugging the Stack**
 
-If I use **GDB**, I can inspect the stack to understand how return addresses are managed. 
+Let's use **GDB** to inspect the stack and understand how return addresses are managed. 
 
 - `info register esp` - Displays the current value of the stack pointer `esp`.
 - `x/x $esp` - Displays the value at the top of the stack.
 
 {: .important-title }
-Understanding how return addresses are stored on the stack is crucial for computer security. Exploits such as buffer overflows can manipulate return addresses to execute malicious code.
+Understanding how return addresses are stored on the stack is **crucial for computer security**. Exploits such as **buffer overflows** can manipulate return addresses to **execute malicious code**.
 
 ----
 
@@ -63,13 +63,13 @@ addTwo:             ; define a function called addTwo
     ret             ; return the result
 
 main:
-    mov eax, 4  ; set the first argument to 4
-    mov ebx, 1  ; set the second argument to 1
-    call addTwo ; call the addTwo function
-    mov ebx,eax ; store the result of eax in ebx
-    mov eax, 1  ; set eax to 1
-    int 80h     ; exit the program
+    mov eax, 4      ; set the first argument to 4
+    mov ebx, 1      ; set the second argument to 1
+    call addTwo     ; call the addTwo function
+    mov ebx,eax     ; store the result of eax in ebx
+    mov eax, 1      ; set eax to 1
+    int 80h         ; exit the program
 ```
 
 {: .important-title }
-If write on bash `echo $?` after running the program, it will print the return value of the program. In this case, it will print `5`. Which is the result of `4 + 1 = 5`.
+`echo $?` will print the return value of the program, in this case, it will print `4 + 1 = 5`.
