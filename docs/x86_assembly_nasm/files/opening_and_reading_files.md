@@ -24,7 +24,7 @@ Before diving into code implementation, let's understand the **system calls** re
 I'll focus on the `open` and `read` system calls for file manipulation.
 
 {: .important-title }
-You can find the complete x86 system call table [here](https://faculty.nps.edu/cseagle/assembly/sys_call.html), [here](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md), or [here](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/). Additionally, you can use the terminal command `man syscalls` to access the system call manual.
+I can find the complete x86 system call table [here](https://faculty.nps.edu/cseagle/assembly/sys_call.html), [here](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md), or [here](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/). Additionally, I can use the terminal command `man syscalls` to access the system call manual.
 
 ----
 
@@ -42,7 +42,7 @@ So, I need the following information to open a file:
 - I need to provide a **flag** as argument to `ecx`;
 
 {: .important-title }
-Flags are used to **specify the mode** in which the file should be opened. For example, `O_RDONLY` for read-only mode, `O_WRONLY` for write-only mode, and `O_RDWR` for read-write mode. I can check that in the terminal using `man 2 open` and scrolling down to the `flags` section.
+Flags are used to **specify the mode** in which the file should be opened. For example, `O_RDONLY` for **read-only mode**, `O_WRONLY` for **write-only mode**, and `O_RDWR` for **read-write mode**. I can check that in the terminal using `man 2 open` and scrolling down to the `flags` section.
 
 One small thing is that in `man`, the flags are defined as `C macros`, but in assembly, I need to use the **actual values**. I can go to the [fcntl.h](https://sites.uclouvain.be/SystInfo/usr/include/asm-generic/fcntl.h.html) file and find the actual value of `O_RDONLY` which is `00000000 = 0`.
 
@@ -61,8 +61,7 @@ main:
 ```
 
 - The result of the system call will be my **file descriptor**, which will be stored in `eax`;
-- I can use `x/10x [pointer]` to see the memory content in hexadecimal format;
-- Also, can use `x/10s [pointer]` to see the string content;
+- I can use in **GDB** `x/10x [pointer]` to see the memory content (hexadecimal format) and  `x/10s [pointer]` (string format);
 
 {: .important-title }
 A **file descriptor** is a unique identifier assigned by the operating system to a file when it is opened. It is used to reference the file in subsequent operations. The first three file descriptors are reserved for **standard input**, **output**, and **error streams** (`0`, `1`, and `2`, respectively). The file descriptor returned by the `open` system call will be a **positive integer greater** than `2`.
@@ -78,7 +77,7 @@ ssize_t read(int fd, void *buf, size_t count);
 ```
 
 {: .important-title}
-Since I now know the file descriptor from the previous example (`3`), I can now read from the file using the `read` system call.
+Since I now know the file descriptor from the previous example `3`, I can now read from the file using the `read` system call.
 
 So, I need the following information to `read` from a file:
 - `read` system call requires `eax` to be set to `3`;
