@@ -44,7 +44,7 @@ main:
 
 ### **Create and Read Flags**
 
-I need to combine flags together using the `or` operator or use the combined value directly. For example, `101o` is equivalent to `O_CREAT | O_WRONLY`.
+I need to combine flags together using the `or` operator or use the **combined value directly**. For example, `101o` is equivalent to `O_CREAT | O_WRONLY`.
 
 ```
     O_CREAT  = 0100
@@ -55,14 +55,14 @@ I need to combine flags together using the `or` operator or use the combined val
 
 The way we declare `0101` in octal:
 - Exclude the leading zero `101`;
-- Append a lowercase "o" to the number `101o` to indicate octal format;
+- Append a lowercase `o` to the number `101o` to indicate octal format;
 
 {: .important-title }
 Visual Studio Code usually **shows the value directly** if you hover over the flag or I can check these values directly in [stat.h](https://man7.org/linux/man-pages/man0/sys_stat.h.0p.html).
 
 ----
 
-### **File Permissions**
+### **File Permission Flags**
 
 ```
     S_IRUSR = 0400
@@ -72,13 +72,13 @@ Visual Studio Code usually **shows the value directly** if you hover over the fl
               0700
 ```
 
-- `S_IRUSR` is the read permission for the owner;
-- `S_IWUSR` is the write permission for the owner;
-- `S_IXUSR` is the execute permission for the owner;
-- `0700` is the combination of these permissions **read**, **write**, and **execute** for the owner;
+- `S_IRUSR` is the **read** permission for the owner;
+- `S_IWUSR` is the **write** permission for the owner;
+- `S_IXUSR` is the **execute** permission for the owner;
+- `0700` is the combination of these permissions;
 
 {: .important-title }
-To sum it up, `or` is basically adding the values together. 
+To sum it up, `or` is basically **adding** the values together. 
 
 ----
 
@@ -86,8 +86,8 @@ To sum it up, `or` is basically adding the values together.
 
 - `eax` register with the value `5` to indicate the `open` syscall;
 - `ebx` register with the file path;
-- `ecx` register with the value `101o` for flags like `ocreate` and `write`;
-- `edx` register with the value `0700o` for permissions like `rwxr--r-`;
+- `ecx` register with the value `101o` for flags `create` and `write`;
+- `edx` register with the value `0700o` for permissions like `rwx`;
 - `int 80h` to invoke the syscall;
 
 ----
