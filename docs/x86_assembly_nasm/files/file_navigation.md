@@ -1,16 +1,16 @@
 ---
-title: lseek
+title: File Navigation
 nav_order: 2
 layout: default
 parent: Files
 grand_parent: 🔲 x86 Assembly NASM
 ---
 
-## **LSEEK**
+## **FILE NAVIGATION**
 
 ## **Introduction to lseek**
 
-The **lseek** system call facilitates efficient file navigation within an open file in x86 assembly. It allows us to move to specific positions within a file, essentially for scenarios like fixed-size record processing.
+The **lseek** system call facilitates efficient **file navigation** within an open file in x86 assembly. It allows us to move to specific positions within a file, essentially for scenarios like **fixed-size record** processing.
 
 Let's use this file `text.txt` example:
 ```bash
@@ -36,15 +36,15 @@ off_t lseek(int fd, off_t offset, int whence);
 ```
 
 So, I need the following information to open a file:
-- `lseek` system call requires `eax` to be set to `19`;
+- `lseek` system call requires `eax` to be set to `19`, check the [here](https://faculty.nps.edu/cseagle/assembly/sys_call.html);
 - It takes the **file descriptor** on `ebx` which is `3`;
 - The **offset** in bytes to move the file pointer is provided to `ecx`;
 - The **whence** parameter specifies the **starting point** for the offset.
 
+Just like `0_RDONLY`, the `SEEK_SET`, `SEEK_CUR`, and `SEEK_END` are **C macros** defined in the `unistd.h` file. I can find the actual values in the [unistd.h](https://sites.uclouvain.be/SystInfo/usr/include/asm-generic/unistd.h.html) which are `0`, `1`, and `2` respectively.
+
 {: .important-title }
 The **whence** can be `SEEK_SET`, `SEEK_CUR`, or `SEEK_END`. In this example, I'm using `SEEK_SET` which means the offset is relative to the **beginning of the file**.
-
-Just like `0_RDONLY`, the `SEEK_SET`, `SEEK_CUR`, and `SEEK_END` are **C macros** defined in the `unistd.h` file. I can find the actual values in the [unistd.h](https://sites.uclouvain.be/SystInfo/usr/include/asm-generic/unistd.h.html) file which are `0`, `1`, and `2` respectively.
 
 ```
 section .data
@@ -79,6 +79,7 @@ main:
 ```
 
 - The **result** of the `lseek` system call will be the **new file offset**;
-- I can use in **GDB** `x/10x [pointer]` to see the memory content **(hexadecimal format)** and  `x/10s [pointer]` **(string format)**;
+- **GDB** `x/10x [pointer]` to see the memory content **(hexadecimal format)**;
+- **GDB**  `x/10s [pointer]` to see the memory content **(string format)**;
 - The **buffer** will contain the **first record** from the file.
 - The **file offset** will be at the **beginning** of the file.
