@@ -16,8 +16,8 @@ In this example I define a procedure named `addTwo`. The procedure adds the valu
 
 ```
 addTwo:
-    ADD eax, ebx  ; Add the contents of eax and ebx
-    RET           ; Return from the procedure
+    add eax, ebx
+    ret
 ```
 
 ----
@@ -27,9 +27,14 @@ addTwo:
 To call a procedure, I use the `call` instruction followed by the **name of the procedure**.
 
 ```
-    MOV eax, 2  ; Set eax to 2
-    MOV ebx, 3  ; Set ebx to 3
-    CALL addTwo ; Call the addTwo procedure
+addTwo:
+    add eax, ebx
+    ret
+
+main:
+    mov eax, 2
+    mov ebx, 3
+    call addTwo
 ```
 
 {: .important-title }
@@ -41,8 +46,8 @@ When a procedure is called, the **return address is pushed onto the stack**. The
 
 Let's use **GDB** to inspect the stack and understand how return addresses are managed. 
 
-- `info register esp` - Displays the current value of the stack pointer `esp`.
-- `x/x $esp` - Displays the value at the top of the stack.
+- `info register esp` - Displays the current value of the stack pointer `esp`;
+- `x/x $esp` - Displays the value at the top of the stack;
 
 {: .important-title }
 Understanding how return addresses are stored on the stack is **crucial for computer security**. Exploits such as **buffer overflows** can manipulate return addresses to **execute malicious code**.
@@ -52,24 +57,18 @@ Understanding how return addresses are stored on the stack is **crucial for comp
 ### **Example Code**
 
 ```
-section .data
-
 section .text
+    global main
 
-global main
-
-addTwo:             ; define a function called addTwo
+addTwo:             ; define a procedure called addTwo
     add eax, ebx    ; add the two arguments
     ret             ; return the result
 
 main:
     mov eax, 4      ; set the first argument to 4
     mov ebx, 1      ; set the second argument to 1
-    call addTwo     ; call the addTwo function
+    call addTwo     ; call the addTwo procedure
     mov ebx,eax     ; store the result of eax in ebx
     mov eax, 1      ; set eax to 1
-    int 80h         ; exit the program
+    int 80h         ; exit the program, system call
 ```
-
-{: .important-title }
-`echo $?` will print the return value of the program, in this case, it will print `4 + 1 = 5`.

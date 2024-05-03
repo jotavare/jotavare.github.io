@@ -30,11 +30,11 @@ The **stack layout** will look like this:
     
 | Stack |
 |:------|
-| `ret` (return address) (sp) |
-| `1` |
-| `4` |
+| `ret` (sp) |
+| `1`   |
+| `4`   |
 
-`sp = stack pointer`
+`ret = return address` `sp = stack pointer`
 
 {: .important-title }
 If I call `addTwo`, how does it know that the first parameter is `4` and the second parameter is `1`!? One of the most common ways is to **create a base pointer** to reference the parameters.
@@ -61,19 +61,22 @@ main:
     int 80h
 ```
 
+- `push ebp` - Save the base pointer;
+- `mov ebp, esp` - Set the base pointer to the stack pointer;
+
 The **stack layout** will look like this:
 
 | Stack |
 |:------|
 | `ebp` (sp) |
-| `ret` (return address) |
-| `1` |
-| `4` |
+| `ret` |
+| `1`   |
+| `4`   |
 
-`sp = stack pointer`
+`ret = return address` `sp = stack pointer`
 
 {: .important-title }
-The `ebp` acts like the **base of my stack frame** and the **divider** between the stack frames. It helps me reference the parameters and local variables. If I had functions nested in functions, I could use the base pointer to reference the parameters and local variables of the outer function. 
+The `ebp` acts like the **base of my stack frame** and the **divider** between the stack frames. It helps me reference the parameters and local variables. If I had procedures nested in procedures, I could use the base pointer to reference the parameters and local variables of the outer procedure. 
 
 ----
 
@@ -100,14 +103,14 @@ main:
     int 80h
 ```
 
-| Value | Stack |
-|:------|:------|
-|       | `ebp` (sp) |
-| `+4`  | `ret` (return address) |
-| `+8`  | `1` |
-| `+12` | `4` |
+| Stack      | Value |
+|:-----------|:------|
+| `ebp` (sp) | `+0`  |
+| `ret`      | `+4`  |
+| `1`        | `+8`  |
+| `4`        | `+12` |
 
-`sp = stack pointer`
+`ret = return address` `sp = stack pointer`
 
 {: .important-title }
 I can use `x/x` or `x/4x` to inspect the stack in **GDB**. This will help me understand how the stack is laid out and how I can access the parameters.
