@@ -44,10 +44,7 @@ main:
 
 ### **Create and Read Flags**
 
-I need to combine flags together using the `or` operator. For example, `101o` is equivalent to `O_CREAT | O_WRONLY | O_TRUNC`. I can set the flags individually and combine them using the `or` operator or use the combined value directly.
-
-{: .important-title }
-Visual Studio Code usually **shows the value** if you hover over the flag.
+I need to combine flags together using the `or` operator or use the combined value directly. For example, `101o` is equivalent to `O_CREAT | O_WRONLY`.
 
 ```
     O_CREAT  = 0100
@@ -56,16 +53,16 @@ Visual Studio Code usually **shows the value** if you hover over the flag.
                0101
 ```
 
-The way we declare `0101` in octal is `101o`. We can exclude the leading zeros.
+The way we declare `0101` in octal:
+- Exclude the leading zero `101`;
+- Append a lowercase "o" to the number `101o` to indicate octal format;
 
 {: .important-title }
-When combining multiple flags using bitwise `or`, as shown in the assembly code, the resulting combination may be represented in octal format for specifying file permissions and behavior. In assembly language, octal literals are often denoted by appending a lowercase "o" to the number, such as `101o` in the provided code snippet. This notation indicates that the number is in octal format.
+Visual Studio Code usually **shows the value directly** if you hover over the flag or I can check these values directly in [stat.h](https://man7.org/linux/man-pages/man0/sys_stat.h.0p.html).
 
 ----
 
 ### **File Permissions**
-
-File permissions are represented in octal format as follows:
 
 ```
     S_IRUSR = 0400
@@ -75,12 +72,15 @@ File permissions are represented in octal format as follows:
               0700
 ```
 
+- `S_IRUSR` is the read permission for the owner;
+- `S_IWUSR` is the write permission for the owner;
+- `S_IXUSR` is the execute permission for the owner;
+- `0700` is the combination of these permissions **read**, **write**, and **execute** for the owner;
+
 {: .important-title }
-To sum it up, `or` is basically adding the values together. I can also check these values in [stat.h](https://man7.org/linux/man-pages/man0/sys_stat.h.0p.html) file.
+To sum it up, `or` is basically adding the values together. 
 
 ----
-
-Your guide is now well-organized and concise! Let me know if you need further adjustments or assistance.
 
 ### **Open/Create File**
 
