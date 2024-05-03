@@ -53,12 +53,12 @@ I need to combine flags together using the `or` operator or use the **combined v
                0101
 ```
 
-The way we declare `0101` in octal:
+The way I declare `0101` in octal:
 - Exclude the leading zero `101`;
 - Append a lowercase `o` to the number `101o` to indicate octal format;
 
 {: .important-title }
-Visual Studio Code usually **shows the value directly** if you hover over the flag or I can check these values directly in [stat.h](https://man7.org/linux/man-pages/man0/sys_stat.h.0p.html).
+Visual Studio Code usually **shows the value directly** if I hover over the flag or I can check these values directly in [stat.h](https://man7.org/linux/man-pages/man0/sys_stat.h.0p.html).
 
 ----
 
