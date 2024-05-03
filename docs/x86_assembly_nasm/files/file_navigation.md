@@ -36,7 +36,7 @@ off_t lseek(int fd, off_t offset, int whence);
 ```
 
 So, I need the following information to open a file:
-- `lseek` system call requires `eax` to be set to `19`, check [here](https://faculty.nps.edu/cseagle/assembly/sys_call.html);
+- `lseek` **system call** requires `eax` to be set to `19` (check [here](https://faculty.nps.edu/cseagle/assembly/sys_call.html));
 - It takes the **file descriptor** on `ebx` which is `3`;
 - The **offset** in bytes to move the file pointer is provided to `ecx`;
 - The **whence** parameter specifies the **starting point** for the offset in `edx`;
@@ -79,7 +79,7 @@ main:
 ```
 
 - The **result** of the `lseek` system call will be the **new file offset**;
-- **GDB** `x/10x [pointer]` to see the memory content **(hexadecimal format)**;
-- **GDB**  `x/10s [pointer]` to see the memory content **(string format)**;
+- `x/10x [pointer]` to see the memory content **(hexadecimal format)** in **GDB**;
+- `x/10s [pointer]` to see the memory content **(string format)** in **GDB**;
 - The **buffer** will contain the **first record** from the file;
 - The **file offset** will be at the **beginning** of the file;
