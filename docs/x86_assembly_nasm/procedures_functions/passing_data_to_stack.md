@@ -30,7 +30,7 @@ The **stack layout** will look like this:
     
 | Stack |
 |:------|
-| `ret` return addr (sp) |
+| `ret` (return address) (sp) |
 | `1` |
 | `4` |
 
@@ -66,7 +66,7 @@ The **stack layout** will look like this:
 | Stack |
 |:------|
 | `ebp` (sp) |
-| `ret` return addr |
+| `ret` (return address) |
 | `1` |
 | `4` |
 
@@ -103,7 +103,7 @@ main:
 | Value | Stack |
 |:------|:------|
 |       | `ebp` (sp) |
-| `+4`  | `ret` return address |
+| `+4`  | `ret` (return address) |
 | `+8`  | `1` |
 | `+12` | `4` |
 
