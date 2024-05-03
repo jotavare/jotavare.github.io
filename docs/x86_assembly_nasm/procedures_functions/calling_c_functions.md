@@ -1,8 +1,9 @@
 ---
 title: Calling C Functions
-nav_order: 8
+nav_order: 1
 layout: default
-parent: 🔲 x86 Assembly NASM
+parent: Procedures/Functions
+grand_parent: 🔲 x86 Assembly NASM
 ---
 
 ## **CALLING C FUNCTIONS**
