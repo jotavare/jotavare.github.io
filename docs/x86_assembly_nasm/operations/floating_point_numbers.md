@@ -1,6 +1,6 @@
 ---
 title: Floating Point Numbers
-nav_order: 7
+nav_order: 6
 layout: default
 parent: Operations
 grand_parent: 🔲 x86 Assembly NASM

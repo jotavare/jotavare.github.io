@@ -1,6 +1,6 @@
 ---
 title: Loops
-nav_order: 6
+nav_order: 5
 layout: default
 parent: Operations
 grand_parent: 🔲 x86 Assembly NASM
