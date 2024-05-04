@@ -2,7 +2,7 @@
 title: Opening and Reading Files
 nav_order: 1
 layout: default
-parent: Files
+parent: File Management
 grand_parent: 🔲 x86 Assembly NASM
 ---
 

@@ -2,9 +2,11 @@
 title: Simple Bootloader
 nav_order: 2
 layout: default
-parent: Projects
+parent: Building My OS
 grand_parent: 🔲 x86 Assembly NASM
 ---
+
+## **SIMPLE BOOTLOADER**
 
 ### **Bootloader Process**
 

@@ -1,10 +1,12 @@
 ---
-title: Print Text to Bootloader
+title: Print to BIOS
 nav_order: 3
 layout: default
-parent: Projects
+parent: Building My OS
 grand_parent: 🔲 x86 Assembly NASM
 ---
+
+## **PRINT TO BIOS**
 
 ### **First Steps**
 
