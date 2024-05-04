@@ -1,5 +1,5 @@
 ---
-title: FAT12 Disk
+title: Disk Structure
 nav_order: 3
 layout: default
 parent: Building My OS
@@ -11,7 +11,7 @@ grand_parent: 🔲 x86 Assembly NASM
 
 <div style="text-align:center;">
     <br>
-    <img src="../../assets/images/disk_structure.jpg" alt="Disk Structure Diagram">
+    <img src="../../../assets/images/disk_structure.jpg" alt="Disk Structure Diagram">
 </div>
 
    - Disks consist of **stacked platters**;
