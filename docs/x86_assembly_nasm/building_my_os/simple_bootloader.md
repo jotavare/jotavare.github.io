@@ -1,6 +1,6 @@
 ---
 title: Simple Bootloader
-nav_order: 2
+nav_order: 1
 layout: default
 parent: Building My OS
 grand_parent: 🔲 x86 Assembly NASM

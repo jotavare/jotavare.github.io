@@ -1,6 +1,6 @@
 ---
 title: Print to BIOS
-nav_order: 3
+nav_order: 2
 layout: default
 parent: Building My OS
 grand_parent: 🔲 x86 Assembly NASM
