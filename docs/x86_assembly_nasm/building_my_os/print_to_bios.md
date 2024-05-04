@@ -30,6 +30,8 @@ main:
 - `ds` (**data segment**), `es` (**extra segment**), and `ss` (**stack segment**) are initialized to `0` to clear them;
 - `sp` is set to `0x7c00`, pointing to the bootloader address;
 
+----
+
 ### **Print Function**
 
 Before execution, registers `si`, `ax`, and `bx` are pushed onto the stack to preserve their values during the function's execution.
@@ -45,6 +47,8 @@ print:
 - `ax` utilized for passing parameters to **BIOS** interrupts; 
 - These parameters include the function number `ah` and sometimes data to be printed `al`;
 - `bx` is preserved by pushing it onto the stack but remains unused throughout the function;
+
+----
 
 ### **Printing Loop**
 

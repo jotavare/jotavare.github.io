@@ -10,24 +10,24 @@ grand_parent: 🔲 x86 Assembly NASM
 
 In this example, I will build on top of the previous code and build an **OS** (operating system), starting from the boot process and diving into the creation of a file system. I'll cover the structure of a traditional OS, the role of a bootloader and kernel, formatting a disk using **FAT12 file system**, and integrating **bootloader** and **kernel** into a disk image.
 
-## OS Structure
+### **OS Structure**
 
 In most traditional operating systems, there are two main components:
 
-### Bootloader
-- The bootloader plays a crucial role in setting up the system;
-- It gathers system information and prepares the environment for the kernel;
-- Additionally, it loads the kernel into memory, enabling it to execute OS operations;
+- **Bootloader**
+  - The bootloader plays a crucial role in setting up the system;
+  - It gathers system information and prepares the environment for the kernel;
+  - Additionally, it loads the kernel into memory, enabling it to execute OS operations;
 
-### Kernel
-- The kernel is responsible for performing all core OS functions;
-- It manages system resources, handles system calls, and orchestrates various system operations;
+- ***Kernel***
+  - The kernel is responsible for performing all core OS functions;
+  - It manages system resources, handles system calls, and orchestrates various system operations;
 
-### Preparation
-- Organize project files into separate folders for **bootloader** and **kernel**;
-- Modify the `Makefile` to accommodate separate rules for compiling **bootloader** and **kernel**;
+- **Preparation**
+  - Organize project files into separate folders for **bootloader** and **kernel**;
+  - Modify the `Makefile` to accommodate separate rules for compiling **bootloader** and **kernel**;
 
-### Project Structure:
+**Project Structure:**
 
 In this project, I'm gonna work with the files with `*`:
 
@@ -43,7 +43,9 @@ fat12_disk
 {: .important-title }
 A significant challenge in OS development is working within the constraints of the boot disk. Typically, a boot disk, such as a floppy disk, provides limited storage space, typically around `512 bytes` per sector. This limitation necessitates efficient utilization of disk space, especially when accommodating both the bootloader and kernel.
 
-## Makefile Configuration
+----
+
+### **Makefile Configuration**
 
 This `Makefile` organizes the compilation of the bootloader and kernel, as well as the creation of the boot disk image (`main.img`).
 
