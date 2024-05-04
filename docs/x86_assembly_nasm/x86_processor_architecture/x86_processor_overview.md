@@ -2,7 +2,7 @@
 title: x86 Processor Overview
 nav_order: 2
 layout: default
-parent: Projects
+parent: x86 Processor Architecture
 grand_parent: 🔲 x86 Assembly NASM
 ---
 
