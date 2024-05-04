@@ -6,7 +6,6 @@ parent: Building My OS
 grand_parent: 🔲 x86 Assembly NASM
 ---
 
-
 ## **DISK STRUCTURE**
 
 <div style="text-align:center;">

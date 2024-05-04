@@ -16,7 +16,7 @@ When a PC boots in **legacy mode**, the following sequence occurs:
 
 1. It enters the **BIOS** (Basic Input Output System);
 2. The **BIOS** initiates the boot process by accessing the **boot sequence**, which determines the order in which devices are checked for **bootable code**;
-3. Each device in the boot sequence is accessed, and its first sector, known as the **MBR** (Master Boot Record), is loaded into memory at address `0x7c00`.
+3. Each device in the boot sequence is accessed, and its first sector, known as the **MBR** (Master Boot Record), is loaded into memory at address `0x7c00`;
 4. The BIOS checks for a signature `0xaa55` at the end of the `512 byte` sector loaded into memory at `0x7c00`;
 5. If the signature is found, the BIOS transfers control to the bootloader code at memory address `0x7c00`, initiating the execution of the bootloader;
 

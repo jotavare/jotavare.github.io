@@ -6,4 +6,4 @@ parent: 🔲 x86 Assembly NASM
 has_children: true
 ---
 
-## **FILES**
+## **FILE MANAGEMENT**

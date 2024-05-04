@@ -78,4 +78,4 @@ Here is a table of common conditional jumps in assembly language:
 | `jb`        | Jump if Below | `CF = 1` |
 | `jbe`       | Jump if Below or Equal | `CF = 1 or ZF = 1` |
 
-`SF = Sign Flag, OF = Overflow Flag, ZF = Zero Flag, CF = Carry Flag`
+`SF = Sign Flag` `OF = Overflow Flag` `ZF = Zero Flag` `CF = Carry Flag`

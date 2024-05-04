@@ -44,7 +44,7 @@ main:
 
 ### **Create and Read Flags**
 
-I need to combine flags together using the `or` operator or use the **combined value directly**. For example, `101o` is equivalent to `O_CREAT | O_WRONLY`.
+I need to combine flags using the `or` operator or use the **combined value directly**. For example, `101o` is equivalent to `O_CREAT | O_WRONLY`.
 
 ```
     O_CREAT  = 0100
@@ -78,7 +78,7 @@ Visual Studio Code usually **shows the value directly** if I hover over the flag
 - `0700` is the combination of these permissions;
 
 {: .important-title }
-To sum it up, `or` is basically **adding** the values together. 
+To sum it up, `or` is **adding** the values together. 
 
 ----
 

@@ -39,7 +39,7 @@ int open(const char *pathname, int flags);
 So, I need the following information to open a file:
 - `open` system call requires `eax` to be set to `5`;
 - It takes a **file path** on `ebx` as a `const char *`;
-- I need to provide a **flag** as argument to `ecx`;
+- I need to provide a **flag** as an argument to `ecx`;
 
 {: .important-title }
 Flags are used to **specify the mode** in which the file should be opened. For example, `O_RDONLY` for **read-only mode**, `O_WRONLY` for **write-only mode**, and `O_RDWR` for **read-write mode**. I can check that in the terminal using `man 2 open` and scrolling down to the `flags` section.

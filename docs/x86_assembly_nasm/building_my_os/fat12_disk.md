@@ -8,26 +8,28 @@ grand_parent: 🔲 x86 Assembly NASM
 
 ## **FAT12 Disk**
 
-In this example, I will build on top of the previous code and build an operating system (OS) starting from the boot process and diving into the creation of a file system. We'll cover the structure of a traditional OS, the role of a bootloader and kernel, formatting a disk using FAT12 file system, and integrating bootloader and kernel into a disk image.
+In this example, I will build on top of the previous code and build an **OS** (operating system), starting from the boot process and diving into the creation of a file system. I'll cover the structure of a traditional OS, the role of a bootloader and kernel, formatting a disk using **FAT12 file system**, and integrating **bootloader** and **kernel** into a disk image.
 
 ## OS Structure
 
 In most traditional operating systems, there are two main components:
 
 ### Bootloader
-- The bootloader plays a crucial role in setting up the system.
-- It gathers system information and prepares the environment for the kernel.
-- Additionally, it loads the kernel into memory, enabling it to execute OS operations.
+- The bootloader plays a crucial role in setting up the system;
+- It gathers system information and prepares the environment for the kernel;
+- Additionally, it loads the kernel into memory, enabling it to execute OS operations;
 
 ### Kernel
-- The kernel is responsible for performing all core OS functions.
-- It manages system resources, handles system calls, and orchestrates various system operations.
+- The kernel is responsible for performing all core OS functions;
+- It manages system resources, handles system calls, and orchestrates various system operations;
 
 ### Preparation
-- Organize project files into separate folders for `bootloader` and `kernel`.
-- Modify the `Makefile` to accommodate separate rules for compiling `bootloader` and `kernel`.
+- Organize project files into separate folders for **bootloader** and **kernel**;
+- Modify the `Makefile` to accommodate separate rules for compiling **bootloader** and **kernel**;
 
 ### Project Structure:
+
+In this project, I'm gonna work with the files with `*`:
 
 ```
 fat12_disk
@@ -37,14 +39,13 @@ fat12_disk
 └── kernel
     └── main.asm (optional at the moment)
 ```
-We gonna work with the files with `*`.
 
 {: .important-title }
-A significant challenge in OS development is working within the constraints of the boot disk. Typically, a boot disk, such as a floppy disk, provides limited storage space, typically around 512 bytes per sector. This limitation necessitates efficient utilization of disk space, especially when accommodating both the bootloader and kernel.
+A significant challenge in OS development is working within the constraints of the boot disk. Typically, a boot disk, such as a floppy disk, provides limited storage space, typically around `512 bytes` per sector. This limitation necessitates efficient utilization of disk space, especially when accommodating both the bootloader and kernel.
 
 ## Makefile Configuration
 
-This Makefile organizes the compilation of the bootloader and kernel, as well as the creation of the boot disk image (`main.img`).
+This `Makefile` organizes the compilation of the bootloader and kernel, as well as the creation of the boot disk image (`main.img`).
 
 ```makefile
 # Assembler
@@ -97,7 +98,7 @@ Commands:
 - `mcopy -i $(BUILD_DIR)/main.img $(BUILD_DIR)/kernel.bin "::kernel.bin"`: Copies the compiled kernel to the disk image with the destination path "::kernel.bin";
 
 {: .important-title }
-If we try to compile and run the code, we will encounter an error `Bad target ::kernel.bin`. This error occurs because fat12 expects a header on the disk for proper initialization.
+If I try to compile and run the code, I'll encounter an error `Bad target ::kernel.bin`. This error occurs because fat12 expects a header on the disk for proper initialization.
 
 ----
 
@@ -139,7 +140,7 @@ ebr_system_id:              db 'FAT12   '
 - `jmp short main`: Jumps the header to the main code;
 - `nop`: No operation, a placeholder for the first instruction;
 
-The **header** structure includes the following fields, which are standart for a FAT12 disk:
+The **header** structure includes the following fields, which are standard for a FAT12 disk:
 - `bdb_eom`: End of message, 'MSWIN4.1';
 - `bdb_bytes_per_sector`: Number of bytes per sector;
 - `bdb_sectors_per_cluster`: Number of sectors per cluster;
@@ -160,13 +161,15 @@ The **header** structure includes the following fields, which are standart for a
 - `ebr_system_id`: System ID 8 bytes long;
 
 {: .important-title }
-If you wanna see this structure I can actually create a fat12 disk image and take a look inside with hex editor and see with more detail. jeex
+If I wanna see this structure, I can create a fat12 disk image and take a look inside with **hex editor** and see with more detail. For example, **jeex** or **wxHexEditor**.
 
 ----
 
 ## **INT 13 - Disk BIOS Services**
 
-[INT 13](https://stanislavs.org/helppc/int_13.html), also known as Diskette BIOS Services, is a set of BIOS interrupts used for disk operations, particularly on floppy disks. These services provide a standardized interface for interacting with floppy disk drives at a low level. Here's a brief overview of some common functions provided by INT 13:
+[INT 13](https://stanislavs.org/helppc/int_13.html), also known as **Diskette BIOS Services**, is a set of BIOS interrupts used for disk operations, particularly on floppy disks. These services provide a standardized interface for interacting with floppy disk drives at a low level.
+
+Here's a brief overview of some common functions provided by **INT 13**:
 
 1. **Read Sector**: Reads a specified sector from the disk into memory.
 2. **Write Sector**: Writes data from memory to a specified sector on the disk.
@@ -175,7 +178,7 @@ If you wanna see this structure I can actually create a fat12 disk image and tak
 5. **Get Drive Parameters**: Retrieves information about the disk drive, such as the number of tracks, sectors per track, and bytes per sector.
 6. **Reset Disk System**: Resets the disk drive to a known state.
 
-These services are typically accessed by invoking INT 13 with a specific function number and passing necessary parameters via registers or memory. The BIOS then performs the requested operation on the disk drive.
+These services are typically accessed by invoking **INT 13** with a specific function number and passing necessary parameters via registers or memory. The BIOS then performs the requested operation on the disk drive.
 
 {: .important-title }
-While INT 13 was originally designed for floppy disks, it's also used for accessing hard disks in older systems. However, with the advent of more advanced disk interfaces and operating systems, direct use of INT 13 has become less common, replaced by higher-level disk access APIs provided by the operating system or disk controller drivers.
+While **INT 13** was originally designed for floppy disks, it's also used for accessing hard disks in older systems. However, with the advent of more advanced disk interfaces and operating systems, direct use of **INT 13** has become less common, replaced by higher-level disk access APIs provided by the operating system or disk controller drivers.
