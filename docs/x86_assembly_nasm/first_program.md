@@ -31,8 +31,8 @@ Create a new file with a `.s`, `.as`, or `.asm` extension, such as `first.s`.
 
 ### **Program Structure**
 - Divide the program into sections:
-  - `section .data` stores variables used in the program.
-  - `section .text` contains the actual code of the program.
+  - `section .data` stores variables used in the program;
+  - `section .text` contains the actual code of the program;
 
 ```c
 section .data
@@ -43,8 +43,8 @@ section .text
 ----
 
 ### **Starting Execution**
-- Use the `global _start` directive to declare the entry point of the program.
-- Define a label `_start:` to mark the beginning of the program execution.
+- Use the `global _start` directive to declare the entry point of the program;
+- Define a label `_start:` to mark the beginning of the program execution;
 
 ```c
 global _start
@@ -55,10 +55,10 @@ _start:
 ----
 
 ### **Writing Code**
-- Use the `mov` instruction to move data between locations, such as registers.
-- Example: `mov eax, 1` moves the value `1` into the `eax` register.
-- I can move static values into registers for manipulation.
-- `move destination, source`
+- Use the `mov` instruction to move data between locations, such as registers;
+- Example: `mov eax, 1` moves the value `1` into the `eax` register;
+- I can move static values into registers for manipulation;
+- `move destination, source`;
 
 ```c
 mov eax, 1
@@ -67,11 +67,11 @@ mov eax, 1
 ----
 
 ### **Ending the Program**
-- To terminate the program, use an interrupt instruction `int`.
-- Specify the desired action in the `eax` register.
-- For example, `mov eax, 1` indicates the exit system call.
-- Set the exit status code in the `ebx` register.
-- Execute the interrupt with `int 0x80` (hexadecimal value `80`).
+- To terminate the program, use an interrupt instruction `int`;
+- Specify the desired action in the `eax` register;
+- For example, `mov eax, 1` indicates the exit system call;
+- Set the exit status code in the `ebx` register;
+- Execute the interrupt with `int 0x80` (hexadecimal value `80`);
 
 ```c
 mov eax, 1
@@ -128,8 +128,8 @@ echo $?
 
 ### **Debugging with GDB**
 
-- Use **GDB** (GNU Debugger) for debugging assembly programs. Also works with `C` and `C++`.
-- Set breakpoints and step through the program to observe execution.
+- Use **GDB** (GNU Debugger) for debugging assembly programs. Also works with `C` and `C++`;
+- Set breakpoints and step through the program to observe execution;
 
 <div class="code-example" markdown="1">
 Start **GDB** and load the executable.
