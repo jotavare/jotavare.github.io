@@ -1,6 +1,6 @@
 ---
 title: FAT12 Disk
-nav_order: 3
+nav_order: 4
 layout: default
 parent: Building My OS
 grand_parent: 🔲 x86 Assembly NASM

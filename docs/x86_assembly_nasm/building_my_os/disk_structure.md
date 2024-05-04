@@ -1,9 +1,11 @@
 ---
-title: Disk Structure
-nav_order: 11
+title: FAT12 Disk
+nav_order: 3
 layout: default
-parent: 🔲 x86 Assembly NASM
+parent: Building My OS
+grand_parent: 🔲 x86 Assembly NASM
 ---
+
 
 ## **DISK STRUCTURE**
 

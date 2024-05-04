@@ -1,5 +1,5 @@
 ---
-title: Building my OS
+title: Building My OS
 nav_order: 9
 layout: default
 parent: 🔲 x86 Assembly NASM
