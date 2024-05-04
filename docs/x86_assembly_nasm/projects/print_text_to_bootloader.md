@@ -8,7 +8,7 @@ grand_parent: 🔲 x86 Assembly NASM
 
 ### **First Steps**
 
-To print a message to the screen using the bootloader, the program is set up as follows:
+Let's continue with the previous code and print a message to the screen using the bootloader, the program is set up as follows:
 
 ```
 org 0x7c00
