@@ -1,6 +1,6 @@
 ---
 title: Data Management
-nav_order: 2
+nav_order: 3
 layout: default
 parent: Data and Memory
 grand_parent: 🔲 x86 Assembly NASM
