@@ -15,7 +15,7 @@ grand_parent: 🔲 x86 Assembly NASM
     <img src="../../../assets/images/x86_processor_diagram.png" alt="x86 Processor Diagram">
 </div>
 
-Basic components of the x86 processor to other hardware elements within the system:
+Primary components of an x86 processor include:
 
 - **CPU**: The central processing unit, responsible for executing instructions.
 - **Memory**: Stores data and instructions for the CPU to access.
@@ -50,6 +50,6 @@ In **x86 architecture** exists **three primary modes** of operation:
 
 Communication between these components occurs through three primary buses:
 
-1. **Control Bus**: Synchronizes actions among attached devices, facilitating coordination.
-2. **Address Bus**: Holds the address of instructions and data during transfers.
-3. **Data Bus**: Transfers instructions and data between the CPU, memory, and I/O devices.
+- **Control Bus**: Synchronizes actions among attached devices, facilitating coordination.
+- **Address Bus**: Holds the address of instructions and data during transfers.
+- **Data Bus**: Transfers instructions and data between the CPU, memory, and I/O devices.

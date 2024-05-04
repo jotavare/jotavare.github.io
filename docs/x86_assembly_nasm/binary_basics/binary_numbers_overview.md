@@ -8,8 +8,6 @@ grand_parent: 🔲 x86 Assembly NASM
 
 ## **BINARY NUMBERS OVERVIEW**
 
-----
-
 ### **Base 10 Number System**
 
 Each digit's position in a number represents an integer value ranging from **0** to **9**.

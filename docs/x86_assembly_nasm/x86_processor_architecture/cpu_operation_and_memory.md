@@ -21,10 +21,10 @@ The CPU comprises several crucial components:
     <img src="../../../assets/images/cpu_clock_speed.jpg" alt="CPU Clock Speed">
 </div>
 
-- Measured in Hertz, the clock speed determines the number of instructions a CPU can execute per second.
-- One to zero and back to one is one clock cycle.
-- The number of clock cycles per second, expressed in GHz (Gigahertz).
-- Every time the clock ticks, the CPU processes an instruction.
+- Measured in **Hertz**, the clock speed determines the number of instructions a CPU can execute per second.
+- One to zero and back to one is **one clock cycle**.
+- The number of clock cycles per second, expressed in **GHz** (Gigahertz).
+- Every time the clock ticks, the CPU processes **one instruction**.
 
 ----
 
