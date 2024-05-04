@@ -41,7 +41,7 @@ Disk data is accessed using two primary addressing schemes:
 
 ### **Converting CHS and LBA**
 
-The following formulas can be used to convert between CHS and LBA:
+The following formulas can be used to convert between `CHS` and `LBA`:
 
 **CHS to LBA:**
 
@@ -50,10 +50,12 @@ The following formulas can be used to convert between CHS and LBA:
 
 **LBA to CHS:**
 
-- `T` = `LBA / Sectors per Track`;
+- `T` = `(LBA / Sectors per Track)`;
 - `S` = `(LBA % Sectors per Track) +1`;
 - `H` = `(T % Number of Heads)`;
 - `C` = `(T / Number of Heads)`;
+
+----
 
 ### **Practical Application**
 
