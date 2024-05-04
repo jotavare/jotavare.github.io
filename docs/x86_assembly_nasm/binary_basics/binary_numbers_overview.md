@@ -63,7 +63,7 @@ When I sum up these values:
 
 ----
 
-### **Byte and Bit**
+### **Byte and Bit Sizes**
 
 | Unit | Size |
 |:-----|:-----|

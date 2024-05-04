@@ -8,6 +8,8 @@ grand_parent: 🔲 x86 Assembly NASM
 
 ## **BINARY ARITHMETIC**
 
+----
+
 ### **Binary Addition**
 
 - `0 + 0 = 0` - When **both bits are 0**, the result is **0**.
