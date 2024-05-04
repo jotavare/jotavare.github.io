@@ -1,6 +1,6 @@
 ---
 title: x86 Processor Overview
-nav_order: 2
+nav_order: 1
 layout: default
 parent: x86 Processor Architecture
 grand_parent: 🔲 x86 Assembly NASM
@@ -12,10 +12,10 @@ grand_parent: 🔲 x86 Assembly NASM
 
 <div style="text-align:center;">
     <br>
-    <img src="../../assets/images/x86_processor_diagram.png" alt="x86 Processor Diagram">
+    <img src="../../../assets/images/x86_processor_diagram.png" alt="x86 Processor Diagram">
 </div>
 
-Basic components of the x86 processor in relation to other hardware elements within the system:
+Basic components of the x86 processor to other hardware elements within the system:
 
 - **CPU**: The central processing unit, responsible for executing instructions.
 - **Memory**: Stores data and instructions for the CPU to access.
@@ -25,13 +25,13 @@ Basic components of the x86 processor in relation to other hardware elements wit
 
 ### **Processor Modes**
 
-In in **x86 architecture** exists **three primary modes** of operation:
+In **x86 architecture** exists **three primary modes** of operation:
 
 - **Protected Mode**:
   - Protected mode is the native processor state for x86 devices.
   - It's the primary mode for most programming tasks on x86 devices.
   - Allows multiple processes to run concurrently.
-  - Each process has its own memory section and cannot directly access the memory of other processes.
+  - Each process has its memory section and cannot directly access the memory of other processes.
   - Prevents illegal operations that could lead to process failure or system instability.
 
 - **Real Address Mode**:

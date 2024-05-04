@@ -18,7 +18,7 @@ The CPU comprises several crucial components:
 - **Memory Registers**: Fastest storage locations within the CPU used for temporary data storage and manipulation.
 
 <div style="text-align:center;">
-    <img src="../../assets/images/cpu_clock_speed.jpg" alt="CPU Clock Speed">
+    <img src="../../../assets/images/cpu_clock_speed.jpg" alt="CPU Clock Speed">
 </div>
 
 - Measured in Hertz, the clock speed determines the number of instructions a CPU can execute per second.

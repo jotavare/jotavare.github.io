@@ -1,8 +1,9 @@
 ---
 title: Registers and EFLAGS
-nav_order: 4
+nav_order: 1
 layout: default
-parent: 🔲 x86 Assembly NASM
+parent: Data and Memory
+grand_parent: 🔲 x86 Assembly NASM
 ---
 
 ## **REGISTERS AND EFLAGS**

@@ -1,9 +1,8 @@
 ---
 title: First Program
-nav_order: 1
+nav_order: 4
 layout: default
-parent: Projects
-grand_parent: 🔲 x86 Assembly NASM
+parent: 🔲 x86 Assembly NASM
 ---
 
 ### **Why NASM?**

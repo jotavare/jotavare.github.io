@@ -1,6 +1,6 @@
 ---
 title: Chars, Lists, and Strings
-nav_order: 3
+nav_order: 4
 layout: default
 parent: Data and Memory
 grand_parent: 🔲 x86 Assembly NASM
