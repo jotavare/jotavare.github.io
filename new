@@ -1,0 +1,52 @@
+# references
+
+# binary
+Binary Numbers
+Binary Basics 2
+Hexadecimal Numbers
+
+# processor
+Basics of x86 Architecture
+Processor Modes 
+
+Making your First Program
+
+#data
+and Registers
+
+Working with Data and Stack Memory
+Working with Byte and Word Data
+Characters, Strings and Lists
+Declaring Uninitialized Data
+
+#operations
+ADD, ADC, and EFLAGS
+Subtraction and Sign Flags
+Multiplying numbers with MUL and IMUL
+Dividing numbers with DIV and IDIV
+Logical Operators
+Shifts
+Comparison and Jump Instructions
+Creating a Loop
+Floating Point Numbers
+Comparing Floating Point Numbers
+
+
+# procedures
+Calling Standard C Functions
+Calling C Functions
+Basics of x86 functions/procedures
+
+
+Passing Data to Functions on the Stack
+
+#files
+Opening and Reading Files
+Using Lseek with Files
+Creating and Writing Files
+
+# os
+Building a Simple Bootloader
+Printing A Message in BIOS
+Disk Storage Structure in 6 Minutes
+Creating a FAT12 Disk
