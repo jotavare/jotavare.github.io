@@ -24,7 +24,7 @@ _start:
 ```
 
 {: .important-title }
-If I run the code and print the exit code with `echo $?` in bash, I will see the **ASCII** value of `'A' (65)`. You can search for the **ASCII table** to verify this or use the `man ascii` command in the terminal.
+If I run the code and print the exit code with `echo $?` in bash, I will see the **ASCII** value of `'A' (65)`. I can search for the **ASCII table** to verify this or use the `man ascii` command in the terminal.
 
 ----
 
@@ -45,7 +45,7 @@ _start:
 ```
 
 {: .important-title }
-One thing I **omitted** in this code is the **null terminator**, something that I learned in `C`. In this case, I have a list of values, so I need to add the **null terminator** manually so I know when the list ends. I can use whatever value I want as long as it's not part of the list. For example, in this case using `0` or `-1` would be a good choice `list db 1, 2, 3, 4, -1`.
+One thing I **omitted** in this code is the **null terminator**, something that I learned in `C`. In this case, I have a list of values, so I need to add the **null terminator** manually so I know when the list ends. I can use whatever value I want as long as it's not part of the list. For example, in this case, using `0` or `-1` would be a good choice `list db 1, 2, 3, 4, -1`.
 
 ----
 
@@ -72,7 +72,7 @@ In strings, it's a little bit easier to add the **null terminator** because I ca
 
 ### **GDB Tips**
 
-By default **GDB** uses **AT&T syntax** but to ensure consistency with **NASM** I can set **GDB** to use **Intel syntax**. This will make it easier to understand the code during debugging sessions.
+By default, **GDB** uses **AT&T syntax** but to ensure consistency with **NASM** I can set **GDB** to use **Intel syntax**. This will make it easier to understand the code during debugging sessions.
 
 <div class="code-example" markdown="1">
 Command to set **Intel syntax** in **GDB**:

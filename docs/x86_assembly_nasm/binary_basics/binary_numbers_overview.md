@@ -18,8 +18,8 @@ Let's break down the **base 10** number `13`:
 |:-----|:-----|
 |  1   |  3   |
 
-- The leftmost digit represents **10^1**, which equals **10**.
-- The rightmost digit represents **10^0**, which equals **1**.
+- The leftmost digit represents **10^1**, which equals **10**;
+- The rightmost digit represents **10^0**, which equals **1**;
 
 <div class="code-example" markdown="1">
 When I sum up these values:
@@ -34,9 +34,9 @@ When I sum up these values:
 
 ### **Binary Number System**
 
-- Binary numbers are represented using only two symbols: **0 (off)** and **1 (on)**.
-- Each digit's position represents a **power of 2**.
-- The rightmost digit represents **2^0**, the next one **^1,** then **2^2**, and so on.
+- Binary numbers are represented using only two symbols: **0 (off)** and **1 (on)**;
+- Each digit's position represents a **power of 2**;
+- The rightmost digit represents **2^0**, the next one **^1,** then **2^2**, and so on;
 
 So, let's break down the binary number `1010`:
 
@@ -44,10 +44,10 @@ So, let's break down the binary number `1010`:
 |:----|:----|:----|:----|
 |  1  |  0  |  1  |  0  |
 
-- The leftmost digit represents **2^3**, which equals **8**.
-- The next digit to the left represents **2^2**, which equals **4**.
-- The next digit to the left represents **2^1**, which equals **2**.
-- The rightmost digit represents **2^0**, which equals **1**.
+- The leftmost digit represents **2^3**, which equals **8**;
+- The next digit to the left represents **2^2**, which equals **4**;
+- The next digit to the left represents **2^1**, which equals **2**;
+- The rightmost digit represents **2^0**, which equals **1**;
 
 <div class="code-example" markdown="1">
 When I sum up these values:
@@ -78,12 +78,12 @@ When I sum up these values:
 |:----|:---|:---|:---|:-:|:-:|:-:|:-:| 
 |  0  |  0 |  0 |  0 | 0 | 0 | 0 | 0 |
 
-- Binary numbers are represented using **8 bits**.
-- Each bit represents a specific value, ranging from **1** to **128**.
+- Binary numbers are represented using **8 bits**;
+- Each bit represents a specific value, ranging from **1** to **128**;
 
 ----
 
 ### **Binary Counting**
 
-- Computers count in binary, starting from **0** to **255**.
-- The value **255** is represented by setting all bits to **1** in a byte.
+- Computers count in binary, starting from **0** to **255**;
+- The value **255** is represented by setting all bits to **1** in a byte;

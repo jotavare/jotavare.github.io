@@ -10,8 +10,8 @@ grand_parent: 🔲 x86 Assembly NASM
 
 Hexadecimal is a **convenient way to represent binary numbers**, especially in computing, due to its efficiency in both readability and compactness.
 
-- It's a **base 16** numbering system.
-- It uses the digits **0-9** and the letters **A-F** to represent values from **10 to 15**.
+- It's a **base 16** numbering system;
+- It uses the digits **0-9** and the letters **A-F** to represent values from **10 to 15**;
 
 | Decimal | Hexadecimal |
 |:--------|:------------|
@@ -32,8 +32,8 @@ Hexadecimal is a **convenient way to represent binary numbers**, especially in c
 | 14      | E           |
 | 15      | F           |
 
-- To understand better, I can divide the **binary number** into groups of **4 bits**.
-- The reason for this is that every **4 bits represents a hexadecimal value**.
+- To understand better, I can divide the **binary number** into groups of **4 bits**;
+- The reason for this is that every **4 bits represents a hexadecimal value**;
 
 | Binary | 8 (2^3) | 4 (2^2) | 2 (2^1) | 1 (2^0) | Total   |
 |:-------|:--------|:--------|:--------|:--------|:--------|

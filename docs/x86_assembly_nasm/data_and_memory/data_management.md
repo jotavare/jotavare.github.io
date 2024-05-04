@@ -17,9 +17,9 @@ section .data
     num dd 10
 ```
 
-- **Variable Name** - Provide a name for the data variable.
-- **Data Type** - Specify the size of the data, determining the number of bytes allocated.
-- **Initial Value** - Assign an initial value to the variable.
+- **Variable Name** - Provide a name for the data variable;
+- **Data Type** - Specify the size of the data, determining the number of bytes allocated;
+- **Initial Value** - Assign an initial value to the variable;
 
 ----
 
@@ -56,8 +56,8 @@ _start:
     INT 80h
 ```
 
-- When using `num`, the destination register would contain something akin to `$0x08048000`, representing the memory address where the variable `num` is stored.
-- On the other hand, when using `[num]`, the destination register would hold `0x08048000` (without the $ sign), denoting the value stored in the variable `num`, which in this case is `5`.
+- When using `num`, the destination register would contain something akin to `$0x08048000`, representing the memory address where the variable `num` is stored;
+- On the other hand, when using `[num]`, the destination register would hold `0x08048000` (without the $ sign), denoting the value stored in the variable `num`, which in this case is `5`;
 
 {: .important-title }
-In GDB, you can inspect registers with `info registers [register_name]` and analyze memory content with commands like `x/x [address]`.
+In GDB, I can inspect registers with `info registers [register_name]` and analyze memory content with commands like `x/x [address]`.

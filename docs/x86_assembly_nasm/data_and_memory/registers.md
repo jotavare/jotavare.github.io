@@ -23,7 +23,7 @@ grand_parent: 🔲 x86 Assembly NASM
 | `EFLAGS` | Flags register indicating the status of an operation. |
 
 {: .important-title }
-You can check more registers types and information [here](https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture).
+I can check more register types and information [here](https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture).
 
 ----
 
