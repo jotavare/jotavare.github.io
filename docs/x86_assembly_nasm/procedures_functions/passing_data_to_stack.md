@@ -1,8 +1,8 @@
 ---
 title: Passing Data to the Stack
-nav_order: 3
+nav_order: 4
 layout: default
-parent: Procedures/Functions
+parent: Procedures and Functions
 grand_parent: 🔲 x86 Assembly NASM
 ---
 

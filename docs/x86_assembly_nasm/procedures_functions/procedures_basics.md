@@ -1,8 +1,8 @@
 ---
 title: Procedures Basics
-nav_order: 2
+nav_order: 3
 layout: default
-parent: Procedures/Functions
+parent: Procedures and Functions
 grand_parent: 🔲 x86 Assembly NASM
 ---
 
