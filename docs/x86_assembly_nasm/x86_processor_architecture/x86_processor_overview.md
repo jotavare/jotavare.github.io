@@ -50,6 +50,6 @@ In **x86 architecture** exists **three primary modes** of operation:
 
 Communication between these components occurs through three primary buses:
 
-- **Control Bus**: Synchronizes actions among attached devices, facilitating coordination.
-- **Address Bus**: Holds the address of instructions and data during transfers.
-- **Data Bus**: Transfers instructions and data between the CPU, memory, and I/O devices.
+1. **Control Bus**: Synchronizes actions among attached devices, facilitating coordination.
+2. **Address Bus**: Holds the address of instructions and data during transfers.
+3. **Data Bus**: Transfers instructions and data between the CPU, memory, and I/O devices.

@@ -5,6 +5,8 @@ layout: default
 parent: 🔲 x86 Assembly NASM
 ---
 
+## **FIRST PROGRAM**
+
 ### **Why NASM?**
 
 NASM offers a simplified syntax compared to the more complex AT&T syntax commonly used on Linux systems. It's designed to be **more approachable for beginners** while still providing all the necessary skills for x86 programming. Plus, **NASM is an assembler widely used in the industry**, making it a valuable tool to learn.
@@ -79,7 +81,7 @@ int 0x80
 
 ----
 
-### **End Result**
+### **Example Code**
 
 ```c
 section .data
@@ -95,7 +97,7 @@ _start:
 
 ----
 
-### **Compiling with NASM**
+### **Compiling and Running with NASM**
 
 <div class="code-example" markdown="1">
 Use NASM to compile the assembly code into an object file `.o`.
@@ -103,10 +105,6 @@ Use NASM to compile the assembly code into an object file `.o`.
 ```bash
 nasm -f elf -o first.o first.s
 ```
-
-----
-
-### **Linking and Generating Executable**
 
 <div class="code-example" markdown="1">
 Link the object file to create an executable.
@@ -117,10 +115,6 @@ ld -m elf_i386 -o first first.o
 
 {:.important-title}
 `-m elf_i386` flag specifies the target architecture. **32 bits** for **x86**.
-
-----
-
-### **Running the Program**
 
 <div class="code-example" markdown="1">
 Execute the program using and verify the exit status code.
@@ -134,19 +128,17 @@ echo $?
 
 ### **Debugging with GDB**
 
-- Use **GDB (GNU Debugger)** for debugging assembly programs. Also works with C and C++.
+- Use **GDB** (GNU Debugger) for debugging assembly programs. Also works with `C` and `C++`.
 - Set breakpoints and step through the program to observe execution.
 
 <div class="code-example" markdown="1">
-Start GDB and load the executable.
+Start **GDB** and load the executable.
 </div>
 ```bash
 gdb first
 ```
 
-----
-
-### **GDB Commands**
+Here are some useful **GDB** commands:
 
 | Command | Description |
 |:--------|:------------|
@@ -157,4 +149,4 @@ gdb first
 | `info registers` | View register values. |
 
 {:.important-title}
-You can check my GDB cheatsheet [here](https://jotavare.github.io/gdb_cheatsheet).
+I have a detailed GDB cheatsheet [here](https://jotavare.github.io/gdb_cheatsheet).
