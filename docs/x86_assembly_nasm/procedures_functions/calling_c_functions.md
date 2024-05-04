@@ -42,7 +42,7 @@ main:
 
 ### **Stack Usage**
 
-The stack is a **Last-In-First-Out (LIFO)** data structure, meaning the **last item pushed** onto the stack is the **first one to be popped off**. Picture it like stacking plates in a cafeteria tray, the last plate you put on top is the first one you'll take off when you need it.
+The stack is a **Last-In-First-Out (LIFO)** data structure, meaning the **last item pushed** onto the stack is the **first one to be popped off**. Picture it like stacking plates in a cafeteria tray, the last plate I put on top is the first one I'll take off when I need it.
 
 Taking into account the previous example:
 - My print function parameters are `printf(format, message)`;

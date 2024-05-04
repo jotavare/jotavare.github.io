@@ -10,7 +10,7 @@ grand_parent: 🔲 x86 Assembly NASM
 
 ### **Custom C Function Definition**
 
-In this example, I have a `C` file named `sum.c` with a function named `sum` and a assembly file:
+In this example, I have a `C` file named `sum.c` with a function named `sum` and an assembly file:
 
 ```c
 #include <stdio.h>

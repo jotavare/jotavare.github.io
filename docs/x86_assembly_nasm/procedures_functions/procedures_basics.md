@@ -12,7 +12,7 @@ grand_parent: 🔲 x86 Assembly NASM
 
 A **procedure** in x86 assembly serves the same purpose as a **function** in higher-level languages. It encapsulates a **sequence of instructions** to perform a specific task.
 
-In this example I define a procedure named `addTwo`. The procedure adds the values stored in the `eax` and `ebx` registers and returns the result with `ret`.
+In this example, I define a procedure named `addTwo`. The procedure adds the values stored in the `eax` and `ebx` registers and returns the result with `ret`.
 
 ```
 addTwo:
