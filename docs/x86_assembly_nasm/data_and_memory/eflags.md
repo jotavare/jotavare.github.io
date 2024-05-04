@@ -1,5 +1,5 @@
 ---
-title: Registers and EFLAGS
+title: EFLAGS
 nav_order: 2
 layout: default
 parent: Data and Memory
@@ -7,10 +7,6 @@ grand_parent: 🔲 x86 Assembly NASM
 ---
 
 ## **EFLAGS**
-
-<div style="text-align:center;">
-    <img src="../../../assets/images/eflags.png" alt="EFLAGS">
-</div>
 
 ### **EFLAGS Types**
 
@@ -28,3 +24,9 @@ This is a **32-bit register** in **x86 assembly** language that contains various
 
 {: .important-title }
 If the flag is set to `1`, it means the condition is met; otherwise, it's `0`. You can check more register flags [here](https://en.wikipedia.org/wiki/FLAGS_register).
+
+----
+
+<div style="text-align:center;">
+    <img src="../../../assets/images/eflags.png" alt="EFLAGS">
+</div>
