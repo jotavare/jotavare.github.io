@@ -37,7 +37,7 @@ _start:
 
 ### **SHL Operation**
 
-The `shl` instruction is used to perform **logical left shift** operations. It shifts the bits of the operand to the **left** by a specified number of bits.
+The `shl` instruction is used to perform **logical left-shift** operations. It shifts the bits of the operand to the **left** by a specified number of bits.
 
 ```
 section .text
@@ -80,5 +80,3 @@ _start:
         sal eax, 1  ; shift the bits to the left one spot -> 1100 = -4
                     ; this equivelent to multiplying by 2 but it's faster
 ```
-
-
