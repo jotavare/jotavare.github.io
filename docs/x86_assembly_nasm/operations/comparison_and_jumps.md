@@ -9,7 +9,7 @@ grand_parent: 🔲 x86 Assembly NASM
 ## **COMPARISON AND JUMPS**
 
 {: .important-title }
-In `C`, we use **conditional statements** to make decisions based on the value of a variable. In assembly, we use **comparison and jump instructions** to achieve the same result. These instructions compare two values and then **jump** to a different part of the program based on the result of the comparison.
+In `C`, I use **conditional statements** to make decisions based on the value of a variable. In assembly, I use **comparison and jump instructions** to achieve the same result. These instructions compare two values and then **jump** to a different part of the program based on the result of the comparison.
 
 ----
 
@@ -78,4 +78,4 @@ Here is a table of common conditional jumps in assembly language:
 | `jb`        | Jump if Below | `CF = 1` |
 | `jbe`       | Jump if Below or Equal | `CF = 1 or ZF = 1` |
 
-`SF = Sign Flag, OF = Overflow Flag, ZF = Zero Flag, CF = Carry Flag`
+`SF = Sign Flag` `OF = Overflow Flag` `ZF = Zero Flag` `CF = Carry Flag`

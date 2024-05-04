@@ -10,8 +10,8 @@ grand_parent: 🔲 x86 Assembly NASM
 
 In signed binary numbers, the **most significant bit (MSB)** serves as the **sign bit**:
 
-- `0` - Represents a **positive number**.
-- `1` - Represents a **negative number**.
+- `0` - Represents a **positive number**;
+- `1` - Represents a **negative number**;
 
 The relationship between a number and its negative counterpart is represented by the equation, which is a **law in arithmetic**, `A + (−A) = 0`.
 

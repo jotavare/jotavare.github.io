@@ -146,9 +146,9 @@ _start:
 ```
 
 {: .important-title }
-In this case, the `mul` instruction multiplies the value in `bl` by `al` and stores the result in `al`. So, after this operation, `al` should contain the **product of the two numbers** `6`. The `a` register is a special register called the **accumulator**, its used for multiplication as the default destination for the operation.
+In this case, the `mul` instruction multiplies the value in `bl` by `al` and stores the result in `al`. So, after this operation, `al` should contain the **product of the two numbers** `6`. The register `a` is a special register called the **accumulator**, it's used for multiplication as the default destination for the operation.
 
-In multiplication it's interesting, because it only **requires one operand**, the other operand is implicitly the `al` register. The result of the multiplication operation is stored in the **pair of registers** `ax` and `dx`. The `ax` register contains the **lower 16 bits** of the result, while the `dx` register contains the **higher 16 bits**.
+In multiplication, it's interesting because it only **requires one operand**, the other operand is implicitly the `al` register. The result of the multiplication operation is stored in the **pair of registers** `ax` and `dx`. The `ax` register contains the **lower 16 bits** of the result, while the `dx` register contains the **higher 16 bits**.
 
 Let's see another example with `mul`, where I **multiply two unsigned numbers** but the result is **too large** to fit in the `ax` register:
 

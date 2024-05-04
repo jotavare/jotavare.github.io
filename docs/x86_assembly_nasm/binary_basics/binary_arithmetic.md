@@ -10,10 +10,10 @@ grand_parent: 🔲 x86 Assembly NASM
 
 ### **Binary Addition**
 
-- `0 + 0 = 0` - When **both bits are 0**, the result is **0**.
-- `0 + 1 = 1` - When **one bit is 0** and the **other is 1**, the result is **1**.
-- `1 + 0 = 1` - Similar to the previous case, the result is **1**.
-- `1 + 1 = 10` - When **both bits are 1**, the result is **10** in binary, which **equals 2 in decimal**.
+- `0 + 0 = 0` - When **both bits are 0**, the result is **0**;
+- `0 + 1 = 1` - When **one bit is 0** and the **other is 1**, the result is **1**;
+- `1 + 0 = 1` - Similar to the previous case, the result is **1**;
+- `1 + 1 = 10` - When **both bits are 1**, the result is **10** in binary, which **equals 2 in decimal**;
 
 <div class="code-example" markdown="1">
 Let's illustrate binary addition with an example:
@@ -27,10 +27,10 @@ Let's illustrate binary addition with an example:
 
 Starting from the rightmost bits:
 
-- Adding the bits in the 1's place: **0 + 0 = 0**.
-- Moving to the next bit: **1 + 0 = 1**.
-- Then: **1 + 1 = 10** (write down **0** and **carry over 1**).
-- Finally: **0 + 0** (plus the **carried-over 1**) = **1**.
+- Adding the bits in the 1's place: **0 + 0 = 0**;
+- Moving to the next bit: **1 + 0 = 1**;
+- Then: **1 + 1 = 10** (write down **0** and **carry over 1**);
+- Finally: **0 + 0** (plus the **carried-over 1**) = **1**;
 
 So, the result is `1010` in binary.
 
