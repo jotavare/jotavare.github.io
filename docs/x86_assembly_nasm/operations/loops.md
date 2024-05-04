@@ -37,4 +37,4 @@ end:
 ```
 
 {: .important-title }
-In the end, `eax` and `ebx` are set to `1`, to indicate a **normal program termination**. The `int 80h` instruction invokes the system call to exit the program. This example demonstrates a **simple loop** that iterates over an array of numbers and **calculates their sum**. The loop continues until the **end of the array is reached**. In this case I know the array has `4` elements and that the end of the array is `4` but in future programs I should **calculate the length of the array** dynamically and use a better **null terminator**, like `-1` or `0`.
+In the end, `eax` and `ebx` are set to `1`, to indicate a **normal program termination**. The `int 80h` instruction invokes the system call to exit the program. This example demonstrates a **simple loop** that iterates over an array of numbers and **calculates their sum**. The loop continues until the **end of the array is reached**. In this case, I know the array has `4` elements and that the end of the array is `4` but in future programs, I should **calculate the length of the array** dynamically and use a better **null terminator**, like `-1` or `0`.

@@ -10,7 +10,7 @@ grand_parent: 🔲 x86 Assembly NASM
 
 ### **Defining Floating Point Numbers**
 
-To define floating-point numbers, we can use the `dd` directive in the data section to represent **32-bit floating-point values**.
+To define floating-point numbers, I can use the `dd` directive in the data section to represent **32-bit floating-point values**.
 
 ```
 x dd 3.14
@@ -23,7 +23,7 @@ These lines define two floating-point numbers, `x` and `y`, with the respective 
 
 ### **Loading Values into Registers**
 
-To load these values into registers, we utilize the `movss` instruction (**Scalar Single Precision Floating-Point Value**).
+To load these values into registers, I utilize the `movss` instruction (**Scalar Single-Precision Floating-Point Value**).
 
 ```
 movss xmm0, [x]
@@ -54,7 +54,7 @@ In the `32 bit` **IEEE format**:
 - `1 bit` is allocated as the **sign bit**;
 - The next **8 bits** are allocated as the **exponent field**;
 - The **last 23 bits** are the **fractional parts** of the normalized number;
--  A **sign bit** of `0` indicates a **positive number**, and a `1` is **negative**.
+-  A **sign bit** of `0` indicates a **positive number**, and a `1` is **negative**;
 
 ```
 section .data
@@ -67,7 +67,7 @@ global _start
 
 _start:
         movss xmm0, [x] ; scalar single precision floating point move
-                        ; scalar because we are moving a single decimal value
+                        ; scalar because i are moving a single decimal value
                         ; single precision meaning is a 32-bit floating point number
         
         movss xmm1, [y]
@@ -87,7 +87,7 @@ To print the value of `xmm0` in **GDB**, use the command `p $xmm0.v4_float[0]`.
 
 ## **Compare Floating Point Numbers**
 
-Comparing **floating-point numbers** is a bit more complex than comparing **integers**. The `cmp` instruction doesn't work with floating-point numbers, so we use the `ucomiss` instruction instead.
+Comparing **floating-point numbers** is a bit more complex than comparing **integers**. The `cmp` instruction doesn't work with floating-point numbers, so I use the `ucomiss` instruction instead.
 
 ```
 section .data
@@ -115,4 +115,4 @@ end:
 ```
 
 {: .important-title }
-Also, `ja` **(jump above)** instead of `jg` **(jump greater)** because we are comparing floating point numbers. The only jump condition equal to integers is `je` **(jump equal)**. The rest is as follows: **`jb` (jump below)**, **`jae` (jump above or equal)**, **`jbe` (jump below or equal)**, **`jne` (jump not equal)**.
+Also, `ja` **(jump above)** instead of `jg` **(jump greater)** because I compare floating point numbers. The only jump condition equal to integers is `je` **(jump equal)**. The rest is as follows: **`jb` (jump below)**, **`jae` (jump above or equal)**, **`jbe` (jump below or equal)**, **`jne` (jump not equal)**.
