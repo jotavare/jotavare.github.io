@@ -12,7 +12,8 @@ parent: 🔲 x86 Assembly NASM
     <img src="../../assets/images/disk_structure.jpg" alt="Disk Structure Diagram">
 </div>
 
-   - Disks consist of **stacked platters**, each with **two heads** (top and bottom) for reading and writing data;
+   - Disks consist of **stacked platters**;
+   - Each platter with **two heads** (top and bottom) for **reading** and **writing** data;
    - Platters are divided into **tracks**, which are further divided into **sectors**;
    - Sectors typically have a standard size, often **512 bytes**, determined by the file format;
    - Tracks stacked across multiple disks form a **cylinder**;
@@ -21,22 +22,26 @@ parent: 🔲 x86 Assembly NASM
 
 ### **Addressing Schemes**
 
+Disk data is accessed using two primary addressing schemes:
+
 **Cylinder-Head-Sector (CHS):**
 
-- Used historically and for certain **legacy systems**;
+- Historically used and still relevant for certain **legacy systems**;
 - Specifies the **cylinder, head, and sector** of data;
-- Helps locate data on a physical disk;
+- Aids in locating data on a physical disk;
 - Useful for **partitioning** and older devices like floppy disks;
 
 **Logical Block Addressing (LBA):**
 
-- A **linear addressing scheme** for modern disks, including SSDs and network drives;
+- Utilizes a **linear addressing scheme** for modern disks, including **SSDs** and **network drives**;
 - Blocks are **indexed numerically**, starting from zero;
-- Offers easier **abstraction** and compatibility across different disk types;
+- Offers easier **abstraction** and **compatibility** across different disk types;
 
 ----
 
-### **Converting Between CHS and LBA**
+### **Converting CHS and LBA**
+
+The following formulas can be used to convert between CHS and LBA:
 
 **CHS to LBA:**
 
@@ -53,4 +58,4 @@ parent: 🔲 x86 Assembly NASM
 ### **Practical Application**
 
 - Understanding both addressing schemes is crucial for interacting with disk data through **system calls** and **interrupts**;
-- Converting between CHS and LBA enables **compatibility** and efficient data access across different systems and storage devices;
+- Converting between `CHS` and `LBA` enables **compatibility** and efficient data access across different systems and storage devices;
