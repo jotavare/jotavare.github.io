@@ -8,11 +8,11 @@ has_children: true
 
 ## **x86 ASSEMBLY NASM**
 
-Having previously learned **C** and **C++**, I've always been intrigued by **Assembly** but never had the chance to fully explore it.
+Having previously learned `C` and `C++`, I've always been intrigued by `Assembly`.
 
-This serves as my personal documentation progress for **Assembly**, based on these [references](https://jotavare.github.io/docs/x86_assembly_nasm/references.html). You can check all the files [here](https://github.com/jotavare/x86-assembly-nasm).
+This serves as my personal documentation progress for `x86 Assembly`, based on these [references](https://jotavare.github.io/docs/x86_assembly_nasm/references.html). You can check all the produced files [here](https://github.com/jotavare/x86-assembly-nasm).
 
-Another project I want to do after learning the basics of **Assembly** is to redo [Libft](https://github.com/jotavare/libft)[^postfix] and convert all 43 functions in **C** to **Assembly**, or at least try to. My progress is available [here](https://github.com/jotavare/libft-x86-assembly).
+Another project I want to do after learning the basics of `Assembly` is to redo my [Libft](https://github.com/jotavare/libft)[^postfix] and convert all functions from `C` to `x86 Assembly`, or at least try to. My progress will be available [here](https://github.com/jotavare/libft-x86-assembly).
 
 [^postfix]:
     Libft is a library of basic functions written in **C**, commonly used in projects at **42** and other programming environments.
