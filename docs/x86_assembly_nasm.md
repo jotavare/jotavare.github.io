@@ -15,7 +15,7 @@ This serves as my personal documentation progress for `x86 Assembly`, based on t
 Another project I want to do after learning the basics of `Assembly` is to redo my [Libft](https://github.com/jotavare/libft)[^postfix] and convert all functions from `C` to `x86 Assembly`, or at least try to. My progress will be available [here](https://github.com/jotavare/libft-x86-assembly).
 
 [^postfix]:
-    Libft is a library of basic functions written in **C**, commonly used in projects at **42** and other programming environments.
+    Libft is a library of basic functions written in `C`, commonly used in projects at **42** and other programming environments.
 
 {: .important-title }
 If you have any corrections or suggestions to enhance this README file, feel free to submit a [pull request](https://github.com/jotavare/jotavare.github.io/pulls) or reach out to me directly. I appreciate all contributions and will carefully consider them for potential inclusion in the repository.
