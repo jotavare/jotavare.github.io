@@ -8,7 +8,7 @@ grand_parent: 🗂️ 42 Resources
 
 ## **CAMPUSES**
 
-Explore all 42 schools worldwide. For the most up-to-date list, visit [here](https://www.42network.org/42-schools).
+Explore all 42 schools worldwide. For the most up-to-date list, click [here](https://www.42network.org/42-schools).
 
 ### **EUROPE**
 

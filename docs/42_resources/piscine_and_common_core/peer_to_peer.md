@@ -17,4 +17,4 @@ Information about peer-to-peer evaluation, and beginner videos about Shell and G
 | [P2P - Evaluation - 02](https://youtu.be/eTt5NQUO3LY)                                             | What to do before the evaluation? *(as evaluator)*         | `Youtube` |
 | [P2P - Evaluation - 03](https://youtu.be/_GgfLzcgNvQ)                                             | What to do during the evaluation?                          | `Youtube` |
 | [P2P - Evaluation - 04](https://youtu.be/hzMe_CDM8ug)                                             | What to do after the evaluation? *(as evaluated student)*  | `Youtube` |
-| [The art of peer evaluation](https://elearning.intra.42.fr/notions/c-piscine-the-pedagogy/subnotions/piscine-c-the-pedagogy-document-peer-correcting/pdfs/The%20Art%20Of%20Peer-Evaluation) | Peer-to-Peer evaluation state of mind and rules you should know. | `42` `PDF` |
+| [The Art of Peer-Evaluation](https://elearning.intra.42.fr/notions/c-piscine-the-pedagogy/subnotions/piscine-c-the-pedagogy-document-peer-correcting/pdfs/The%20Art%20Of%20Peer-Evaluation) | Peer-to-Peer evaluation state of mind and rules you should know. | `42` `PDF` |

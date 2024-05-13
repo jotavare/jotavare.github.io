@@ -8,7 +8,7 @@ grand_parent: 🗂️ 42 Resources
 
 ## **DESIGN TOOLS**
 
-Curated collection of tools for creative endeavors.
+A curated collection of tools for creative endeavours.
 
 ### **GENERATORS**
 

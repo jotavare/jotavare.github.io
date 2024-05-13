@@ -13,27 +13,27 @@ A diverse array of online entertainment and media resources.
 {: .important-title }
 Depending on your 42 school rules, you may or may not play certain games on school computers. Avoid getting **-420** and **community service**.
 
-## **MEDIA**
+### **MEDIA**
 
 | Website | Description |
 | :---- | :---------- |
 | [Sudoku](https://sudoku.com) | Sudoku online from easy to expert level. |
 | [2048](https://play2048.co) | Slide numbered tiles on a grid to combine them to create a tile with the number 2048. |
 | [Keybr](https://www.keybr.com) | Learn to type faster with typing tests and practice typing lessons. |
-| [The Scale of the Universe](https://htwins.net/scale2) | Interactive experience to learn about the vast ranges of the visible and invisible world. |
+| [The Scale of the Universe](https://htwins.net/scale2) | interactive experience to learn about the vast ranges of the visible and invisible world. |
 | [The Is This Prime?](https://isthisprime.com/game) | Can you guess if a number is prime? |
 | [Quick, Draw!](https://quickdraw.withgoogle.com) | Can a neural network learn to recognize squiggles? |
 | [Random Country Generator](https://random.country) | Learn about all the countries in the world. |
 | [SQL Murder Mystery](https://mystery.knightlab.com) | Learn SQL concepts and commands with a fun game. |
 
-## **RUBIK'S CUBE**
+### **RUBIK'S CUBE**
 
 | Website | Description |
 | :---------- | :---------- |
 | [SpeedSolving](https://www.speedsolving.com/wiki/index.php/Main_Page) | Community focused on speed solving puzzles. |
 | [Ruwix](https://ruwix.com) | Learn about Rubik's Cube and other twisty puzzles. |
 
-## **CHESS**
+### **CHESS**
 
 | Website | Description |
 | :---- | :---------- |
