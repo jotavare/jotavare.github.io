@@ -13,7 +13,7 @@ A diverse array of online entertainment and media resources.
 {: .important-title }
 Depending on your 42 school rules, you may or may not play certain games on school computers. Avoid getting **-420** and **community service**.
 
-## **Media**
+## **MEDIA**
 
 | Website | Description |
 | :---- | :---------- |
@@ -26,14 +26,14 @@ Depending on your 42 school rules, you may or may not play certain games on scho
 | [Random Country Generator](https://random.country) | Ever wanted to learn about all the countries in the world? |
 | [SQL Murder Mystery](https://mystery.knightlab.com) | Learn SQL concepts and commands with a fun game. |
 
-## **Rubiks Cube**
+## **RUBIK'S CUBE**
 
 | Website | Description |
 | :---------- | :---------- |
 | [SpeedSolving](https://www.speedsolving.com/wiki/index.php/Main_Page) | Community focused on speed-solving puzzles, particularly the Rubik's cube and alike. |
 | [Ruwix](https://ruwix.com) | Website to learn about Rubik's Cube and other twisty puzzles. |
 
-## **Chess**
+## **CHESS**
 
 | Website | Description |
 | :---- | :---------- |
