@@ -27,26 +27,26 @@ Explore all 42 schools worldwide. For the most up-to-date list, visit [here](htt
 | 🇫🇷 | France | [42 Nice](https://www.42nice.fr) |
 | 🇫🇷 | France | [42 Paris](https://42.fr) |
 | 🇫🇷 | France | [42 Perpignan Occitanie](https://42perpignan.fr) |
-| 🇩🇪  | Germany | [42 Berlin](https://42berlin.de) |
-| 🇩🇪  | Germany | [42 Heilbronn](https://www.42heilbronn.de) |
-| 🇩🇪  | Germany | [42 Wolfsburg](https://42wolfsburg.de) |
-| 🇮🇹  | Italy | [42 Firenze](https://42firenze.it) |
-| 🇮🇹  | Italy | [42 Roma](https://42roma.it) |
-| 🇱🇺  | Luxembourg | [42 Luxembourg](https://42luxembourg.lu) |
-| 🇵🇱  | Poland | [42 Warsaw](https://42warsaw.pl) |
-| 🇵🇹  | Portugal | [42 Lisboa](https://www.42lisboa.com) |
-| 🇵🇹  | Portugal | [42 Porto](https://www.42porto.com) |
-| 🇪🇸  | Spain | [42 Alicante](https://www.42alicante.com) |
-| 🇪🇸  | Spain | [42 Barcelona](https://www.42barcelona.com) |
-| 🇪🇸  | Spain | [42 Madrid](https://www.42madrid.com) |
-| 🇪🇸  | Spain | [42 Málaga](https://www.42malaga.com) |
-| 🇪🇸  | Spain | [42 Urduliz](https://www.42urduliz.com) |
-| 🇨🇭  | Switzerland | [42 Lausanne](https://42lausanne.ch) |
-| 🇳🇱  | Netherlands | [Codam](https://www.codam.nl) |
-| 🇹🇷  | Turkey | [42 Istanbul](https://42istanbul.com.tr) |
-| 🇬🇧  | United Kingdom | [42 London](https://42london.com) |
-| 🇷🇺  | Russia | [School 21 – Kazan](https://21-school.ru) |
-| 🇷🇺  | Russia | [School 21 - Moscow](https://21-school.ru) |
+| 🇩🇪 | Germany | [42 Berlin](https://42berlin.de) |
+| 🇩🇪 | Germany | [42 Heilbronn](https://www.42heilbronn.de) |
+| 🇩🇪 | Germany | [42 Wolfsburg](https://42wolfsburg.de) |
+| 🇮🇹 | Italy | [42 Firenze](https://42firenze.it) |
+| 🇮🇹 | Italy | [42 Roma](https://42roma.it) |
+| 🇱🇺 | Luxembourg | [42 Luxembourg](https://42luxembourg.lu) |
+| 🇵🇱 | Poland | [42 Warsaw](https://42warsaw.pl) |
+| 🇵🇹 | Portugal | [42 Lisboa](https://www.42lisboa.com) |
+| 🇵🇹 | Portugal | [42 Porto](https://www.42porto.com) |
+| 🇪🇸 | Spain | [42 Alicante](https://www.42alicante.com) |
+| 🇪🇸 | Spain | [42 Barcelona](https://www.42barcelona.com) |
+| 🇪🇸 | Spain | [42 Madrid](https://www.42madrid.com) |
+| 🇪🇸 | Spain | [42 Málaga](https://www.42malaga.com) |
+| 🇪🇸 | Spain | [42 Urduliz](https://www.42urduliz.com) |
+| 🇨🇭 | Switzerland | [42 Lausanne](https://42lausanne.ch) |
+| 🇳🇱 | Netherlands | [Codam](https://www.codam.nl) |
+| 🇹🇷 | Turkey | [42 Istanbul](https://42istanbul.com.tr) |
+| 🇬🇧 | United Kingdom | [42 London](https://42london.com) |
+| 🇷🇺 | Russia | [School 21 – Kazan](https://21-school.ru) |
+| 🇷🇺 | Russia | [School 21 - Moscow](https://21-school.ru) |
 
 ### **ASIA**
 
