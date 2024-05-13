@@ -7,11 +7,17 @@ has_children: false
 nav_order: 4
 ---
 
+<h1 align="center">
+  <img src="https://github.com/jotavare/jotavare/blob/main/42/banners/resources/github_resources_banner_cybersecurity.png">
+</h1>
+
 ## **Table of contents**
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
+
+----
 
 ### **Crack the Code**
 
