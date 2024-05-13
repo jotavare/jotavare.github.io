@@ -63,9 +63,9 @@ Guides and walkthroughs to navigate 42 Piscine and Common Core.
 | [tldr-pages](https://github.com/tldr-pages/tldr)           | Community-maintained help pages offering simplified explanations. | `GitHub`  |
 | [rsapkf](https://rsapkf.org)                               | 5000+ links that `rsapkf` used in the past to learn programming.  | `Website` |
 
-### **VS Code Extensions**
+### **Extensions**
 
-Extensions for VS Code for enhancing your development experience.
+VS Code extensions for enhancing your development experience.
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
@@ -76,7 +76,7 @@ Extensions for VS Code for enhancing your development experience.
 | [Norminette 42](https://marketplace.visualstudio.com/items?itemName=evilcat.norminette-42)                                     | This extension is a norminette decorator for 42 in VS Code. | `Website` |
 | [Norminette Highlighter v3.x](https://marketplace.visualstudio.com/items?itemName=MariusvanWijk-JoppeKoers.codam-norminette-3) | This extension is a norminette decorator for 42 in VS Code. | `Website` |
 
-### **Language**
+### **Grammar**
 
 Tools to have correct communication and documentation.
 
