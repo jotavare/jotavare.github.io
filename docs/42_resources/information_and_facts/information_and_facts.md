@@ -1,12 +1,13 @@
 ---
-title: Information
+title: Information and Facts
 layout: default
 parent: 🗂️ 42 Resources
 has_children: true
 nav_order: 1
 ---
 
-### **INFORMATION**
+### **INFORMATION AND FACTS**
+{: .no_toc }
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -14,7 +15,28 @@ nav_order: 1
 1. TOC
 {:toc}
 
-### **NETWORK**
+### **Trivia**
+
+Facts about 42 schools and the number 42.
+
+| Website | Description | Source |
+| :------ | :---------- | :----- |
+| [42 School](https://en.wikipedia.org/wiki/42_(school)) | What is 42 School? | `Wikipedia` |
+| [The Hitchhikers Guide to the Galaxy](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy) | What is The Hitchhikers Guide to the Galaxy? | `Wikipedia` |
+| [Why the number 42?](https://en.wikipedia.org/wiki/42_(number)#The_Hitchhiker's_Guide_to_the_Galaxy) | Why is 42 the answer to life, the universe, and everything? | `Wikipedia` |
+| [42 and Douglas Adams](https://www.youtube.com/watch?v=D6tINlNluuY) | What is the connection between 42 and Douglas Adams? | `Youtube` |
+| [Epic Gandalf Sax - 42 School Paris](https://www.youtube.com/watch?v=9CE3c0Hp7WM) | One of the most epic moments in 42 Paris. | `Youtube` | 
+
+### **Rewards**
+
+Rewards that you have access to as a 42 student.
+
+| Website | Description | Source |
+| :------ | :---------- | :----- |
+| [GitHub Student Pack](https://github-portal.42.fr/login) | Portal to activate the GitHub Student Pack with 42 email. | `Website` |
+| [GitHub Student Pack Rewards](https://education.github.com/pack) | List of all the rewards and tools available. | `Website` |
+
+### **Network**
 
 Main websites of 42 Network.
 
@@ -27,16 +49,7 @@ Main websites of 42 Network.
 | [Slack](https://app.slack.com/client/T039P7U66/C04971HPWQ1) | Official slack channel for 42 students. | `Slack` |
 | [Stack Overflow](https://stackoverflowteams.com/c/42network) | Official 42 forum. | `Website` |
 
-### **REWARDS**
-
-Rewards that you have access to as a 42 student.
-
-| Website | Description | Source |
-| :------ | :---------- | :----- |
-| [GitHub Student Pack](https://github-portal.42.fr/login) | Portal to activate the GitHub Student Pack with 42 email. | `Website` |
-| [GitHub Student Pack Rewards](https://education.github.com/pack) | List of all the rewards and tools available. | `Website` |
-
-### **SOCIAL**
+### **Social**
 
 For a specific 42 school social media, check the section [Campuses](https://jotavare.github.io/docs/42_resources/campuses.html) and choose a school.
 
@@ -51,15 +64,3 @@ For a specific 42 school social media, check the section [Campuses](https://jota
 | [GitHub](https://github.com/42School) | 42 Network's GitHub page. | `GitHub` |
 | [Official Discord](https://discord.com/invite/42) | Official Discord server of 42 Network. | `Discord` |
 | [Unofficial Discord](https://discord.gg/wsrkKE4) | Unofficial Discord server related to 42 Network. | `Discord` |
-
-### **TRIVIA**
-
-Facts about 42 schools and the number 42.
-
-| Website | Description | Source |
-| :------ | :---------- | :----- |
-| [42 School](https://en.wikipedia.org/wiki/42_(school)) | What is 42 School? | `Wikipedia` |
-| [The Hitchhikers Guide to the Galaxy](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy) | What is The Hitchhikers Guide to the Galaxy? | `Wikipedia` |
-| [Why the number 42?](https://en.wikipedia.org/wiki/42_(number)#The_Hitchhiker's_Guide_to_the_Galaxy) | Why is 42 the answer to life, the universe, and everything? | `Wikipedia` |
-| [42 and Douglas Adams](https://www.youtube.com/watch?v=D6tINlNluuY) | What is the connection between 42 and Douglas Adams? | `Youtube` |
-| [Epic Gandalf Sax - 42 School Paris](https://www.youtube.com/watch?v=9CE3c0Hp7WM) | One of the most epic moments in 42 Paris. | `Youtube` | 
