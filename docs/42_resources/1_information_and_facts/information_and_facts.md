@@ -1,8 +1,9 @@
 ---
 title: Information and Facts
+permalink: /42_resources/information_and_facts
 layout: default
 parent: 🗂️ 42 Resources
-has_children: true
+has_children: false
 nav_order: 1
 ---
 
