@@ -16,11 +16,11 @@ nav_order: 7
 1. TOC
 {:toc}
 
-### **ARTIFICIAL INTELLIGENCE**
+## **Artificial Intelligence**
 
 A diverse ecosystem of AI-driven solutions.
 
-### **CHATBOT**
+### **Chatbot**
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
@@ -32,7 +32,7 @@ A diverse ecosystem of AI-driven solutions.
 | [Ollama](https://ollama.com) | Create, run, and manage LLMs in a local environment. | `Website` |
 | [Open WebUI](https://github.com/open-webui/open-webui) | User-friendly WebUI for LLMs (formerly Ollama WebUI). | `GitHub` |
 
-### **TEXT**
+### **Text**
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
@@ -40,7 +40,7 @@ A diverse ecosystem of AI-driven solutions.
 | [QuillBot](https://quillbot.com) | Spelling/grammar checker. | `Website` |
 | [Writerly](https://writerly.ai/) | Content creation. | `Website` |
 
-### **MEDIA**
+### **Media**
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
@@ -52,7 +52,7 @@ A diverse ecosystem of AI-driven solutions.
 | [NVIDIA Canvas](https://www.nvidia.com/en-us/studio/canvas/) | Turn simple brushstrokes into realistic landscape images. | `Website` |
 | [InvokeAI](https://github.com/invoke-ai/InvokeAI) | Generate and create stunning visual media. | `GitHub` |
 
-### **MISCELLANEOUS**
+### **Miscellaneous**
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
@@ -62,11 +62,11 @@ A diverse ecosystem of AI-driven solutions.
 
 ----
 
-## **EDUCATIONAL RESOURCES**
+## **Educational Resources**
 
 Insights and handy references for programming and learning.
 
-### **PLATAFORMS**
+### **Platforms**
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
@@ -81,7 +81,7 @@ Insights and handy references for programming and learning.
 | [Hackr](https://hackr.io) | Hundreds of programming courses and tutorials. | `Website` |
 | [Envato Tuts+](https://tutsplus.com) | Learn creative skills from leading industry experts. | `Website` |
 
-### **QUICK REFERENCES**
+### **Quick References**
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
@@ -98,11 +98,11 @@ Insights and handy references for programming and learning.
 
 ----
 
-## **DESIGN TOOLS**
+## **Design Tools**
 
 A curated collection of tools for creative endeavours.
 
-### **GENERATORS**
+### **Generators**
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
@@ -114,7 +114,7 @@ A curated collection of tools for creative endeavours.
 | [Duplicate Word Finder](https://duplicateword.com) | Find duplicate words in a text. | `Website` |
 | [Duplicate Word Finder - CodePen](https://codepen.io/finnhvman/pen/oPwXRa) | Find duplicate words in a text. | `Website` |
 
-### **ILLUSTRATIONS**
+### **Illustrations**
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
@@ -126,7 +126,7 @@ A curated collection of tools for creative endeavours.
 | [GitHub Emoji Cheatsheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) | Emoji cheatsheet. | `GitHub` |
 | [GitHub Emoji API](https://api.github.com/emojis) | GitHub emoji API. | `GitHub` |
 
-### **IMAGES**
+### **Images**
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
@@ -135,14 +135,14 @@ A curated collection of tools for creative endeavours.
 | [TinEye](https://tineye.com) | Reverse image search. | `Website` |
 | [Google Images](https://www.google.com/imghp) | Reverse search the web for images. | `Website` |
 
-### **COLORS**
+### **Colors**
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
 | [Flat UI Colors](https://flatuicolors.com) | A total set of 280 colors for UI. | `Website` |
 | [ColorSpace](https://mycolor.space) | Find the perfect matching color scheme. | `Website` |
 
-### **DESIGN**
+### **Design**
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
@@ -154,7 +154,7 @@ A curated collection of tools for creative endeavours.
 | [Envato Market](https://themeforest.net) | Website templates and themes. | `Website` |
 | [Elements Envato](https://elements.envato.com) | Unlimited downloads of stock videos, photos, music, and more. | `Website` |
 
-### **VIDEO**
+### **Video**
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
@@ -162,14 +162,14 @@ A curated collection of tools for creative endeavours.
 
 ----
 
-## **ENTERTAINMENT**
+## **Entertainment**
 
 A diverse array of online entertainment and media resources.
 
 > [!NOTE]
 > Depending on your 42 school rules, you may or may not play certain games on school computers. Avoid getting **-420** and **community service**.
 
-### **MEDIA**
+### **Media**
 
 | Website | Description |
 | :---- | :---------- |
@@ -182,14 +182,14 @@ A diverse array of online entertainment and media resources.
 | [Random Country Generator](https://random.country) | Learn about all the countries in the world. |
 | [SQL Murder Mystery](https://mystery.knightlab.com) | Learn SQL concepts and commands with a fun game. |
 
-### **RUBIK'S CUBE**
+### **Rubik's Cube**
 
 | Website | Description |
 | :---------- | :---------- |
 | [SpeedSolving](https://www.speedsolving.com/wiki/index.php/Main_Page) | Community focused on speed solving puzzles. |
 | [Ruwix](https://ruwix.com) | Learn about Rubik's Cube and other twisty puzzles. |
 
-### **CHESS**
+### **Chess**
 
 | Website | Description |
 | :---- | :---------- |
@@ -207,7 +207,7 @@ A diverse array of online entertainment and media resources.
 
 ----
 
-## **DEVELOPMENT TOOLS**
+## **Development Tools**
 
 A comprehensive list of online IDEs, compilers, and debuggers.
 
@@ -230,7 +230,7 @@ A comprehensive list of online IDEs, compilers, and debuggers.
 
 ----
 
-## **OTHERS**
+## **Others**
 
 Various tools, resources, curiosities, ... of not particular order or importance.
 
