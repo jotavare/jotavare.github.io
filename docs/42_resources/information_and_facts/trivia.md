@@ -6,7 +6,7 @@ parent: Information and Facts
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **TRIVIA**
+### **TRIVIA**
 
 Facts about 42 schools and the number 42.
 

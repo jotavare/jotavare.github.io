@@ -6,7 +6,7 @@ parent: Piscine and Common Core
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **VS CODE**
+### **VS CODE**
 
 Extensions for VS Code for enhancing your development experience.
 

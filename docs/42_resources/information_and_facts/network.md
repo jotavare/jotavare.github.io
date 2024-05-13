@@ -6,7 +6,7 @@ parent: Information and Facts
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **NETWORK**
+### **NETWORK**
 
 Main websites of 42 Network.
 

@@ -6,7 +6,7 @@ parent: Cybersecurity and Hacking
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **PODCASTS, NEWS AND VIDEOS**
+### **PODCASTS, NEWS AND VIDEOS**
 
 Information intended to capture, preserve, and explain the culture around cyber security and ethical hacking.
 

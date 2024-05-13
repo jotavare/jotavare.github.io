@@ -6,10 +6,7 @@ parent: Common Core Projects
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **MINIRT**
-
-Rank 04
-{: .label .label-red }
+### **MINIRT**
 
 | Resource                                                                                                                    | Source |
 | :-------------------------------------------------------------------------------------------------------------------------- | :----- |

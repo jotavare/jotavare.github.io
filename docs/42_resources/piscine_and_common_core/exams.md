@@ -6,7 +6,7 @@ parent: Piscine and Common Core
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **EXAMS**
+### **EXAMS**
 
 Websites that I found useful for studying 42 exams, some are outdated but still useful.
 

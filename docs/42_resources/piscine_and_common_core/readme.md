@@ -6,7 +6,7 @@ parent: Piscine and Common Core
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **README**
+### **README**
 
 Insights on crafting effective README files and integrating badges for your projects.
 

@@ -6,10 +6,7 @@ parent: Common Core Projects
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **PHILOSOPHERS**
-
-Rank 03
-{: .label .label-purple }
+### **PHILOSOPHERS**
 
 | Resource                                                                                                 | Source      |
 | :------------------------------------------------------------------------------------------------------- | :---------- |

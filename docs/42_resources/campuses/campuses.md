@@ -1,12 +1,12 @@
 ---
 title: Campuses
-nav_order: 5
 layout: default
-parent: Information and Facts
-grand_parent: 🗂️ 42 Resources
+parent: 🗂️ 42 Resources
+has_children: false
+nav_order: 6
 ---
 
-## **CAMPUSES**
+### **CAMPUSES**
 
 Explore all 42 schools worldwide. For the most up-to-date list, click [here](https://www.42network.org/42-schools).
 

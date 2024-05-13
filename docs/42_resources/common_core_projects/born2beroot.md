@@ -6,10 +6,7 @@ parent: Common Core Projects
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **BORN2BEROOT**
-
-Rank 01
-{: .label .label-green }
+### **BORN2BEROOT**
 
 | Video Resource                                                                            | Source     | User |
 | :---------------------------------------------------------------------------------------- | :-------- | :--- |

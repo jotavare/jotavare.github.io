@@ -6,4 +6,4 @@ has_children: true
 nav_order: 2
 ---
 
-## **PISCINE AND COMMON CORE**
+### **PISCINE AND COMMON CORE**

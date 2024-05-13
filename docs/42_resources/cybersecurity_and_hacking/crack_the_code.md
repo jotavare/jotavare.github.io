@@ -6,7 +6,7 @@ parent: Cybersecurity and Hacking
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **CRACK THE CODE**
+### **CRACK THE CODE**
 
 Challenges and learning platforms about cyber security and ethical hacking.
 

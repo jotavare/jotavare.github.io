@@ -6,10 +6,7 @@ parent: Common Core Projects
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **FRACT-OL**
-
-Rank 02
-{: .label .label-yellow }
+### **FRACT-OL**
 
 | Resource                                                                                                                   | Source |
 | :------------------------------------------------------------------------------------------------------------------------- | :----- |

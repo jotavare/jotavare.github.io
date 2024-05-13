@@ -6,15 +6,10 @@ parent: Common Core Projects
 grand_parent: 🗂️ 42 Resources
 ---
 
-## CPP MODULES
+### CPP MODULES
 
 {: .highlight }
 The 42 intra videos have bad fame, but in C++ they are good, so I recommend watching them first before watching any guides.
-
-Rank 04
-{: .label .label-red }
-Rank 05
-{: .label .label-red }
 
 | Resource                                                                                                                                         | Source |
 | :----------------------------------------------------------------------------------------------------------------------------------------------- | :----- |

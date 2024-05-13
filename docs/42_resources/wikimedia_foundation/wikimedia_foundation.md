@@ -6,7 +6,7 @@ has_children: false
 nav_order: 5
 ---
 
-## **WIKIMEDIA FOUNDATION**
+### **WIKIMEDIA FOUNDATION**
 
 {: .important-title }
 Wiki is a great place to start searching and a good foundation but it isn't a good source to cite for projects, it can be edited by laypeople. Always check the sources first, that's the important material.

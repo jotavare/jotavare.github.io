@@ -6,7 +6,7 @@ parent: Cybersecurity and Hacking
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **OPERATING SYSTEM AND TOOLS**
+### **OPERATING SYSTEM AND TOOLS**
 
 Operating systems for every occasion and tools to enhance them.
 

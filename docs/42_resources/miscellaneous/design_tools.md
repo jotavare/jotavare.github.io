@@ -6,7 +6,7 @@ parent: Miscellaneous
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **DESIGN TOOLS**
+### **DESIGN TOOLS**
 
 A curated collection of tools for creative endeavours.
 

@@ -6,7 +6,8 @@ parent: Common Core Projects
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **SUBJECTS**
+### **SUBJECTS**
+
 Repositories with all 42 subjects and additional files in one place, some are outdated but still useful.
 
 | Resource                                                                    | Source   | User |

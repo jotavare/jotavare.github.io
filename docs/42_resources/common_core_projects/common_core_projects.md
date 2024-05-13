@@ -6,7 +6,7 @@ has_children: true
 nav_order: 3
 ---
 
-## **COMMON CORE PROJECTS**
+### **COMMON CORE PROJECTS**
 
 {: .important-title }
 The subjects at 42 undergo regular updates, so the information provided in this section might not be up to date. Additionally, as some projects are optional, resources might not be available if I haven't completed them.

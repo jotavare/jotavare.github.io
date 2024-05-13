@@ -6,10 +6,7 @@ parent: Common Core Projects
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **PUSH_SWAP**
-
-Rank 02
-{: .label .label-yellow }
+### **PUSH_SWAP**
 
 | Resource                                                                                                                             | Source    |
 | :----------------------------------------------------------------------------------------------------------------------------------- | :-------- |

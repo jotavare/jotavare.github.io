@@ -6,7 +6,7 @@ parent: Miscellaneous
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **ENTERTAINMENT**
+### **ENTERTAINMENT**
 
 A diverse array of online entertainment and media resources.
 

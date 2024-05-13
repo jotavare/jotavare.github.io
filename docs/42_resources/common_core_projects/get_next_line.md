@@ -6,10 +6,7 @@ parent: Common Core Projects
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **GET_NEXT_LINE**
-
-Rank 01
-{: .label .label-green }
+### **GET_NEXT_LINE**
 
 | Resource                                                                              | Source    |
 | :-------------------------------------------------------------------------------------| :-------- |

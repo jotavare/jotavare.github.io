@@ -6,7 +6,7 @@ parent: Miscellaneous
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **ARTIFICIAL INTELLIGENCE**
+### **ARTIFICIAL INTELLIGENCE**
 
 A diverse ecosystem of AI-driven solutions.
 

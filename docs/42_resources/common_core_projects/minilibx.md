@@ -6,10 +6,7 @@ parent: Common Core Projects
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **MINILIBX**
-
-Rank 02
-{: .label .label-yellow }
+### **MINILIBX**
 
 {: .highlight }
 The links in this section are the most useful for `so_long`, `fract-ol`, `fdf`, `cub3d` and `minirt`.

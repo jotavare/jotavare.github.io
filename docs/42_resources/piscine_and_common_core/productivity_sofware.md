@@ -6,7 +6,7 @@ parent: Piscine and Common Core
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **PRODUCTIVITY SOFTWARE**
+### **PRODUCTIVITY SOFTWARE**
 
 Software designed to simplify tasks, and streamline workflow.
 

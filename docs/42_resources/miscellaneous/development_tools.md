@@ -6,7 +6,7 @@ parent: Miscellaneous
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **DEVELOPMENT TOOLS**
+### **DEVELOPMENT TOOLS**
 
 A comprehensive list of online IDEs, compilers, and debuggers.
 

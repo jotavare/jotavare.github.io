@@ -6,7 +6,7 @@ parent: Miscellaneous
 grand_parent: 🗂️ 42 Resources
 ---
 
-## **EDUCATIONAL RESOURCES**
+### **EDUCATIONAL RESOURCES**
 
 Insights and handy references for programming and learning.
 
