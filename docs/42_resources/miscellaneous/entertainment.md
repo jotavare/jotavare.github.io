@@ -9,19 +9,20 @@ grand_parent: 🗂️ 42 Resources
 ## Entertainment
 
 {: .important-title }
-Depending on your 42 school rules, you may or may not play games on school computers. Avoid getting -420 and community service.
+Depending on your 42 school rules, you may or may not play certain games on school computers. Avoid getting -420 and community service.
 
 ## **Media**
 
 | Website | Description |
 | :---- | :---------- |
-| [Sudoku](https://sudoku.com) | Fill a 9×9 grid with numbers so that each row, column and 3×3 section contain all of the digits between 1 and 9. |
+| [Sudoku](https://sudoku.com) | Sudoku online from Easy to Expert level. |
 | [2048](https://play2048.co) | Slide numbered tiles on a grid to combine them to create a tile with the number 2048. |
 | [Keybr](https://www.keybr.com) | Take a typing test, practice typing lessons, and learn to type faster. |
-| [The Scale of the Universe](https://htwins.net/scale2) | This game shows the sizes of different things in our universe in relation to other different things. |
-| [The Is This Prime?](https://isthisprime.com/game) | |
+| [The Scale of the Universe](https://htwins.net/scale2) | Interactive experience to learn about the vast ranges of the visible and invisible world. |
+| [The Is This Prime?](https://isthisprime.com/game) | Can you guess if a number is prime? |
 | [Quick, Draw!](https://quickdraw.withgoogle.com) | Can a neural network learn to recognize squiggles? |
 | [Random Country Generator](https://random.country) | Ever wanted to learn about all the countries in the world? |
+| [SQL Murder Mystery](https://mystery.knightlab.com) | Learn SQL concepts and commands with a fun game. |
 
 ## **Rubiks Cube**
 
@@ -34,14 +35,14 @@ Depending on your 42 school rules, you may or may not play games on school compu
 
 | Website | Description |
 | :---- | :---------- |
-| [Chess](https://www.chess.com) | Chess online. |
+| [Chess](https://www.chess.com) | #1 website to play chess online. |
 | [Lichess](https://lichess.org) | Free and open-source chess server. Clean interface, no registration, no ads, and no plugin required. |
-| [Chess24](https://chess24.com) | Chess news. |
+| [Chess24](https://chess24.com) | Chess 24/7 news. |
 | [Kasparovchess](https://kasparovchess.com) | Garry Kasparov masterclass, lessons from grandmasters, entertaining documentaries and interviews. |
 | [ChessBase](https://en.chessbase.com) | Chess news and stand-alone database that has become the standard throughout the world. |
 | [Chessgames](https://www.chessgames.com) | Database of chess games, discussion forums, forming the internet's oldest chess community. |
-| [Notable Chess games of all time](https://www.chessgames.com/perl/goat.pl) | |
-| [Chess Tactics](https://www.chesstactics.org) | Chess tactics taught in plain English. The most complete body of instruction on the subject yet written. |
+| [Notable Chess games of all time](https://www.chessgames.com/perl/goat.pl) | Explore the greatest chess matches in history. |
+| [Chess Tactics](https://www.chesstactics.org) | Chess tactics taught in plain English. |
 | [Chessboard.js](https://chessboardjs.com/examples#5002) | Who will win in this chess game of Math.random() vs Math.random()? |
 | [Britannica](https://www.britannica.com/topic/chess) | What is chess? |
-| [Chess Wikipedia](https://en.wikipedia.org/wiki/Chess) | |
+| [Chess Wikipedia](https://en.wikipedia.org/wiki/Chess) | Learn chess history. |

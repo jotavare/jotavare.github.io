@@ -10,7 +10,7 @@ grand_parent: 🗂️ 42 Resources
 
 | Website | Description |
 | :------ | :---------- |
-| [JSFiddle](https://jsfiddle.net) | Test your JavaScript, CSS, HTML, or CoffeeScript online with the JSFiddle code editor. |
+| [JSFiddle](https://jsfiddle.net) | Test JavaScript, CSS, HTML, or CoffeeScript online with the JSFiddle code editor. |
 | [CodeSandbox](https://codesandbox.io) | Cloud development platform that empowers developers to code, collaborate and ship projects of any size from any device. |
 | [CodeAnywhere](https://codeanywhere.com) | Cross Platform Cloud IDE with all the features of Desktop IDE but with additional features. |
 | [StackBlitz](https://stackblitz.com) | Instant full-stack web IDE for the JavaScript ecosystem. |
