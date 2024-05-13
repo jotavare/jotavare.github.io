@@ -8,6 +8,8 @@ grand_parent: 🗂️ 42 Resources
 
 ## **IDE, COMPILERS AND DEBUGGERS**
 
+A comprehensive list of online IDEs, compilers, and debuggers.
+
 | Website | Description |
 | :------ | :---------- |
 | [JSFiddle](https://jsfiddle.net) | Test JavaScript, CSS, HTML, or CoffeeScript online with the JSFiddle code editor. |

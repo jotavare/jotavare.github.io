@@ -8,8 +8,10 @@ grand_parent: 🗂️ 42 Resources
 
 ## Entertainment
 
+A diverse array of online entertainment and media resources.
+
 {: .important-title }
-Depending on your 42 school rules, you may or may not play certain games on school computers. Avoid getting -420 and community service.
+Depending on your 42 school rules, you may or may not play certain games on school computers. Avoid getting **-420** and **community service**.
 
 ## **Media**
 

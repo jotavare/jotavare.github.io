@@ -25,7 +25,7 @@ Insights and handy references for programming and learning.
 | [Hackr](https://hackr.io) | Hundreds of programming courses and tutorials. | `Website` |
 | [Envato Tuts+](https://tutsplus.com) | Learn creative skills from leading industry experts. | `Website` |
 
-## **QUICK REFERENCES AND CHEATSHEETS**
+### **QUICK REFERENCES**
 
 | [QuickRef](https://quickref.me) | Cheatsheets and quick references for various programming languages and tools. | `Website` |
 | [Programming Notes for Professionals](https://books.goalkicker.com) | Free Programming Books on various languages. | `Website` |

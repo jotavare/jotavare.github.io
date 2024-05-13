@@ -14,13 +14,13 @@ A diverse ecosystem of AI-driven solutions.
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
-| [Ollama](https://ollama.com) | Create, run, and manage LLMs in a local environment. | `Website` |
-| [Open WebUI](https://github.com/open-webui/open-webui) | User friendly WebUI for LLMs (formerly Ollama WebUI). | `GitHub` |
 | [ChatGPT](https://chat.openai.com/chat) | Chatbot launched by OpenAI in November 2022. | `Website` |
 | [Gemini](https://gemini.google.com/app) | AI chatbot from Google (formerly Bard). | `Website` |
 | [Copilot](https://copilot.microsoft.com) | AI chatbot from Microsoft (formerly Bing). | `Website` |
 | [PromptHero](https://prompthero.com) | Specific prompts for AI tools. | `Website` |
 | [BLACKBOX AI](https://www.useblackbox.io) | AI powered coding assistant. | `Website` |
+| [Ollama](https://ollama.com) | Create, run, and manage LLMs in a local environment. | `Website` |
+| [Open WebUI](https://github.com/open-webui/open-webui) | User friendly WebUI for LLMs (formerly Ollama WebUI). | `GitHub` |
 
 ### **TEXT**
 
@@ -37,12 +37,12 @@ A diverse ecosystem of AI-driven solutions.
 | [Stable Diffusion](https://stablediffusionweb.com) | Latent text to image diffusion model capable of generating photo realistic images. | `Website` |
 | [OpenJourney](https://huggingface.co/prompthero/openjourney) | Trained art model used in Stable Diffusion (includes negative prompts). | `Website` |
 | [Midjourney](https://www.midjourney.com) | Generates images from prompts, similar to OpenAI DALL-E. | `Website` |
-| [InvokeAI](https://github.com/invoke-ai/InvokeAI) | Generate and create stunning visual media. | `GitHub` |
 | [Boomy](https://boomy.com) | Write and produce a full song in seconds. | `Website` |
 | [Gen-2](https://research.runwayml.com/gen2) | Generate novel videos with text, images, or video clips. | `Website` |
 | [NVIDIA Canvas](https://www.nvidia.com/en-us/studio/canvas/) | Turn simple brushstrokes into realistic landscape images. | `Website` |
+| [InvokeAI](https://github.com/invoke-ai/InvokeAI) | Generate and create stunning visual media. | `GitHub` |
 
-### **MISC**
+### **MISCELLANEOUS**
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
