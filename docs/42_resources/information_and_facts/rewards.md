@@ -13,4 +13,4 @@ Rewards that you have access to as a 42 student.
 | Website | Description | Source |
 | :------ | :---------- | :----- |
 | [GitHub Student Pack](https://github-portal.42.fr/login) | Portal to activate the GitHub Student Pack with 42 email. | `Website` |
-| [GitHub Student Pack Rewards List](https://education.github.com/pack) | List of all the tools available as a 42 student. | `Website` |
+| [GitHub Student Pack Rewards List](https://education.github.com/pack) | List of all the rewards and tools available. | `Website` |
