@@ -34,3 +34,5 @@ Resources of no particular order but that I feel you should know. More is availa
 | [Don't Write Comments](https://www.youtube.com/watch?v=Bf7vDBBOBUA)       | Why you shouldn't write comments in your code (write documentation).             | `Youtube` |
 | [No Hello](https://nohello.net/en)                                        | Please, don't say just hello in chat.                                            | `Website` |
 | [Nerd Fonts](https://www.nerdfonts.com/font-downloads)                    | Iconic font aggregator, collection, and patcher.                                 | `Website` |
+| [Everything I wish I knew when learning C](https://tmewett.com/c-tips/#do-not-use-these-functions) | Tips and tricks for learning C. | `Website` |
+| [C Static libraries](https://dev.to/iamkhalil42/all-you-need-to-know-about-c-static-libraries-1o0b) | All you need to know about C static libraries. | `Website` |

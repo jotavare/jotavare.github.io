@@ -14,19 +14,19 @@ A diverse ecosystem of AI-driven solutions.
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
-| [Ollama](https://ollama.com) | Create, run, and manage llms in a local environment. | `Website` |
-| [Open WebUI](https://github.com/open-webui/open-webui) | User-friendly WebUI for LLMs (formerly Ollama WebUI). | `GitHub` |
+| [Ollama](https://ollama.com) | Create, run, and manage LLMs in a local environment. | `Website` |
+| [Open WebUI](https://github.com/open-webui/open-webui) | User friendly WebUI for LLMs (formerly Ollama WebUI). | `GitHub` |
 | [ChatGPT](https://chat.openai.com/chat) | Chatbot launched by OpenAI in November 2022. | `Website` |
-| [Bard](https://bard.google.com) | AI chatbot from Google. | `Website` |
-| [Bing](https://www.bing.com/new) | AI chatbot from Microsoft, Edge browser is necessary to use the chatbot. | `Website` |
+| [Gemini](https://gemini.google.com/app) | AI chatbot from Google (formerly Bard). | `Website` |
+| [Copilot](https://copilot.microsoft.com) | AI chatbot from Microsoft (formerly Bing). | `Website` |
 | [PromptHero](https://prompthero.com) | Specific prompts for AI tools. | `Website` |
-| [BLACKBOX AI](https://www.useblackbox.io) | AI-Powered Coding Assistant. | `Website` |
+| [BLACKBOX AI](https://www.useblackbox.io) | AI powered coding assistant. | `Website` |
 
 ### **TEXT**
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
-| [Rytr](https://rytr.me) | AI writing assistant that helps create high-quality content. | `Website` |
+| [Rytr](https://rytr.me) | AI writing assistant that helps create high quality content. | `Website` |
 | [QuillBot](https://quillbot.com) | Spelling/grammar checker. | `Website` |
 | [Writerly](https://writerly.ai/) | Content creation. | `Website` |
 
@@ -34,9 +34,9 @@ A diverse ecosystem of AI-driven solutions.
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
-| [Stable Diffusion](https://stablediffusionweb.com) | Latent text-to-image diffusion model capable of generating photo-realistic images. | `Website` |
+| [Stable Diffusion](https://stablediffusionweb.com) | Latent text to image diffusion model capable of generating photo realistic images. | `Website` |
 | [OpenJourney](https://huggingface.co/prompthero/openjourney) | Trained art model used in Stable Diffusion (includes negative prompts). | `Website` |
-| [Midjourney](https://www.midjourney.com) | Generates images from prompts, similar to OpenAI's DALL-E. | `Website` |
+| [Midjourney](https://www.midjourney.com) | Generates images from prompts, similar to OpenAI DALL-E. | `Website` |
 | [InvokeAI](https://github.com/invoke-ai/InvokeAI) | Generate and create stunning visual media. | `GitHub` |
 | [Boomy](https://boomy.com) | Write and produce a full song in seconds. | `Website` |
 | [Gen-2](https://research.runwayml.com/gen2) | Generate novel videos with text, images, or video clips. | `Website` |
@@ -47,5 +47,5 @@ A diverse ecosystem of AI-driven solutions.
 | Website | Description | Source |
 | :------ | :---------- | :----- |
 | [Futurepedia](https://www.futurepedia.io) | Largest AI tools directory. | `Website` |
-| [Future Tools](https://www.futuretools.io) | All The Best AI Tools. | `Website` |
+| [Future Tools](https://www.futuretools.io) | Collection of all the best AI tools | `Website` |
 | [Hugging Face](https://huggingface.co) | Trained AI models to use with other AI tools. | `Website` |

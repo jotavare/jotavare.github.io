@@ -8,47 +8,29 @@ grand_parent: 🗂️ 42 Resources
 
 ## **EDUCATIONAL RESOURCES**
 
-| Plataforms |
-| :--------- |
-| [Udemy](https://www.udemy.com) |
-| [Google Codelabs](https://codelabs.developers.google.com) |
-| [Codecademy](https://www.codecademy.com) |
-| [Coursera](https://www.coursera.org) |
-| [edX](https://www.edx.org) |
-| [Google Cloud Skills Boost](https://www.cloudskillsboost.google) |
-| [LinkedIn Learning](https://www.linkedin.com/learning) |
-| [Datacamp](https://www.datacamp.com) |
-| [Hackr](https://hackr.io) |
-| [Upskill](https://upskillcourses.com) |
-| [Google Developers Certification](https://developers.google.com/certification) |
-| [Envato Tuts+](https://tutsplus.com) |
+### **PLATAFORMS**
 
-| Books |
-| :---- |
-| [Programming Notes for Professionals](https://books.goalkicker.com) |
-| [The Linux Programming Interface](https://en.wikipedia.org/wiki/The_Linux_Programming_Interface) |
-| [Getting Things Done](https://www.google.com/search?client=firefox-b-d&q=getting+things+done) |
-| [Structure and Interpretation of Computer Programs](https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs) |
-| [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) |
-| [Free Programming Books](https://github.com/EbookFoundation/free-programming-books) |
+| Website | Description | Source |
+| :------ | :---------- | :----- |
+| [Udemy](https://www.udemy.com) | Learning and teaching marketplace with over 213000 courses and 62 million students. | `Website` |
+| [Coursera](https://www.coursera.org) | More than 7,000 courses, professional certificates, and degrees from world class universities and companies. | `Website` |
+| [edX](https://www.edx.org) | Massive open course (MOOC) provider. | `Website` |
+| [Google Codelabs](https://codelabs.developers.google.com) | Codelabs provide a guided, tutorial, hands-on coding experience. | `Website` |
+| [Codecademy](https://www.codecademy.com) | Interactive platform that offers free coding classes. | `Website` |
+| [Google Cloud Skills Boost](https://www.cloudskillsboost.google) | Google Cloud environments that help developers and IT professionals learn cloud platforms and software. | `Website` |
+| [LinkedIn Learning](https://www.linkedin.com/learning) | Learn business, creative, and technology skills to achieve your personal and professional goals. | `Website` |
+| [Datacamp](https://www.datacamp.com) | Learning platform that focuses on building the best learning experience specifically for Data Science. | `Website` |
+| [Hackr](https://hackr.io) | Hundreds of Programming courses/tutorials. | `Website` |
+| [Envato Tuts+](https://tutsplus.com) | Learn creative skills from leading industry experts. | `Website` |
 
-| Cheatsheets |
-| :---------- |
-| [Bash Cheat Sheet](https://github.com/RehanSaeed/Bash-Cheat-Sheet) |
-| [Explain Shell](https://explainshell.com) |
-| [Git Shell Colors](https://gist.github.com/vratiu/9780109) |
-| [Git Cheat Sheet (RehanSaeed)](https://github.com/RehanSaeed/Git-Cheat-Sheet) |
-| [Git Cheat Sheet (Atlassian)](https://github.com/jotavare/42-resources/files/10611245/SWTM-2088_Atlassian-Git-Cheatsheet.pdf) |
-| [Markdown Cheat Sheet (tchapi)](https://github.com/tchapi/markdown-cheatsheet) |
-| [Markdown CheatSheet (adam-p)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) |
-| [Assembly - Introduction](https://www.tutorialspoint.com/assembly_programming/assembly_introduction.htm) |
-| [Everything I wish I knew when learning C](https://tmewett.com/c-tips/#do-not-use-these-functions) |
-| [C Static libraries](https://dev.to/iamkhalil42/all-you-need-to-know-about-c-static-libraries-1o0b) |
-| [Python Cheat Sheet](https://github.com/gto76/python-cheatsheet) |
-| [Server World](https://www.server-world.info/en) |
-| [Cheatography](https://cheatography.com) |
-| [Cheat Sheets](https://cheat-sheets.org) |
-| [Devhints](https://devhints.io) |
-| [OverAPI](https://overapi.com) |
-| [Awesome Cheat Sheets](https://lecoupa.github.io/awesome-cheatsheets) |
-| [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) |
+## **CHEATSHEETS AND BOOKS**
+
+| [Programming Notes for Professionals](https://books.goalkicker.com) | Free Programming Books on various languages. | `Website` |
+| [Learning Resources](https://github.com/EbookFoundation/free-programming-books) | List of free learning resources in many languages. | `GitHub` |
+| [Server World](https://www.server-world.info/en) | Website for people they like to build Network Servers with CentOS, Ubuntu, Fedora, Debian, Windows Server.
+| [Cheatography](https://cheatography.com) | Collection of cheatsheets and quick references in 25 languages. | `Website` | 
+| [Cheat Sheets](https://cheat-sheets.org) | Cheatsheets, round-ups, quick reference cards, quick reference guides and quick reference sheets in one page. | `Website` |
+| [Devhints](https://devhints.io) | Modest collection of cheatsheets. | `Website` | 
+| [OverAPI](https://overapi.com) | Website that collects all the cheatsheets. | `Website` |
+| [Awesome Cheat Sheets](https://lecoupa.github.io/awesome-cheatsheets) | Cheatsheets for popular programming languages, frameworks and development tools. | `Website` |
+| [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. | `GitHub` |
