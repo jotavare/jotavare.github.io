@@ -1,12 +1,17 @@
 ---
 title: Campuses
+permalink: /42_resources/campuses
 layout: default
 parent: 🗂️ 42 Resources
 has_children: false
 nav_order: 6
 ---
 
-### **CAMPUSES**
+## **Table of contents**
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 Explore all 42 schools worldwide. For the most up-to-date list, click [here](https://www.42network.org/42-schools).
 

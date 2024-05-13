@@ -7,10 +7,7 @@ has_children: false
 nav_order: 7
 ---
 
-### **MISCELLANEOUS**
-{: .no_toc }
-
-## Table of contents
+## **Table of contents**
 {: .no_toc .text-delta }
 
 1. TOC
@@ -166,8 +163,8 @@ A curated collection of tools for creative endeavours.
 
 A diverse array of online entertainment and media resources.
 
-> [!NOTE]
-> Depending on your 42 school rules, you may or may not play certain games on school computers. Avoid getting **-420** and **community service**.
+{: .important-title }
+Depending on your 42 school rules, you may or may not play certain games on school computers. Avoid getting **-420** and **community service**.
 
 ### **Media**
 
