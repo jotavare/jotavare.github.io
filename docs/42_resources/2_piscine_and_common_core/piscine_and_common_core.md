@@ -154,7 +154,7 @@ Software designed to simplify tasks, and streamline workflow.
 
 ### **Others**
 
-Resources of no particular order but that I feel you should know. More is available [here](https://jotavare.github.io/42_resources/miscellaneous/miscellaneous.html).
+Resources of no particular order but that I feel you should know.
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |
