@@ -13,6 +13,8 @@ nav_order: 1
 1. TOC
 {:toc}
 
+----
+
 ### **Trivia**
 
 Facts about 42 schools and the number 42.

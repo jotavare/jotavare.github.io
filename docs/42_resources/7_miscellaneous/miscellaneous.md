@@ -13,6 +13,8 @@ nav_order: 7
 1. TOC
 {:toc}
 
+----
+
 ## **Artificial Intelligence**
 
 A diverse ecosystem of AI-driven solutions.

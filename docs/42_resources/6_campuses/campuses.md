@@ -13,6 +13,8 @@ nav_order: 6
 1. TOC
 {:toc}
 
+----
+
 Explore all 42 schools worldwide. For the most up-to-date list, click [here](https://www.42network.org/42-schools).
 
 ### **EUROPE**
