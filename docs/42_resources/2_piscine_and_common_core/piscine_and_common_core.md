@@ -136,7 +136,7 @@ Insights on crafting effective README files and integrating badges for your proj
 
 ----
 
-### **Productivity Software**
+### **Productivity**
 
 Software designed to simplify tasks, and streamline workflow.
 
