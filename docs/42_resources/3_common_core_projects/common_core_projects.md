@@ -15,6 +15,7 @@ nav_order: 3
 
 ----
 
+{: .important-title }
 The subjects at 42 undergo regular updates, so the information provided in this section might not be up to date. Additionally, as some projects are optional, resources might not be available if I haven't completed them.
 
 ### **Subjects**
@@ -42,7 +43,7 @@ Test your code with already-made all-in-one testers.
 
 ----
 
-### **libft**
+### **Libft**
 
 | Resource                                                                                 | Source    |
 | :--------------------------------------------------------------------------------------- | :-------- |
@@ -66,7 +67,7 @@ Test your code with already-made all-in-one testers.
 
 ----
 
-### **born2beroot**
+### **Born2beroot**
 
 | Video Resource                                                                            | Source     | User |
 | :---------------------------------------------------------------------------------------- | :-------- | :--- |
@@ -86,7 +87,7 @@ Test your code with already-made all-in-one testers.
 
 ----
 
-### **ft_printf**
+### **Ft_printf**
 
 | Resource                                                                                                                                      | Source    |
 | :-------------------------------------------------------------------------------------------------------------------------------------------- | :-------- |
@@ -113,7 +114,7 @@ Test your code with already-made all-in-one testers.
 
 ----
 
-### **get_next_line**
+### **Get_next_line**
 
 | Resource                                                                              | Source    |
 | :-------------------------------------------------------------------------------------| :-------- |
@@ -135,7 +136,7 @@ Test your code with already-made all-in-one testers.
 
 ----
 
-### **minitalk**
+### **Minitalk**
 
 | Resource                                                                                                                                           | Source    |
 | :------------------------------------------------------------------------------------------------------------------------------------------------- | :-------- |
@@ -168,7 +169,7 @@ Test your code with already-made all-in-one testers.
 
 ----
 
-### **pipex**
+### **Pipex**
 
 | Resource                                                                                                                                     | Source    |
 | :------------------------------------------------------------------------------------------------------------------------------------------- | :-------- |
@@ -198,8 +199,9 @@ Test your code with already-made all-in-one testers.
 
 ----
 
-### **minilibx**
+### **Minilibx**
 
+{: .important-title }
 The links in this section are the most useful for `so_long`, `fract-ol`, `fdf`, `cub3d` and `minirt`.
 
 | Resource                                                                         | Source   | User |
@@ -219,7 +221,7 @@ The links in this section are the most useful for `so_long`, `fract-ol`, `fdf`, 
 
 ----
 
-### **so_long**
+### **So_long**
 
 | Resource                                                                                             | Source     |
 | :--------------------------------------------------------------------------------------------------- | :-------- |
@@ -240,7 +242,7 @@ The links in this section are the most useful for `so_long`, `fract-ol`, `fdf`, 
 
 ----
 
-### **fract-ol**
+### **Fract-ol**
 
 | Resource                                                                                                                   | Source |
 | :------------------------------------------------------------------------------------------------------------------------- | :----- |
@@ -286,7 +288,7 @@ The links in this section are the most useful for `so_long`, `fract-ol`, `fdf`, 
 
 ----
 
-### **fdf**
+### **Fdf**
 
 | Resource                                                                                                                           | Source    |
 | :--------------------------------------------------------------------------------------------------------------------------------- | :-------- |
@@ -311,7 +313,7 @@ The links in this section are the most useful for `so_long`, `fract-ol`, `fdf`, 
 
 ----
 
-### **push_swap**
+### **Push_swap**
 
 | Resource                                                                                                                             | Source    |
 | :----------------------------------------------------------------------------------------------------------------------------------- | :-------- |
@@ -362,7 +364,7 @@ The links in this section are the most useful for `so_long`, `fract-ol`, `fdf`, 
 
 ----
 
-### **philosophers**
+### **Philosophers**
 
 | Resource                                                                                                 | Source      |
 | :------------------------------------------------------------------------------------------------------- | :---------- |
@@ -386,7 +388,7 @@ The links in this section are the most useful for `so_long`, `fract-ol`, `fdf`, 
 
 ----
 
-### **minishell**
+### **Minishell**
 
 | Resource                                                                                                                                                       | Source    |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------- |
@@ -420,7 +422,7 @@ The links in this section are the most useful for `so_long`, `fract-ol`, `fdf`, 
 
 ----
 
-### **netpractice**
+### **Netpractice**
 
 | Resource                                                                     | Source    |
 | :--------------------------------------------------------------------------- | :-------- |
@@ -443,7 +445,7 @@ The links in this section are the most useful for `so_long`, `fract-ol`, `fdf`, 
 
 ----
 
-### **cub3d**
+### **Cub3d**
 
 | Game                                              | Source    |
 |:--------------------------------------------------|:----------|
@@ -474,7 +476,7 @@ The links in this section are the most useful for `so_long`, `fract-ol`, `fdf`, 
 
 ----
 
-### **minirt**
+### **Minirt**
 
 | Resource                                                                                                                    | Source |
 | :-------------------------------------------------------------------------------------------------------------------------- | :----- |
@@ -510,8 +512,9 @@ The links in this section are the most useful for `so_long`, `fract-ol`, `fdf`, 
 
 ----
 
-### **cpp modules**
+### **CPP Modules (00-09)**
 
+{: .important-title }
 The 42 intra videos have bad fame, but in C++ they are good, so I recommend watching them first before watching any guides.
 
 | Resource                                                                                                                                         | Source |
@@ -552,7 +555,7 @@ The 42 intra videos have bad fame, but in C++ they are good, so I recommend watc
 
 ----
 
-### **webserv**
+### **Webserv**
 
 | Resource                                                                                                                                                                            | Source |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----- |
@@ -597,7 +600,7 @@ The 42 intra videos have bad fame, but in C++ they are good, so I recommend watc
 
 ----
 
-### **ft_irc**
+### **Ft_irc**
 
 | Resource                                                                                              | Source    |
 | :---------------------------------------------------------------------------------------------------- | :-------- |
@@ -616,7 +619,7 @@ The 42 intra videos have bad fame, but in C++ they are good, so I recommend watc
 
 ----
 
-### **inception**
+### **Inception**
 
 | Resource                                                                                                                                                                                 | Source    |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------- |
@@ -666,7 +669,7 @@ The 42 intra videos have bad fame, but in C++ they are good, so I recommend watc
 
 ----
 
-### **ft_transcendence**
+### **Ft_transcendence**
 
 | Resource                                                                                                                                                                                  | Source    |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------- |

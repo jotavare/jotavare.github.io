@@ -102,7 +102,7 @@ Secure your internet connection with a Virtual Private Network.
 
 ----
 
-### **Bootable Usb**
+### **Bootable USB**
 
 Create portable storage to install or repair operating systems.
 

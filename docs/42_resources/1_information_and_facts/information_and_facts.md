@@ -51,7 +51,7 @@ Main websites of 42 Network.
 
 ### **Social**
 
-For a specific 42 school social media, check the section [Campuses](https://jotavare.github.io/docs/42_resources/campuses.html) and choose a school.
+For a specific 42 school social media, check the section [Campuses](https://jotavare.github.io/42_resources/campuses) and choose a school.
 
 | Website | Description | Source |
 | :------ | :---------- | :----- |

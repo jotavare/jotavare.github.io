@@ -6,7 +6,7 @@ nav_order: 2
 has_children: true
 ---
 
-## **42 RESOURCES**
+## **WELCOME**
 
 Here, you'll find a set of resources that proved helpful during my time at 42 School, along with some interesting finds that, while not as useful for 42 specifically, are still worth exploring. Happy coding!
 

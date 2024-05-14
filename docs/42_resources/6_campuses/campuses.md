@@ -17,7 +17,7 @@ nav_order: 6
 
 Explore all 42 schools worldwide. For the most up-to-date list, click [here](https://www.42network.org/42-schools).
 
-### **EUROPE**
+### **Europe**
 
 | Flag | Country | School |
 | :--- | :------ | :----- |
@@ -55,7 +55,7 @@ Explore all 42 schools worldwide. For the most up-to-date list, click [here](htt
 | 🇷🇺 | Russia | [School 21 – Kazan](https://21-school.ru) |
 | 🇷🇺 | Russia | [School 21 - Moscow](https://21-school.ru) |
 
-### **ASIA**
+### **Asia**
 
 | Flag | Country | School |
 | :--- | :------ | :----- |
@@ -69,7 +69,7 @@ Explore all 42 schools worldwide. For the most up-to-date list, click [here](htt
 | 🇹🇷 | Turkey | [42 Kocaeli](https://42kocaeli.com.tr) |
 | 🇦🇪 | United Arab Emirates | [42 Abu Dhabi](https://42abudhabi.ae) |
 
-### **AMERICAS**
+### **Americas**
 
 | Flag | Country | School |
 | :--- | :------ | :----- |
@@ -78,7 +78,7 @@ Explore all 42 schools worldwide. For the most up-to-date list, click [here](htt
 | 🇧🇷 | Brazil | [42 São Paulo](https://www.42sp.org.br) |
 | 🇨🇦 | Canada | [42 Québec](https://42quebec.com) |
 
-### **AFRICA**
+### **Africa**
 
 | Flag | Country | School |
 | :--- | :------ | :----- |
@@ -87,13 +87,13 @@ Explore all 42 schools worldwide. For the most up-to-date list, click [here](htt
 | 🇲🇦 | Morocco | [1337 Khouribga](https://1337.ma/en/campuses) |
 | 🇲🇦 | Morocco | [1337 Med](https://1337.ma/en/campuses) |
 
-### **OCEANIA**
+### **Oceania**
 
 | Flag | Country | School |
 | :--- | :------ | :----- |
 | 🇦🇺 | Australia | [42 Adelaide](https://www.42adel.org.au) |
 
-### **SOON**
+### **Soon**
 
 | Flag | Country | School |
 | :--- | :------ | :----- |

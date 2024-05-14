@@ -27,6 +27,8 @@ Websites that I found useful for studying 42 exams, some are outdated but still 
 | [Piscine Final Exam Exercices (outdated)](https://github.com/alanbarrett2/42-Final-Exam) | Final exam exercices resolution.        | `GitHub`  |
 | [Common Core Exams (outdated)](http://www.anit.az/?author=1)                             | Questions and solutions with mains.     | `Website` |
 
+----
+
 ### **Peer-To-Peer**
 
 Information about peer-to-peer evaluation, and beginner videos about Shell and Git.
@@ -40,6 +42,8 @@ Information about peer-to-peer evaluation, and beginner videos about Shell and G
 | [P2P - Evaluation - 04](https://youtu.be/hzMe_CDM8ug)                                                                                                                                       | What to do after the evaluation? *(as evaluated student)*        | `Youtube`  |
 | [The Art of Peer-Evaluation](https://elearning.intra.42.fr/notions/c-piscine-the-pedagogy/subnotions/piscine-c-the-pedagogy-document-peer-correcting/pdfs/The%20Art%20Of%20Peer-Evaluation) | Peer-to-Peer evaluation state of mind and rules you should know. | `42` `PDF` |
 
+----
+
 ### **Websites**
 
 Websites that I found useful in my 42 journey.
@@ -51,6 +55,8 @@ Websites that I found useful in my 42 journey.
 | [Find Peers](https://find-peers.codam.nl)   | Find peers working on the same project.                    | `Website` |
 | [S42](https://s42.app)                      | Clusters from various 42 schools.                          | `Website` |
 
+----
+
 ### **Guides**
 
 Guides and walkthroughs to navigate 42 Piscine and Common Core.
@@ -61,6 +67,8 @@ Guides and walkthroughs to navigate 42 Piscine and Common Core.
 | [Developer Roadmaps](https://roadmap.sh)                   | Roadmaps, guides, and other educational content.                  | `Website` |
 | [tldr-pages](https://github.com/tldr-pages/tldr)           | Community-maintained help pages offering simplified explanations. | `GitHub`  |
 | [rsapkf](https://rsapkf.org)                               | 5000+ links that `rsapkf` used in the past to learn programming.  | `Website` |
+
+----
 
 ### **Extensions**
 
@@ -75,6 +83,8 @@ VS Code extensions for enhancing your development experience.
 | [Norminette 42](https://marketplace.visualstudio.com/items?itemName=evilcat.norminette-42)                                     | This extension is a norminette decorator for 42 in VS Code. | `Website` |
 | [Norminette Highlighter v3.x](https://marketplace.visualstudio.com/items?itemName=MariusvanWijk-JoppeKoers.codam-norminette-3) | This extension is a norminette decorator for 42 in VS Code. | `Website` |
 
+----
+
 ### **Grammar**
 
 Tools to have correct communication and documentation.
@@ -87,6 +97,8 @@ Tools to have correct communication and documentation.
 | [Urban Dictionary](https://www.urbandictionary.com) | Slang dictionary with user-contributed definitions. | `Website` |
 | [Wiktionary](https://en.wiktionary.org)             | Online dictionary and language reference.           | `Website` |
 
+----
+
 ### **Browser**
 
 I recommend installing `Improved Intra 42`, an all-in-one extension for Chrome and Firefox.
@@ -96,6 +108,8 @@ I recommend installing `Improved Intra 42`, an all-in-one extension for Chrome a
 | [Improved Intra 42](https://github.com/FreekBes/improved_intra) | Browser extension for Chrome and Firefox to enhance the Intra 42 experience.   | `GitHub` |
 | [Better Black Hole](https://github.com/jkctech/BetterBlackHole) | Extension available for Chrome and Firefox. Improves Black Hole functionality. | `GitHub` |
 
+----
+
 ### **Apps**
 
 Available apps for Android and iOS.
@@ -104,6 +118,8 @@ Available apps for Android and iOS.
 | :------ | :--------- |
 | [Intra 42 Mobile App](https://play.google.com/store/apps/details?id=com.linkkader.intra42) | `Android` |
 | [Intra 42 Mobile App](https://apps.apple.com/pt/app/intra-42-mobile-app/id1661283873)      | `iOS`     |
+
+----
 
 ### **Readme**
 
@@ -118,6 +134,8 @@ Insights on crafting effective README files and integrating badges for your proj
 | [42 Unlicense](https://github.com/gcamerli/42unlicense)                                        | Flavoured version, based on the Unlicense public license. | `GitHub`  |
 | [GitHub Social Preview](https://www.bannerbear.com/demos/github-social-preview-generator-tool) | Auto generate a social preview image for your repository. | `Website` |
 
+----
+
 ### **Productivity Software**
 
 Software designed to simplify tasks, and streamline workflow.
@@ -131,6 +149,8 @@ Software designed to simplify tasks, and streamline workflow.
 | [Evernote](https://evernote.com)         | Note-taking and task management application.                                          | `Website` |
 | [Motion](https://www.usemotion.com)      | Automatically prioritize tasks, schedule meetings, and resolve calendar conflicts.    | `Website` |
 | [Lucidchart](https://www.lucidchart.com) | Web-based diagramming application.                                                    | `Website` |
+
+----
 
 ### **Others**
 
