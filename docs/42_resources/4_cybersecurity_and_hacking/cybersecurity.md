@@ -121,7 +121,7 @@ Information and tools for managing, recovering, or securely wiping data effectiv
 
 | Management | Description | Source |
 | :------ | :---------- | :----- |
-| [hdparm](https://wiki.archlinux.org/title/Hdparm) |  set and view ATA hard disk drive hardware parameters and test performance. | `Website` |
+| [hdparm](https://wiki.archlinux.org/title/Hdparm) | Set and view ATA hard disk drive hardware parameters and test performance. | `Website` |
 | [sdparm](https://sg.danny.cz/sg/sdparm.html) | Similar to hdparm but can be used on any device that uses a SCSI command set. | `Website` |
 | [GParted](https://gparted.org/) | Create, delete, resize, move, check, and copy disk partitions and their file systems. | `Website` |
 | [DiskPart](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/diskpart) | Command-line disk partitioning utility, replacing its predecessor, fdisk. | `Website` |
