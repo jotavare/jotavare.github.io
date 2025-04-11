@@ -1,3 +1,5 @@
+name: Dependa Bot
+
 version: 2
 updates:
   - package-ecosystem: bundler
