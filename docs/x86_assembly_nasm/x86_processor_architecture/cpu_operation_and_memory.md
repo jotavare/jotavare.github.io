@@ -24,7 +24,7 @@ The CPU comprises several crucial components:
 - Measured in **Hertz**, the clock speed determines the number of instructions a CPU can execute per second.
 - One to zero and back to one is **one clock cycle**.
 - The number of clock cycles per second, expressed in **GHz** (Gigahertz).
-- Every time the clock ticks, the CPU processes **one instruction**.
+- Every clock tick advances the CPU by one step; a single instruction may take **several ticks**, and a pipelined CPU has several instructions in flight at once.
 
 ----
 

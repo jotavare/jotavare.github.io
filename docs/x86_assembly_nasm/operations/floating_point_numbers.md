@@ -30,7 +30,7 @@ movss xmm0, [x]
 movss xmm1, [y]
 ```
 
-`xmm0` and `xmm1` are **special registers** designed for storing floating-point numbers **(can use up to `xmm15`)**. The square brackets indicate fetching the value stored at the memory address of `x` and `y`, respectively.
+`xmm0` and `xmm1` are **special registers** designed for storing floating-point numbers. In 32-bit code there are eight of them, `xmm0` to `xmm7`; 64-bit mode adds `xmm8` to `xmm15`. The square brackets indicate fetching the value stored at the memory address of `x` and `y`, respectively.
 
 ----
 
@@ -67,7 +67,7 @@ global _start
 
 _start:
         movss xmm0, [x] ; scalar single precision floating point move
-                        ; scalar because i are moving a single decimal value
+                        ; scalar because we are moving a single decimal value
                         ; single precision meaning is a 32-bit floating point number
         
         movss xmm1, [y]

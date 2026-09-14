@@ -9,9 +9,8 @@ parent: 📑 GDB Cheatsheet
 
 | Command                        | Result                                                                               |
 | :----------------------------- | :----------------------------------------------------------------------------------- |
-| `set follow-fork-mode.`        | Follow the child process instead of the parent process.                              |
-| `set follow-fork-mode parent`  | Set the debugger response to a program call of fork.                                 |
-| `set follow-fork-mode child`   | Set the debugger response to a program call of vfork.                                |
+| `set follow-fork-mode parent`  | Keep debugging the parent after a fork; the child runs free. This is the default.    |
+| `set follow-fork-mode child`   | Follow the child after a fork; the parent runs free.                                 |
 | `show follow-fork-mode`        | Display the current debugger response to a fork or vfork call.                       |
 | `set detach-on-fork.`          | Debug both the parent and child processes.                                           |
 | `set detach-on-fork [on/off]`  | Detach one of the processes after a fork, or retain debugger control over them both. |

@@ -57,8 +57,8 @@ ASM=nasm
 SRC_DIR=src
 BUILD_DIR=build
 
-# Floopy disk
-floopy_image: $(BUILD_DIR)/main.img
+# Floppy disk
+floppy_image: $(BUILD_DIR)/main.img
 $(BUILD_DIR)/main.img: bootloader kernel
 	dd if=/dev/zero of=$(BUILD_DIR)/main.img bs=512 count=2880
 	mkfs.fat -F 12 -n "FAT12" $(BUILD_DIR)/main.img

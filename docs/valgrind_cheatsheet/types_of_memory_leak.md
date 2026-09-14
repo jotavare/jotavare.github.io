@@ -9,7 +9,7 @@ parent: 📑 Valgrind Cheatsheet
 
 You will see two summaries at the end of Valgrind’s output: the `heap summary` and the `leak summary`.
 
-The `heap summary` tells you how many memory allocations occurred (how many times new was called directory or indirectly in your program) and how many bytes of memory were lost. Here’s some example output:
+The `heap summary` tells you how many memory allocations occurred (how many times new was called directly or indirectly in your program) and how many bytes of memory were lost. Here’s some example output:
 
 ```bash
 ==29== HEAP SUMMARY:
@@ -26,7 +26,7 @@ The `heap summary` tells you how many memory allocations occurred (how many time
 
 For an example of this, read through the errors above. Here is what the two most important parts of the summary mean:
 - `definitely lost` - your program is leaking memory and you need to fix it.
-- `indirectly lost` - your program may have crashed and couldn’t clean up memory.
+- `indirectly lost` - the block is only reachable through a block that is itself lost.
 - `suppressed` - you can safely ignore this area since this memory was not managed by your program.
 - `possibly lost` - your program is leaking memory unless you’re doing odd things with pointers.
 

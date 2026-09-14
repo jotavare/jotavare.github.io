@@ -99,16 +99,16 @@ airodump-ng -d(--bssid) <BSSID> -w(--write) <filename> -c(--channel) <channel>  
 ### **Deauthentication Attack**
 
 <div class="code-example" markdown="1">
-Now we need to to send `de-authentication packets` to the victim's device, forcing it to disconnect and reconnect to the network, so we can capture the `handshake`.
+Now we need to send `de-authentication packets` to the victim's device, forcing it to disconnect and reconnect to the network, so we can capture the `handshake`.
 <br>Leave the previous terminal open (running) and use this command in another terminal:
 </div>
 ```bash
-aireplay-ng -0 10 -a <BSSID> -c <client ESSID> <wireless interface>mon
+aireplay-ng -0 10 -a <BSSID> -c <client MAC> <wireless interface>mon
 ```
 
 - `-0 10` - number of de-authentication packets to send;
 - `-a <BSSID>` - target network's BSSID;
-- `-c <client ESSID>` - ESSID (name) of the device you want to de-authenticate;
+- `-c <client MAC>` - MAC address of the client you want to de-authenticate;
 - `<wireless interface>mon` - the name of your wireless interface in monitor mode;
 
 ### **Capture the Handshake**
@@ -145,7 +145,7 @@ systemctl restart network*
 ```
 
 ## **Protecting Yourself**
-While you cannot prevent the authentication process, you can protect against word list attacks by choosing a long and random password that is unlikely to be found in any word list, like **passphrases**. Additionally, you can enable **MAC address filtering** and **WPS (Wi-Fi Protected Setup)** to enhance security.
+While you cannot prevent the authentication process, you can protect against word list attacks by choosing a long and random password that is unlikely to be found in any word list, like **passphrases**. Turning **WPS (Wi-Fi Protected Setup)** off also matters: its eight-digit PIN is verified in two halves, which cuts the search to about 11,000 attempts and hands over the passphrase regardless of how strong it is. **MAC address filtering** is worth little on its own, since addresses are trivially spoofed once one is observed.
 
 ## **Conclusion**
 We explored the process of WPA-PSK hacking. It is essential to respect **privacy** and **legality** when using these techniques. We learned about capturing **handshakes**, performing **de-authentication attacks**, and cracking passwords using **word lists**. Remember to always use this knowledge responsibly and protect yourself.

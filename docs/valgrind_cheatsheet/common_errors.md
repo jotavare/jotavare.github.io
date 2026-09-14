@@ -109,20 +109,35 @@ matrix[1] = 2;
 ==91==    by 0x10B9A2: main (test-your-faith.cpp:33)
 ```
 
-This is caused by incorrectly deleting a pointer to an array. If you’re deleting a single object (i.e. `int *`), you can deallocate memory with `delete`.
-
-However, if you’re deleting an array object (i.e. `int **`), you need to use `delete []`. This also applies to higher-level pointers (i.e. `int ***`, `int ****`).
+This is caused by pairing the wrong deallocator with an allocation. What
+matters is not how many stars the type has, but whether the memory came from
+`new` or from `new[]`: `new` must be matched by `delete`, and `new[]` by
+`delete []`. Mixing them is undefined behaviour, and using `free()` on either
+is a third mismatch.
 
 Here’s an example:
 
 ```cpp
-int * a = new int;
-delete a;           // note delete [] a; would also work
+int *a = new int;       // a single object
+delete a;               // delete [] a; here is a mismatch, not an alternative
 
-int ** A = new int[10];
+int *A = new int[10];   // an array, still an int*
 delete [] A;
 
-// the code below, would cause a mismatched free/delete error
-int ** B = new int[10];
-delete B;
+// the code below would cause a mismatched free/delete error
+int *B = new int[10];
+delete B;               // allocated with new[], freed with delete
+```
+
+A pointer-to-pointer is only involved when each row is its own allocation, and
+then every row needs freeing before the outer array does:
+
+```cpp
+int **grid = new int*[10];
+for (int i = 0; i < 10; i++)
+    grid[i] = new int[10];
+
+for (int i = 0; i < 10; i++)
+    delete [] grid[i];
+delete [] grid;
 ```

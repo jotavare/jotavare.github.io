@@ -41,7 +41,7 @@ So, I need the following information to open a file:
 - The **offset** in bytes to move the file pointer is provided to `ecx`;
 - The **whence** parameter specifies the **starting point** for the offset in `edx`;
 
-Just like `0_RDONLY`, the `SEEK_SET`, `SEEK_CUR`, and `SEEK_END` are **C macros** defined in the `unistd.h` file. I can find the actual values in the [unistd.h](https://sites.uclouvain.be/SystInfo/usr/include/asm-generic/unistd.h.html) which are `0`, `1`, and `2` respectively.
+Just like `O_RDONLY`, the `SEEK_SET`, `SEEK_CUR`, and `SEEK_END` are **C macros** defined in the `unistd.h` file. I can find the actual values in the [unistd.h](https://sites.uclouvain.be/SystInfo/usr/include/asm-generic/unistd.h.html) which are `0`, `1`, and `2` respectively.
 
 {: .important-title }
 In this example, I'm using `SEEK_SET` which means the offset is relative to the **beginning of the file**, `SEEK_CUR` is relative to the **current file position**, and `SEEK_END` is relative to the **end of the file**.

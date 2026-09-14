@@ -19,4 +19,4 @@ parent: 📑 GDB Cheatsheet
 | `info line [42]`        | Print addresses for object code for line 42.       |
 | `info line [*0x2c4e]`   | Print line number of object code at address.       |
 | `x/10i [main]`          | Disassemble first 10 instructions in main.         |
-| `disassemble [address]` | Dissassemble code for function around address.     |
+| `disassemble [address]` | Disassemble code for function around address.     |

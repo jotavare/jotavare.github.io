@@ -16,7 +16,7 @@ I already knew this in `C`, which is called **bitwise operators**. It's a **fast
 | `shr`    | Logical Right Shift | Shifts the bits to the right |
 | `shl`    | Logical Left Shift  | Shifts the bits to the left |
 | `sar`    | Arithmetic Right Shift | Shifts the bits to the right, preserving the sign bit |
-| `sal`    | Arithmetic Left Shift  | Shifts the bits to the left, preserving the sign bit |
+| `sal`    | Arithmetic Left Shift  | Shifts the bits to the left; an alias for `shl`, same opcode |
 
 ----
 
@@ -28,9 +28,9 @@ The `shr` instruction is used to perform **logical right shift** operations. It 
 section .text
     .global _start
 _start:
-        move eax, 2 ; 0010 = 2
+        mov eax, 2 ; 0010 = 2
         shr eax, 1  ; shift the bits to the right one spot -> 0001 = 1
-                    ; this equivelent to dividing by 2 but it's faster
+                    ; this equivalent to dividing by 2 but it's faster
 ```
 
 ----
@@ -44,9 +44,9 @@ section .text
     .global _start
 
 _start:
-        move eax, 2 ; 0010 = 2
+        mov eax, 2 ; 0010 = 2
         shl eax, 1  ; shift the bits to the left one spot -> 0100 = 4
-                    ; this equivelent to multiplying by 2 but it's faster
+                    ; this equivalent to multiplying by 2 but it's faster
 ```
 
 ----
@@ -60,23 +60,23 @@ section .text
     .global _start
 
 _start:
-        move eax, -2 ; 1110 = -2
+        mov eax, -2 ; 1110 = -2
         sar eax, 1  ; shift the bits to the right one spot -> 1111 = -1
-                    ; this equivelent to dividing by 2 but it's faster
+                    ; this equivalent to dividing by 2 but it's faster
 ```
 
 ----
 
 ### **SAL Operation**
 
-The `sal` instruction is used to perform **arithmetic left shift** operations. It shifts the bits of the operand to the **left** by a specified number of bits, while **preserving the sign bit**.
+The `sal` instruction performs an **arithmetic left shift**. It is an alias for `shl`: both assemble to the same opcode, because shifting left has no sign bit to preserve. Only the right shifts differ, where `sar` keeps the sign and `shr` does not.
 
 ```
 section .text
     .global _start
 
 _start:
-        move eax, -2 ; 1110 = -2
+        mov eax, -2 ; 1110 = -2
         sal eax, 1  ; shift the bits to the left one spot -> 1100 = -4
-                    ; this equivelent to multiplying by 2 but it's faster
+                    ; this equivalent to multiplying by 2 but it's faster
 ```
