@@ -16,7 +16,7 @@ parent: 📑 Valgrind Cheatsheet
 
 Valgrind provides a suite of debugging tools to increase performance and fix problems with your programs. Memcheck is one of the more commonly used tools. This tool helps find memory-related errors that might cause your program to crash or leak memory.
 
-Make sure you compile your program with `-g` to generate debugging symbols. Both GDB and Valgrind use these symbols to show line numbers in error messages. For more on compilation, see the [gcc wiki](https://bytes.usc.edu/cs104/wiki/gcc.md).
+Make sure you compile your program with `-g` to generate debugging symbols. Both GDB and Valgrind use these symbols to show line numbers in error messages. For more on compilation, see the [GCC manual](https://gcc.gnu.org/onlinedocs/gcc/Debugging-Options.html).
 
 <div class="code-example" markdown="1">
 Compile with debugging symbols.

@@ -31,7 +31,7 @@ For an example of this, read through the errors above. Here is what the two most
 - `possibly lost` - your program is leaking memory unless you’re doing odd things with pointers.
 
 {: .important-title }
-Suppressed memory is a memory still allocated when Valgrind exits that we tell Valgrind to ignore via a configuration file in your virtual machine. This memory is usually used by either the system’s dynamic library loader or parts of the standard library that use custom allocators and deallocators. Check more about [suppression files](https://jotavare.github.io/valgrind_cheatsheet/suppression_files.html).
+Suppressed memory is a memory still allocated when Valgrind exits that we tell Valgrind to ignore via a configuration file in your virtual machine. This memory is usually used by either the system’s dynamic library loader or parts of the standard library that use custom allocators and deallocators. Check more about [suppression files](https://jotavare.github.io/docs/valgrind_cheatsheet/suppression_files.html).
 
 ## **VALGRIND MANUAL DETAILED DESCRIPTION**
 

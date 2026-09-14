@@ -1,8 +1,8 @@
 name: Build Pages
 
+# The deploy workflow already builds on every push to main, so this one only
+# needs to check pull requests, where nothing is deployed.
 on:
-  push:
-    branches: ["main"]
   pull_request:
 
 jobs:
