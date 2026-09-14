@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
 gem "jekyll", "~> 4.4" 
-gem "just-the-docs", "0.12.0" 
-
+gem "just-the-docs", "0.12.0"
+gem "jekyll-sitemap", "~> 1.4"
