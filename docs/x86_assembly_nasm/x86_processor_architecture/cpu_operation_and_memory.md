@@ -19,6 +19,8 @@ The CPU comprises several crucial components:
 
 <div style="text-align:center;">
     <img src="../../../assets/images/cpu_clock_speed.jpg" alt="CPU Clock Speed">
+    <br>
+    <sub>Diagram from an external source; original author unknown.</sub>
 </div>
 
 - Measured in **Hertz**, the clock speed determines the number of instructions a CPU can execute per second.

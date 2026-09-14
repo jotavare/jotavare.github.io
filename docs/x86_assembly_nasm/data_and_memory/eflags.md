@@ -29,4 +29,6 @@ If the flag is set to `1`, it means the condition is met; otherwise, it's `0`. I
 
 <div style="text-align:center;">
     <img src="../../../assets/images/eflags.png" alt="EFLAGS">
+    <br>
+    <sub>Diagram from an external source; original author unknown.</sub>
 </div>
