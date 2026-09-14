@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://img.shields.io/badge/status-ongoing-success?color=%2312bab9&style=flat-square"/>
+	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square"/>
 	<img src="https://img.shields.io/github/languages/top/jotavare/jotavare.github.io?color=%2312bab9&style=flat-square"/>
 	<img src="https://img.shields.io/github/last-commit/jotavare/jotavare.github.io?color=%2312bab9&style=flat-square"/>
 	<a href='https://www.linkedin.com/in/jotavare' target="_blank"><img alt='Linkedin' src='https://img.shields.io/badge/LinkedIn-blue?style=flat-square'/></a>
@@ -11,7 +11,6 @@
 	<a href="#running-it-locally">Running it locally</a> •
 	<a href="#building">Building</a> •
 	<a href="#contributing">Contributing</a> •
-	<a href="#note-on-diagrams">Diagrams</a> •
 	<a href="#license">License</a>
 </p>
 
@@ -21,9 +20,10 @@ The source for [**jotavare.github.io**](https://jotavare.github.io/), a personal
 documentation site built with [Jekyll](https://jekyllrb.com/) and the
 [just-the-docs](https://just-the-docs.com/) theme, deployed with GitHub Pages.
 
-It gathers notes I wanted in one searchable place rather than scattered across
-repositories: cheatsheets for the tools I use and a longer set of x86 assembly
-notes written while learning it.
+I built it to learn GitHub Pages and Jekyll, and it grew into a place to keep
+the notes I made while studying: cheatsheets for gdb and valgrind, and a longer
+set of x86 assembly notes written as I worked through the subject. It documents
+what I was learning, and is not a reference I maintain for day-to-day use.
 
 ## CONTENTS
 
@@ -61,15 +61,8 @@ deployed.
 
 ## CONTRIBUTING
 
-This is a personal reference and is not open to changes. Spotting a factual
-error in the notes is welcome, but issues are disabled, so there is nothing to
-act on a report with.
-
-## NOTE ON DIAGRAMS
-
-Some of the diagrams under `assets/images/` come from external sources and are
-included for reference; where the original author is known they are credited on
-the page, and the rest are marked as external. They are not my own work.
+This was a personal learning project and is finished, so it is not open to
+changes. Issues are disabled.
 
 ## LICENSE
 
