@@ -12,7 +12,7 @@ grand_parent: 🔲 x86 Assembly NASM
 
 Before diving into code implementation, let's understand the **system calls** required.
 
-| %eax | Name      | Source                     | %ebx             | %ecx              | %edx    | %esx | %edi |
+| %eax | Name      | Source                     | %ebx             | %ecx              | %edx    | %esi | %edi |
 |:-----|:----------|:---------------------------|:-----------------|:------------------|:--------|:-----|:-----|
 | 1    | sys_exit  | kernel/exit.c              | int              | -                 | -       | -    | -    |
 | 2    | sys_fork  | arch/i386/kernel/process.c | struct pt_regs   | -                 | -       | -    | -    |
@@ -112,4 +112,4 @@ main:
 ```
 
 {: .important-title}
-The result of the system call will be the **number of bytes read**, which will be stored in `eax`. If `eax` is `0`, it means that the **end of the file** has been reached. If `eax` is `-1`, it means that an **error occurred**. If `eax` is `-2`, it means that the file descriptor is **invalid**.
+The result of the system call will be the **number of bytes read**, which will be stored in `eax`. If `eax` is `0`, it means that the **end of the file** has been reached. A **negative** value means an error, and it is the negated `errno`: `-9` is `EBADF`, an invalid file descriptor, and `-14` is `EFAULT`, a bad buffer address. There is no single `-1` or `-2` convention at the syscall level; the C library is what turns these into `-1` plus `errno`.

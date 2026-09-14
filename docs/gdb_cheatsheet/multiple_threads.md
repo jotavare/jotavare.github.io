@@ -13,7 +13,6 @@ parent: 📑 GDB Cheatsheet
 | `info threads`                          | Inquire about existing threads.                                                 |
 | `info threads [-gid] [thread-id-list]`  | Display information about one or more threads.                                  |
 | `thread apply [thread-id-list] args`    | Apply a command to a list of threads.                                           |
-| `maint info sol-threads`                | Display info on Solaris user threads.                                           |
 | `thread apply [thread-id-list] command` | Apply the named command to one or more threads.                                 |
 | `[-c]`                                  | Display errors and the execution of the thread apply then continues.            |
 | `[-s]`                                  | Errors or empty output produced by a command to be silently ignored.            |

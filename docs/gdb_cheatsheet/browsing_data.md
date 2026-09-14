@@ -13,7 +13,7 @@ parent: 📑 GDB Cheatsheet
 | `print/x [expression]`                | Print variable in hex format.                 |
 | `print [array[i]@count]`              | Artificial array - print array range.         |
 | `print $`                             | Print last value.                             |
-| `print *$->next`                      | Print thru history list.                      |
+| `print *$->next`                      | Print through history list.                      |
 | `print $1`                            | Print value 1 from value history.             |
 | `print ::gx`                          | Force scope to be global.                     |
 | `print [basic.c]::gx`                 | Global scope in named file.                   |
@@ -33,4 +33,4 @@ parent: 📑 GDB Cheatsheet
 | `undisplay`                           | Delete displays.                              |
 | `info display`                        | Show displays.                                |
 | `show values`                         | Print value history.                          |
-| `info history`                        | Print value history.                          |
+| `show values`                        | Print value history.                          |

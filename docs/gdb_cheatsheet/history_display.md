@@ -10,14 +10,14 @@ parent: 📑 GDB Cheatsheet
 | Command                                   | Result                                                                      |
 | :---------------------------------------- | :-------------------------------------------------------------------------- |
 | `show commands`                           | Print command history.                                                      |
-| `info editing`                            | Print command history.                                                      |
+| `show editing`                            | Print command history.                                                      |
 | `set history filename [fname]`            | Set the name of the GDB command history file to fname.                      |
 | `set history save`                        | Record command history in a file.                                           |
 | `set history save [on/off]`               | Record or don't record the command history into the file specified.         |
 | `set history size [size]`                 | Set the number of commands gdb keeps in its history list based on the size. |
 | `set history size unlimited`              | Set the number of commands gdb keeps in its history list as unlimited.      |
 | `set history remove-duplicates [count]`   | Removed the first duplicate entry in history based on the count.            |
-| `set history remove-duplicates unlimited` | Removed dupicate entrys in history.                                         |
+| `set history remove-duplicates unlimited` | Remove duplicate entries in history.                                         |
 | `set history expansion [on/off]`          | Enable or disable history expansion.                                        |
 | `show history`                            | Display all four history states.                                            |
 | `show history filename`                   | Display the history of filename.                                            |

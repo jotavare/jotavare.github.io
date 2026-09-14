@@ -19,7 +19,7 @@ section .text
     global _start
 
 _start:
-    mov eax, 2      ; Load value 5 into eax
+    mov eax, 2      ; Load value 2 into eax
     mov ebx, 3      ; Load value 3 into ebx
     add eax, ebx    ; Add ebx to eax
 ```
@@ -117,7 +117,7 @@ section .text
     global _start
 
 _start:
-    mov eax, 3      ; Load value 5 into eax
+    mov eax, 3      ; Load value 3 into eax
     mov ebx, 5      ; Load value 2 into ebx
     sub eax, ebx    ; Subtract 2 from 5
     mov ebx, 2      ; Load value 2 into ebx
@@ -148,7 +148,7 @@ _start:
 {: .important-title }
 In this case, the `mul` instruction multiplies the value in `bl` by `al` and stores the result in `al`. So, after this operation, `al` should contain the **product of the two numbers** `6`. The register `a` is a special register called the **accumulator**, it's used for multiplication as the default destination for the operation.
 
-In multiplication, it's interesting because it only **requires one operand**, the other operand is implicitly the `al` register. The result of the multiplication operation is stored in the **pair of registers** `ax` and `dx`. The `ax` register contains the **lower 16 bits** of the result, while the `dx` register contains the **higher 16 bits**.
+In multiplication, it's interesting because it only **requires one operand**, the other operand is implicit. Where the result lands depends on the operand size: an 8-bit `mul` multiplies by `al` and puts the whole 16-bit result in `ax`, leaving `dx` untouched. A 16-bit `mul` multiplies by `ax` and splits the result across `dx:ax`, the high half in `dx`; a 32-bit `mul` uses `eax` and splits across `edx:eax`.
 
 Let's see another example with `mul`, where I **multiply two unsigned numbers** but the result is **too large** to fit in the `ax` register:
 
@@ -226,11 +226,12 @@ section .text
     global _start
 
 _start:
-    mov eax, 0xff    ; Load value 255 (unsigned) into eax = -1 (signed)
+    mov eax, 0xff    ; Load 255 into eax; in 32 bits 0xff is 255, not -1
+    cdq              ; Sign-extend eax into edx, since idiv divides edx:eax
     mov ecx, 2       ; Load value 2 into ecx
-    idiv ecx         ; Divide eax by ecx = -1 remainder 1
+    idiv ecx         ; Divide edx:eax by ecx = 127 remainder 1
     int 80h          ; Interrupt
 ```
 
 {: .important-title }
-In this case, the `idiv` instruction divides the value in `eax` by `ecx` and stores the **quotient** in `eax` and the **remainder** in `edx`. So, after this operation, `eax` should contain the **quotient** `-1` and `edx` should contain the **remainder** `1`.
+In this case, the `idiv` instruction divides `edx:eax` by `ecx`, storing the **quotient** in `eax` and the **remainder** in `edx`. So after this operation `eax` holds the **quotient** `127` and `edx` holds the **remainder** `1`. The `cdq` matters: `idiv` always divides the 64-bit pair `edx:eax`, so leaving `edx` as whatever it happened to hold gives a meaningless result.

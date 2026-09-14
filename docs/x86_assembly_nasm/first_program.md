@@ -58,7 +58,7 @@ _start:
 - Use the `mov` instruction to move data between locations, such as registers;
 - Example: `mov eax, 1` moves the value `1` into the `eax` register;
 - I can move static values into registers for manipulation;
-- `move destination, source`;
+- `mov destination, source`;
 
 ```c
 mov eax, 1

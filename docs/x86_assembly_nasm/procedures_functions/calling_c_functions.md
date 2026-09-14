@@ -25,6 +25,7 @@ section .text
     global main
 
 main:
+	push msg1        ; arguments go on in reverse, so the last %s first
 	push msg
 	push fmt
 	call printf

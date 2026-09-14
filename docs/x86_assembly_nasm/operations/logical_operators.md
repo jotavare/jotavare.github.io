@@ -90,13 +90,13 @@ _start:
 ```
 
 ```
-eax = 0b1010 = 10
+eax = 0b1010                             = 0x0000000A = 10
 ------------
-eax = 0b0101 = 5
+eax = 0b11111111111111111111111111110101 = 0xFFFFFFF5
 ```
 
 {: .important-title }
-This instruction performs a **bitwise NOT** operation on the value in `eax`, storing the result in `eax`. The result of this operation is `0b0101`.
+This instruction performs a **bitwise NOT** on the value in `eax`, storing the result in `eax`. It inverts **all 32 bits**, not just the four that were set, so the result is `0xFFFFFFF5` rather than `0b0101`. Masking afterwards is what narrows it back down, as the next example shows.
 
 One important thing about the `not` instruction is that it **inverts all the bits of the operand**, which may not be what I expected.
 
