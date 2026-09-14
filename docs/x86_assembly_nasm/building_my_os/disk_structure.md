@@ -11,6 +11,8 @@ grand_parent: 🔲 x86 Assembly NASM
 <div style="text-align:center;">
     <br>
     <img src="../../../assets/images/disk_structure.jpg" alt="Disk Structure Diagram">
+    <br>
+    <sub>Diagram by Dave Kurtz</sub>
 </div>
 
    - Disks consist of **stacked platters**;

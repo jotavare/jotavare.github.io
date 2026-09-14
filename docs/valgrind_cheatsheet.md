@@ -8,7 +8,7 @@ has_children: true
 
 ## **VALGRIND CHEATSHEET**
 
-Just like with GDB, I couldn't find a Valgrind reference that suited my needs. So, I took matters into my own hands and created this cheatsheet. It's a curated list of optimized Valgrind commands along with their descriptions, all based on various [references](https://jotavare.github.io/valgrind_cheatsheet/references.html) I found.
+Just like with GDB, I couldn't find a Valgrind reference that suited my needs. So, I took matters into my own hands and created this cheatsheet. It's a curated list of optimized Valgrind commands along with their descriptions, all based on various [references](https://jotavare.github.io/docs/valgrind_cheatsheet/references.html) I found.
 
 This cheatsheet is meant to be a quick reference guide for Valgrind memory debugging, whether you're a beginner or an experienced user. I hope it helps streamline your debugging process. Happy debugging!
 
