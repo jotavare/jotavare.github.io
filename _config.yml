@@ -2,7 +2,10 @@ title: Registry
 description: Personal documentation, resources, guides, cheatsheets, ...
 theme: just-the-docs
 
-url: https://jotavare.github.io/
+plugins:
+  - jekyll-sitemap
+
+url: https://jotavare.github.io
 
 aux_links:
   GitHub: https://github.com/jotavare
@@ -39,6 +42,12 @@ nav_external_links:
     opens_in_new_tab: true
 
 color_scheme: dark
+
+# Jekyll's defaults are expanded CSS with source maps, which ship 336KB of
+# .map files and an unminified stylesheet to every visitor.
+sass:
+  style: compressed
+  sourcemap: never
 
 favicon_ico: "/assets/images/favicon.ico"
 
@@ -94,9 +103,6 @@ liquid:
   strict_filters: true
 
 footer_content: 'Copyright &copy; 2024 João Oliveira. Distributed under the <a href="https://github.com/jotavare/jotavare.github.io/blob/main/LICENSE">MIT license</a>. Built with <a href="https://github.com/just-the-docs/just-the-docs">just-the-docs</a>.'
-
-last_edit_timestamp: true
-last_edit_time_format: "%b %e %Y at %I:%M %p"
 
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub"
