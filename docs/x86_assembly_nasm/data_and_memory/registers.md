@@ -43,5 +43,7 @@ I can check more register types and information [here](https://en.wikibooks.org/
 ----
 
 <div style="text-align:center;">
-    <img src="../../../assets/images/registers.png" alt="EFLAGS">
+    <img src="../../../assets/images/registers.png" alt="x86 general purpose registers">
+    <br>
+    <sub>Diagram from an external source; original author unknown.</sub>
 </div>

@@ -13,6 +13,8 @@ grand_parent: 🔲 x86 Assembly NASM
 <div style="text-align:center;">
     <br>
     <img src="../../../assets/images/x86_processor_diagram.png" alt="x86 Processor Diagram">
+    <br>
+    <sub>Diagram from an external source; original author unknown.</sub>
 </div>
 
 Primary components of an x86 processor include:
