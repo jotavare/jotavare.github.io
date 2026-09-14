@@ -5,6 +5,11 @@ name: Build Pages
 on:
   pull_request:
 
+# Nothing here writes anything; the repository default is already read-only,
+# and stating it means a change to that default cannot widen this workflow.
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
