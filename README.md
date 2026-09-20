@@ -1,19 +1,3 @@
-<p align="center">
-	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square"/>
-	<img src="https://img.shields.io/github/languages/top/jotavare/jotavare.github.io?color=%2312bab9&style=flat-square"/>
-	<img src="https://img.shields.io/github/last-commit/jotavare/jotavare.github.io?color=%2312bab9&style=flat-square"/>
-	<a href='https://www.linkedin.com/in/jotavare' target="_blank"><img alt='Linkedin' src='https://img.shields.io/badge/LinkedIn-blue?style=flat-square'/></a>
-</p>
-
-<p align="center">
-	<a href="#about">About</a> •
-	<a href="#contents">Contents</a> •
-	<a href="#running-it-locally">Running it locally</a> •
-	<a href="#building">Building</a> •
-	<a href="#contributing">Contributing</a> •
-	<a href="#license">License</a>
-</p>
-
 ## ABOUT
 
 The source for [**jotavare.github.io**](https://jotavare.github.io/), a personal
@@ -58,12 +42,3 @@ bundle exec jekyll build
 Output goes to `_site/`. On every push to `main`, GitHub Actions builds the same
 way and deploys to Pages; pull requests are built by a separate workflow but not
 deployed.
-
-## CONTRIBUTING
-
-This was a personal learning project and is finished, so it is not open to
-changes. Issues are disabled.
-
-## LICENSE
-
-This project is available under the MIT License. For further details, please refer to the [LICENSE](https://github.com/jotavare/jotavare.github.io/blob/main/LICENSE) file.
